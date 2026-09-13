@@ -32,8 +32,8 @@ export const BENCHMARK_BOUNDARY_PREFILL: BoundaryPinValue = {
     { lat: 24.987011, lng: 121.415883 }, // 東北角（啟智街×八德街）
     { lat: 24.986812, lng: 121.415657 }, // 西北角（啟智街×啟智街187巷）
   ],
-  lat: 24.987128,
-  lng: 121.415605,
+  lat: 24.987344,
+  lng: 121.415334,
   cornerPending: [false, false, false, false],
 };
 
@@ -51,8 +51,8 @@ export const COMPARISON1_BOUNDARY_PREFILL: BoundaryPinValue = {
     { lat: 24.993855, lng: 121.421227 }, // 東北角（啟智街14巷×長壽街21巷）— 中等信心，偏移約15公尺
     { lat: 24.994526, lng: 121.420205 }, // 西北角（啟智街14巷×樹德街136巷）— 低信心（外推），偏移約53公尺
   ],
-  lat: 24.993963,
-  lng: 121.420539,
+  lat: 24.993829,
+  lng: 121.42112,
   cornerPending: [false, false, false, false],
 };
 
@@ -70,8 +70,8 @@ export const COMPARISON2_BOUNDARY_PREFILL: BoundaryPinValue = {
     { lat: 24.983501, lng: 121.416243 }, // 東北角（鎮前街411巷1弄×鎮前街367巷）— 高信心
     { lat: 24.983221, lng: 121.415679 }, // 西北角（鎮前街411巷1弄×東榮街88巷）— 高信心
   ],
-  lat: 24.983038,
-  lng: 121.416152,
+  lat: 24.982969,
+  lng: 121.416146,
   cornerPending: [false, false, false, false],
 };
 
@@ -89,8 +89,8 @@ export const COMPARISON3_BOUNDARY_PREFILL: BoundaryPinValue = {
     { lat: 24.998968, lng: 121.424064 }, // 東北角（潭興街91巷×潭興街）— 高信心
     { lat: 24.998476, lng: 121.424723 }, // 西北角（潭興街91巷×潭興街107巷21弄）— 高信心
   ],
-  lat: 24.998499,
-  lng: 121.424249,
+  lat: 24.998425,
+  lng: 121.424017,
   cornerPending: [false, false, false, false],
 };
 
