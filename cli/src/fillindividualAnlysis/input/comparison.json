@@ -1,0 +1,1512 @@
+{
+  "categories": [
+    {
+      "categoryKey": "lotCondition",
+      "categoryRaw": "宗地條件",
+      "items": [
+        {
+          "categoryKey": "lotCondition",
+          "categoryRaw": "宗地條件",
+          "itemKey": "area",
+          "itemRaw": "面積",
+          "base": {
+            "key": "area",
+            "raw": "面積",
+            "value": "113.21",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "area",
+                "raw": "面積",
+                "value": "95",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "area",
+                "raw": "面積",
+                "value": "68",
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -6,
+                  "rate": 4
+                }
+              },
+              "delta": 6
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "area",
+                "raw": "面積",
+                "value": "100",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "lotCondition",
+          "categoryRaw": "宗地條件",
+          "itemKey": "width",
+          "itemRaw": "寬度",
+          "base": {
+            "key": "width",
+            "raw": "寬度",
+            "value": "5",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -3,
+              "rate": 4
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "width",
+                "raw": "寬度",
+                "value": "22",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": -3
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "width",
+                "raw": "寬度",
+                "value": "12",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -2,
+                  "rate": 3
+                }
+              },
+              "delta": -1
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "width",
+                "raw": "寬度",
+                "value": "8",
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -3,
+                  "rate": 4
+                }
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "lotCondition",
+          "categoryRaw": "宗地條件",
+          "itemKey": "depth",
+          "itemRaw": "深度",
+          "base": {
+            "key": "depth",
+            "raw": "深度",
+            "value": "23",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -2,
+              "rate": 3
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "depth",
+                "raw": "深度",
+                "value": "45",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": -2
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "depth",
+                "raw": "深度",
+                "value": "35",
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -1,
+                  "rate": 2
+                }
+              },
+              "delta": -1
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "depth",
+                "raw": "深度",
+                "value": "25",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -2,
+                  "rate": 3
+                }
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "lotCondition",
+          "categoryRaw": "宗地條件",
+          "itemKey": "shape",
+          "itemRaw": "形狀",
+          "base": {
+            "key": "shape",
+            "raw": "形狀",
+            "value": "方形",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "shape",
+                "raw": "形狀",
+                "value": "方形",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "shape",
+                "raw": "形狀",
+                "value": "不規則形",
+                "selectedGrade": {
+                  "key": "inferior",
+                  "raw": "劣",
+                  "value": -5,
+                  "rate": 5
+                }
+              },
+              "delta": 5
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "shape",
+                "raw": "形狀",
+                "value": "方形",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "lotCondition",
+          "categoryRaw": "宗地條件",
+          "itemKey": "roadFrontageCondition",
+          "itemRaw": "臨路情形",
+          "base": {
+            "key": "roadFrontageCondition",
+            "raw": "臨路情形",
+            "value": "單面臨街",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -6,
+              "rate": 4
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "roadFrontageCondition",
+                "raw": "臨路情形",
+                "value": "路角地",
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -2,
+                  "rate": 2
+                }
+              },
+              "delta": -4
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "roadFrontageCondition",
+                "raw": "臨路情形",
+                "value": "雙面臨街",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -4,
+                  "rate": 3
+                }
+              },
+              "delta": -2
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "roadFrontageCondition",
+                "raw": "臨路情形",
+                "value": "路角地",
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -2,
+                  "rate": 2
+                }
+              },
+              "delta": -4
+            }
+          ]
+        },
+        {
+          "categoryKey": "lotCondition",
+          "categoryRaw": "宗地條件",
+          "itemKey": "terrain",
+          "itemRaw": "地勢",
+          "base": {
+            "key": "terrain",
+            "raw": "地勢",
+            "value": "平坦",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "terrain",
+                "raw": "地勢",
+                "value": "平坦",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "terrain",
+                "raw": "地勢",
+                "value": "緩坡",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -1.5,
+                  "rate": 2
+                }
+              },
+              "delta": 1.5
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "terrain",
+                "raw": "地勢",
+                "value": "平坦",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -11,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -2,
+          "delta": -9
+        },
+        {
+          "label": "2",
+          "total": -19.5,
+          "delta": 8.5
+        },
+        {
+          "label": "3",
+          "total": -7,
+          "delta": -4
+        }
+      ]
+    },
+    {
+      "categoryKey": "roadCondition",
+      "categoryRaw": "道路條件",
+      "items": [
+        {
+          "categoryKey": "roadCondition",
+          "categoryRaw": "道路條件",
+          "itemKey": "roadType",
+          "itemRaw": "道路種類",
+          "base": {
+            "key": "roadType",
+            "raw": "道路種類",
+            "value": "主要道路",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "roadType",
+                "raw": "道路種類",
+                "value": "主要道路",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "roadType",
+                "raw": "道路種類",
+                "value": "次要道路",
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -2,
+                  "rate": 2
+                }
+              },
+              "delta": 2
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "roadType",
+                "raw": "道路種類",
+                "value": "巷道",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -4,
+                  "rate": 3
+                }
+              },
+              "delta": 4
+            }
+          ]
+        },
+        {
+          "categoryKey": "roadCondition",
+          "categoryRaw": "道路條件",
+          "itemKey": "frontageRoadWidth",
+          "itemRaw": "面前道路寬度",
+          "base": {
+            "key": "frontageRoadWidth",
+            "raw": "面前道路寬度",
+            "value": {
+              "name": "中山路",
+              "distance": "18",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2.5,
+              "rate": 2
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "frontageRoadWidth",
+                "raw": "面前道路寬度",
+                "value": {
+                  "name": "民生路",
+                  "distance": "16",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -2.5,
+                  "rate": 2
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "frontageRoadWidth",
+                "raw": "面前道路寬度",
+                "value": {
+                  "name": "五湖路",
+                  "distance": "10",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -5,
+                  "rate": 3
+                }
+              },
+              "delta": 2.5
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "frontageRoadWidth",
+                "raw": "面前道路寬度",
+                "value": {
+                  "name": "忠孝路",
+                  "distance": "6",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -7.5,
+                  "rate": 4
+                }
+              },
+              "delta": 5
+            }
+          ]
+        }
+      ],
+      "totalBase": -2.5,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -2.5,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": -7,
+          "delta": 4.5
+        },
+        {
+          "label": "3",
+          "total": -11.5,
+          "delta": 9
+        }
+      ]
+    },
+    {
+      "categoryKey": "proximityCondition",
+      "categoryRaw": "接近條件",
+      "items": [
+        {
+          "categoryKey": "proximityCondition",
+          "categoryRaw": "接近條件",
+          "itemKey": "proximityToSchool",
+          "itemRaw": "接近學校程度",
+          "base": {
+            "key": "proximityToSchool",
+            "raw": "接近學校程度",
+            "value": {
+              "name": "金山國小",
+              "distance": "150",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "proximityToSchool",
+                "raw": "接近學校程度",
+                "value": {
+                  "name": "金山國小",
+                  "distance": "150",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "proximityToSchool",
+                "raw": "接近學校程度",
+                "value": {
+                  "name": "金山高中",
+                  "distance": "700",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -2,
+                  "rate": 3
+                }
+              },
+              "delta": 2
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "proximityToSchool",
+                "raw": "接近學校程度",
+                "value": {
+                  "name": "金美國小",
+                  "distance": "1300",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -3,
+                  "rate": 4
+                }
+              },
+              "delta": 3
+            }
+          ]
+        },
+        {
+          "categoryKey": "proximityCondition",
+          "categoryRaw": "接近條件",
+          "itemKey": "proximityToMarket",
+          "itemRaw": "接近市場程度",
+          "base": {
+            "key": "proximityToMarket",
+            "raw": "接近市場程度",
+            "value": {
+              "name": "金山區第一零售傳統市場",
+              "distance": "0",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "proximityToMarket",
+                "raw": "接近市場程度",
+                "value": {
+                  "name": "金山區第一零售傳統市場",
+                  "distance": "1200",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -5,
+                  "rate": 3
+                }
+              },
+              "delta": 5
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "proximityToMarket",
+                "raw": "接近市場程度",
+                "value": {
+                  "name": "金山區第一零售傳統市場",
+                  "distance": "1600",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -7.5,
+                  "rate": 4
+                }
+              },
+              "delta": 7.5
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "proximityToMarket",
+                "raw": "接近市場程度",
+                "value": {
+                  "name": "金山區第二零售市場",
+                  "distance": "400",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "proximityCondition",
+          "categoryRaw": "接近條件",
+          "itemKey": "proximityToParkPlaza",
+          "itemRaw": "接近公園、廣場程度",
+          "base": {
+            "key": "proximityToParkPlaza",
+            "raw": "接近公園、廣場程度",
+            "value": {
+              "name": "中山溫泉里郡公園",
+              "distance": "0",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "proximityToParkPlaza",
+                "raw": "接近公園、廣場程度",
+                "value": {
+                  "name": "金山青年活動中心公園",
+                  "distance": "200",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "proximityToParkPlaza",
+                "raw": "接近公園、廣場程度",
+                "value": {
+                  "name": "金山青年活動中心公園",
+                  "distance": "1100",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -3,
+                  "rate": 4
+                }
+              },
+              "delta": 3
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "proximityToParkPlaza",
+                "raw": "接近公園、廣場程度",
+                "value": {
+                  "name": "獅頭山公園",
+                  "distance": "1600",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "inferior",
+                  "raw": "劣",
+                  "value": -4,
+                  "rate": 5
+                }
+              },
+              "delta": 4
+            }
+          ]
+        },
+        {
+          "categoryKey": "proximityCondition",
+          "categoryRaw": "接近條件",
+          "itemKey": "proximityToStation",
+          "itemRaw": "接近車站程度",
+          "base": {
+            "key": "proximityToStation",
+            "raw": "接近車站程度",
+            "value": {
+              "name": "金山區公所站",
+              "distance": "0",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "proximityToStation",
+                "raw": "接近車站程度",
+                "value": {
+                  "name": "金山區公所站",
+                  "distance": "350",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -1,
+                  "rate": 2
+                }
+              },
+              "delta": 1
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "proximityToStation",
+                "raw": "接近車站程度",
+                "value": {
+                  "name": "金山區公所站",
+                  "distance": "900",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "inferior",
+                  "raw": "劣",
+                  "value": -4,
+                  "rate": 5
+                }
+              },
+              "delta": 4
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "proximityToStation",
+                "raw": "接近車站程度",
+                "value": {
+                  "name": "金山青年活動中心站",
+                  "distance": "500",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -2,
+                  "rate": 3
+                }
+              },
+              "delta": 2
+            }
+          ]
+        },
+        {
+          "categoryKey": "proximityCondition",
+          "categoryRaw": "接近條件",
+          "itemKey": "proximityToCommercialDistrict",
+          "itemRaw": "接近商圈程度",
+          "base": {
+            "key": "proximityToCommercialDistrict",
+            "raw": "接近商圈程度",
+            "value": {
+              "name": "老街商圈",
+              "distance": "0",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "proximityToCommercialDistrict",
+                "raw": "接近商圈程度",
+                "value": {
+                  "name": "老街商圈",
+                  "distance": "300",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "proximityToCommercialDistrict",
+                "raw": "接近商圈程度",
+                "value": {
+                  "name": "老街商圈",
+                  "distance": "2000",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -6,
+                  "rate": 4
+                }
+              },
+              "delta": 6
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "proximityToCommercialDistrict",
+                "raw": "接近商圈程度",
+                "value": {
+                  "name": "金包里老街商圈",
+                  "distance": "700",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -2,
+                  "rate": 2
+                }
+              },
+              "delta": 2
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -6,
+          "delta": 6
+        },
+        {
+          "label": "2",
+          "total": -22.5,
+          "delta": 22.5
+        },
+        {
+          "label": "3",
+          "total": -11,
+          "delta": 11
+        }
+      ]
+    },
+    {
+      "categoryKey": "surroundingEnvironment",
+      "categoryRaw": "周邊環境條件",
+      "items": [
+        {
+          "categoryKey": "surroundingEnvironment",
+          "categoryRaw": "周邊環境條件",
+          "itemKey": "presenceOfNoxiousFacility",
+          "itemRaw": "嫌惡設施之有無",
+          "base": {
+            "key": "presenceOfNoxiousFacility",
+            "raw": "嫌惡設施之有無",
+            "value": {
+              "name": "金山第1公墓",
+              "distance": "80",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -6,
+              "rate": 5
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "presenceOfNoxiousFacility",
+                "raw": "嫌惡設施之有無",
+                "value": {
+                  "name": "金山第2公墓",
+                  "distance": "600",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": -6
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "presenceOfNoxiousFacility",
+                "raw": "嫌惡設施之有無",
+                "value": {
+                  "name": "金山垃圾掩埋場",
+                  "distance": "150",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -4.5,
+                  "rate": 4
+                }
+              },
+              "delta": -1.5
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "presenceOfNoxiousFacility",
+                "raw": "嫌惡設施之有無",
+                "value": {
+                  "name": "無",
+                  "distance": "700",
+                  "unit": "M"
+                },
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": -6
+            }
+          ]
+        },
+        {
+          "categoryKey": "surroundingEnvironment",
+          "categoryRaw": "周邊環境條件",
+          "itemKey": "parkingConvenience",
+          "itemRaw": "停車方便性",
+          "base": {
+            "key": "parkingConvenience",
+            "raw": "停車方便性",
+            "value": "可路邊停車",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "parkingConvenience",
+                "raw": "停車方便性",
+                "value": "可路邊停車",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "parkingConvenience",
+                "raw": "停車方便性",
+                "value": "不可路邊停車",
+                "selectedGrade": {
+                  "key": "inferior",
+                  "raw": "劣",
+                  "value": -2,
+                  "rate": 2
+                }
+              },
+              "delta": 2
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "parkingConvenience",
+                "raw": "停車方便性",
+                "value": "可路邊停車",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -6,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": -6
+        },
+        {
+          "label": "2",
+          "total": -6.5,
+          "delta": 0.5
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": -6
+        }
+      ]
+    },
+    {
+      "categoryKey": "administrativeCondition",
+      "categoryRaw": "行政條件",
+      "items": [
+        {
+          "categoryKey": "administrativeCondition",
+          "categoryRaw": "行政條件",
+          "itemKey": "zoningDesignation",
+          "itemRaw": "使用分區或編定",
+          "base": {
+            "key": "zoningDesignation",
+            "raw": "使用分區或編定",
+            "value": "第二種商業區",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "zoningDesignation",
+                "raw": "使用分區或編定",
+                "value": "商業區",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "zoningDesignation",
+                "raw": "使用分區或編定",
+                "value": "住宅區",
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -3.75,
+                  "rate": 2
+                }
+              },
+              "delta": 3.75
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "zoningDesignation",
+                "raw": "使用分區或編定",
+                "value": "甲建、乙建",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -7.5,
+                  "rate": 3
+                }
+              },
+              "delta": 7.5
+            }
+          ]
+        },
+        {
+          "categoryKey": "administrativeCondition",
+          "categoryRaw": "行政條件",
+          "itemKey": "buildingCoverageRatio",
+          "itemRaw": "建蔽率",
+          "base": {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "value": "70%",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2.5,
+              "rate": 2
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "buildingCoverageRatio",
+                "raw": "建蔽率",
+                "value": "65%",
+                "selectedGrade": {
+                  "key": "average",
+                  "raw": "普通",
+                  "value": -5,
+                  "rate": 3
+                }
+              },
+              "delta": 2.5
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "buildingCoverageRatio",
+                "raw": "建蔽率",
+                "value": "55%",
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -7.5,
+                  "rate": 4
+                }
+              },
+              "delta": 5
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "buildingCoverageRatio",
+                "raw": "建蔽率",
+                "value": "45%",
+                "selectedGrade": {
+                  "key": "inferior",
+                  "raw": "劣",
+                  "value": -10,
+                  "rate": 5
+                }
+              },
+              "delta": 7.5
+            }
+          ]
+        },
+        {
+          "categoryKey": "administrativeCondition",
+          "categoryRaw": "行政條件",
+          "itemKey": "floorAreaRatio",
+          "itemRaw": "容積率",
+          "base": {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "value": "240%",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -10,
+              "rate": 2
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "floorAreaRatio",
+                "raw": "容積率",
+                "value": "280%",
+                "selectedGrade": {
+                  "key": "slightlySuperior",
+                  "raw": "稍優",
+                  "value": -10,
+                  "rate": 2
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "floorAreaRatio",
+                "raw": "容積率",
+                "value": "180%",
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -30,
+                  "rate": 4
+                }
+              },
+              "delta": 20
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "floorAreaRatio",
+                "raw": "容積率",
+                "value": "130%",
+                "selectedGrade": {
+                  "key": "slightlyInferior",
+                  "raw": "稍劣",
+                  "value": -30,
+                  "rate": 4
+                }
+              },
+              "delta": 20
+            }
+          ]
+        },
+        {
+          "categoryKey": "administrativeCondition",
+          "categoryRaw": "行政條件",
+          "itemKey": "buildingProhibitionOrRestriction",
+          "itemRaw": "有無禁限建",
+          "base": {
+            "key": "buildingProhibitionOrRestriction",
+            "raw": "有無禁限建",
+            "value": "無",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "item": {
+                "key": "buildingProhibitionOrRestriction",
+                "raw": "有無禁限建",
+                "value": "無",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "item": {
+                "key": "buildingProhibitionOrRestriction",
+                "raw": "有無禁限建",
+                "value": "有",
+                "selectedGrade": {
+                  "key": "inferior",
+                  "raw": "劣",
+                  "value": -40,
+                  "rate": 5
+                }
+              },
+              "delta": 40
+            },
+            {
+              "label": "3",
+              "item": {
+                "key": "buildingProhibitionOrRestriction",
+                "raw": "有無禁限建",
+                "value": "無",
+                "selectedGrade": {
+                  "key": "superior",
+                  "raw": "優",
+                  "value": 0,
+                  "rate": 1
+                }
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -12.5,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -15,
+          "delta": 2.5
+        },
+        {
+          "label": "2",
+          "total": -81.25,
+          "delta": 68.75
+        },
+        {
+          "label": "3",
+          "total": -47.5,
+          "delta": 35
+        }
+      ]
+    },
+    {
+      "categoryKey": "otherFactors",
+      "categoryRaw": "其他影響因素",
+      "items": [],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    }
+  ],
+  "sectionIdBase": "P002-00",
+  "locationBase": "新北市金山區金美段489地號",
+  "comparableIdentities": [
+    {
+      "label": "1",
+      "sectionId": "P003-00",
+      "location": "新北市金山區公館段120地號"
+    },
+    {
+      "label": "2",
+      "sectionId": "P004-00",
+      "location": "新北市金山區半嶺段88地號"
+    },
+    {
+      "label": "3",
+      "sectionId": "P005-00",
+      "location": "新北市金山區豐漁段55地號"
+    }
+  ],
+  "totalScoreBase": -32,
+  "comparableTotalScores": [
+    {
+      "label": "1",
+      "total": -25.5,
+      "delta": -6.5
+    },
+    {
+      "label": "2",
+      "total": -136.75,
+      "delta": 104.75
+    },
+    {
+      "label": "3",
+      "total": -77,
+      "delta": 45
+    }
+  ]
+}

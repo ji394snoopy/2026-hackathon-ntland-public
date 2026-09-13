@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "yearPeriod": "1140901",
+    "sectionId": "P004-00",
+    "district": "新北市金山區",
+    "landUseType": "商業用地",
+    "benchmarkParcel": "半嶺段88地號",
+    "surveyDate": "114年09月20日",
+    "range": "北側至五湖路以北臨路第一筆宗地，南側至磺潭路以南第一筆宗地，西側至陽金公路，東側至清泉路之住宅區土地劃為P004-00區段。",
+    "location": {
+      "lat": 25.2305,
+      "lng": 121.6452
+    }
+  },
+  "benchmark": {
+    "location": "新北市金山區半嶺段88地號",
+    "area": "68",
+    "width": "12",
+    "depth": "35",
+    "shape": "不規則形",
+    "frontage": "雙面臨街",
+    "terrain": "緩坡",
+    "roadType": "次要道路",
+    "roadName": "五湖路",
+    "roadWidth": "10",
+    "schoolName": "金山高中",
+    "schoolDistance": "700",
+    "marketName": "金山區第一零售傳統市場",
+    "marketDistance": "1600",
+    "parkName": "金山青年活動中心公園",
+    "parkDistance": "1100",
+    "stationName": "金山區公所站",
+    "stationDistance": "900",
+    "districtName": "老街商圈",
+    "districtDistance": "2000",
+    "disamenityName": "金山垃圾掩埋場",
+    "disamenityDistance": "150",
+    "parking": "不可路邊停車",
+    "zoning": "住宅區",
+    "coverageRatio": "55%",
+    "plotRatio": "180%",
+    "buildRestriction": "有",
+    "sectionId": "P004-00"
+  },
+  "individualFactors": {
+    "raw": "個別因素",
+    "categories": [
+      {
+        "key": "lotCondition",
+        "raw": "宗地條件",
+        "items": [
+          {
+            "key": "area",
+            "raw": "面積",
+            "value": "68",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -6,
+              "rate": 4
+            }
+          },
+          {
+            "key": "width",
+            "raw": "寬度",
+            "value": "12",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -2,
+              "rate": 3
+            }
+          },
+          {
+            "key": "depth",
+            "raw": "深度",
+            "value": "35",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -1,
+              "rate": 2
+            }
+          },
+          {
+            "key": "shape",
+            "raw": "形狀",
+            "value": "不規則形",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -5,
+              "rate": 5
+            }
+          },
+          {
+            "key": "roadFrontageCondition",
+            "raw": "臨路情形",
+            "value": "雙面臨街",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -4,
+              "rate": 3
+            }
+          },
+          {
+            "key": "terrain",
+            "raw": "地勢",
+            "value": "緩坡",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -1.5,
+              "rate": 2
+            }
+          }
+        ]
+      },
+      {
+        "key": "roadCondition",
+        "raw": "道路條件",
+        "items": [
+          {
+            "key": "roadType",
+            "raw": "道路種類",
+            "value": "次要道路",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2,
+              "rate": 2
+            }
+          },
+          {
+            "key": "frontageRoadWidth",
+            "raw": "面前道路寬度",
+            "value": {
+              "name": "五湖路",
+              "distance": "10",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -5,
+              "rate": 3
+            }
+          }
+        ]
+      },
+      {
+        "key": "proximityCondition",
+        "raw": "接近條件",
+        "items": [
+          {
+            "key": "proximityToSchool",
+            "raw": "接近學校程度",
+            "value": {
+              "name": "金山高中",
+              "distance": "700",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -2,
+              "rate": 3
+            }
+          },
+          {
+            "key": "proximityToMarket",
+            "raw": "接近市場程度",
+            "value": {
+              "name": "金山區第一零售傳統市場",
+              "distance": "1600",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -7.5,
+              "rate": 4
+            }
+          },
+          {
+            "key": "proximityToParkPlaza",
+            "raw": "接近公園、廣場程度",
+            "value": {
+              "name": "金山青年活動中心公園",
+              "distance": "1100",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -3,
+              "rate": 4
+            }
+          },
+          {
+            "key": "proximityToStation",
+            "raw": "接近車站程度",
+            "value": {
+              "name": "金山區公所站",
+              "distance": "900",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -4,
+              "rate": 5
+            }
+          },
+          {
+            "key": "proximityToCommercialDistrict",
+            "raw": "接近商圈程度",
+            "value": {
+              "name": "老街商圈",
+              "distance": "2000",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -6,
+              "rate": 4
+            }
+          }
+        ]
+      },
+      {
+        "key": "surroundingEnvironment",
+        "raw": "周邊環境條件",
+        "items": [
+          {
+            "key": "presenceOfNoxiousFacility",
+            "raw": "嫌惡設施之有無",
+            "value": {
+              "name": "金山垃圾掩埋場",
+              "distance": "150",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -4.5,
+              "rate": 4
+            }
+          },
+          {
+            "key": "parkingConvenience",
+            "raw": "停車方便性",
+            "value": "不可路邊停車",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -2,
+              "rate": 2
+            }
+          }
+        ]
+      },
+      {
+        "key": "administrativeCondition",
+        "raw": "行政條件",
+        "items": [
+          {
+            "key": "zoningDesignation",
+            "raw": "使用分區或編定",
+            "value": "住宅區",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -3.75,
+              "rate": 2
+            }
+          },
+          {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "value": "55%",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -7.5,
+              "rate": 4
+            }
+          },
+          {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "value": "180%",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -30,
+              "rate": 4
+            }
+          },
+          {
+            "key": "buildingProhibitionOrRestriction",
+            "raw": "有無禁限建",
+            "value": "有",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -40,
+              "rate": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "totalScore": -136.75
+}

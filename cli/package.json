@@ -1,0 +1,58 @@
+{
+  "name": "cli-util",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TypeScript utilities for different purposes.",
+  "engines": {
+    "node": "24.19.0"
+  },
+  "scripts": {
+    "extract:fs": "tsx src/factorStandard/main.ts references/factor-standard.pdf",
+    "grade:regional": "tsx src/regionalFactorGrading/main.ts",
+    "grade:individual": "tsx src/individualFactorGrading/main.ts",
+    "fill:all": "tsx src/districtSurvey/main.ts",
+    "fill:standalone": "tsx src/fillDistrictSurvey/main.ts",
+    "generate:coordinates": "tsx src/districtSurvey/generateCoordinates.ts",
+    "fetch:topo": "tsx src/mapTiles/detailTopo/main.ts",
+    "fetch:base": "tsx src/mapTiles/baseTopo/main.ts",
+    "fetch:drainage": "tsx src/drainageQuality/main.ts",
+    "fetch:wind": "tsx src/windCondition/main.ts",
+    "fetch:soil": "tsx src/soilQuality/main.ts",
+    "fetch:osm": "tsx src/osmFacilities/main.ts",
+    "fetch:air": "tsx src/environmentalPollution/airPollution/main.ts",
+    "fetch:water": "tsx src/environmentalPollution/waterPollution/main.ts",
+    "fetch:noise": "tsx src/environmentalPollution/noisePollution/main.ts",
+    "fetch:soil-contamination": "tsx src/environmentalPollution/soilGroundwaterContamination/main.ts",
+    "fetch:waste-dumping": "tsx src/environmentalPollution/wasteDumping/main.ts",
+    "compare:grading:2": "tsx src/gradingComparison/main.ts src/gradingComparison/input/graded-main.json src/gradingComparison/input/graded-1.json src/gradingComparison/input/graded-2.json",
+    "compare:grading:3": "tsx src/gradingComparison/main.ts src/gradingComparison/input/graded-main.json src/gradingComparison/input/graded-1.json src/gradingComparison/input/graded-2.json src/gradingComparison/input/graded-3.json",
+    "compare:individual:2": "tsx src/individualComparison/main.ts src/individualComparison/input/graded-main.json src/individualComparison/input/graded-1.json src/individualComparison/input/graded-2.json",
+    "compare:individual:3": "tsx src/individualComparison/main.ts src/individualComparison/input/graded-main.json src/individualComparison/input/graded-1.json src/individualComparison/input/graded-2.json src/individualComparison/input/graded-3.json",
+    "generate:regional-coords": "tsx src/fillRegionalAnlysis/generateCoordinates.ts",
+    "fill:regional": "tsx src/fillRegionalAnlysis/main.ts",
+    "generate:individual-coords": "tsx src/fillindividualAnlysis/generateCoordinates.ts",
+    "fill:individual": "tsx src/fillindividualAnlysis/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"test/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "latest",
+    "@anthropic-ai/sdk": "latest",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "adm-zip": "^0.6.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "pngjs": "^7.0.0",
+    "proj4": "^2.22.0",
+    "shapefile": "^0.6.6"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
+    "@types/node": "^20.19.43",
+    "@types/pngjs": "^6.0.5",
+    "@types/shapefile": "^0.6.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

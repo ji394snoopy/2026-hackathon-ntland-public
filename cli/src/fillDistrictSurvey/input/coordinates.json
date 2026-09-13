@@ -1,0 +1,705 @@
+{
+  "landImprovement": {
+    "buildingSiteImprovement": {
+      "items": [
+        {
+          "checkX": 99.384,
+          "checkY": 344.44988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 153.38391,
+          "checkY": 344.44988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 189.38385,
+          "checkY": 344.44988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 225.38379,
+          "checkY": 344.44988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 99.384,
+          "checkY": 336.76986,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 153.38391,
+          "checkY": 336.76986,
+          "matchesReference": true,
+          "markStyle": "square"
+        }
+      ],
+      "other": {
+        "checkX": 189.38385,
+        "checkY": 336.76986,
+        "textX": 207.34,
+        "textY": 336.76986,
+        "textEndX": 243.26,
+        "matchesReference": true,
+        "markStyle": "square"
+      }
+    },
+    "farmlandImprovement": {
+      "items": [
+        {
+          "checkX": 99.384,
+          "checkY": 318.97988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 135.38394,
+          "checkY": 318.97988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 171.38627,
+          "checkY": 318.97988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 207.3886,
+          "checkY": 318.97988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 243.39093,
+          "checkY": 318.97988,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 99.384,
+          "checkY": 311.29986,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 135.31665,
+          "checkY": 311.29986,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 171.24929,
+          "checkY": 311.29986,
+          "matchesReference": true,
+          "markStyle": "square"
+        },
+        {
+          "checkX": 207.18193,
+          "checkY": 311.29986,
+          "matchesReference": true,
+          "markStyle": "square"
+        }
+      ],
+      "other": {
+        "checkX": 243.11458,
+        "checkY": 311.29986,
+        "textX": 99.384,
+        "textY": 303.61986,
+        "textEndX": 200,
+        "matchesReference": true,
+        "markStyle": "square"
+      }
+    }
+  },
+  "specialFacilities": {
+    "utilityGasFacility": [
+      {
+        "nameX": 390.07,
+        "nameY": 577.99,
+        "inSectionX": 423.43,
+        "outSectionX": 459.43,
+        "distanceEndX": 513.44,
+        "distanceY": 577.99,
+        "matchesReference": true
+      },
+      {
+        "nameX": 390.07,
+        "nameY": 547.03,
+        "inSectionX": 423.43,
+        "outSectionX": 459.43,
+        "distanceEndX": 513.44,
+        "distanceY": 547.03,
+        "matchesReference": true
+      }
+    ],
+    "funeralFacility": [
+      {
+        "checkX": 330.91,
+        "checkY": 523.63,
+        "nameX": 390.29,
+        "nameY": 523.63,
+        "inSectionX": 423.36,
+        "outSectionX": 459.31,
+        "distanceEndX": 510.22,
+        "distanceY": 523.63,
+        "matchesReference": true
+      },
+      {
+        "checkX": 330.91,
+        "checkY": 508.99,
+        "nameX": 390.07,
+        "nameY": 508.99,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 508.99,
+        "matchesReference": true
+      },
+      {
+        "checkX": 330.91,
+        "checkY": 494.33,
+        "nameX": 390.07,
+        "nameY": 494.33,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 494.33,
+        "matchesReference": true
+      },
+      {
+        "checkX": 330.91,
+        "checkY": 479.69,
+        "nameX": 390.07,
+        "nameY": 479.69,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 479.69,
+        "matchesReference": true
+      }
+    ],
+    "wasteFacility": [
+      {
+        "checkX": 330.91,
+        "checkY": 465.05,
+        "nameX": 390.07,
+        "nameY": 465.05,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 465.05,
+        "matchesReference": true
+      },
+      {
+        "checkX": 330.91,
+        "checkY": 454.25,
+        "nameX": 390.07,
+        "nameY": 450.41,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 450.41,
+        "matchesReference": true
+      },
+      {
+        "checkX": 330.91,
+        "checkY": 435.77,
+        "nameX": 390.07,
+        "nameY": 435.77,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 435.77,
+        "matchesReference": true
+      }
+    ]
+  },
+  "commercialActivity": {
+    "departmentStore": {
+      "nameX": 390,
+      "nameY": 350.93,
+      "quantityX": 467,
+      "inSectionX": 372.43,
+      "outSectionX": 408.43,
+      "distanceEndX": 462.44,
+      "distanceY": 330.26,
+      "matchesReference": true
+    },
+    "financialInstitution": {
+      "nameX": 390,
+      "nameY": 321.62,
+      "quantityX": 467,
+      "inSectionX": 372.43,
+      "outSectionX": 408.37,
+      "distanceEndX": 462.28,
+      "distanceY": 300.98,
+      "matchesReference": true
+    },
+    "entertainmentFacility": {
+      "nameX": 390,
+      "nameY": 292.34,
+      "quantityX": 467,
+      "inSectionX": 372.43,
+      "outSectionX": 408.43,
+      "distanceEndX": 462.44,
+      "distanceY": 283.46,
+      "matchesReference": true
+    },
+    "exhibitionCenterOrHotel": {
+      "nameX": 390,
+      "nameY": 274.82,
+      "quantityX": 467,
+      "inSectionX": 372.43,
+      "outSectionX": 408.43,
+      "distanceEndX": 462.44,
+      "distanceY": 265.94,
+      "matchesReference": true
+    },
+    "customerTraffic": {
+      "x": 372.43,
+      "y": 253.1,
+      "matchesReference": true
+    },
+    "storeContiguity": {
+      "x": 372.43,
+      "y": 235.58,
+      "matchesReference": true
+    }
+  },
+  "landUseRegulation": {
+    "insideOutsideUrbanPlan": {
+      "x": 155,
+      "y": 731.26,
+      "matchesReference": true
+    },
+    "zoningDesignation": {
+      "x": 155,
+      "y": 716.62,
+      "matchesReference": true
+    },
+    "buildingCoverageRatio": {
+      "x": 155,
+      "y": 701.98,
+      "matchesReference": true
+    },
+    "floorAreaRatio": {
+      "x": 155,
+      "y": 687.34,
+      "matchesReference": true
+    },
+    "buildingProhibition": {
+      "x": 155,
+      "y": 672.7,
+      "matchesReference": true
+    },
+    "buildingRestriction": {
+      "x": 155,
+      "y": 651.19,
+      "matchesReference": true
+    }
+  },
+  "trafficAndTransport": {
+    "mainRoad": {
+      "labelX": 150,
+      "labelY": 629.23,
+      "valueEndX": 249,
+      "valueY": 629.23,
+      "matchesReference": true
+    },
+    "averageRoadWidthInSection": {
+      "valueEndX": 175,
+      "valueY": 614.59,
+      "matchesReference": true
+    },
+    "majorStation": [
+      {
+        "circleX": 99.38,
+        "circleY": 599.71,
+        "nameGapEndX": 129.23,
+        "inSectionX": 156.28,
+        "outSectionX": 192.23,
+        "distanceEndX": 249,
+        "distanceY": 599.71,
+        "matchesReference": true
+      },
+      {
+        "circleX": 99.38,
+        "circleY": 585.07,
+        "nameGapEndX": 129.23,
+        "inSectionX": 156.28,
+        "outSectionX": 192.23,
+        "distanceEndX": 249,
+        "distanceY": 585.07,
+        "matchesReference": true
+      },
+      {
+        "circleX": 99.38,
+        "circleY": 570.36,
+        "nameGapEndX": 129.23,
+        "inSectionX": 156.51,
+        "outSectionX": 192.39,
+        "distanceEndX": 249,
+        "distanceY": 570.43,
+        "matchesReference": false
+      },
+      {
+        "circleX": 99.38,
+        "circleY": 555.79,
+        "nameGapEndX": 129.23,
+        "inSectionX": 156.28,
+        "outSectionX": 192.23,
+        "distanceEndX": 249,
+        "distanceY": 555.79,
+        "matchesReference": true
+      }
+    ],
+    "busStop": {
+      "nameX": 121,
+      "nameY": 543.55,
+      "inSectionX": 156.39,
+      "inSectionY": 543.48,
+      "outSectionX": 192.51,
+      "outSectionY": 543.55,
+      "distanceEndX": 249,
+      "distanceY": 543.55,
+      "densityOptionX": [
+        156.28,
+        192.22,
+        216.18
+      ],
+      "densityOptionY": [
+        535.87,
+        535.8,
+        535.87
+      ],
+      "matchesReference": true
+    },
+    "interchange": {
+      "nameX": 121,
+      "nameY": 523.87,
+      "inSectionX": 156.51,
+      "outSectionX": 192.51,
+      "distanceEndX": 249,
+      "distanceY": 523.87,
+      "matchesReference": true
+    },
+    "proximityToSettlement": {
+      "x": 185,
+      "y": 509.23,
+      "matchesReference": true
+    },
+    "proximityToDistributionCenter": {
+      "x": 185,
+      "y": 494.57,
+      "matchesReference": true
+    },
+    "proximityToMarket": {
+      "x": 185,
+      "y": 479.93,
+      "matchesReference": true
+    },
+    "roadConstructionLevel": {
+      "x": 185,
+      "y": 465.29,
+      "matchesReference": true
+    }
+  },
+  "publicInfrastructure": {
+    "touristRecreationFacility": {
+      "nameX": 378,
+      "nameY": 734.5,
+      "inSectionX": 357.07,
+      "outSectionX": 393.07,
+      "distanceEndX": 446,
+      "distanceY": 713.86,
+      "matchesReference": true
+    },
+    "parkingArea": {
+      "nameX": 378,
+      "nameY": 705.22,
+      "inSectionX": 357.07,
+      "outSectionX": 393.07,
+      "distanceEndX": 446,
+      "distanceY": 684.58,
+      "matchesReference": true
+    },
+    "proximityToServiceFacility": {
+      "nameX": 378,
+      "nameY": 675.94,
+      "inSectionX": 357.07,
+      "outSectionX": 393.07,
+      "distanceEndX": 446,
+      "distanceY": 655.27,
+      "matchesReference": true
+    },
+    "electricPowerResources": {
+      "x": 360,
+      "y": 643.87,
+      "matchesReference": true
+    },
+    "industrialWaterSupply": {
+      "x": 360,
+      "y": 629.59,
+      "matchesReference": true
+    },
+    "wastewaterTreatmentFacility": {
+      "nameX": 378,
+      "nameY": 607.03,
+      "inSectionX": 407.98,
+      "outSectionX": 443.93,
+      "distanceEndX": 493.84,
+      "distanceY": 607.03,
+      "matchesReference": true
+    },
+    "school": [
+      {
+        "checkX": 99.38,
+        "checkY": 292.34,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 292.34,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 277.7,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 277.7,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 263.06,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 263.06,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 248.3,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 248.3,
+        "matchesReference": true
+      }
+    ],
+    "market": [
+      {
+        "checkX": 99.38,
+        "checkY": 239.71,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 239.71,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 217.7,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 217.7,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 206.54,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 206.54,
+        "matchesReference": true
+      }
+    ],
+    "parkPlazaPedestrianZone": [
+      {
+        "checkX": 99.38,
+        "checkY": 197.95,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 197.95,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 168.6,
+        "nameGapEndX": 165,
+        "inSectionX": 168.39,
+        "outSectionX": 204.39,
+        "distanceEndX": 254.4,
+        "distanceY": 168.6,
+        "matchesReference": true
+      },
+      {
+        "checkX": 99.38,
+        "checkY": 153.84,
+        "nameGapEndX": 165,
+        "inSectionX": 168.27,
+        "outSectionX": 204.22,
+        "distanceEndX": 254.1,
+        "distanceY": 153.84,
+        "matchesReference": true
+      }
+    ]
+  },
+  "environmentalPollution": {
+    "environmentalPollution": [
+      {
+        "checkX": 317.23,
+        "checkY": 421.37,
+        "nameX": 390.07,
+        "nameY": 421.13,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 421.13,
+        "matchesReference": true
+      },
+      {
+        "checkX": 317.23,
+        "checkY": 406.73,
+        "nameX": 390.07,
+        "nameY": 406.49,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 406.49,
+        "matchesReference": true
+      },
+      {
+        "checkX": 317.23,
+        "checkY": 392.09,
+        "nameX": 390.07,
+        "nameY": 391.85,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 391.85,
+        "matchesReference": true
+      },
+      {
+        "checkX": 317.23,
+        "checkY": 377.45,
+        "nameX": 390.07,
+        "nameY": 377.21,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 377.21,
+        "matchesReference": true
+      },
+      {
+        "checkX": 317.23,
+        "checkY": 362.81,
+        "nameX": 390.07,
+        "nameY": 362.57,
+        "inSectionX": 423.34,
+        "outSectionX": 459.29,
+        "distanceEndX": 513.2,
+        "distanceY": 362.57,
+        "matchesReference": true
+      }
+    ]
+  },
+  "naturalConditions": {
+    "sunlight": {
+      "x": 185,
+      "y": 450.65,
+      "matchesReference": true
+    },
+    "view": {
+      "x": 185,
+      "y": 436.01,
+      "matchesReference": true
+    },
+    "slope": {
+      "x": 185,
+      "y": 421.37,
+      "matchesReference": true
+    },
+    "drainageQuality": {
+      "x": 185,
+      "y": 406.49,
+      "matchesReference": true
+    },
+    "terrain": {
+      "x": 185,
+      "y": 392.09,
+      "matchesReference": true
+    },
+    "windCondition": {
+      "x": 185,
+      "y": 377.45,
+      "matchesReference": true
+    },
+    "soilQuality": {
+      "x": 185,
+      "y": 362.81,
+      "matchesReference": true
+    }
+  },
+  "otherFactors": {
+    "otherFactors": {
+      "x": 330.91,
+      "y": 214.46,
+      "matchesReference": true
+    }
+  },
+  "buildingCondition": {
+    "buildingDensity": {
+      "x": 390,
+      "y": 196.46,
+      "matchesReference": true
+    },
+    "buildingType": {
+      "x": 390,
+      "y": 184.34,
+      "matchesReference": true
+    }
+  },
+  "landUseStatus": {
+    "landUseStatus": {
+      "items": [
+        { "checkX": 330.91, "checkY": 171.62, "matchesReference": true },
+        { "checkX": 381.82, "checkY": 171.62, "matchesReference": true },
+        { "checkX": 435.72, "checkY": 171.62, "matchesReference": true },
+        { "checkX": 489.62, "checkY": 171.55, "matchesReference": true },
+        { "checkX": 330.91, "checkY": 163.92, "matchesReference": true },
+        { "checkX": 381.82, "checkY": 163.92, "matchesReference": true },
+        { "checkX": 435.73, "checkY": 163.92, "matchesReference": true },
+        { "checkX": 489.63, "checkY": 163.92, "matchesReference": true },
+        { "checkX": 330.91, "checkY": 156.24, "matchesReference": true }
+      ],
+      "other": {
+        "checkX": 381.82,
+        "checkY": 156.24,
+        "textX": 408,
+        "textY": 156.24,
+        "textEndX": 460,
+        "matchesReference": false
+      }
+    }
+  }
+}

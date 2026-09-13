@@ -1,0 +1,76 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.0002
+  },
+  "radiusMeters": 50000,
+  "tags": [
+    "amenity=crematorium"
+  ],
+  "failedTags": [],
+  "matches": [
+    {
+      "tag": "amenity=crematorium",
+      "name": "火化爐11~12號",
+      "lat": 24.9487191,
+      "lon": 121.4082009,
+      "metersToCenter": 7168
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "火化爐7~10號",
+      "lat": 24.948544,
+      "lon": 121.408284,
+      "metersToCenter": 7179
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "新北市立殯儀館火化場",
+      "lat": 24.948576,
+      "lon": 121.4079063,
+      "metersToCenter": 7199
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "火化爐1~6號",
+      "lat": 24.9480029,
+      "lon": 121.4079367,
+      "metersToCenter": 7248
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "焚化爐",
+      "lat": 25.0121627,
+      "lon": 121.5531798,
+      "metersToCenter": 10382
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "第二火化場",
+      "lat": 25.0214584,
+      "lon": 121.315932,
+      "metersToCenter": 13814
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "第一火化場",
+      "lat": 25.0216952,
+      "lon": 121.3158306,
+      "metersToCenter": 13829
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "羽昇館",
+      "lat": 24.9767357,
+      "lon": 121.2252346,
+      "metersToCenter": 22903
+    },
+    {
+      "tag": "amenity=crematorium",
+      "name": "火化場",
+      "lat": 25.1091366,
+      "lon": 121.7424603,
+      "metersToCenter": 31760
+    }
+  ]
+}

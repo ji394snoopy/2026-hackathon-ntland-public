@@ -1,0 +1,146 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "shop=department_store",
+    "shop=mall"
+  ],
+  "matches": [
+    {
+      "tag": "shop=department_store",
+      "name": "誠品生活",
+      "lat": 25.0086653,
+      "lon": 121.4608961,
+      "metersToCenter": 1243
+    },
+    {
+      "tag": "shop=mall",
+      "name": "麗寶",
+      "lat": 25.0123993,
+      "lon": 121.4620735,
+      "metersToCenter": 1607
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "遠東百貨",
+      "lat": 25.0108494,
+      "lon": 121.4645259,
+      "metersToCenter": 1681
+    },
+    {
+      "tag": "shop=mall",
+      "name": "環球購物中心",
+      "lat": 25.0143069,
+      "lon": 121.4641095,
+      "metersToCenter": 1902
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "大遠百",
+      "lat": 25.0137686,
+      "lon": 121.4669714,
+      "metersToCenter": 2074
+    },
+    {
+      "tag": "shop=mall",
+      "name": "迪斯尼購物中心",
+      "lat": 24.9831397,
+      "lon": 121.4585556,
+      "metersToCenter": 2231
+    },
+    {
+      "tag": "shop=mall",
+      "name": "秀泰生活樹林店",
+      "lat": 24.9954456,
+      "lon": 121.4284454,
+      "metersToCenter": 2387
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "環球購物中心",
+      "lat": 25.0071965,
+      "lon": 121.4748093,
+      "metersToCenter": 2468
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "環球購物中心",
+      "lat": 25.0072659,
+      "lon": 121.4748031,
+      "metersToCenter": 2469
+    },
+    {
+      "tag": "shop=mall",
+      "name": "土城日月光廣場",
+      "lat": 24.978836,
+      "lon": 121.4445188,
+      "metersToCenter": 2657
+    },
+    {
+      "tag": "shop=mall",
+      "name": "三猿廣場",
+      "lat": 25.0234909,
+      "lon": 121.4688334,
+      "metersToCenter": 2990
+    },
+    {
+      "tag": "shop=mall",
+      "name": "家樂福",
+      "lat": 24.9972725,
+      "lon": 121.4213435,
+      "metersToCenter": 3035
+    },
+    {
+      "tag": "shop=mall",
+      "name": "鴻金寶麻吉廣場",
+      "lat": 25.0230053,
+      "lon": 121.424862,
+      "metersToCenter": 3520
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "無印良品",
+      "lat": 25.0328952,
+      "lon": 121.4347996,
+      "metersToCenter": 3803
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "小北百貨",
+      "lat": 25.032775,
+      "lon": 121.469193,
+      "metersToCenter": 3882
+    },
+    {
+      "tag": "shop=mall",
+      "name": "南山威力購物廣場",
+      "lat": 25.0014551,
+      "lon": 121.4963043,
+      "metersToCenter": 4566
+    },
+    {
+      "tag": "shop=mall",
+      "name": "萬家福",
+      "lat": 25.001794,
+      "lon": 121.4963539,
+      "metersToCenter": 4571
+    },
+    {
+      "tag": "shop=department_store",
+      "name": "集寶生活百貨",
+      "lat": 25.0431351,
+      "lon": 121.4448828,
+      "metersToCenter": 4615
+    },
+    {
+      "tag": "shop=mall",
+      "name": "COCOLING 韓國代購網",
+      "lat": 25.0001173,
+      "lon": 121.4982378,
+      "metersToCenter": 4765
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "area": {
+    "kind": "radius",
+    "center": {
+      "lon": 121.636,
+      "lat": 25.221
+    },
+    "radiusMeters": 200
+  },
+  "facilities": [
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市金山區金美國民小學附設幼兒園",
+      "lon": 121.63569,
+      "lat": 25.221191,
+      "metersToCenter": 38
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市金山區金美國民小學",
+      "lon": 121.635607,
+      "lat": 25.221123,
+      "metersToCenter": 42
+    },
+    {
+      "kind": "醫療設施",
+      "category": "medical",
+      "name": "新北市金山金美公共托育中心",
+      "lon": 121.635474,
+      "lat": 25.221039,
+      "metersToCenter": 53
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6360239,
+      "lat": 25.2214904,
+      "metersToCenter": 54
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.636274,
+      "lat": 25.2214373,
+      "metersToCenter": 56
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "財團法人天主教聖母聖心會附設新北市私立天仁幼兒園",
+      "lon": 121.635661,
+      "lat": 25.221675,
+      "metersToCenter": 82
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.636105,
+      "lat": 25.2217844,
+      "metersToCenter": 88
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6350868,
+      "lat": 25.2213585,
+      "metersToCenter": 100
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6355281,
+      "lat": 25.2219175,
+      "metersToCenter": 112
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6363671,
+      "lat": 25.2219775,
+      "metersToCenter": 114
+    },
+    {
+      "kind": "公園",
+      "category": "park",
+      "name": "杜鵑公園",
+      "lon": 121.6364801,
+      "lat": 25.2200615,
+      "metersToCenter": 115
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6370517,
+      "lat": 25.2205446,
+      "metersToCenter": 117
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6357476,
+      "lat": 25.2221106,
+      "metersToCenter": 126
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": "金山區公所洽公專用停車場",
+      "lon": 121.6362412,
+      "lat": 25.2221688,
+      "metersToCenter": 132
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6369476,
+      "lat": 25.2201273,
+      "metersToCenter": 136
+    },
+    {
+      "kind": "醫療設施",
+      "category": "medical",
+      "name": "新北市金山金包里公共托老中心",
+      "lon": 121.636873,
+      "lat": 25.222095,
+      "metersToCenter": 150
+    },
+    {
+      "kind": "公車站",
+      "name": "金山區公所",
+      "lon": 121.636495,
+      "lat": 25.222305,
+      "metersToCenter": 153
+    },
+    {
+      "kind": "公車站",
+      "name": "金山區公所",
+      "lon": 121.636933,
+      "lat": 25.222151,
+      "metersToCenter": 158
+    },
+    {
+      "kind": "公車站",
+      "name": "金山區公所",
+      "lon": 121.636451,
+      "lat": 25.222407,
+      "metersToCenter": 162
+    },
+    {
+      "kind": "公車站",
+      "name": "金山區公所",
+      "lon": 121.637107,
+      "lat": 25.22217,
+      "metersToCenter": 171
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": null,
+      "lon": 121.6376488,
+      "lat": 25.2204861,
+      "metersToCenter": 176
+    },
+    {
+      "kind": "金融機構",
+      "category": "bank",
+      "name": "金山地區農會",
+      "lon": 121.6362541,
+      "lat": 25.2226606,
+      "metersToCenter": 186
+    },
+    {
+      "kind": "停車場",
+      "category": "parking",
+      "name": "Times",
+      "lon": 121.6375819,
+      "lat": 25.2201413,
+      "metersToCenter": 186
+    },
+    {
+      "kind": "金融機構",
+      "category": "bank",
+      "name": "金山地區農會",
+      "lon": 121.6363235,
+      "lat": 25.2226916,
+      "metersToCenter": 190
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市金山區金山國民小學附設幼兒園美田分班",
+      "lon": 121.636187,
+      "lat": 25.223421,
+      "metersToCenter": 270
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市金山區金山國民小學",
+      "lon": 121.636523,
+      "lat": 25.223551,
+      "metersToCenter": 288
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市金山區金山國民小學附設幼兒園",
+      "lon": 121.636407,
+      "lat": 25.223639,
+      "metersToCenter": 296
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市立圖書館金山分館",
+      "lon": 121.639083,
+      "lat": 25.218502,
+      "metersToCenter": 416
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市立金山高級中學附設國中",
+      "lon": 121.637555,
+      "lat": 25.224509,
+      "metersToCenter": 420
+    },
+    {
+      "kind": "加油站",
+      "category": "fuel",
+      "name": "台灣中油加油站金山站",
+      "lon": 121.633863,
+      "lat": 25.22482,
+      "metersToCenter": 476
+    },
+    {
+      "kind": "文教設施",
+      "category": "education",
+      "name": "新北市立金山高級中學",
+      "lon": 121.636338,
+      "lat": 25.22546,
+      "metersToCenter": 497
+    },
+    {
+      "kind": "醫療設施",
+      "category": "medical",
+      "name": "新北市金山區衛生所",
+      "lon": 121.641131,
+      "lat": 25.220501,
+      "metersToCenter": 519
+    },
+    {
+      "kind": "殯葬設施",
+      "category": "cemetery",
+      "name": "新北市金山區第一公墓",
+      "lon": 121.637242,
+      "lat": 25.226921,
+      "metersToCenter": 670
+    },
+    {
+      "kind": "殯葬設施",
+      "category": "cemetery",
+      "name": "新北市金山區第一公墓福緣納骨堂",
+      "lon": 121.638014,
+      "lat": 25.22705,
+      "metersToCenter": 703
+    },
+    {
+      "kind": "加油站",
+      "category": "fuel",
+      "name": "台灣中油加油站金農站",
+      "lon": 121.630323,
+      "lat": 25.224742,
+      "metersToCenter": 707
+    },
+    {
+      "kind": "醫療設施",
+      "category": "medical",
+      "name": "國立臺灣大學醫學院附設醫院金山分院",
+      "lon": 121.628354,
+      "lat": 25.219421,
+      "metersToCenter": 789
+    },
+    {
+      "kind": "醫療設施",
+      "category": "medical",
+      "name": "財團法人新北市私立馨園老人養護中心",
+      "lon": 121.636088,
+      "lat": 25.213341,
+      "metersToCenter": 852
+    }
+  ],
+  "byCategory": {
+    "交通": {
+      "count": 4,
+      "nearest": {
+        "kind": "公車站",
+        "name": "金山區公所",
+        "metersToCenter": 153
+      },
+      "items": [
+        {
+          "kind": "公車站",
+          "name": "金山區公所",
+          "lon": 121.636495,
+          "lat": 25.222305,
+          "metersToCenter": 153
+        },
+        {
+          "kind": "公車站",
+          "name": "金山區公所",
+          "lon": 121.636933,
+          "lat": 25.222151,
+          "metersToCenter": 158
+        },
+        {
+          "kind": "公車站",
+          "name": "金山區公所",
+          "lon": 121.636451,
+          "lat": 25.222407,
+          "metersToCenter": 162
+        },
+        {
+          "kind": "公車站",
+          "name": "金山區公所",
+          "lon": 121.637107,
+          "lat": 25.22217,
+          "metersToCenter": 171
+        }
+      ]
+    },
+    "公共設施": {
+      "count": 15,
+      "nearest": {
+        "kind": "文教設施",
+        "name": "新北市金山區金美國民小學附設幼兒園",
+        "metersToCenter": 38
+      },
+      "items": [
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市金山區金美國民小學附設幼兒園",
+          "lon": 121.63569,
+          "lat": 25.221191,
+          "metersToCenter": 38
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市金山區金美國民小學",
+          "lon": 121.635607,
+          "lat": 25.221123,
+          "metersToCenter": 42
+        },
+        {
+          "kind": "醫療設施",
+          "category": "medical",
+          "name": "新北市金山金美公共托育中心",
+          "lon": 121.635474,
+          "lat": 25.221039,
+          "metersToCenter": 53
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "財團法人天主教聖母聖心會附設新北市私立天仁幼兒園",
+          "lon": 121.635661,
+          "lat": 25.221675,
+          "metersToCenter": 82
+        },
+        {
+          "kind": "公園",
+          "category": "park",
+          "name": "杜鵑公園",
+          "lon": 121.6364801,
+          "lat": 25.2200615,
+          "metersToCenter": 115
+        },
+        {
+          "kind": "醫療設施",
+          "category": "medical",
+          "name": "新北市金山金包里公共托老中心",
+          "lon": 121.636873,
+          "lat": 25.222095,
+          "metersToCenter": 150
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市金山區金山國民小學附設幼兒園美田分班",
+          "lon": 121.636187,
+          "lat": 25.223421,
+          "metersToCenter": 270
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市金山區金山國民小學",
+          "lon": 121.636523,
+          "lat": 25.223551,
+          "metersToCenter": 288
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市金山區金山國民小學附設幼兒園",
+          "lon": 121.636407,
+          "lat": 25.223639,
+          "metersToCenter": 296
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市立圖書館金山分館",
+          "lon": 121.639083,
+          "lat": 25.218502,
+          "metersToCenter": 416
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市立金山高級中學附設國中",
+          "lon": 121.637555,
+          "lat": 25.224509,
+          "metersToCenter": 420
+        },
+        {
+          "kind": "文教設施",
+          "category": "education",
+          "name": "新北市立金山高級中學",
+          "lon": 121.636338,
+          "lat": 25.22546,
+          "metersToCenter": 497
+        },
+        {
+          "kind": "醫療設施",
+          "category": "medical",
+          "name": "新北市金山區衛生所",
+          "lon": 121.641131,
+          "lat": 25.220501,
+          "metersToCenter": 519
+        },
+        {
+          "kind": "醫療設施",
+          "category": "medical",
+          "name": "國立臺灣大學醫學院附設醫院金山分院",
+          "lon": 121.628354,
+          "lat": 25.219421,
+          "metersToCenter": 789
+        },
+        {
+          "kind": "醫療設施",
+          "category": "medical",
+          "name": "財團法人新北市私立馨園老人養護中心",
+          "lon": 121.636088,
+          "lat": 25.213341,
+          "metersToCenter": 852
+        }
+      ]
+    },
+    "公共建設": {
+      "count": 12,
+      "nearest": {
+        "kind": "停車場",
+        "name": null,
+        "metersToCenter": 54
+      },
+      "items": [
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6360239,
+          "lat": 25.2214904,
+          "metersToCenter": 54
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.636274,
+          "lat": 25.2214373,
+          "metersToCenter": 56
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.636105,
+          "lat": 25.2217844,
+          "metersToCenter": 88
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6350868,
+          "lat": 25.2213585,
+          "metersToCenter": 100
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6355281,
+          "lat": 25.2219175,
+          "metersToCenter": 112
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6363671,
+          "lat": 25.2219775,
+          "metersToCenter": 114
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6370517,
+          "lat": 25.2205446,
+          "metersToCenter": 117
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6357476,
+          "lat": 25.2221106,
+          "metersToCenter": 126
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": "金山區公所洽公專用停車場",
+          "lon": 121.6362412,
+          "lat": 25.2221688,
+          "metersToCenter": 132
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6369476,
+          "lat": 25.2201273,
+          "metersToCenter": 136
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": null,
+          "lon": 121.6376488,
+          "lat": 25.2204861,
+          "metersToCenter": 176
+        },
+        {
+          "kind": "停車場",
+          "category": "parking",
+          "name": "Times",
+          "lon": 121.6375819,
+          "lat": 25.2201413,
+          "metersToCenter": 186
+        }
+      ]
+    },
+    "特殊設施": {
+      "count": 4,
+      "nearest": {
+        "kind": "加油站",
+        "name": "台灣中油加油站金山站",
+        "metersToCenter": 476
+      },
+      "items": [
+        {
+          "kind": "加油站",
+          "category": "fuel",
+          "name": "台灣中油加油站金山站",
+          "lon": 121.633863,
+          "lat": 25.22482,
+          "metersToCenter": 476
+        },
+        {
+          "kind": "殯葬設施",
+          "category": "cemetery",
+          "name": "新北市金山區第一公墓",
+          "lon": 121.637242,
+          "lat": 25.226921,
+          "metersToCenter": 670
+        },
+        {
+          "kind": "殯葬設施",
+          "category": "cemetery",
+          "name": "新北市金山區第一公墓福緣納骨堂",
+          "lon": 121.638014,
+          "lat": 25.22705,
+          "metersToCenter": 703
+        },
+        {
+          "kind": "加油站",
+          "category": "fuel",
+          "name": "台灣中油加油站金農站",
+          "lon": 121.630323,
+          "lat": 25.224742,
+          "metersToCenter": 707
+        }
+      ]
+    },
+    "工商活動": {
+      "count": 2,
+      "nearest": {
+        "kind": "金融機構",
+        "name": "金山地區農會",
+        "metersToCenter": 186
+      },
+      "items": [
+        {
+          "kind": "金融機構",
+          "category": "bank",
+          "name": "金山地區農會",
+          "lon": 121.6362541,
+          "lat": 25.2226606,
+          "metersToCenter": 186
+        },
+        {
+          "kind": "金融機構",
+          "category": "bank",
+          "name": "金山地區農會",
+          "lon": 121.6363235,
+          "lat": 25.2226916,
+          "metersToCenter": 190
+        }
+      ]
+    },
+    "其他": {
+      "count": 0,
+      "nearest": null,
+      "items": []
+    }
+  },
+  "doorplate": {
+    "count": 1271,
+    "nearest": [
+      {
+        "address": "忠孝一路１０７號",
+        "lon": 121.63617035812848,
+        "lat": 25.221434350944154,
+        "metersToCenter": 51
+      },
+      {
+        "address": "忠孝一路１１１之１號",
+        "lon": 121.63547405690123,
+        "lat": 25.22103909338415,
+        "metersToCenter": 53
+      },
+      {
+        "address": "忠孝一路１１１號",
+        "lon": 121.63547405690123,
+        "lat": 25.22103909338415,
+        "metersToCenter": 53
+      },
+      {
+        "address": "忠孝一路９２號",
+        "lon": 121.63669616533457,
+        "lat": 25.221344960674575,
+        "metersToCenter": 80
+      },
+      {
+        "address": "忠孝一路９８號五樓",
+        "lon": 121.6362996698085,
+        "lat": 25.22172569816169,
+        "metersToCenter": 86
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "yearPeriod": "1140901",
+    "sectionId": "P005-00",
+    "district": "新北市金山區",
+    "landUseType": "商業用地",
+    "benchmarkParcel": "豐漁段55地號",
+    "surveyDate": "114年09月22日",
+    "range": "北側至忠孝路以北臨路第一筆宗地，南側至民生路以南第一筆宗地，西側至和平路，東側至仁愛路之甲種建築用地劃為P005-00區段。",
+    "location": {
+      "lat": 25.2183,
+      "lng": 121.6301
+    }
+  },
+  "benchmark": {
+    "location": "新北市金山區豐漁段55地號",
+    "area": "100",
+    "width": "8",
+    "depth": "25",
+    "shape": "方形",
+    "frontage": "路角地",
+    "terrain": "平坦",
+    "roadType": "巷道",
+    "roadName": "忠孝路",
+    "roadWidth": "6",
+    "schoolName": "金美國小",
+    "schoolDistance": "1300",
+    "marketName": "金山區第二零售市場",
+    "marketDistance": "400",
+    "parkName": "獅頭山公園",
+    "parkDistance": "1600",
+    "stationName": "金山青年活動中心站",
+    "stationDistance": "500",
+    "districtName": "金包里老街商圈",
+    "districtDistance": "700",
+    "disamenityName": "無",
+    "disamenityDistance": "700",
+    "parking": "可路邊停車",
+    "zoning": "甲建、乙建",
+    "coverageRatio": "45%",
+    "plotRatio": "130%",
+    "buildRestriction": "無",
+    "sectionId": "P005-00"
+  },
+  "individualFactors": {
+    "raw": "個別因素",
+    "categories": [
+      {
+        "key": "lotCondition",
+        "raw": "宗地條件",
+        "items": [
+          {
+            "key": "area",
+            "raw": "面積",
+            "value": "100",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "width",
+            "raw": "寬度",
+            "value": "8",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -3,
+              "rate": 4
+            }
+          },
+          {
+            "key": "depth",
+            "raw": "深度",
+            "value": "25",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -2,
+              "rate": 3
+            }
+          },
+          {
+            "key": "shape",
+            "raw": "形狀",
+            "value": "方形",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "roadFrontageCondition",
+            "raw": "臨路情形",
+            "value": "路角地",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2,
+              "rate": 2
+            }
+          },
+          {
+            "key": "terrain",
+            "raw": "地勢",
+            "value": "平坦",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "roadCondition",
+        "raw": "道路條件",
+        "items": [
+          {
+            "key": "roadType",
+            "raw": "道路種類",
+            "value": "巷道",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -4,
+              "rate": 3
+            }
+          },
+          {
+            "key": "frontageRoadWidth",
+            "raw": "面前道路寬度",
+            "value": {
+              "name": "忠孝路",
+              "distance": "6",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -7.5,
+              "rate": 4
+            }
+          }
+        ]
+      },
+      {
+        "key": "proximityCondition",
+        "raw": "接近條件",
+        "items": [
+          {
+            "key": "proximityToSchool",
+            "raw": "接近學校程度",
+            "value": {
+              "name": "金美國小",
+              "distance": "1300",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -3,
+              "rate": 4
+            }
+          },
+          {
+            "key": "proximityToMarket",
+            "raw": "接近市場程度",
+            "value": {
+              "name": "金山區第二零售市場",
+              "distance": "400",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToParkPlaza",
+            "raw": "接近公園、廣場程度",
+            "value": {
+              "name": "獅頭山公園",
+              "distance": "1600",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -4,
+              "rate": 5
+            }
+          },
+          {
+            "key": "proximityToStation",
+            "raw": "接近車站程度",
+            "value": {
+              "name": "金山青年活動中心站",
+              "distance": "500",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -2,
+              "rate": 3
+            }
+          },
+          {
+            "key": "proximityToCommercialDistrict",
+            "raw": "接近商圈程度",
+            "value": {
+              "name": "金包里老街商圈",
+              "distance": "700",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2,
+              "rate": 2
+            }
+          }
+        ]
+      },
+      {
+        "key": "surroundingEnvironment",
+        "raw": "周邊環境條件",
+        "items": [
+          {
+            "key": "presenceOfNoxiousFacility",
+            "raw": "嫌惡設施之有無",
+            "value": {
+              "name": "無",
+              "distance": "700",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "parkingConvenience",
+            "raw": "停車方便性",
+            "value": "可路邊停車",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "administrativeCondition",
+        "raw": "行政條件",
+        "items": [
+          {
+            "key": "zoningDesignation",
+            "raw": "使用分區或編定",
+            "value": "甲建、乙建",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -7.5,
+              "rate": 3
+            }
+          },
+          {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "value": "45%",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -10,
+              "rate": 5
+            }
+          },
+          {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "value": "130%",
+            "selectedGrade": {
+              "key": "slightlyInferior",
+              "raw": "稍劣",
+              "value": -30,
+              "rate": 4
+            }
+          },
+          {
+            "key": "buildingProhibitionOrRestriction",
+            "raw": "有無禁限建",
+            "value": "無",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "totalScore": -77
+}

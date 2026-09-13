@@ -1,0 +1,534 @@
+{
+  "landImprovement": {
+    "buildingSiteImprovement": {
+      "raw": "建築基地改良",
+      "items": [
+        {
+          "raw": "整平或填挖基地",
+          "checked": false
+        },
+        {
+          "raw": "開挖水溝",
+          "checked": true
+        },
+        {
+          "raw": "水土保持",
+          "checked": false
+        },
+        {
+          "raw": "鋪築道路",
+          "checked": true
+        },
+        {
+          "raw": "埋設管道",
+          "checked": true
+        },
+        {
+          "raw": "修築駁嵌",
+          "checked": false
+        }
+      ],
+      "other": {
+        "checked": true,
+        "text": "設置擋土牆"
+      }
+    },
+    "farmlandImprovement": {
+      "raw": "農地改良",
+      "items": [
+        {
+          "raw": "耕地整理",
+          "checked": false
+        },
+        {
+          "raw": "水土保持",
+          "checked": true
+        },
+        {
+          "raw": "土壤改良",
+          "checked": true
+        },
+        {
+          "raw": "修築農路",
+          "checked": false
+        },
+        {
+          "raw": "灌溉",
+          "checked": false
+        },
+        {
+          "raw": "排水",
+          "checked": true
+        },
+        {
+          "raw": "防風",
+          "checked": true
+        },
+        {
+          "raw": "防砂",
+          "checked": false
+        },
+        {
+          "raw": "堤防",
+          "checked": true
+        }
+      ],
+      "other": {
+        "checked": true,
+        "text": "測試改良"
+      }
+    }
+  },
+  "specialFacilities": {
+    "utilityGasFacility": {
+      "items": [
+        {
+          "value": {
+            "name": "龍潭超高壓變電所",
+            "isExist": true,
+            "inSection": false,
+            "distanceValue": 350
+          }
+        },
+        {
+          "value": {
+            "name": "中油大湖儲油槽",
+            "isExist": true,
+            "inSection": true
+          }
+        }
+      ]
+    },
+    "funeralFacility": {
+      "items": [
+        {
+          "value": {
+            "isExist": false,
+            "name": ""
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "安樂殯儀館",
+            "inSection": false,
+            "distanceValue": 950
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "大園火葬場",
+            "inSection": true
+          }
+        },
+        {
+          "value": {
+            "isExist": false,
+            "name": ""
+          }
+        }
+      ]
+    },
+    "wasteFacility": {
+      "items": [
+        {
+          "value": {
+            "isExist": false,
+            "name": ""
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "溪洲掩埋場",
+            "inSection": false,
+            "distanceValue": 1500
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "新屋焚化爐",
+            "inSection": false,
+            "distanceValue": 2200
+          }
+        }
+      ]
+    }
+  },
+  "commercialActivity": {
+    "departmentStore": {
+      "value": {
+        "name": "遠東百貨台中店",
+        "isExist": true,
+        "quantity": 2,
+        "inSection": true
+      }
+    },
+    "financialInstitution": {
+      "value": {
+        "name": "第一銀行中港分行",
+        "isExist": true,
+        "quantity": 3,
+        "inSection": false,
+        "distanceValue": 120
+      }
+    },
+    "entertainmentFacility": {
+      "value": {
+        "name": "美麗華影城",
+        "isExist": true,
+        "quantity": 1,
+        "inSection": true
+      }
+    },
+    "exhibitionCenterOrHotel": {
+      "value": {
+        "name": "",
+        "isExist": false
+      }
+    },
+    "customerTraffic": {
+      "value": {
+        "text": "人潮旺盛，假日尤甚"
+      }
+    },
+    "storeContiguity": {
+      "value": {
+        "text": "店面緊密毗連，無明顯空置"
+      }
+    }
+  },
+  "landUseRegulation": {
+    "insideOutsideUrbanPlan": {
+      "value": {
+        "type": "singleChoice",
+        "selected": "insideUrbanPlan"
+      }
+    },
+    "zoningDesignation": {
+      "value": {
+        "type": "text",
+        "text": "第三種住宅區"
+      }
+    },
+    "buildingCoverageRatio": {
+      "value": {
+        "type": "number",
+        "value": 45,
+        "unit": "%"
+      }
+    },
+    "floorAreaRatio": {
+      "value": {
+        "type": "number",
+        "value": 300,
+        "unit": "%"
+      }
+    },
+    "buildingProhibition": {
+      "value": {
+        "type": "text",
+        "text": "無"
+      }
+    },
+    "buildingRestriction": {
+      "value": {
+        "type": "text",
+        "text": "有，建築高度不得超過21公尺"
+      }
+    }
+  },
+  "trafficAndTransport": {
+    "mainRoad": {
+      "value": {
+        "label": "仁愛路",
+        "value": 24
+      }
+    },
+    "averageRoadWidthInSection": {
+      "value": {
+        "value": 16
+      }
+    },
+    "majorStation": {
+      "items": [
+        {
+          "value": {
+            "name": "無高鐵站",
+            "isExist": false
+          }
+        },
+        {
+          "value": {
+            "name": "竹南火車站",
+            "isExist": true,
+            "inSection": false,
+            "distanceValue": 850
+          }
+        },
+        {
+          "value": {
+            "name": "統聯客運竹南站",
+            "isExist": true,
+            "inSection": true
+          }
+        },
+        {
+          "value": {
+            "name": "無捷運站",
+            "isExist": false
+          }
+        }
+      ]
+    },
+    "busStop": {
+      "value": {
+        "name": "仁愛路口站",
+        "densityLevel": 2,
+        "inSection": true
+      }
+    },
+    "interchange": {
+      "value": {
+        "name": "竹南交流道",
+        "isExist": true,
+        "inSection": false,
+        "distanceValue": 1200
+      }
+    },
+    "proximityToSettlement": {
+      "value": {
+        "text": "接近市區邊緣聚落"
+      }
+    },
+    "proximityToDistributionCenter": {
+      "value": {
+        "text": "距竹南農產運銷中心約500公尺"
+      }
+    },
+    "proximityToMarket": {
+      "value": {
+        "text": "鄰近竹南市區商業核心"
+      }
+    },
+    "roadConstructionLevel": {
+      "value": {
+        "text": "大部分已開闢"
+      }
+    }
+  },
+  "publicInfrastructure": {
+    "touristRecreationFacility": {
+      "value": {
+        "name": "",
+        "isExist": false
+      }
+    },
+    "parkingArea": {
+      "value": {
+        "name": "中正路公共停車場",
+        "isExist": true,
+        "inSection": true
+      }
+    },
+    "proximityToServiceFacility": {
+      "value": {
+        "name": "大安區戶政事務所",
+        "isExist": true,
+        "inSection": false,
+        "distanceValue": 650
+      }
+    },
+    "electricPowerResources": {
+      "value": {
+        "type": "text",
+        "text": "台電大安變電站供電"
+      }
+    },
+    "industrialWaterSupply": {
+      "value": {
+        "type": "text",
+        "text": "自來水公司第七區管理處供水"
+      }
+    },
+    "wastewaterTreatmentFacility": {
+      "value": {
+        "name": "內湖污水處理廠",
+        "isExist": true,
+        "inSection": false,
+        "distanceValue": 2200
+      }
+    },
+    "school": {
+      "items": [
+        {
+          "value": {
+            "name": "大安國小",
+            "isExist": true,
+            "inSection": true
+          }
+        },
+        {
+          "value": {
+            "name": "信義國中",
+            "isExist": true,
+            "inSection": false,
+            "distanceValue": 550
+          }
+        },
+        {
+          "value": {
+            "name": "高中",
+            "isExist": false
+          }
+        },
+        {
+          "value": {
+            "name": "國立臺灣大學",
+            "isExist": true,
+            "inSection": false,
+            "distanceValue": 1100
+          }
+        }
+      ]
+    },
+    "market": {
+      "items": [
+        {
+          "value": {
+            "name": "傳統市場",
+            "isExist": false
+          }
+        },
+        {
+          "value": {
+            "name": "全聯福利中心",
+            "isExist": true,
+            "inSection": true
+          }
+        },
+        {
+          "value": {
+            "name": "京站時尚廣場",
+            "isExist": true,
+            "inSection": false,
+            "distanceValue": 1800
+          }
+        }
+      ]
+    },
+    "parkPlazaPedestrianZone": {
+      "items": [
+        {
+          "value": {
+            "name": "里鄰公園",
+            "isExist": false
+          }
+        },
+        {
+          "value": {
+            "name": "和平公園",
+            "isExist": true,
+            "inSection": true
+          }
+        },
+        {
+          "value": {
+            "name": "仁愛路徒步區",
+            "isExist": true,
+            "inSection": false,
+            "distanceValue": 300
+          }
+        }
+      ]
+    }
+  },
+  "environmentalPollution": {
+    "environmentalPollution": {
+      "items": [
+        {
+          "value": {
+            "isExist": false,
+            "name": ""
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "臺鐵調車場",
+            "inSection": true
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "大華化工廠",
+            "inSection": false,
+            "distanceValue": 320
+          }
+        },
+        {
+          "value": {
+            "isExist": true,
+            "name": "北側垃圾掩埋場",
+            "inSection": false,
+            "distanceValue": 500
+          }
+        },
+        {
+          "value": {
+            "isExist": false,
+            "name": ""
+          }
+        }
+      ]
+    }
+  },
+  "naturalConditions": {
+    "sunlight": {
+      "value": {
+        "type": "text",
+        "text": "普通"
+      }
+    },
+    "view": {
+      "value": {
+        "type": "text",
+        "text": "良好"
+      }
+    },
+    "slope": {
+      "value": {
+        "type": "number",
+        "value": 3,
+        "unit": "%"
+      }
+    },
+    "drainageQuality": {
+      "value": {
+        "type": "text",
+        "text": "良好"
+      }
+    },
+    "terrain": {
+      "value": {
+        "type": "text",
+        "text": "略高"
+      }
+    },
+    "windCondition": {
+      "value": {
+        "type": "text",
+        "text": "稍強"
+      }
+    },
+    "soilQuality": {
+      "value": {
+        "type": "text",
+        "text": "砂質壤土"
+      }
+    }
+  }
+}

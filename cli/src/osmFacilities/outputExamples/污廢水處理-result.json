@@ -1,0 +1,19 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "man_made=wastewater_plant"
+  ],
+  "matches": [
+    {
+      "tag": "man_made=wastewater_plant",
+      "name": "汙水處理廠",
+      "lat": 24.967131,
+      "lon": 121.4297403,
+      "metersToCenter": 4430
+    }
+  ]
+}

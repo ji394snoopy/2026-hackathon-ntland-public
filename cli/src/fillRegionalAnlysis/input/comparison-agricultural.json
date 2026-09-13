@@ -1,0 +1,942 @@
+{
+  "categories": [
+    {
+      "categoryRaw": "土地使用管制",
+      "items": [
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "都市計畫（內、外）",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "使用分區(使用地類別)",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "交通運輸",
+      "items": [
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "接近聚落之程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "接近運銷中心程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "接近消費市場程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "區段內道路規劃及闢建程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "自然條件",
+      "items": [
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "日",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "風",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "地",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "傾斜度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "保（排）水之良否",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "土",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "土地改良",
+      "items": [
+        {
+          "categoryRaw": "土地改良",
+          "itemRaw": "農地改良（耕地整理、水土保持、土壤改良、修築農路、灌溉、排水、防風、防砂、堤防）或其他改良",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "公共建設",
+      "items": [
+        {
+          "categoryRaw": "公共建設",
+          "itemRaw": "電力資源",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "公共建設",
+          "itemRaw": "產業用水及設施",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "特殊設施",
+      "items": [
+        {
+          "categoryRaw": "特殊設施",
+          "itemRaw": "電業設施及公用氣體燃料設施之有無及接近程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "特殊設施",
+          "itemRaw": "殯葬設施之有無及接近程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "特殊設施",
+          "itemRaw": "廢棄物處理設施之有無及接近程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "環境污染",
+      "items": [
+        {
+          "categoryRaw": "環境污染",
+          "itemRaw": "水污染、噪音污染、廢氣污染、廢棄物污染等之有無及接近程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "其他影響因素",
+      "items": [],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    }
+  ],
+  "sectionIdBase": "TEST-AGRICULTURAL",
+  "comparableSectionIds": [
+    {
+      "label": "1",
+      "sectionId": "TEST-AGRICULTURAL"
+    },
+    {
+      "label": "2",
+      "sectionId": "TEST-AGRICULTURAL"
+    },
+    {
+      "label": "3",
+      "sectionId": "TEST-AGRICULTURAL"
+    }
+  ],
+  "totalScoreBase": 0,
+  "comparableTotalScores": [
+    {
+      "label": "1",
+      "total": 0,
+      "delta": 0
+    },
+    {
+      "label": "2",
+      "total": 0,
+      "delta": 0
+    },
+    {
+      "label": "3",
+      "total": 0,
+      "delta": 0
+    }
+  ]
+}

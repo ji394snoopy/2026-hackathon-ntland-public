@@ -1,0 +1,132 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.0002
+  },
+  "radiusMeters": 50000,
+  "tags": [
+    "man_made=gasometer"
+  ],
+  "failedTags": [],
+  "matches": [
+    {
+      "tag": "man_made=gasometer",
+      "name": "陽明山瓦斯",
+      "lat": 25.0793537,
+      "lon": 121.5089037,
+      "metersToCenter": 10559
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0085081,
+      "lon": 121.5628225,
+      "metersToCenter": 11307
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0087233,
+      "lon": 121.5628172,
+      "metersToCenter": 11308
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.008687,
+      "lon": 121.562875,
+      "metersToCenter": 11313
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0083371,
+      "lon": 121.5629514,
+      "metersToCenter": 11318
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0086807,
+      "lon": 121.5629189,
+      "metersToCenter": 11318
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0083614,
+      "lon": 121.5629928,
+      "metersToCenter": 11322
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0084007,
+      "lon": 121.5630136,
+      "metersToCenter": 11325
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0740599,
+      "lon": 121.5873026,
+      "metersToCenter": 16001
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0739597,
+      "lon": 121.5874762,
+      "metersToCenter": 16010
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0738966,
+      "lon": 121.587674,
+      "metersToCenter": 16023
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0742183,
+      "lon": 121.5874692,
+      "metersToCenter": 16024
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0740835,
+      "lon": 121.5876406,
+      "metersToCenter": 16031
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": null,
+      "lat": 25.0740163,
+      "lon": 121.5878311,
+      "metersToCenter": 16044
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": "沼氣儲槽",
+      "lat": 25.1576823,
+      "lon": 121.4053756,
+      "metersToCenter": 18104
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": "沼氣儲槽",
+      "lat": 25.1578823,
+      "lon": 121.4056224,
+      "metersToCenter": 18119
+    },
+    {
+      "tag": "man_made=gasometer",
+      "name": "煤氣鼓",
+      "lat": 25.0326933,
+      "lon": 121.0526256,
+      "metersToCenter": 40304
+    }
+  ]
+}

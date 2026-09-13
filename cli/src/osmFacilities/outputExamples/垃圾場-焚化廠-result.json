@@ -1,0 +1,182 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.0002
+  },
+  "radiusMeters": 50000,
+  "tags": [
+    "plant:source=waste",
+    "landuse=landfill"
+  ],
+  "failedTags": [],
+  "matches": [
+    {
+      "tag": "plant:source=waste",
+      "name": "新店垃圾焚化廠",
+      "lat": 24.9582245,
+      "lon": 121.4973601,
+      "metersToCenter": 6605
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": null,
+      "lat": 24.98999,
+      "lon": 121.5552311,
+      "metersToCenter": 10566
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "落葉堆肥場",
+      "lat": 24.9999258,
+      "lon": 121.328091,
+      "metersToCenter": 12386
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "會稽垃圾掩埋場",
+      "lat": 25.0199724,
+      "lon": 121.3235171,
+      "metersToCenter": 13033
+    },
+    {
+      "tag": "plant:source=waste",
+      "name": "木柵垃圾焚化廠",
+      "lat": 25.0054833,
+      "lon": 121.5871415,
+      "metersToCenter": 13732
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "大安垃圾掩埋場",
+      "lat": 24.9418836,
+      "lon": 121.3209772,
+      "metersToCenter": 14623
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "八里垃圾掩埋場",
+      "lat": 25.130633,
+      "lon": 121.3703993,
+      "metersToCenter": 16621
+    },
+    {
+      "tag": "plant:source=waste",
+      "name": "內湖垃圾焚化廠",
+      "lat": 25.0626067,
+      "lon": 121.6056342,
+      "metersToCenter": 17055
+    },
+    {
+      "tag": "plant:source=waste",
+      "name": "八里垃圾焚化爐",
+      "lat": 25.1341707,
+      "lon": 121.3673979,
+      "metersToCenter": 17112
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "第二期灰塘區",
+      "lat": 25.1243167,
+      "lon": 121.3132002,
+      "metersToCenter": 19574
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "大溪垃圾場",
+      "lat": 24.8699392,
+      "lon": 121.3148276,
+      "metersToCenter": 19958
+    },
+    {
+      "tag": "plant:source=waste",
+      "name": null,
+      "lat": 25.0692077,
+      "lon": 121.2640262,
+      "metersToCenter": 20340
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "第三期灰塘",
+      "lat": 25.1234953,
+      "lon": 121.2942687,
+      "metersToCenter": 20909
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "忠福垃圾掩埋場",
+      "lat": 24.9874711,
+      "lon": 121.2351723,
+      "metersToCenter": 21798
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "林口電廠中鼎海湖料場",
+      "lat": 25.1120599,
+      "lon": 121.2732643,
+      "metersToCenter": 21800
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": null,
+      "lat": 25.2112341,
+      "lon": 121.43133,
+      "metersToCenter": 23549
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "萬里中幅子土石方收容場",
+      "lat": 25.1629315,
+      "lon": 121.6847655,
+      "metersToCenter": 29693
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "保障土石堆置場",
+      "lat": 25.0721954,
+      "lon": 121.1451,
+      "metersToCenter": 31841
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "店子湖垃圾掩埋場",
+      "lat": 24.8647814,
+      "lon": 121.171462,
+      "metersToCenter": 31956
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "保障垃圾掩埋場",
+      "lat": 25.0749531,
+      "lon": 121.1367111,
+      "metersToCenter": 32736
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "員本垃圾掩埋場",
+      "lat": 24.9446426,
+      "lon": 121.1106444,
+      "metersToCenter": 34859
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "橫山鄉掩埋場",
+      "lat": 24.7260188,
+      "lon": 121.175021,
+      "metersToCenter": 41288
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "觀音灰渣處理廠",
+      "lat": 25.0191761,
+      "lon": 121.0384703,
+      "metersToCenter": 41624
+    },
+    {
+      "tag": "landuse=landfill",
+      "name": "竹東垃圾衛生掩埋場",
+      "lat": 24.7316586,
+      "lon": 121.0733069,
+      "metersToCenter": 48410
+    }
+  ]
+}

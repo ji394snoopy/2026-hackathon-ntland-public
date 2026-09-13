@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "yearPeriod": "1140901",
+    "sectionId": "P003-00",
+    "district": "新北市金山區",
+    "landUseType": "商業用地",
+    "benchmarkParcel": "公館段120地號",
+    "surveyDate": "114年09月20日",
+    "range": "北側至民生路以北臨路第一筆宗地，南側至五湖路以南第一筆宗地，西側至金包里街，東側至中正路之商業區土地劃為P003-00區段。",
+    "location": {
+      "lat": 25.2231,
+      "lng": 121.6389
+    }
+  },
+  "benchmark": {
+    "location": "新北市金山區公館段120地號",
+    "area": "95",
+    "width": "22",
+    "depth": "45",
+    "shape": "方形",
+    "frontage": "路角地",
+    "terrain": "平坦",
+    "roadType": "主要道路",
+    "roadName": "民生路",
+    "roadWidth": "16",
+    "schoolName": "金山國小",
+    "schoolDistance": "150",
+    "marketName": "金山區第一零售傳統市場",
+    "marketDistance": "1200",
+    "parkName": "金山青年活動中心公園",
+    "parkDistance": "200",
+    "stationName": "金山區公所站",
+    "stationDistance": "350",
+    "districtName": "老街商圈",
+    "districtDistance": "300",
+    "disamenityName": "金山第2公墓",
+    "disamenityDistance": "600",
+    "parking": "可路邊停車",
+    "zoning": "商業區",
+    "coverageRatio": "65%",
+    "plotRatio": "280%",
+    "buildRestriction": "無",
+    "sectionId": "P003-00"
+  },
+  "individualFactors": {
+    "raw": "個別因素",
+    "categories": [
+      {
+        "key": "lotCondition",
+        "raw": "宗地條件",
+        "items": [
+          {
+            "key": "area",
+            "raw": "面積",
+            "value": "95",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "width",
+            "raw": "寬度",
+            "value": "22",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "depth",
+            "raw": "深度",
+            "value": "45",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "shape",
+            "raw": "形狀",
+            "value": "方形",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "roadFrontageCondition",
+            "raw": "臨路情形",
+            "value": "路角地",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2,
+              "rate": 2
+            }
+          },
+          {
+            "key": "terrain",
+            "raw": "地勢",
+            "value": "平坦",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "roadCondition",
+        "raw": "道路條件",
+        "items": [
+          {
+            "key": "roadType",
+            "raw": "道路種類",
+            "value": "主要道路",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "frontageRoadWidth",
+            "raw": "面前道路寬度",
+            "value": {
+              "name": "民生路",
+              "distance": "16",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2.5,
+              "rate": 2
+            }
+          }
+        ]
+      },
+      {
+        "key": "proximityCondition",
+        "raw": "接近條件",
+        "items": [
+          {
+            "key": "proximityToSchool",
+            "raw": "接近學校程度",
+            "value": {
+              "name": "金山國小",
+              "distance": "150",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToMarket",
+            "raw": "接近市場程度",
+            "value": {
+              "name": "金山區第一零售傳統市場",
+              "distance": "1200",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -5,
+              "rate": 3
+            }
+          },
+          {
+            "key": "proximityToParkPlaza",
+            "raw": "接近公園、廣場程度",
+            "value": {
+              "name": "金山青年活動中心公園",
+              "distance": "200",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToStation",
+            "raw": "接近車站程度",
+            "value": {
+              "name": "金山區公所站",
+              "distance": "350",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -1,
+              "rate": 2
+            }
+          },
+          {
+            "key": "proximityToCommercialDistrict",
+            "raw": "接近商圈程度",
+            "value": {
+              "name": "老街商圈",
+              "distance": "300",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "surroundingEnvironment",
+        "raw": "周邊環境條件",
+        "items": [
+          {
+            "key": "presenceOfNoxiousFacility",
+            "raw": "嫌惡設施之有無",
+            "value": {
+              "name": "金山第2公墓",
+              "distance": "600",
+              "unit": "M"
+            },
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "parkingConvenience",
+            "raw": "停車方便性",
+            "value": "可路邊停車",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "administrativeCondition",
+        "raw": "行政條件",
+        "items": [
+          {
+            "key": "zoningDesignation",
+            "raw": "使用分區或編定",
+            "value": "商業區",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "value": "65%",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -5,
+              "rate": 3
+            }
+          },
+          {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "value": "280%",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -10,
+              "rate": 2
+            }
+          },
+          {
+            "key": "buildingProhibitionOrRestriction",
+            "raw": "有無禁限建",
+            "value": "無",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "totalScore": -25.5
+}

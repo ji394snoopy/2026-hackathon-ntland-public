@@ -1,0 +1,57 @@
+{
+  "name": "ntland-infra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CDK v2 infrastructure for the 2026 hackathon: static-asset CDN (geojson) + example zoning-filter Lambda.",
+  "bin": {
+    "ntland-infra": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "typecheck:lambdas": "tsc --noEmit -p tsconfig.lambda.json",
+    "build:lambdas": "npm run typecheck:lambdas && node scripts/build-lambdas.mjs",
+    "build:lambdas:only": "node scripts/build-lambdas.mjs",
+    "test:comparison": "node --test --import ./scripts/register-ts.mjs \"lambda/produce-comparison/**/*.test.ts\"",
+    "test:facilities": "node --test --import ./scripts/register-ts.mjs \"lambda/facilities/**/*.test.ts\"",
+    "test:grading": "node --test --import ./scripts/register-ts.mjs \"lambda/shared/db/mappers/*.test.ts\"",
+    "test:survey": "node --test --import ./scripts/register-ts.mjs \"lambda/shared/db/mappers/survey.test.ts\"",
+    "test:regional": "node --test --import ./scripts/register-ts.mjs \"lambda/produce-regional-factors/**/*.test.ts\"",
+    "test:produce-survey": "node --test --import ./scripts/register-ts.mjs \"lambda/produce-survey/**/*.test.ts\"",
+    "test:land-locate": "node --test --import ./scripts/register-ts.mjs \"lambda/land-locate/**/*.test.ts\"",
+    "test:export-report": "node --test --import ./scripts/register-ts.mjs \"lambda/export-report/**/*.test.ts\"",
+    "synth": "npm run build:lambdas && cdk synth",
+    "deploy": "npm run build:lambdas && cdk deploy --all",
+    "deploy:assets": "cdk deploy NtlandAssetStack",
+    "deploy:lambda": "npm run build:lambdas && cdk deploy NtlandLambdaStack",
+    "diff": "cdk diff",
+    "destroy": "cdk destroy --all",
+    "seed:cloud": "node scripts/seed-cloud.mjs"
+  },
+  "devDependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.33.3",
+    "@anthropic-ai/sdk": "^0.117.1",
+    "@aws-sdk/client-rds-data": "^3.1127.0",
+    "@aws-sdk/client-s3": "^3.1127.0",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@types/node": "^22.20.2",
+    "@types/pg": "^8.23.1",
+    "@types/pngjs": "^6.0.5",
+    "aws-cdk": "2.1139.0",
+    "cheerio": "^1.2.0",
+    "drizzle-kit": "^0.31.10",
+    "esbuild": "^0.24.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "pg": "^8.23.0",
+    "pngjs": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.268.0",
+    "constructs": "^10.0.0",
+    "drizzle-orm": "^0.45.2"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "amenity=theatre",
+    "amenity=arts_centre"
+  ],
+  "matches": [
+    {
+      "tag": "amenity=arts_centre",
+      "name": "府中15新北市動畫故事館",
+      "lat": 25.0094491,
+      "lon": 121.4595247,
+      "metersToCenter": 1193
+    },
+    {
+      "tag": "amenity=theatre",
+      "name": null,
+      "lat": 25.0165437,
+      "lon": 121.4440582,
+      "metersToCenter": 1762
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "新板藝廊",
+      "lat": 25.0142114,
+      "lon": 121.4664414,
+      "metersToCenter": 2065
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "昕卓框藝畫廊",
+      "lat": 24.9930454,
+      "lon": 121.4318993,
+      "metersToCenter": 2167
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "昕卓框藝畫廊",
+      "lat": 24.9930454,
+      "lon": 121.4318993,
+      "metersToCenter": 2167
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "樹林藝文中心",
+      "lat": 24.9961684,
+      "lon": 121.4286847,
+      "metersToCenter": 2341
+    },
+    {
+      "tag": "amenity=theatre",
+      "name": "誠信館 (H棟)",
+      "lat": 25.0204205,
+      "lon": 121.4629805,
+      "metersToCenter": 2378
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "前國防管理學院中正堂",
+      "lat": 25.0008579,
+      "lon": 121.4763243,
+      "metersToCenter": 2555
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "新北市藝文中心",
+      "lat": 25.025958,
+      "lon": 121.4719674,
+      "metersToCenter": 3400
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "百鍊廳",
+      "lat": 25.0357404,
+      "lon": 121.4318066,
+      "metersToCenter": 4221
+    },
+    {
+      "tag": "amenity=arts_centre",
+      "name": "潛水艇的天空",
+      "lat": 25.0365756,
+      "lon": 121.430522,
+      "metersToCenter": 4363
+    }
+  ]
+}

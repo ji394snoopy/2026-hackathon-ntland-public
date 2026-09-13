@@ -1,0 +1,523 @@
+{
+  "meta": {
+    "yearPeriod": "1140901",
+    "sectionId": "P002-00",
+    "district": "新北市金山區",
+    "landUseType": "商業用地",
+    "benchmarkParcel": "金美段489地號",
+    "surveyDate": "114年09月18日",
+    "range": "北側至金包里街以北臨路第一筆宗地，南側至中山路以南第一筆宗地，西側至中正路，東側至福德街之第二種商業區土地劃為P002-00區段。",
+    "location": { "lat": 25.2219, "lng": 121.63575 }
+  },
+  "survey": [
+    {
+      "key": "urban_plan",
+      "label": "都市計畫(內外)",
+      "group": "土地使用管制",
+      "value": "都市計畫內",
+      "source": "manual"
+    },
+    {
+      "key": "zone_type",
+      "label": "使用分區(使用地類別)",
+      "group": "土地使用管制",
+      "value": "第二種商業區",
+      "source": "manual"
+    },
+    {
+      "key": "coverage_ratio",
+      "label": "建蔽率",
+      "group": "土地使用管制",
+      "value": "70%",
+      "source": "manual"
+    },
+    {
+      "key": "plot_ratio",
+      "label": "容積率",
+      "group": "土地使用管制",
+      "value": "240%",
+      "source": "manual"
+    },
+    {
+      "key": "no_build_ban",
+      "label": "有無禁止建築",
+      "group": "土地使用管制",
+      "value": "無",
+      "source": "manual"
+    },
+    {
+      "key": "build_restriction",
+      "label": "有無限制建築（整體開發、面積限制、高度限制）",
+      "group": "土地使用管制",
+      "value": "無",
+      "source": "manual"
+    },
+
+    {
+      "key": "main_road",
+      "label": "主要道路",
+      "group": "交通運輸",
+      "value": "中山路，寬度18M",
+      "source": "manual"
+    },
+    {
+      "key": "road_avg_width",
+      "label": "區段內道路平均寬度",
+      "group": "交通運輸",
+      "value": "12M",
+      "source": "manual"
+    },
+    {
+      "key": "hsr_station",
+      "label": "大型車站－高鐵站",
+      "group": "交通運輸",
+      "value": "南港高鐵站，本區段外距35000M",
+      "source": "manual"
+    },
+    {
+      "key": "train_station",
+      "label": "大型車站－火車站",
+      "group": "交通運輸",
+      "value": "基隆火車站，本區段外距15000M",
+      "source": "manual"
+    },
+    {
+      "key": "bus_terminal",
+      "label": "大型車站－國光客運站",
+      "group": "交通運輸",
+      "value": "國光客運金山站，本區段外距300M",
+      "source": "ai"
+    },
+    {
+      "key": "mrt_station",
+      "label": "大型車站－捷運站",
+      "group": "交通運輸",
+      "value": "淡水捷運站，本區段外距20000M",
+      "source": "manual"
+    },
+    {
+      "key": "bus_stop",
+      "label": "站牌",
+      "group": "交通運輸",
+      "value": "金山區公所站，本區段內，密集",
+      "source": "ai"
+    },
+    {
+      "key": "interchange",
+      "label": "交流道距離",
+      "group": "交通運輸",
+      "value": "金山端交流道，本區段外距2500M",
+      "source": "manual"
+    },
+    {
+      "key": "approach_settlement",
+      "label": "接近聚落程度",
+      "group": "交通運輸",
+      "value": "鄰近金山市區聚落，步行5分鐘可達",
+      "source": "manual"
+    },
+    {
+      "key": "approach_distribution_center",
+      "label": "接近運銷中心程度",
+      "group": "交通運輸",
+      "value": "距金山果菜運銷中心約2公里",
+      "source": "manual"
+    },
+    {
+      "key": "approach_market",
+      "label": "接近消費市場程度",
+      "group": "交通運輸",
+      "value": "鄰近金山老街消費商圈，步行可達",
+      "source": "manual"
+    },
+    {
+      "key": "road_development",
+      "label": "區段內道路規劃及闢建程度",
+      "group": "交通運輸",
+      "value": "已完全開發",
+      "source": "manual"
+    },
+
+    {
+      "key": "drainage",
+      "label": "保（排）水之良否",
+      "group": "自然條件",
+      "value": "有排水系統不易淹水",
+      "source": "manual"
+    },
+    {
+      "key": "terrain",
+      "label": "地勢",
+      "group": "自然條件",
+      "value": "該區地勢平坦",
+      "source": "manual"
+    },
+    {
+      "key": "sunlight",
+      "label": "日照",
+      "group": "自然條件",
+      "value": "日照充足，全天日照",
+      "source": "manual"
+    },
+    {
+      "key": "view",
+      "label": "景觀",
+      "group": "自然條件",
+      "value": "可遠眺海景",
+      "source": "manual"
+    },
+    {
+      "key": "slope",
+      "label": "傾斜度",
+      "group": "自然條件",
+      "value": "略有坡度，約5度",
+      "source": "manual"
+    },
+    {
+      "key": "wind",
+      "label": "風勢",
+      "group": "自然條件",
+      "value": "東北季風明顯，冬季風力較強",
+      "source": "manual"
+    },
+    {
+      "key": "soil",
+      "label": "土質",
+      "group": "自然條件",
+      "value": "壤土，排水性佳",
+      "source": "manual"
+    },
+
+    {
+      "key": "site_improvement",
+      "label": "建築基地改良",
+      "group": "土地改良",
+      "value": "已整平或填挖基地、開挖水溝、修築駁嵌，另有其他：加高擋土牆",
+      "source": "manual"
+    },
+    {
+      "key": "farmland_improvement",
+      "label": "農地改良",
+      "group": "土地改良",
+      "value": "已辦理排水、防風，另有其他：架設防砂網",
+      "source": "manual"
+    },
+
+    {
+      "key": "school_elementary",
+      "label": "接近國小之程度",
+      "group": "公共建設",
+      "value": "金山國小，本區段外距150M",
+      "source": "manual"
+    },
+    {
+      "key": "school_middle",
+      "label": "接近國中之程度",
+      "group": "公共建設",
+      "value": "金山國中，本區段外距400M",
+      "source": "manual"
+    },
+    {
+      "key": "school_high",
+      "label": "接近高中之程度",
+      "group": "公共建設",
+      "value": "金山高中，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "school_college",
+      "label": "接近大專院校之程度",
+      "group": "公共建設",
+      "value": "耕莘健康管理專科學校，本區段外距900M",
+      "source": "manual"
+    },
+    {
+      "key": "market",
+      "label": "接近傳統市場之程度",
+      "group": "公共建設",
+      "value": "金山區第一零售傳統市場，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "market_supermarket",
+      "label": "接近超級市場之程度",
+      "group": "公共建設",
+      "value": "全聯金山門市，本區段外距80M",
+      "source": "manual"
+    },
+    {
+      "key": "market_mall",
+      "label": "接近超大型購物中心之程度",
+      "group": "公共建設",
+      "value": "大潤發金山店，本區段外距1200M",
+      "source": "manual"
+    },
+    {
+      "key": "park",
+      "label": "接近里鄰公園之程度",
+      "group": "公共建設",
+      "value": "中山溫泉里郡公園，本區段內",
+      "source": "ai"
+    },
+    {
+      "key": "park_general",
+      "label": "接近一般公園之程度",
+      "group": "公共建設",
+      "value": "金山青年公園，本區段外距300M",
+      "source": "manual"
+    },
+    {
+      "key": "plaza_pedestrian",
+      "label": "接近廣場徒步區之程度",
+      "group": "公共建設",
+      "value": "金山老街觀光徒步區，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "tourism_facility",
+      "label": "觀光遊憩設施",
+      "group": "公共建設",
+      "value": "金包里老街，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "parking",
+      "label": "停車場地",
+      "group": "公共建設",
+      "value": "金包里老街停車場，本區段外距120M",
+      "source": "ai"
+    },
+    {
+      "key": "service_facility",
+      "label": "接近服務性設施的程度",
+      "group": "公共建設",
+      "value": "金山郵局，本區段外距60M",
+      "source": "manual"
+    },
+    {
+      "key": "power_resource",
+      "label": "電力資源",
+      "group": "公共建設",
+      "value": "台電金山服務所供電穩定",
+      "source": "manual"
+    },
+    {
+      "key": "industrial_water",
+      "label": "產業用水及設施",
+      "group": "公共建設",
+      "value": "一般自來水供應，無工業專用水需求",
+      "source": "manual"
+    },
+    {
+      "key": "sewage_facility",
+      "label": "污廢水及廢棄物處理設施",
+      "group": "公共建設",
+      "value": "金山污水下水道系統，本區段內",
+      "source": "manual"
+    },
+
+    {
+      "key": "substation",
+      "label": "電業－變電所或高壓鐵塔",
+      "group": "特殊設施",
+      "value": "金山變電所，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "gas_tank",
+      "label": "氣體燃料－瓦斯槽或儲油槽",
+      "group": "特殊設施",
+      "value": "中油金山站，本區段外距440M",
+      "source": "manual"
+    },
+    {
+      "key": "cemetery",
+      "label": "殯葬－墓地",
+      "group": "特殊設施",
+      "value": "金山第1公墓，本區段外距80M",
+      "source": "ai"
+    },
+    {
+      "key": "funeral_home",
+      "label": "殯葬－殯儀館",
+      "group": "特殊設施",
+      "value": "金山生命紀念館，本區段外距600M",
+      "source": "manual"
+    },
+    {
+      "key": "crematorium",
+      "label": "殯葬－火葬場",
+      "group": "特殊設施",
+      "value": "新北市立金山火化場，本區段外距1500M",
+      "source": "manual"
+    },
+    {
+      "key": "columbarium",
+      "label": "殯葬－納骨塔",
+      "group": "特殊設施",
+      "value": "金山區公所福緣納骨堂，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "sewage_plant",
+      "label": "廢棄物處理－污水處理場",
+      "group": "特殊設施",
+      "value": "金山污水處理廠，本區段外距900M",
+      "source": "manual"
+    },
+    {
+      "key": "landfill",
+      "label": "廢棄物處理－垃圾場或掩埋場",
+      "group": "特殊設施",
+      "value": "瑞芳掩埋場，本區段外距5000M",
+      "source": "manual"
+    },
+    {
+      "key": "incinerator",
+      "label": "廢棄物處理－焚化爐",
+      "group": "特殊設施",
+      "value": "北海岸垃圾焚化廠，本區段外距3000M",
+      "source": "manual"
+    },
+
+    {
+      "key": "department_store",
+      "label": "百貨公司",
+      "group": "工商活動",
+      "value": "金山百貨廣場，數量1，本區段外距600M",
+      "source": "manual"
+    },
+    {
+      "key": "financial_institution",
+      "label": "金融機構",
+      "group": "工商活動",
+      "value": "新北市金山地區農會，數量1，本區段外距210M",
+      "source": "ai"
+    },
+    {
+      "key": "entertainment",
+      "label": "娛樂設施",
+      "group": "工商活動",
+      "value": "金山KTV育樂中心，數量1，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "exhibition_hotel",
+      "label": "大型展示中心或觀光飯店",
+      "group": "工商活動",
+      "value": "新北北海溫泉洲際酒店，數量1，本區段外距850M",
+      "source": "manual"
+    },
+    {
+      "key": "customer_flow",
+      "label": "顧客之通行量",
+      "group": "工商活動",
+      "value": "顧客通行量多",
+      "source": "manual"
+    },
+    {
+      "key": "shop_adjacency",
+      "label": "店鋪之毗連狀態",
+      "group": "工商活動",
+      "value": "90%以上作為店鋪",
+      "source": "manual"
+    },
+
+    {
+      "key": "water_pollution",
+      "label": "水污染",
+      "group": "環境污染",
+      "value": "鄰近工廠廢水排放，本區段外距50M",
+      "source": "manual"
+    },
+    {
+      "key": "noise_pollution",
+      "label": "噪音污染",
+      "group": "環境污染",
+      "value": "鄰近道路交通噪音，本區段內",
+      "source": "manual"
+    },
+    {
+      "key": "air_pollution",
+      "label": "廢氣污染",
+      "group": "環境污染",
+      "value": "鄰近工廠廢氣排放，本區段外距200M",
+      "source": "manual"
+    },
+    {
+      "key": "waste_pollution",
+      "label": "廢棄物污染",
+      "group": "環境污染",
+      "value": "鄰近資源回收場，本區段外距150M",
+      "source": "manual"
+    },
+    {
+      "key": "other_pollution",
+      "label": "其他污染",
+      "group": "環境污染",
+      "value": "偶有光害影響，本區段內",
+      "source": "manual"
+    },
+
+    {
+      "key": "other_factors",
+      "label": "其他影響因素",
+      "group": "其他影響因素",
+      "value": "",
+      "source": "manual"
+    },
+
+    {
+      "key": "building_density",
+      "label": "建築密度",
+      "group": "房屋建築現況",
+      "value": "95%",
+      "source": "manual"
+    },
+    {
+      "key": "building_type",
+      "label": "建築型態",
+      "group": "房屋建築現況",
+      "value": "連棟透天厝、公寓",
+      "source": "manual"
+    },
+
+    {
+      "key": "land_use_status",
+      "label": "土地利用現況",
+      "group": "土地利用現況",
+      "value": "住商混合",
+      "source": "manual"
+    }
+  ],
+  "benchmark": {
+    "location": "新北市金山區金美段489地號",
+    "area": "113.21",
+    "width": "5",
+    "depth": "23",
+    "shape": "方形",
+    "frontage": "單面臨街",
+    "terrain": "平坦",
+    "roadType": "主要道路",
+    "roadName": "中山路",
+    "roadWidth": "18",
+    "schoolName": "金山國小",
+    "schoolDistance": "150",
+    "marketName": "金山區第一零售傳統市場",
+    "marketDistance": "0",
+    "parkName": "中山溫泉里郡公園",
+    "parkDistance": "0",
+    "stationName": "金山區公所站",
+    "stationDistance": "0",
+    "districtName": "老街商圈",
+    "districtDistance": "0",
+    "disamenityName": "金山第1公墓",
+    "disamenityDistance": "80",
+    "parking": "可路邊停車",
+    "zoning": "第二種商業區",
+    "coverageRatio": "70%",
+    "plotRatio": "240%",
+    "buildRestriction": "無",
+    "sectionId": "P002-00"
+  }
+}

@@ -1,0 +1,2865 @@
+{
+  "regionalFactors": {
+    "raw": "區域因素",
+    "categories": [
+      {
+        "key": "landUseRegulation",
+        "raw": "土地使用管制",
+        "items": [
+          {
+            "key": "insideOutsideUrbanPlan",
+            "raw": "都市計畫內外",
+            "remarks": "以都市計畫內外來制定其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "都市計畫內",
+                  "value": "insideUrbanPlan"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -20,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "都市計畫外",
+                  "value": "outsideUrbanPlan"
+                }
+              }
+            ]
+          },
+          {
+            "key": "zoningDesignation",
+            "raw": "使用分區﹝編定﹞",
+            "remarks": "以都市計畫使用分區及土地編定用地來制定其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "第二種商業區",
+                  "value": "commercialZone2"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "市場用地",
+                  "value": "marketLand"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -10,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "第二種住宅區",
+                  "value": "residentialZone2"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -15,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "第一種住宅區",
+                  "value": "residentialZone1"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -20,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "其他分區",
+                  "value": "otherZone"
+                }
+              }
+            ]
+          },
+          {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "remarks": "以建蔽率高低來制定其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "60%以上",
+                  "min": 60,
+                  "max": null,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "50%以上未滿60%",
+                  "min": 50,
+                  "max": 60,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "45%以上未滿50%",
+                  "min": 45,
+                  "max": 50,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "40%以上未滿45%",
+                  "min": 40,
+                  "max": 45,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿40%",
+                  "min": null,
+                  "max": 40,
+                  "unit": "%"
+                }
+              }
+            ]
+          },
+          {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "remarks": "以容積率高低來制定其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "240%以上",
+                  "min": 240,
+                  "max": null,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "200%以上未滿240%",
+                  "min": 200,
+                  "max": 240,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -20,
+                "criteria": {
+                  "type": "range",
+                  "raw": "160%以上未滿200%",
+                  "min": 160,
+                  "max": 200,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -30,
+                "criteria": {
+                  "type": "range",
+                  "raw": "120%以上未滿160%",
+                  "min": 120,
+                  "max": 160,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -40,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿120%",
+                  "min": null,
+                  "max": 120,
+                  "unit": "%"
+                }
+              }
+            ]
+          },
+          {
+            "key": "buildingProhibition",
+            "raw": "有無禁止建築",
+            "remarks": "以區段內有無禁止建築來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "boolean",
+                  "raw": "無",
+                  "present": false
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -40,
+                "criteria": {
+                  "type": "boolean",
+                  "raw": "有",
+                  "present": true
+                }
+              }
+            ]
+          },
+          {
+            "key": "buildingRestriction",
+            "raw": "有無限制建築",
+            "remarks": "以該地區有無限制建築及開發來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "boolean",
+                  "raw": "無",
+                  "present": false
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -40,
+                "criteria": {
+                  "type": "boolean",
+                  "raw": "有",
+                  "present": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "trafficAndTransport",
+        "raw": "交通運輸",
+        "items": [
+          {
+            "key": "mainRoadWidth",
+            "raw": "主要道路寬度",
+            "remarks": "以區段內主要道路寬度來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "30m以上",
+                  "min": 30,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -3.75,
+                "criteria": {
+                  "type": "range",
+                  "raw": "20m以上未滿30m",
+                  "min": 20,
+                  "max": 30,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "15m以上未滿20m",
+                  "min": 15,
+                  "max": 20,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -11.25,
+                "criteria": {
+                  "type": "range",
+                  "raw": "10m以上未滿15m",
+                  "min": 10,
+                  "max": 15,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -15,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿10m或無",
+                  "min": null,
+                  "max": 10,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "averageRoadWidthInSection",
+            "raw": "區段內道路平均寬度",
+            "remarks": "以區段內已開闢道路平均寬度來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "20m以上",
+                  "min": 20,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "15m以上未滿20m",
+                  "min": 15,
+                  "max": 20,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "10m以上未滿15m",
+                  "min": 10,
+                  "max": 15,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "6m以上未滿10m",
+                  "min": 6,
+                  "max": 10,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿6m或無",
+                  "min": null,
+                  "max": 6,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToMajorStation",
+            "raw": "接近大型車站之程度",
+            "remarks": "以接近大型車站距離程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿2,000m",
+                  "min": 1000,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2,000m以上未滿3,000m",
+                  "min": 2000,
+                  "max": 3000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "3,000m以上",
+                  "min": 3000,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToBusStop",
+            "raw": "站牌之接近程度或密集程度",
+            "remarks": "以接近站牌距離程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿200m",
+                  "min": null,
+                  "max": 200,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "200km以上未滿400m",
+                  "min": 200,
+                  "max": 400,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "400m以上未滿700m",
+                  "min": 400,
+                  "max": 700,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "700m以上",
+                  "min": 700,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToInterchange",
+            "raw": "交流道之有無及接近交流道之程度",
+            "remarks": "以各地價區段至交流道距離計算",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,500m",
+                  "min": 500,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,500m以上未滿3,000m",
+                  "min": 1500,
+                  "max": 3000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "3,000m以上未滿4,500m",
+                  "min": 3000,
+                  "max": 4500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "4,500m以上",
+                  "min": 4500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "roadPlanningAndConstructionLevel",
+            "raw": "區段內道路規劃及闢建程度",
+            "remarks": "以區段內道路規劃及闢建程度來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "已完全開發",
+                  "value": "fullyDeveloped"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "大部分已完成",
+                  "value": "mostlyCompleted"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "已規劃及闢建中",
+                  "value": "plannedUnderConstruction"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "已進行規劃",
+                  "value": "planningInProgress"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "尚未規劃",
+                  "value": "notYetPlanned"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "naturalConditions",
+        "raw": "自然條件",
+        "items": [
+          {
+            "key": "drainageQuality",
+            "raw": "排水之良否",
+            "remarks": "以排水系統是否良好來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "排水系統完善不曾淹水",
+                  "value": "drainageExcellentNoFlooding"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "有排水系統不易淹水",
+                  "value": "drainageFloodResistant"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "有排水系統偶有淹水但排水速度快",
+                  "value": "drainageOccasionalFloodingFastDrain"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "有排水系統偶有淹水",
+                  "value": "drainageOccasionalFlooding"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "無排水系統易淹水",
+                  "value": "noDrainageFloodProne"
+                }
+              }
+            ]
+          },
+          {
+            "key": "terrain",
+            "raw": "地勢",
+            "remarks": "以地勢平坦完整來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "該區地勢平坦",
+                  "value": "areaFlat"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "該區大部分地勢平坦",
+                  "value": "areaMostlyFlat"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "該區一半地勢平坦",
+                  "value": "areaHalfFlat"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "該區大部分地勢高亢或低窪",
+                  "value": "areaMostlyElevatedOrLowLying"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "該區全部地勢高亢或低窪",
+                  "value": "areaElevatedOrLowLying"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "publicInfrastructure",
+        "raw": "公共建設",
+        "items": [
+          {
+            "key": "proximityToMarket",
+            "raw": "接近市場之程度",
+            "remarks": "以接近傳統市場、超級市場或超大型購物中心之距離來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -4.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿1,800m",
+                  "min": 1000,
+                  "max": 1800,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,800m以上或無",
+                  "min": 1800,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToParkPlazaPedestrianZone",
+            "raw": "接近公園、廣場、徒步區之程度",
+            "remarks": "以接近鄰里公園、一般公園、廣場、徒步區之距離來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -4.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿1,800m",
+                  "min": 1000,
+                  "max": 1800,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,800m以上或無",
+                  "min": 1800,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToTouristRecreationFacility",
+            "raw": "接近觀光遊憩設施之程度",
+            "remarks": "以接近觀光遊憩設施程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -0.75,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -1.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -2.25,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000km以上未滿1,500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,500m以上或無",
+                  "min": 1500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "parkingConvenience",
+            "raw": "停車場地之便利程度",
+            "remarks": "以接近停車位的距離衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿200m",
+                  "min": null,
+                  "max": 200,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "200m以上未滿400m",
+                  "min": 200,
+                  "max": 400,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "400m以上未滿700m",
+                  "min": 400,
+                  "max": 700,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "700m以上或無",
+                  "min": 700,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "specialFacilities",
+        "raw": "特殊設施",
+        "items": [
+          {
+            "key": "proximityToUtilityGasFacility",
+            "raw": "電業設施及公用氣體燃料設施之有無及接近程度",
+            "remarks": "以區段內是否有此特殊設施及接近該等設施距離之遠近來衡量",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "3,000m以上",
+                  "min": 3000,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2,000m以上未滿3,000m",
+                  "min": 2000,
+                  "max": 3000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿2,000m",
+                  "min": 1000,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToFuneralFacility",
+            "raw": "殯葬設施之有無及接近程度",
+            "remarks": "以該地區有無墓地、殯儀館、火葬場及接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "3,000m以上",
+                  "min": 3000,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2,000m以上未滿3,000m",
+                  "min": 2000,
+                  "max": 3000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿2,000m",
+                  "min": 1000,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToWasteFacility",
+            "raw": "廢棄物處理設施之有無及接近程度",
+            "remarks": "以該地區有無垃圾場、掩埋場、焚化爐及接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "3,000m以上",
+                  "min": 3000,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2,000m以上未滿3,000m",
+                  "min": 2000,
+                  "max": 3000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿2,000m",
+                  "min": 1000,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "environmentalPollution",
+        "raw": "環境汙染",
+        "items": [
+          {
+            "key": "proximityToPollutionSource",
+            "raw": "環境污染之有無及接近程度",
+            "remarks": "以區段內是否有污染設施及接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "3,000m以上",
+                  "min": 3000,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2,000m以上未滿3,000m",
+                  "min": 2000,
+                  "max": 3000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿2,000m",
+                  "min": 1000,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -4.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "commercialActivity",
+        "raw": "工商活動",
+        "items": [
+          {
+            "key": "proximityToDepartmentStore",
+            "raw": "百貨公司之有無、數量、接近程度",
+            "remarks": "以百貨公司之接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿1,500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,500m以上或無",
+                  "min": 1500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToFinancialInstitution",
+            "raw": "金融機構之有無、數量、接近程度",
+            "remarks": "以金融機構之接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿1,500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,500m以上或無",
+                  "min": 1500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToEntertainmentFacility",
+            "raw": "娛樂設施之有無、數量、接近程度",
+            "remarks": "以娛樂設施之接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿1,500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,500m以上或無",
+                  "min": 1500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToExhibitionCenterOrHotel",
+            "raw": "大型展示中心或觀光飯店之有無、數量、接近程度",
+            "remarks": "以大型展示中心或觀光飯店之接近程度來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "區段內有",
+                  "value": "presentInSection"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1,000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,000m以上未滿1,500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1,500m以上或無",
+                  "min": 1500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "customerTrafficVolume",
+            "raw": "顧客通行量之多寡",
+            "remarks": "以平均顧客通行量之多寡來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "顧客通行量多",
+                  "value": "highCustomerTraffic"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -3,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "顧客通行量稍多",
+                  "value": "slightlyHighCustomerTraffic"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -6,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "顧客通行量普通",
+                  "value": "averageCustomerTraffic"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -9,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "顧客通行量較少",
+                  "value": "relativelyLowCustomerTraffic"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -12,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "顧客通行量少",
+                  "value": "lowCustomerTraffic"
+                }
+              }
+            ]
+          },
+          {
+            "key": "shopContiguityRatio",
+            "raw": "店舖之毗連狀態",
+            "remarks": "以區段內店舖多寡來衡量其優劣等級",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "80%以上作為店舖",
+                  "min": 80,
+                  "max": null,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "70%以上未滿80%作為店舖",
+                  "min": 70,
+                  "max": 80,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "60%以上未滿70%作為店舖",
+                  "min": 60,
+                  "max": 70,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -9,
+                "criteria": {
+                  "type": "range",
+                  "raw": "50%以上未滿60%作為店舖",
+                  "min": 50,
+                  "max": 60,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -12,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿50%作為店舖",
+                  "min": null,
+                  "max": 50,
+                  "unit": "%"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "individualFactors": {
+    "raw": "個別因素",
+    "categories": [
+      {
+        "key": "lotCondition",
+        "raw": "宗地條件",
+        "items": [
+          {
+            "key": "area",
+            "raw": "面積",
+            "remarks": "以宗地面積是否達最適開發規模衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "93m2以上",
+                  "min": 93,
+                  "max": null,
+                  "unit": "m2"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "83m2以上未滿93m2",
+                  "min": 83,
+                  "max": 93,
+                  "unit": "m2"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "73m2以上未滿83m2",
+                  "min": 73,
+                  "max": 83,
+                  "unit": "m2"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "63m2以上未滿73m2",
+                  "min": 63,
+                  "max": 73,
+                  "unit": "m2"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿63m2",
+                  "min": null,
+                  "max": 63,
+                  "unit": "m2"
+                }
+              }
+            ]
+          },
+          {
+            "key": "width",
+            "raw": "寬度",
+            "remarks": "以宗地寬度衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "40m以上",
+                  "min": 40,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "20m以上未滿40m",
+                  "min": 20,
+                  "max": 40,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "10m以上未滿20m",
+                  "min": 10,
+                  "max": 20,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "5m以上未滿10m",
+                  "min": 5,
+                  "max": 10,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿5m",
+                  "min": null,
+                  "max": 5,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "depth",
+            "raw": "深度",
+            "remarks": "以宗地深度衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "40m以上未滿100m",
+                  "min": 40,
+                  "max": 100,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "30m以上未滿40m",
+                  "min": 30,
+                  "max": 40,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "20m以上未滿30m",
+                  "min": 20,
+                  "max": 30,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "10m以上未滿20m",
+                  "min": 10,
+                  "max": 20,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿10m或100m以上",
+                  "min": null,
+                  "max": 10,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "shape",
+            "raw": "形狀",
+            "remarks": "以宗地形狀是否易於規劃利用衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "方形",
+                  "value": "square"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "不規則形",
+                  "value": "irregularShape"
+                }
+              }
+            ]
+          },
+          {
+            "key": "roadFrontageCondition",
+            "raw": "臨路情形",
+            "remarks": "以宗地實際臨街情況衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "3面以上臨街",
+                  "value": "threePlusSideFrontage"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "路角地",
+                  "value": "cornerLot"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "雙面臨街",
+                  "value": "twoSideFrontage"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "單面臨街",
+                  "value": "oneSideFrontage"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "非臨街地",
+                  "value": "noFrontage"
+                }
+              }
+            ]
+          },
+          {
+            "key": "terrain",
+            "raw": "地勢",
+            "remarks": "以宗地地勢高低衡量其優劣。",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "平坦",
+                  "value": "flat"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -1.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "緩坡",
+                  "value": "gentleSlope"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -3,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "低窪",
+                  "value": "lowLying"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "roadCondition",
+        "raw": "道路條件",
+        "items": [
+          {
+            "key": "roadType",
+            "raw": "道路種類",
+            "remarks": "以道路種類衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "主要道路",
+                  "value": "mainRoadWidth"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "次要道路",
+                  "value": "secondaryRoad"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "巷道",
+                  "value": "lane"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "既成巷道",
+                  "value": "establishedLane"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "私設巷道",
+                  "value": "privateLane"
+                }
+              }
+            ]
+          },
+          {
+            "key": "frontageRoadWidth",
+            "raw": "面前道路寬度",
+            "remarks": "以道路面前道路寬度量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "20m以上",
+                  "min": 20,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "15m以上未滿20m",
+                  "min": 15,
+                  "max": 20,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "8m以上未滿15m",
+                  "min": 8,
+                  "max": 15,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "4m以上未滿8m",
+                  "min": 4,
+                  "max": 8,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿4m",
+                  "min": null,
+                  "max": 4,
+                  "unit": "m"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "proximityCondition",
+        "raw": "接近條件",
+        "items": [
+          {
+            "key": "proximityToSchool",
+            "raw": "接近學校程度",
+            "remarks": "以宗地接近學校程度衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿200m",
+                  "min": null,
+                  "max": 200,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "200m以上未滿600m",
+                  "min": 200,
+                  "max": 600,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "600m以上未滿1200m",
+                  "min": 600,
+                  "max": 1200,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1200m以上未滿2000m",
+                  "min": 1200,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2000m以上或無",
+                  "min": 2000,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToMarket",
+            "raw": "接近市場程度",
+            "remarks": "以宗地接近市場程度衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1000m以上未滿1500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1500m以上未滿2000m",
+                  "min": 1500,
+                  "max": 2000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2000m以上或無",
+                  "min": 2000,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToParkPlaza",
+            "raw": "接近公園、廣場程度",
+            "remarks": "以宗地接近公園、廣場程度衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿300m",
+                  "min": null,
+                  "max": 300,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "300m以上未滿500m",
+                  "min": 300,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1000m以上未滿1500m",
+                  "min": 1000,
+                  "max": 1500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1500m以上或無",
+                  "min": 1500,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToStation",
+            "raw": "接近車站程度",
+            "remarks": "以宗地接近車站程度衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿300m",
+                  "min": null,
+                  "max": 300,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "criteria": {
+                  "type": "range",
+                  "raw": "300m以上未滿400m",
+                  "min": 300,
+                  "max": 400,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "400m以上未滿600m",
+                  "min": 400,
+                  "max": 600,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "600m以上未滿800m",
+                  "min": 600,
+                  "max": 800,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "800m以上或無",
+                  "min": 800,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "proximityToCommercialDistrict",
+            "raw": "接近商圈程度",
+            "remarks": "以宗地接近商圈之程度來衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿500m",
+                  "min": null,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上未滿1000m",
+                  "min": 500,
+                  "max": 1000,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1000m以上未滿1800m",
+                  "min": 1000,
+                  "max": 1800,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "1800m以上未滿2800m",
+                  "min": 1800,
+                  "max": 2800,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "criteria": {
+                  "type": "range",
+                  "raw": "2800m以上或無",
+                  "min": 2800,
+                  "max": null,
+                  "unit": "m"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "surroundingEnvironment",
+        "raw": "周邊環境條件",
+        "items": [
+          {
+            "key": "presenceOfNoxiousFacility",
+            "raw": "嫌惡設施之有無",
+            "remarks": "以宗地周圍環境是否有嫌惡設施衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "500m以上或無",
+                  "min": 500,
+                  "max": null,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "300m以上未滿500m",
+                  "min": 300,
+                  "max": 500,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "criteria": {
+                  "type": "range",
+                  "raw": "200m以上未滿300m",
+                  "min": 200,
+                  "max": 300,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -4.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "100m以上未滿200m",
+                  "min": 100,
+                  "max": 200,
+                  "unit": "m"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -6,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿100m",
+                  "min": null,
+                  "max": 100,
+                  "unit": "m"
+                }
+              }
+            ]
+          },
+          {
+            "key": "parkingConvenience",
+            "raw": "停車方便性",
+            "remarks": "以宗地周圍環境停車方便性衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "可路邊停車",
+                  "value": "roadsideParkingAllowed"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -2,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "不可路邊停車",
+                  "value": "roadsideParkingNotAllowed"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "administrativeCondition",
+        "raw": "行政條件",
+        "items": [
+          {
+            "key": "zoningDesignation",
+            "raw": "使用分區或編定",
+            "remarks": "以使用分區或編定衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "商業區",
+                  "value": "commercialZone"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -3.75,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "住宅區",
+                  "value": "residentialZone"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -7.5,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "甲建、乙建",
+                  "value": "classABLand"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -11.25,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "農業區、保護區建地目",
+                  "value": "agriculturalConservationZoneBuildable"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -15,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "農業區、保護區已建築用地",
+                  "value": "agriculturalConservationZoneBuilt"
+                }
+              }
+            ]
+          },
+          {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "remarks": "以建蔽率衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "80％以上",
+                  "min": 80,
+                  "max": null,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "70％以上未滿80％",
+                  "min": 70,
+                  "max": 80,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "60％以上未滿70％",
+                  "min": 60,
+                  "max": 70,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -7.5,
+                "criteria": {
+                  "type": "range",
+                  "raw": "50％以上未滿60％",
+                  "min": 50,
+                  "max": 60,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿50％",
+                  "min": null,
+                  "max": 50,
+                  "unit": "%"
+                }
+              }
+            ]
+          },
+          {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "remarks": "以容積率衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "range",
+                  "raw": "300％以上",
+                  "min": 300,
+                  "max": null,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -10,
+                "criteria": {
+                  "type": "range",
+                  "raw": "240％以上未滿300％",
+                  "min": 240,
+                  "max": 300,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "average",
+                "raw": "普通",
+                "value": -20,
+                "criteria": {
+                  "type": "range",
+                  "raw": "200％以上未滿240％",
+                  "min": 200,
+                  "max": 240,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "slightlyInferior",
+                "raw": "稍劣",
+                "value": -30,
+                "criteria": {
+                  "type": "range",
+                  "raw": "120％以上未滿200％",
+                  "min": 120,
+                  "max": 200,
+                  "unit": "%"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -40,
+                "criteria": {
+                  "type": "range",
+                  "raw": "未滿120％",
+                  "min": null,
+                  "max": 120,
+                  "unit": "%"
+                }
+              }
+            ]
+          },
+          {
+            "key": "buildingProhibitionOrRestriction",
+            "raw": "有無禁限建",
+            "remarks": "以有無禁限建衡量其優劣",
+            "grades": [
+              {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "無禁止或限制建築",
+                  "value": "noBuildingRestriction"
+                }
+              },
+              {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -40,
+                "criteria": {
+                  "type": "enum",
+                  "raw": "有禁止或限制建築",
+                  "value": "buildingProhibitedOrRestricted"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

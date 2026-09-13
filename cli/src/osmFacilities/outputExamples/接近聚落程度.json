@@ -1,0 +1,3528 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.0002
+  },
+  "radiusMeters": 50000,
+  "tags": [
+    "place=village",
+    "place=town"
+  ],
+  "failedTags": [],
+  "matches": [
+    {
+      "tag": "place=village",
+      "name": "歡仔園",
+      "lat": 25.009147,
+      "lon": 121.448473,
+      "metersToCenter": 1027
+    },
+    {
+      "tag": "place=village",
+      "name": "枋橋",
+      "lat": 25.0103832,
+      "lon": 121.4559981,
+      "metersToCenter": 1239
+    },
+    {
+      "tag": "place=village",
+      "name": "清水",
+      "lat": 24.9858396,
+      "lon": 121.4586319,
+      "metersToCenter": 1772
+    },
+    {
+      "tag": "place=village",
+      "name": "社後",
+      "lat": 25.017107,
+      "lon": 121.455641,
+      "metersToCenter": 1937
+    },
+    {
+      "tag": "place=village",
+      "name": "新板特區",
+      "lat": 25.0130105,
+      "lon": 121.4651103,
+      "metersToCenter": 2013
+    },
+    {
+      "tag": "place=village",
+      "name": "穗和",
+      "lat": 25.006033,
+      "lon": 121.471816,
+      "metersToCenter": 2196
+    },
+    {
+      "tag": "place=village",
+      "name": "深丘",
+      "lat": 25.012716,
+      "lon": 121.473574,
+      "metersToCenter": 2667
+    },
+    {
+      "tag": "place=village",
+      "name": "瓊林",
+      "lat": 25.0232094,
+      "lon": 121.4382869,
+      "metersToCenter": 2861
+    },
+    {
+      "tag": "place=village",
+      "name": "埔墘",
+      "lat": 25.018266,
+      "lon": 121.480073,
+      "metersToCenter": 3552
+    },
+    {
+      "tag": "place=village",
+      "name": "新庄(海山口)",
+      "lat": 25.034358,
+      "lon": 121.4528462,
+      "metersToCenter": 3803
+    },
+    {
+      "tag": "place=village",
+      "name": "三角埔",
+      "lat": 25.0151338,
+      "lon": 121.4155452,
+      "metersToCenter": 3940
+    },
+    {
+      "tag": "place=village",
+      "name": "中坑",
+      "lat": 24.9886093,
+      "lon": 121.4896739,
+      "metersToCenter": 4105
+    },
+    {
+      "tag": "place=village",
+      "name": "營盤",
+      "lat": 25.0324231,
+      "lon": 121.4309853,
+      "metersToCenter": 4112
+    },
+    {
+      "tag": "place=village",
+      "name": "貴子坑",
+      "lat": 25.039207,
+      "lon": 121.4239905,
+      "metersToCenter": 5120
+    },
+    {
+      "tag": "place=village",
+      "name": "枋寮",
+      "lat": 25.0007812,
+      "lon": 121.5025848,
+      "metersToCenter": 5199
+    },
+    {
+      "tag": "place=village",
+      "name": "西園",
+      "lat": 25.0281544,
+      "lon": 121.4942008,
+      "metersToCenter": 5349
+    },
+    {
+      "tag": "place=village",
+      "name": "中港厝",
+      "lat": 25.0489742,
+      "lon": 121.4521789,
+      "metersToCenter": 5425
+    },
+    {
+      "tag": "place=village",
+      "name": "東園",
+      "lat": 25.022495,
+      "lon": 121.4996891,
+      "metersToCenter": 5497
+    },
+    {
+      "tag": "place=village",
+      "name": "頂埔",
+      "lat": 24.9587175,
+      "lon": 121.417316,
+      "metersToCenter": 5727
+    },
+    {
+      "tag": "place=village",
+      "name": "新生地",
+      "lat": 25.0148107,
+      "lon": 121.5071046,
+      "metersToCenter": 5882
+    },
+    {
+      "tag": "place=village",
+      "name": "頭前",
+      "lat": 25.0516921,
+      "lon": 121.4664536,
+      "metersToCenter": 5934
+    },
+    {
+      "tag": "place=village",
+      "name": "下崁",
+      "lat": 25.0334472,
+      "lon": 121.4971576,
+      "metersToCenter": 5941
+    },
+    {
+      "tag": "place=village",
+      "name": "溪洲",
+      "lat": 25.0108925,
+      "lon": 121.5128016,
+      "metersToCenter": 6340
+    },
+    {
+      "tag": "place=village",
+      "name": "潭漧",
+      "lat": 24.996123,
+      "lon": 121.5157115,
+      "metersToCenter": 6537
+    },
+    {
+      "tag": "place=village",
+      "name": "山佳",
+      "lat": 24.972018,
+      "lon": 121.3923924,
+      "metersToCenter": 6687
+    },
+    {
+      "tag": "place=village",
+      "name": "艋舺",
+      "lat": 25.0399845,
+      "lon": 121.5015673,
+      "metersToCenter": 6748
+    },
+    {
+      "tag": "place=village",
+      "name": "媽祖田",
+      "lat": 24.9506068,
+      "lon": 121.4096652,
+      "metersToCenter": 6912
+    },
+    {
+      "tag": "place=village",
+      "name": "秀朗",
+      "lat": 25.0038259,
+      "lon": 121.5213401,
+      "metersToCenter": 7100
+    },
+    {
+      "tag": "place=village",
+      "name": "龍匣口",
+      "lat": 25.0316395,
+      "lon": 121.5150796,
+      "metersToCenter": 7343
+    },
+    {
+      "tag": "place=village",
+      "name": "西門町",
+      "lat": 25.0434703,
+      "lon": 121.5071938,
+      "metersToCenter": 7430
+    },
+    {
+      "tag": "place=village",
+      "name": "古亭",
+      "lat": 25.0242642,
+      "lon": 121.5222755,
+      "metersToCenter": 7664
+    },
+    {
+      "tag": "place=village",
+      "name": "柑園",
+      "lat": 24.9562402,
+      "lon": 121.3917647,
+      "metersToCenter": 7716
+    },
+    {
+      "tag": "place=village",
+      "name": "城內",
+      "lat": 25.0423532,
+      "lon": 121.5131779,
+      "metersToCenter": 7824
+    },
+    {
+      "tag": "place=village",
+      "name": "台北站前",
+      "lat": 25.0464264,
+      "lon": 121.5152791,
+      "metersToCenter": 8268
+    },
+    {
+      "tag": "place=village",
+      "name": "後車頭",
+      "lat": 25.0512058,
+      "lon": 121.5154038,
+      "metersToCenter": 8618
+    },
+    {
+      "tag": "place=village",
+      "name": "萬隆",
+      "lat": 25.0032632,
+      "lon": 121.5379741,
+      "metersToCenter": 8771
+    },
+    {
+      "tag": "place=village",
+      "name": "公館",
+      "lat": 25.0081412,
+      "lon": 121.5377121,
+      "metersToCenter": 8783
+    },
+    {
+      "tag": "place=village",
+      "name": "大稻埕",
+      "lat": 25.0584461,
+      "lon": 121.5118999,
+      "metersToCenter": 8922
+    },
+    {
+      "tag": "place=village",
+      "name": "華山",
+      "lat": 25.0442253,
+      "lon": 121.5250255,
+      "metersToCenter": 8922
+    },
+    {
+      "tag": "place=village",
+      "name": "建成",
+      "lat": 25.0537881,
+      "lon": 121.5171047,
+      "metersToCenter": 8937
+    },
+    {
+      "tag": "place=village",
+      "name": "橫溪",
+      "lat": 24.9367632,
+      "lon": 121.395543,
+      "metersToCenter": 9000
+    },
+    {
+      "tag": "place=village",
+      "name": "安坑",
+      "lat": 24.919133,
+      "lon": 121.463878,
+      "metersToCenter": 9107
+    },
+    {
+      "tag": "place=village",
+      "name": "南西商圈",
+      "lat": 25.0523658,
+      "lon": 121.52237,
+      "metersToCenter": 9239
+    },
+    {
+      "tag": "place=village",
+      "name": "雙連",
+      "lat": 25.061412,
+      "lon": 121.515424,
+      "metersToCenter": 9405
+    },
+    {
+      "tag": "place=village",
+      "name": "北大特區",
+      "lat": 24.9468533,
+      "lon": 121.378017,
+      "metersToCenter": 9450
+    },
+    {
+      "tag": "place=village",
+      "name": "大坪林",
+      "lat": 24.9745685,
+      "lon": 121.5414876,
+      "metersToCenter": 9555
+    },
+    {
+      "tag": "place=village",
+      "name": "紫微",
+      "lat": 24.916621,
+      "lon": 121.415819,
+      "metersToCenter": 9947
+    },
+    {
+      "tag": "place=village",
+      "name": "大龍峒",
+      "lat": 25.0723694,
+      "lon": 121.5141731,
+      "metersToCenter": 10242
+    },
+    {
+      "tag": "place=village",
+      "name": "菜公堂",
+      "lat": 25.0564367,
+      "lon": 121.368646,
+      "metersToCenter": 10390
+    },
+    {
+      "tag": "place=village",
+      "name": "朱厝崙",
+      "lat": 25.0535892,
+      "lon": 121.5368345,
+      "metersToCenter": 10490
+    },
+    {
+      "tag": "place=village",
+      "name": "中湖",
+      "lat": 24.9738278,
+      "lon": 121.3495708,
+      "metersToCenter": 10635
+    },
+    {
+      "tag": "place=village",
+      "name": "東區商圈",
+      "lat": 25.0417033,
+      "lon": 121.5468187,
+      "metersToCenter": 10701
+    },
+    {
+      "tag": "place=village",
+      "name": "六張犁",
+      "lat": 25.0235569,
+      "lon": 121.5553336,
+      "metersToCenter": 10829
+    },
+    {
+      "tag": "place=village",
+      "name": "中崙",
+      "lat": 25.0477411,
+      "lon": 121.5462838,
+      "metersToCenter": 10960
+    },
+    {
+      "tag": "place=village",
+      "name": "車罾",
+      "lat": 25.0380814,
+      "lon": 121.5550285,
+      "metersToCenter": 11297
+    },
+    {
+      "tag": "place=town",
+      "name": "龜山區",
+      "lat": 24.992517,
+      "lon": 121.337767,
+      "metersToCenter": 11444
+    },
+    {
+      "tag": "place=village",
+      "name": "林口新市鎮",
+      "lat": 25.0648584,
+      "lon": 121.3614343,
+      "metersToCenter": 11538
+    },
+    {
+      "tag": "place=village",
+      "name": "社子",
+      "lat": 25.0902832,
+      "lon": 121.5087733,
+      "metersToCenter": 11585
+    },
+    {
+      "tag": "place=village",
+      "name": "白雞",
+      "lat": 24.9069045,
+      "lon": 121.3997528,
+      "metersToCenter": 11589
+    },
+    {
+      "tag": "place=village",
+      "name": "三張犁",
+      "lat": 25.0299827,
+      "lon": 121.5616343,
+      "metersToCenter": 11629
+    },
+    {
+      "tag": "place=village",
+      "name": "下埤頭",
+      "lat": 25.0651636,
+      "lon": 121.5426692,
+      "metersToCenter": 11725
+    },
+    {
+      "tag": "place=village",
+      "name": "鳳鳴",
+      "lat": 24.9711119,
+      "lon": 121.3372271,
+      "metersToCenter": 11914
+    },
+    {
+      "tag": "place=village",
+      "name": "信義商圈",
+      "lat": 25.0359742,
+      "lon": 121.5668989,
+      "metersToCenter": 12337
+    },
+    {
+      "tag": "place=village",
+      "name": "北投士林科技園區",
+      "lat": 25.0995749,
+      "lon": 121.5077068,
+      "metersToCenter": 12439
+    },
+    {
+      "tag": "place=village",
+      "name": "興雅",
+      "lat": 25.0383205,
+      "lon": 121.5672611,
+      "metersToCenter": 12458
+    },
+    {
+      "tag": "place=village",
+      "name": "廣興",
+      "lat": 24.9137158,
+      "lon": 121.5383469,
+      "metersToCenter": 13039
+    },
+    {
+      "tag": "place=village",
+      "name": "屈尺",
+      "lat": 24.9220815,
+      "lon": 121.5478333,
+      "metersToCenter": 13067
+    },
+    {
+      "tag": "place=village",
+      "name": "二橋",
+      "lat": 24.9410209,
+      "lon": 121.3389861,
+      "metersToCenter": 13069
+    },
+    {
+      "tag": "place=village",
+      "name": "大埔",
+      "lat": 24.9093968,
+      "lon": 121.3657693,
+      "metersToCenter": 13258
+    },
+    {
+      "tag": "place=village",
+      "name": "下塔悠",
+      "lat": 25.0749152,
+      "lon": 121.5556614,
+      "metersToCenter": 13424
+    },
+    {
+      "tag": "place=village",
+      "name": "大樹林庄",
+      "lat": 24.9808558,
+      "lon": 121.3169383,
+      "metersToCenter": 13681
+    },
+    {
+      "tag": "place=village",
+      "name": "頂寮",
+      "lat": 25.1253615,
+      "lon": 121.4517799,
+      "metersToCenter": 13918
+    },
+    {
+      "tag": "place=village",
+      "name": "橋頭",
+      "lat": 24.9354184,
+      "lon": 121.3291462,
+      "metersToCenter": 14240
+    },
+    {
+      "tag": "place=village",
+      "name": "石角",
+      "lat": 25.105623,
+      "lon": 121.5340055,
+      "metersToCenter": 14399
+    },
+    {
+      "tag": "place=village",
+      "name": "潭美",
+      "lat": 25.055738,
+      "lon": 121.581421,
+      "metersToCenter": 14519
+    },
+    {
+      "tag": "place=village",
+      "name": "蘭雅",
+      "lat": 25.1107239,
+      "lon": 121.527971,
+      "metersToCenter": 14531
+    },
+    {
+      "tag": "place=village",
+      "name": "麗山里",
+      "lat": 25.0197244,
+      "lon": 121.5935828,
+      "metersToCenter": 14531
+    },
+    {
+      "tag": "place=village",
+      "name": "龍形",
+      "lat": 25.1319733,
+      "lon": 121.4507478,
+      "metersToCenter": 14653
+    },
+    {
+      "tag": "place=village",
+      "name": "龜山",
+      "lat": 24.902685,
+      "lon": 121.5521367,
+      "metersToCenter": 14884
+    },
+    {
+      "tag": "place=village",
+      "name": "內湖科技園區",
+      "lat": 25.0773182,
+      "lon": 121.5727036,
+      "metersToCenter": 14962
+    },
+    {
+      "tag": "place=village",
+      "name": "插角",
+      "lat": 24.8717851,
+      "lon": 121.4057698,
+      "metersToCenter": 14990
+    },
+    {
+      "tag": "place=town",
+      "name": "桃園區",
+      "lat": 24.993923,
+      "lon": 121.30168,
+      "metersToCenter": 15065
+    },
+    {
+      "tag": "place=village",
+      "name": "奇岩",
+      "lat": 25.1268634,
+      "lon": 121.5087867,
+      "metersToCenter": 15240
+    },
+    {
+      "tag": "place=village",
+      "name": "竹圍",
+      "lat": 25.1376837,
+      "lon": 121.4616139,
+      "metersToCenter": 15325
+    },
+    {
+      "tag": "place=village",
+      "name": "有木",
+      "lat": 24.863295,
+      "lon": 121.432946,
+      "metersToCenter": 15332
+    },
+    {
+      "tag": "place=village",
+      "name": "萬順",
+      "lat": 25.0037983,
+      "lon": 121.6032868,
+      "metersToCenter": 15352
+    },
+    {
+      "tag": "place=village",
+      "name": "桃園藝文特區",
+      "lat": 25.0172396,
+      "lon": 121.2995772,
+      "metersToCenter": 15376
+    },
+    {
+      "tag": "place=village",
+      "name": "廣豐重劃區",
+      "lat": 24.9653579,
+      "lon": 121.2975833,
+      "metersToCenter": 15941
+    },
+    {
+      "tag": "place=village",
+      "name": "下東勢",
+      "lat": 25.1174507,
+      "lon": 121.5424078,
+      "metersToCenter": 15961
+    },
+    {
+      "tag": "place=village",
+      "name": "頂社",
+      "lat": 25.078655,
+      "lon": 121.316795,
+      "metersToCenter": 16091
+    },
+    {
+      "tag": "place=village",
+      "name": "大湳",
+      "lat": 24.960355,
+      "lon": 121.2972,
+      "metersToCenter": 16123
+    },
+    {
+      "tag": "place=village",
+      "name": "四分里",
+      "lat": 25.0262926,
+      "lon": 121.6096817,
+      "metersToCenter": 16251
+    },
+    {
+      "tag": "place=village",
+      "name": "桶壁 Tampya",
+      "lat": 24.8838966,
+      "lon": 121.5490019,
+      "metersToCenter": 16275
+    },
+    {
+      "tag": "place=village",
+      "name": "新北投",
+      "lat": 25.1407179,
+      "lon": 121.5092953,
+      "metersToCenter": 16692
+    },
+    {
+      "tag": "place=village",
+      "name": "阿柔坑",
+      "lat": 24.984176,
+      "lon": 121.616344,
+      "metersToCenter": 16759
+    },
+    {
+      "tag": "place=village",
+      "name": "下罟子",
+      "lat": 25.140635,
+      "lon": 121.387465,
+      "metersToCenter": 16876
+    },
+    {
+      "tag": "place=town",
+      "name": "蘆竹區",
+      "lat": 25.0506448,
+      "lon": 121.2917322,
+      "metersToCenter": 16999
+    },
+    {
+      "tag": "place=village",
+      "name": "紅樹林",
+      "lat": 25.1548094,
+      "lon": 121.4604533,
+      "metersToCenter": 17218
+    },
+    {
+      "tag": "place=village",
+      "name": "更寮腳",
+      "lat": 24.9312139,
+      "lon": 121.2979466,
+      "metersToCenter": 17230
+    },
+    {
+      "tag": "place=village",
+      "name": "新興",
+      "lat": 25.0045111,
+      "lon": 121.2769074,
+      "metersToCenter": 17551
+    },
+    {
+      "tag": "place=village",
+      "name": "小坪頂",
+      "lat": 25.157829,
+      "lon": 121.484497,
+      "metersToCenter": 17849
+    },
+    {
+      "tag": "place=village",
+      "name": "橫科",
+      "lat": 25.0495707,
+      "lon": 121.6203615,
+      "metersToCenter": 17926
+    },
+    {
+      "tag": "place=village",
+      "name": "三重埔",
+      "lat": 25.0577424,
+      "lon": 121.6174995,
+      "metersToCenter": 17954
+    },
+    {
+      "tag": "place=village",
+      "name": "舊莊",
+      "lat": 25.0376481,
+      "lon": 121.6247416,
+      "metersToCenter": 17995
+    },
+    {
+      "tag": "place=village",
+      "name": "僑愛",
+      "lat": 24.9227892,
+      "lon": 121.2941523,
+      "metersToCenter": 18003
+    },
+    {
+      "tag": "place=village",
+      "name": "公田",
+      "lat": 25.158442,
+      "lon": 121.412442,
+      "metersToCenter": 18019
+    },
+    {
+      "tag": "place=village",
+      "name": "昇高坑",
+      "lat": 24.9924,
+      "lon": 121.6306,
+      "metersToCenter": 18121
+    },
+    {
+      "tag": "place=village",
+      "name": "草山",
+      "lat": 25.1381247,
+      "lon": 121.5468754,
+      "metersToCenter": 18123
+    },
+    {
+      "tag": "place=village",
+      "name": "五寮",
+      "lat": 24.8585456,
+      "lon": 121.3589385,
+      "metersToCenter": 18283
+    },
+    {
+      "tag": "place=village",
+      "name": "五分",
+      "lat": 25.0692765,
+      "lon": 121.6164201,
+      "metersToCenter": 18351
+    },
+    {
+      "tag": "place=town",
+      "name": "八德區",
+      "lat": 24.9286511,
+      "lon": 121.2846555,
+      "metersToCenter": 18560
+    },
+    {
+      "tag": "place=village",
+      "name": "崁仔腳庄",
+      "lat": 24.9811177,
+      "lon": 121.2676078,
+      "metersToCenter": 18604
+    },
+    {
+      "tag": "place=village",
+      "name": "山鼻子",
+      "lat": 25.079293,
+      "lon": 121.285881,
+      "metersToCenter": 18817
+    },
+    {
+      "tag": "place=village",
+      "name": "小格頭",
+      "lat": 24.9521537,
+      "lon": 121.6318914,
+      "metersToCenter": 19000
+    },
+    {
+      "tag": "place=village",
+      "name": "滬尾",
+      "lat": 25.1710501,
+      "lon": 121.4391563,
+      "metersToCenter": 19035
+    },
+    {
+      "tag": "place=village",
+      "name": "平等頭",
+      "lat": 25.131242,
+      "lon": 121.575404,
+      "metersToCenter": 19218
+    },
+    {
+      "tag": "place=village",
+      "name": "蘆竹厝",
+      "lat": 25.050341,
+      "lon": 121.2669399,
+      "metersToCenter": 19365
+    },
+    {
+      "tag": "place=village",
+      "name": "哪哮 Lahaw",
+      "lat": 24.8379686,
+      "lon": 121.5268173,
+      "metersToCenter": 19593
+    },
+    {
+      "tag": "place=village",
+      "name": "陽明山",
+      "lat": 25.15273,
+      "lon": 121.549104,
+      "metersToCenter": 19629
+    },
+    {
+      "tag": "place=village",
+      "name": "尾寮",
+      "lat": 24.8824751,
+      "lon": 121.3049232,
+      "metersToCenter": 19705
+    },
+    {
+      "tag": "place=village",
+      "name": "內溝",
+      "lat": 25.086525,
+      "lon": 121.625537,
+      "metersToCenter": 20033
+    },
+    {
+      "tag": "place=village",
+      "name": "霄裡",
+      "lat": 24.9349673,
+      "lon": 121.2648275,
+      "metersToCenter": 20120
+    },
+    {
+      "tag": "place=village",
+      "name": "崎頂",
+      "lat": 24.8996287,
+      "lon": 121.2841076,
+      "metersToCenter": 20203
+    },
+    {
+      "tag": "place=village",
+      "name": "淡海",
+      "lat": 25.1835068,
+      "lon": 121.4197492,
+      "metersToCenter": 20624
+    },
+    {
+      "tag": "place=village",
+      "name": "烏塗窟",
+      "lat": 24.97516,
+      "lon": 121.6560624,
+      "metersToCenter": 20854
+    },
+    {
+      "tag": "place=village",
+      "name": "石碇",
+      "lat": 24.9904776,
+      "lon": 121.6595064,
+      "metersToCenter": 21041
+    },
+    {
+      "tag": "place=village",
+      "name": "埔頂",
+      "lat": 24.89749,
+      "lon": 121.2755961,
+      "metersToCenter": 21051
+    },
+    {
+      "tag": "place=village",
+      "name": "八連",
+      "lat": 25.100385,
+      "lon": 121.629116,
+      "metersToCenter": 21120
+    },
+    {
+      "tag": "place=town",
+      "name": "大溪區",
+      "lat": 24.880584,
+      "lon": 121.286962,
+      "metersToCenter": 21224
+    },
+    {
+      "tag": "place=village",
+      "name": "孝義",
+      "lat": 24.8508374,
+      "lon": 121.5861143,
+      "metersToCenter": 21482
+    },
+    {
+      "tag": "place=village",
+      "name": "三層",
+      "lat": 24.860147,
+      "lon": 121.29568,
+      "metersToCenter": 22086
+    },
+    {
+      "tag": "place=village",
+      "name": "秀山",
+      "lat": 25.0989306,
+      "lon": 121.6430647,
+      "metersToCenter": 22246
+    },
+    {
+      "tag": "place=village",
+      "name": "三民",
+      "lat": 24.8315843,
+      "lon": 121.3305313,
+      "metersToCenter": 22341
+    },
+    {
+      "tag": "place=village",
+      "name": "水尾",
+      "lat": 24.9875,
+      "lon": 121.227778,
+      "metersToCenter": 22541
+    },
+    {
+      "tag": "place=town",
+      "name": "復興區",
+      "lat": 24.8153769,
+      "lon": 121.351898,
+      "metersToCenter": 22853
+    },
+    {
+      "tag": "place=village",
+      "name": "中壢新街",
+      "lat": 24.9617203,
+      "lon": 121.2277404,
+      "metersToCenter": 22906
+    },
+    {
+      "tag": "place=village",
+      "name": "海湖",
+      "lat": 25.1094361,
+      "lon": 121.2575145,
+      "metersToCenter": 22965
+    },
+    {
+      "tag": "place=town",
+      "name": "中壢區",
+      "lat": 24.9653531,
+      "lon": 121.224926,
+      "metersToCenter": 23113
+    },
+    {
+      "tag": "place=village",
+      "name": "內柵",
+      "lat": 24.857941,
+      "lon": 121.281889,
+      "metersToCenter": 23260
+    },
+    {
+      "tag": "place=village",
+      "name": "北新庄",
+      "lat": 25.205196,
+      "lon": 121.5010501,
+      "metersToCenter": 23345
+    },
+    {
+      "tag": "place=village",
+      "name": "埔心",
+      "lat": 25.053504,
+      "lon": 121.225492,
+      "metersToCenter": 23481
+    },
+    {
+      "tag": "place=village",
+      "name": "中壢老街",
+      "lat": 24.9549657,
+      "lon": 121.2216278,
+      "metersToCenter": 23660
+    },
+    {
+      "tag": "place=town",
+      "name": "平鎮區",
+      "lat": 24.9457522,
+      "lon": 121.2183594,
+      "metersToCenter": 24219
+    },
+    {
+      "tag": "place=village",
+      "name": "友蚋",
+      "lat": 25.109686,
+      "lon": 121.664938,
+      "metersToCenter": 24751
+    },
+    {
+      "tag": "place=village",
+      "name": "德拉楠 Tranan",
+      "lat": 24.7783195,
+      "lon": 121.5027157,
+      "metersToCenter": 25217
+    },
+    {
+      "tag": "place=village",
+      "name": "沙崙",
+      "lat": 25.094129,
+      "lon": 121.222581,
+      "metersToCenter": 25270
+    },
+    {
+      "tag": "place=village",
+      "name": "宋屋",
+      "lat": 24.943889,
+      "lon": 121.206111,
+      "metersToCenter": 25467
+    },
+    {
+      "tag": "place=village",
+      "name": "五堵",
+      "lat": 25.082141,
+      "lon": 121.687342,
+      "metersToCenter": 25494
+    },
+    {
+      "tag": "place=village",
+      "name": "百福社區",
+      "lat": 25.0838676,
+      "lon": 121.6961806,
+      "metersToCenter": 26394
+    },
+    {
+      "tag": "place=town",
+      "name": "大園區",
+      "lat": 25.063889,
+      "lon": 121.195277,
+      "metersToCenter": 26720
+    },
+    {
+      "tag": "place=village",
+      "name": "九塊寮",
+      "lat": 24.8735797,
+      "lon": 121.2244128,
+      "metersToCenter": 26836
+    },
+    {
+      "tag": "place=village",
+      "name": "三坑子",
+      "lat": 24.843611,
+      "lon": 121.248056,
+      "metersToCenter": 26870
+    },
+    {
+      "tag": "place=village",
+      "name": "瑪陵坑",
+      "lat": 25.108522,
+      "lon": 121.691175,
+      "metersToCenter": 27026
+    },
+    {
+      "tag": "place=village",
+      "name": "田心仔",
+      "lat": 25.063975,
+      "lon": 121.185642,
+      "metersToCenter": 27659
+    },
+    {
+      "tag": "place=town",
+      "name": "龍潭區",
+      "lat": 24.863851,
+      "lon": 121.216392,
+      "metersToCenter": 28098
+    },
+    {
+      "tag": "place=village",
+      "name": "嘎色鬧",
+      "lat": 24.7731936,
+      "lon": 121.3233699,
+      "metersToCenter": 28335
+    },
+    {
+      "tag": "place=village",
+      "name": "大莊",
+      "lat": 24.884444,
+      "lon": 121.199444,
+      "metersToCenter": 28442
+    },
+    {
+      "tag": "place=village",
+      "name": "芝柏山莊",
+      "lat": 25.256769,
+      "lon": 121.511475,
+      "metersToCenter": 29172
+    },
+    {
+      "tag": "place=village",
+      "name": "草湳陂",
+      "lat": 24.915556,
+      "lon": 121.176667,
+      "metersToCenter": 29214
+    },
+    {
+      "tag": "place=village",
+      "name": "石門",
+      "lat": 24.8127595,
+      "lon": 121.2435473,
+      "metersToCenter": 29532
+    },
+    {
+      "tag": "place=village",
+      "name": "漁光",
+      "lat": 24.964073,
+      "lon": 121.743967,
+      "metersToCenter": 29801
+    },
+    {
+      "tag": "place=village",
+      "name": "六股",
+      "lat": 25.227589,
+      "lon": 121.609997,
+      "metersToCenter": 29926
+    },
+    {
+      "tag": "place=village",
+      "name": "大武崙",
+      "lat": 25.1421993,
+      "lon": 121.7034773,
+      "metersToCenter": 29932
+    },
+    {
+      "tag": "place=village",
+      "name": "國家新城",
+      "lat": 25.1272578,
+      "lon": 121.7137909,
+      "metersToCenter": 30004
+    },
+    {
+      "tag": "place=village",
+      "name": "八堵",
+      "lat": 25.1100318,
+      "lon": 121.7301585,
+      "metersToCenter": 30658
+    },
+    {
+      "tag": "place=village",
+      "name": "茂林村",
+      "lat": 25.24718,
+      "lon": 121.593892,
+      "metersToCenter": 31003
+    },
+    {
+      "tag": "place=village",
+      "name": "過港",
+      "lat": 25.1053344,
+      "lon": 121.7375192,
+      "metersToCenter": 31140
+    },
+    {
+      "tag": "place=village",
+      "name": "犁頭洲",
+      "lat": 24.963333,
+      "lon": 121.143333,
+      "metersToCenter": 31280
+    },
+    {
+      "tag": "place=village",
+      "name": "銅鑼圈",
+      "lat": 24.829167,
+      "lon": 121.204722,
+      "metersToCenter": 31281
+    },
+    {
+      "tag": "place=village",
+      "name": "草漯",
+      "lat": 25.048283,
+      "lon": 121.143257,
+      "metersToCenter": 31465
+    },
+    {
+      "tag": "place=village",
+      "name": "大竿林",
+      "lat": 25.1490261,
+      "lon": 121.7185058,
+      "metersToCenter": 31619
+    },
+    {
+      "tag": "place=village",
+      "name": "新坡",
+      "lat": 25.013615,
+      "lon": 121.135258,
+      "metersToCenter": 31853
+    },
+    {
+      "tag": "place=village",
+      "name": "烏橋頭",
+      "lat": 25.1410733,
+      "lon": 121.7267763,
+      "metersToCenter": 31888
+    },
+    {
+      "tag": "place=village",
+      "name": "龜吼",
+      "lat": 25.195176,
+      "lon": 121.686493,
+      "metersToCenter": 32130
+    },
+    {
+      "tag": "place=village",
+      "name": "內木山",
+      "lat": 25.1463579,
+      "lon": 121.7263176,
+      "metersToCenter": 32141
+    },
+    {
+      "tag": "place=village",
+      "name": "蚵殼港",
+      "lat": 25.1316886,
+      "lon": 121.7354021,
+      "metersToCenter": 32161
+    },
+    {
+      "tag": "place=village",
+      "name": "白沙灣",
+      "lat": 25.2826694,
+      "lon": 121.5203847,
+      "metersToCenter": 32176
+    },
+    {
+      "tag": "place=village",
+      "name": "石硬港",
+      "lat": 25.1190476,
+      "lon": 121.7431302,
+      "metersToCenter": 32257
+    },
+    {
+      "tag": "place=village",
+      "name": "中角",
+      "lat": 25.239721,
+      "lon": 121.632375,
+      "metersToCenter": 32292
+    },
+    {
+      "tag": "place=village",
+      "name": "渴望園區",
+      "lat": 24.8399405,
+      "lon": 121.1832445,
+      "metersToCenter": 32351
+    },
+    {
+      "tag": "place=village",
+      "name": "錦山里",
+      "lat": 24.7736138,
+      "lon": 121.2493702,
+      "metersToCenter": 32380
+    },
+    {
+      "tag": "place=town",
+      "name": "楊梅區",
+      "lat": 24.9075751,
+      "lon": 121.1458735,
+      "metersToCenter": 32440
+    },
+    {
+      "tag": "place=village",
+      "name": "碇內",
+      "lat": 25.0986326,
+      "lon": 121.7545634,
+      "metersToCenter": 32480
+    },
+    {
+      "tag": "place=village",
+      "name": "德茂",
+      "lat": 25.284705,
+      "lon": 121.525887,
+      "metersToCenter": 32521
+    },
+    {
+      "tag": "place=village",
+      "name": "泉州厝",
+      "lat": 24.992778,
+      "lon": 121.127222,
+      "metersToCenter": 32641
+    },
+    {
+      "tag": "place=village",
+      "name": "楊梅壢",
+      "lat": 24.9071669,
+      "lon": 121.1436986,
+      "metersToCenter": 32662
+    },
+    {
+      "tag": "place=village",
+      "name": "野柳",
+      "lat": 25.2038994,
+      "lon": 121.6886491,
+      "metersToCenter": 32949
+    },
+    {
+      "tag": "place=village",
+      "name": "義重町",
+      "lat": 25.1313811,
+      "lon": 121.7456264,
+      "metersToCenter": 33067
+    },
+    {
+      "tag": "place=village",
+      "name": "牛稠港",
+      "lat": 25.1448029,
+      "lon": 121.7389287,
+      "metersToCenter": 33159
+    },
+    {
+      "tag": "place=village",
+      "name": "外木山",
+      "lat": 25.154345,
+      "lon": 121.7332961,
+      "metersToCenter": 33198
+    },
+    {
+      "tag": "place=village",
+      "name": "東山里",
+      "lat": 24.7879074,
+      "lon": 121.2193323,
+      "metersToCenter": 33215
+    },
+    {
+      "tag": "place=village",
+      "name": "哨船頭",
+      "lat": 25.1336095,
+      "lon": 121.7460828,
+      "metersToCenter": 33218
+    },
+    {
+      "tag": "place=village",
+      "name": "四腳亭",
+      "lat": 25.1012019,
+      "lon": 121.7626815,
+      "metersToCenter": 33346
+    },
+    {
+      "tag": "place=village",
+      "name": "高義",
+      "lat": 24.7115458,
+      "lon": 121.3604943,
+      "metersToCenter": 33371
+    },
+    {
+      "tag": "place=village",
+      "name": "富基村",
+      "lat": 25.290701,
+      "lon": 121.53526,
+      "metersToCenter": 33397
+    },
+    {
+      "tag": "place=village",
+      "name": "老梅",
+      "lat": 25.2881311,
+      "lon": 121.545748,
+      "metersToCenter": 33407
+    },
+    {
+      "tag": "place=village",
+      "name": "尖鹿村",
+      "lat": 25.279086,
+      "lon": 121.576438,
+      "metersToCenter": 33483
+    },
+    {
+      "tag": "place=village",
+      "name": "三沙灣",
+      "lat": 25.1370468,
+      "lon": 121.7499338,
+      "metersToCenter": 33735
+    },
+    {
+      "tag": "place=village",
+      "name": "老飯店",
+      "lat": 24.934167,
+      "lon": 121.122778,
+      "metersToCenter": 33891
+    },
+    {
+      "tag": "place=village",
+      "name": "仁安里",
+      "lat": 24.8114254,
+      "lon": 121.1870778,
+      "metersToCenter": 33898
+    },
+    {
+      "tag": "place=village",
+      "name": "仙洞",
+      "lat": 25.1465824,
+      "lon": 121.7472061,
+      "metersToCenter": 33984
+    },
+    {
+      "tag": "place=village",
+      "name": "太白莊",
+      "lat": 25.152868,
+      "lon": 121.744039,
+      "metersToCenter": 34047
+    },
+    {
+      "tag": "place=village",
+      "name": "東安里",
+      "lat": 24.7983581,
+      "lon": 121.1957327,
+      "metersToCenter": 34155
+    },
+    {
+      "tag": "place=village",
+      "name": "永興",
+      "lat": 25.26513,
+      "lon": 121.624219,
+      "metersToCenter": 34233
+    },
+    {
+      "tag": "place=village",
+      "name": "新北里",
+      "lat": 24.8526006,
+      "lon": 121.1513069,
+      "metersToCenter": 34389
+    },
+    {
+      "tag": "place=village",
+      "name": "田寮港",
+      "lat": 25.1281247,
+      "lon": 121.7619577,
+      "metersToCenter": 34400
+    },
+    {
+      "tag": "place=village",
+      "name": "金山里",
+      "lat": 24.764962,
+      "lon": 121.2274177,
+      "metersToCenter": 34538
+    },
+    {
+      "tag": "place=village",
+      "name": "乾華村",
+      "lat": 25.28748,
+      "lon": 121.58827,
+      "metersToCenter": 34804
+    },
+    {
+      "tag": "place=village",
+      "name": "草里",
+      "lat": 25.280575,
+      "lon": 121.606337,
+      "metersToCenter": 34878
+    },
+    {
+      "tag": "place=town",
+      "name": "新屋區",
+      "lat": 24.972203,
+      "lon": 121.105801,
+      "metersToCenter": 34931
+    },
+    {
+      "tag": "place=village",
+      "name": "安瀾橋",
+      "lat": 25.1420437,
+      "lon": 121.7606036,
+      "metersToCenter": 34945
+    },
+    {
+      "tag": "place=village",
+      "name": "新寮",
+      "lat": 25.059511,
+      "lon": 121.792885,
+      "metersToCenter": 35071
+    },
+    {
+      "tag": "place=village",
+      "name": "大寮",
+      "lat": 25.0980351,
+      "lon": 121.782364,
+      "metersToCenter": 35108
+    },
+    {
+      "tag": "place=village",
+      "name": "清水里",
+      "lat": 24.869993,
+      "lon": 121.1333566,
+      "metersToCenter": 35148
+    },
+    {
+      "tag": "place=village",
+      "name": "北斗里",
+      "lat": 24.8001328,
+      "lon": 121.1781425,
+      "metersToCenter": 35387
+    },
+    {
+      "tag": "place=village",
+      "name": "鹿鳴里",
+      "lat": 24.8501413,
+      "lon": 121.1358653,
+      "metersToCenter": 35892
+    },
+    {
+      "tag": "place=village",
+      "name": "北山里",
+      "lat": 24.8058105,
+      "lon": 121.1659201,
+      "metersToCenter": 35971
+    },
+    {
+      "tag": "place=village",
+      "name": "東興里",
+      "lat": 24.7905814,
+      "lon": 121.1783412,
+      "metersToCenter": 36050
+    },
+    {
+      "tag": "place=village",
+      "name": "新樂村",
+      "lat": 24.7301968,
+      "lon": 121.252906,
+      "metersToCenter": 36066
+    },
+    {
+      "tag": "place=town",
+      "name": "關西鎮",
+      "lat": 24.792632,
+      "lon": 121.175891,
+      "metersToCenter": 36092
+    },
+    {
+      "tag": "place=village",
+      "name": "五峰旗",
+      "lat": 24.8287723,
+      "lon": 121.7556175,
+      "metersToCenter": 36153
+    },
+    {
+      "tag": "place=village",
+      "name": "南雄里",
+      "lat": 24.7889477,
+      "lon": 121.1769597,
+      "metersToCenter": 36274
+    },
+    {
+      "tag": "place=village",
+      "name": "二結",
+      "lat": 24.7851977,
+      "lon": 121.7216312,
+      "metersToCenter": 36286
+    },
+    {
+      "tag": "place=village",
+      "name": "匏崙",
+      "lat": 24.795917,
+      "lon": 121.7315769,
+      "metersToCenter": 36288
+    },
+    {
+      "tag": "place=village",
+      "name": "西安里",
+      "lat": 24.7933651,
+      "lon": 121.1725247,
+      "metersToCenter": 36302
+    },
+    {
+      "tag": "place=village",
+      "name": "八尺門",
+      "lat": 25.1519497,
+      "lon": 121.7701671,
+      "metersToCenter": 36304
+    },
+    {
+      "tag": "place=village",
+      "name": "東光里",
+      "lat": 24.7714075,
+      "lon": 121.1929377,
+      "metersToCenter": 36398
+    },
+    {
+      "tag": "place=village",
+      "name": "巴陵",
+      "lat": 24.678353,
+      "lon": 121.3843344,
+      "metersToCenter": 36415
+    },
+    {
+      "tag": "place=village",
+      "name": "大同里",
+      "lat": 24.8152935,
+      "lon": 121.1526716,
+      "metersToCenter": 36441
+    },
+    {
+      "tag": "place=village",
+      "name": "深澳坑",
+      "lat": 25.1260986,
+      "lon": 121.7856475,
+      "metersToCenter": 36499
+    },
+    {
+      "tag": "place=village",
+      "name": "玉山里",
+      "lat": 24.7477284,
+      "lon": 121.2136902,
+      "metersToCenter": 36895
+    },
+    {
+      "tag": "place=village",
+      "name": "林美",
+      "lat": 24.814539,
+      "lon": 121.7557311,
+      "metersToCenter": 37023
+    },
+    {
+      "tag": "place=village",
+      "name": "枕頭山",
+      "lat": 24.771532,
+      "lon": 121.719037,
+      "metersToCenter": 37115
+    },
+    {
+      "tag": "place=village",
+      "name": "東平里",
+      "lat": 24.8268146,
+      "lon": 121.1341476,
+      "metersToCenter": 37320
+    },
+    {
+      "tag": "place=town",
+      "name": "觀音區",
+      "lat": 25.036385,
+      "lon": 121.082255,
+      "metersToCenter": 37373
+    },
+    {
+      "tag": "place=village",
+      "name": "南山里",
+      "lat": 24.7888831,
+      "lon": 121.162022,
+      "metersToCenter": 37439
+    },
+    {
+      "tag": "place=village",
+      "name": "照門里",
+      "lat": 24.859603,
+      "lon": 121.1132223,
+      "metersToCenter": 37476
+    },
+    {
+      "tag": "place=village",
+      "name": "溪尾寮",
+      "lat": 24.9680286,
+      "lon": 121.8213246,
+      "metersToCenter": 37496
+    },
+    {
+      "tag": "place=village",
+      "name": "下陰影窩",
+      "lat": 24.9439749,
+      "lon": 121.0840796,
+      "metersToCenter": 37510
+    },
+    {
+      "tag": "place=village",
+      "name": "新富里",
+      "lat": 24.7626528,
+      "lon": 121.1864703,
+      "metersToCenter": 37547
+    },
+    {
+      "tag": "place=village",
+      "name": "長安村",
+      "lat": 24.8824841,
+      "lon": 121.1012332,
+      "metersToCenter": 37616
+    },
+    {
+      "tag": "place=village",
+      "name": "湯圍",
+      "lat": 24.8283345,
+      "lon": 121.7724609,
+      "metersToCenter": 37632
+    },
+    {
+      "tag": "place=village",
+      "name": "大湖",
+      "lat": 24.74513,
+      "lon": 121.696565,
+      "metersToCenter": 37658
+    },
+    {
+      "tag": "place=village",
+      "name": "龍潭堵",
+      "lat": 25.1097965,
+      "lon": 121.8049427,
+      "metersToCenter": 37678
+    },
+    {
+      "tag": "place=town",
+      "name": "礁溪鄉",
+      "lat": 24.8236455,
+      "lon": 121.7713481,
+      "metersToCenter": 37804
+    },
+    {
+      "tag": "place=village",
+      "name": "嘉樂村",
+      "lat": 24.7270661,
+      "lon": 121.2262257,
+      "metersToCenter": 37903
+    },
+    {
+      "tag": "place=village",
+      "name": "富岡",
+      "lat": 24.935833,
+      "lon": 121.081667,
+      "metersToCenter": 37912
+    },
+    {
+      "tag": "place=village",
+      "name": "巨埔里",
+      "lat": 24.8391364,
+      "lon": 121.1187857,
+      "metersToCenter": 37988
+    },
+    {
+      "tag": "place=village",
+      "name": "八斗子",
+      "lat": 25.1396276,
+      "lon": 121.7960863,
+      "metersToCenter": 38058
+    },
+    {
+      "tag": "place=village",
+      "name": "白石脚",
+      "lat": 24.839722,
+      "lon": 121.784722,
+      "metersToCenter": 38092
+    },
+    {
+      "tag": "place=village",
+      "name": "結頭分",
+      "lat": 24.761772,
+      "lon": 121.722142,
+      "metersToCenter": 38092
+    },
+    {
+      "tag": "place=village",
+      "name": "內員山",
+      "lat": 24.750749,
+      "lon": 121.711527,
+      "metersToCenter": 38211
+    },
+    {
+      "tag": "place=village",
+      "name": "柴圍",
+      "lat": 24.7968,
+      "lon": 121.7565,
+      "metersToCenter": 38222
+    },
+    {
+      "tag": "place=village",
+      "name": "十六結",
+      "lat": 24.809444,
+      "lon": 121.766389,
+      "metersToCenter": 38232
+    },
+    {
+      "tag": "place=village",
+      "name": "柴寮子",
+      "lat": 25.0731921,
+      "lon": 121.8224433,
+      "metersToCenter": 38292
+    },
+    {
+      "tag": "place=village",
+      "name": "奇立丹",
+      "lat": 24.8223483,
+      "lon": 121.776155,
+      "metersToCenter": 38294
+    },
+    {
+      "tag": "place=village",
+      "name": "龍潭",
+      "lat": 24.7792724,
+      "lon": 121.7433056,
+      "metersToCenter": 38377
+    },
+    {
+      "tag": "place=village",
+      "name": "石光里",
+      "lat": 24.8127718,
+      "lon": 121.130487,
+      "metersToCenter": 38461
+    },
+    {
+      "tag": "place=village",
+      "name": "崙埤村",
+      "lat": 24.6798244,
+      "lon": 121.5951793,
+      "metersToCenter": 38480
+    },
+    {
+      "tag": "place=village",
+      "name": "六結村",
+      "lat": 24.8142069,
+      "lon": 121.77302,
+      "metersToCenter": 38503
+    },
+    {
+      "tag": "place=village",
+      "name": "小金面",
+      "lat": 24.8466606,
+      "lon": 121.794021,
+      "metersToCenter": 38574
+    },
+    {
+      "tag": "place=village",
+      "name": "番割田",
+      "lat": 24.8025,
+      "lon": 121.769167,
+      "metersToCenter": 38897
+    },
+    {
+      "tag": "place=village",
+      "name": "上林里",
+      "lat": 24.7855848,
+      "lon": 121.1462752,
+      "metersToCenter": 38913
+    },
+    {
+      "tag": "place=village",
+      "name": "柑仔瀨",
+      "lat": 25.1071558,
+      "lon": 121.8195926,
+      "metersToCenter": 38988
+    },
+    {
+      "tag": "place=village",
+      "name": "三十九結",
+      "lat": 24.805278,
+      "lon": 121.7725,
+      "metersToCenter": 39002
+    },
+    {
+      "tag": "place=village",
+      "name": "南新里",
+      "lat": 24.7611269,
+      "lon": 121.1674663,
+      "metersToCenter": 39048
+    },
+    {
+      "tag": "place=village",
+      "name": "一結",
+      "lat": 24.7746211,
+      "lon": 121.7483385,
+      "metersToCenter": 39099
+    },
+    {
+      "tag": "place=village",
+      "name": "四結(四城)",
+      "lat": 24.7876749,
+      "lon": 121.7602662,
+      "metersToCenter": 39134
+    },
+    {
+      "tag": "place=village",
+      "name": "內城",
+      "lat": 24.7217172,
+      "lon": 121.6882774,
+      "metersToCenter": 39140
+    },
+    {
+      "tag": "place=village",
+      "name": "伯公岡",
+      "lat": 24.9276249,
+      "lon": 121.0708056,
+      "metersToCenter": 39166
+    },
+    {
+      "tag": "place=village",
+      "name": "崙埤仔",
+      "lat": 24.6777216,
+      "lon": 121.6087564,
+      "metersToCenter": 39233
+    },
+    {
+      "tag": "place=town",
+      "name": "大同鄉",
+      "lat": 24.6770507,
+      "lon": 121.6078754,
+      "metersToCenter": 39265
+    },
+    {
+      "tag": "place=village",
+      "name": "大平",
+      "lat": 24.978169,
+      "lon": 121.8417926,
+      "metersToCenter": 39462
+    },
+    {
+      "tag": "place=village",
+      "name": "深澳",
+      "lat": 25.1283103,
+      "lon": 121.817444,
+      "metersToCenter": 39563
+    },
+    {
+      "tag": "place=town",
+      "name": "員山鄉",
+      "lat": 24.743183,
+      "lon": 121.723372,
+      "metersToCenter": 39645
+    },
+    {
+      "tag": "place=village",
+      "name": "淇武蘭",
+      "lat": 24.8116786,
+      "lon": 121.7863334,
+      "metersToCenter": 39789
+    },
+    {
+      "tag": "place=village",
+      "name": "福成",
+      "lat": 24.856944,
+      "lon": 121.812778,
+      "metersToCenter": 39806
+    },
+    {
+      "tag": "place=village",
+      "name": "南和里",
+      "lat": 24.8043842,
+      "lon": 121.1205023,
+      "metersToCenter": 39814
+    },
+    {
+      "tag": "place=village",
+      "name": "北平里",
+      "lat": 24.8572924,
+      "lon": 121.0880586,
+      "metersToCenter": 39898
+    },
+    {
+      "tag": "place=village",
+      "name": "頂埔",
+      "lat": 24.845278,
+      "lon": 121.808333,
+      "metersToCenter": 39940
+    },
+    {
+      "tag": "place=village",
+      "name": "長嶺村",
+      "lat": 24.8918682,
+      "lon": 121.0732248,
+      "metersToCenter": 39947
+    },
+    {
+      "tag": "place=village",
+      "name": "拔雅林",
+      "lat": 24.8610559,
+      "lon": 121.8162706,
+      "metersToCenter": 39949
+    },
+    {
+      "tag": "place=village",
+      "name": "中崙",
+      "lat": 24.836944,
+      "lon": 121.804167,
+      "metersToCenter": 39974
+    },
+    {
+      "tag": "place=village",
+      "name": "福興村",
+      "lat": 24.7327526,
+      "lon": 121.1837698,
+      "metersToCenter": 40140
+    },
+    {
+      "tag": "place=village",
+      "name": "新店",
+      "lat": 24.767393,
+      "lon": 121.7555316,
+      "metersToCenter": 40172
+    },
+    {
+      "tag": "place=village",
+      "name": "武暖",
+      "lat": 24.789444,
+      "lon": 121.775833,
+      "metersToCenter": 40282
+    },
+    {
+      "tag": "place=village",
+      "name": "下埔",
+      "lat": 24.836111,
+      "lon": 121.807222,
+      "metersToCenter": 40291
+    },
+    {
+      "tag": "place=village",
+      "name": "磅磅子",
+      "lat": 25.1166666,
+      "lon": 121.8300955,
+      "metersToCenter": 40322
+    },
+    {
+      "tag": "place=village",
+      "name": "松羅 Syanox",
+      "lat": 24.6555661,
+      "lon": 121.5797481,
+      "metersToCenter": 40464
+    },
+    {
+      "tag": "place=village",
+      "name": "金六結",
+      "lat": 24.752645,
+      "lon": 121.745262,
+      "metersToCenter": 40483
+    },
+    {
+      "tag": "place=village",
+      "name": "四座里",
+      "lat": 24.8346308,
+      "lon": 121.0934616,
+      "metersToCenter": 40484
+    },
+    {
+      "tag": "place=village",
+      "name": "五股",
+      "lat": 24.8091462,
+      "lon": 121.7942078,
+      "metersToCenter": 40613
+    },
+    {
+      "tag": "place=village",
+      "name": "宜蘭",
+      "lat": 24.757924,
+      "lon": 121.7531398,
+      "metersToCenter": 40678
+    },
+    {
+      "tag": "place=village",
+      "name": "海濱",
+      "lat": 25.12532,
+      "lon": 121.830541,
+      "metersToCenter": 40682
+    },
+    {
+      "tag": "place=town",
+      "name": "頭城鎮",
+      "lat": 24.859217,
+      "lon": 121.823307,
+      "metersToCenter": 40683
+    },
+    {
+      "tag": "place=village",
+      "name": "玉峰村",
+      "lat": 24.6587206,
+      "lon": 121.30588,
+      "metersToCenter": 40697
+    },
+    {
+      "tag": "place=village",
+      "name": "新力里",
+      "lat": 24.7823909,
+      "lon": 121.1266615,
+      "metersToCenter": 40704
+    },
+    {
+      "tag": "place=village",
+      "name": "五埔里",
+      "lat": 24.8203503,
+      "lon": 121.0989174,
+      "metersToCenter": 40752
+    },
+    {
+      "tag": "place=village",
+      "name": "辛子牢",
+      "lat": 24.767778,
+      "lon": 121.764167,
+      "metersToCenter": 40815
+    },
+    {
+      "tag": "place=village",
+      "name": "九芎湖",
+      "lat": 24.660248,
+      "lon": 121.6060488,
+      "metersToCenter": 40911
+    },
+    {
+      "tag": "place=village",
+      "name": "沙坑村",
+      "lat": 24.7420458,
+      "lon": 121.16186,
+      "metersToCenter": 40925
+    },
+    {
+      "tag": "place=village",
+      "name": "東興村",
+      "lat": 24.9226135,
+      "lon": 121.0541418,
+      "metersToCenter": 40926
+    },
+    {
+      "tag": "place=village",
+      "name": "惠好",
+      "lat": 24.731512,
+      "lon": 121.729304,
+      "metersToCenter": 40999
+    },
+    {
+      "tag": "place=village",
+      "name": "湖口村",
+      "lat": 24.8805877,
+      "lon": 121.066167,
+      "metersToCenter": 41017
+    },
+    {
+      "tag": "place=village",
+      "name": "紅柴林",
+      "lat": 24.6916734,
+      "lon": 121.6745882,
+      "metersToCenter": 41060
+    },
+    {
+      "tag": "place=town",
+      "name": "宜蘭市",
+      "lat": 24.7519538,
+      "lon": 121.7533344,
+      "metersToCenter": 41136
+    },
+    {
+      "tag": "place=village",
+      "name": "茅埔",
+      "lat": 24.796667,
+      "lon": 121.791944,
+      "metersToCenter": 41167
+    },
+    {
+      "tag": "place=village",
+      "name": "錦屏村",
+      "lat": 24.6824767,
+      "lon": 121.2406288,
+      "metersToCenter": 41216
+    },
+    {
+      "tag": "place=village",
+      "name": "和興村",
+      "lat": 24.9294282,
+      "lon": 121.0496033,
+      "metersToCenter": 41221
+    },
+    {
+      "tag": "place=village",
+      "name": "天送埤",
+      "lat": 24.6621515,
+      "lon": 121.6215541,
+      "metersToCenter": 41342
+    },
+    {
+      "tag": "place=village",
+      "name": "深溝",
+      "lat": 24.72299,
+      "lon": 121.72441,
+      "metersToCenter": 41365
+    },
+    {
+      "tag": "place=town",
+      "name": "尖石鄉",
+      "lat": 24.7050028,
+      "lon": 121.2012592,
+      "metersToCenter": 41381
+    },
+    {
+      "tag": "place=village",
+      "name": "中勢村",
+      "lat": 24.9013512,
+      "lon": 121.0549015,
+      "metersToCenter": 41419
+    },
+    {
+      "tag": "place=village",
+      "name": "大坑",
+      "lat": 24.8566545,
+      "lon": 121.8307688,
+      "metersToCenter": 41487
+    },
+    {
+      "tag": "place=village",
+      "name": "内立里",
+      "lat": 24.8028031,
+      "lon": 121.1011566,
+      "metersToCenter": 41554
+    },
+    {
+      "tag": "place=village",
+      "name": "時潮村",
+      "lat": 24.8177238,
+      "lon": 121.810878,
+      "metersToCenter": 41581
+    },
+    {
+      "tag": "place=village",
+      "name": "九份",
+      "lat": 25.1116561,
+      "lon": 121.845069,
+      "metersToCenter": 41585
+    },
+    {
+      "tag": "place=village",
+      "name": "塭底",
+      "lat": 24.805,
+      "lon": 121.802778,
+      "metersToCenter": 41592
+    },
+    {
+      "tag": "place=village",
+      "name": "壯一",
+      "lat": 24.755833,
+      "lon": 121.763889,
+      "metersToCenter": 41648
+    },
+    {
+      "tag": "place=village",
+      "name": "永安",
+      "lat": 24.9914088,
+      "lon": 121.0370359,
+      "metersToCenter": 41731
+    },
+    {
+      "tag": "place=village",
+      "name": "湖南村",
+      "lat": 24.8704151,
+      "lon": 121.0623382,
+      "metersToCenter": 41761
+    },
+    {
+      "tag": "place=village",
+      "name": "愛勢村",
+      "lat": 24.9058591,
+      "lon": 121.0496279,
+      "metersToCenter": 41802
+    },
+    {
+      "tag": "place=village",
+      "name": "竹安",
+      "lat": 24.8351189,
+      "lon": 121.823838,
+      "metersToCenter": 41840
+    },
+    {
+      "tag": "place=village",
+      "name": "牛鬪 Sengan",
+      "lat": 24.6398147,
+      "lon": 121.5714311,
+      "metersToCenter": 41876
+    },
+    {
+      "tag": "place=village",
+      "name": "新埔里",
+      "lat": 24.8294952,
+      "lon": 121.080581,
+      "metersToCenter": 41901
+    },
+    {
+      "tag": "place=village",
+      "name": "華龍村",
+      "lat": 24.748395,
+      "lon": 121.1417801,
+      "metersToCenter": 41917
+    },
+    {
+      "tag": "place=village",
+      "name": "外澳",
+      "lat": 24.884675,
+      "lon": 121.8475623,
+      "metersToCenter": 41996
+    },
+    {
+      "tag": "place=village",
+      "name": "旱坑里",
+      "lat": 24.8363201,
+      "lon": 121.0746899,
+      "metersToCenter": 42097
+    },
+    {
+      "tag": "place=village",
+      "name": "清水湖",
+      "lat": 24.6445262,
+      "lon": 121.5961767,
+      "metersToCenter": 42176
+    },
+    {
+      "tag": "place=town",
+      "name": "湖口鄉",
+      "lat": 24.900599,
+      "lon": 121.046839,
+      "metersToCenter": 42225
+    },
+    {
+      "tag": "place=village",
+      "name": "南平里",
+      "lat": 24.8453074,
+      "lon": 121.0686629,
+      "metersToCenter": 42227
+    },
+    {
+      "tag": "place=village",
+      "name": "仁勢村",
+      "lat": 24.9025719,
+      "lon": 121.0461358,
+      "metersToCenter": 42236
+    },
+    {
+      "tag": "place=village",
+      "name": "中正村",
+      "lat": 24.893073,
+      "lon": 121.0486697,
+      "metersToCenter": 42276
+    },
+    {
+      "tag": "place=village",
+      "name": "湖鏡村",
+      "lat": 24.8788118,
+      "lon": 121.0534716,
+      "metersToCenter": 42293
+    },
+    {
+      "tag": "place=village",
+      "name": "新生里",
+      "lat": 24.8287747,
+      "lon": 121.076142,
+      "metersToCenter": 42337
+    },
+    {
+      "tag": "place=village",
+      "name": "七張",
+      "lat": 24.7621473,
+      "lon": 121.7786857,
+      "metersToCenter": 42347
+    },
+    {
+      "tag": "place=village",
+      "name": "孝勢村",
+      "lat": 24.9012258,
+      "lon": 121.0451133,
+      "metersToCenter": 42374
+    },
+    {
+      "tag": "place=village",
+      "name": "内灣村",
+      "lat": 24.7054364,
+      "lon": 121.1846015,
+      "metersToCenter": 42388
+    },
+    {
+      "tag": "place=town",
+      "name": "三星鄉",
+      "lat": 24.6659634,
+      "lon": 121.6532292,
+      "metersToCenter": 42400
+    },
+    {
+      "tag": "place=village",
+      "name": "壯七",
+      "lat": 24.7566256,
+      "lon": 121.7746793,
+      "metersToCenter": 42423
+    },
+    {
+      "tag": "place=village",
+      "name": "福興村",
+      "lat": 24.9310357,
+      "lon": 121.0367609,
+      "metersToCenter": 42460
+    },
+    {
+      "tag": "place=village",
+      "name": "車路頭",
+      "lat": 24.7953481,
+      "lon": 121.8070152,
+      "metersToCenter": 42523
+    },
+    {
+      "tag": "place=village",
+      "name": "金瓜石",
+      "lat": 25.108391,
+      "lon": 121.8560784,
+      "metersToCenter": 42541
+    },
+    {
+      "tag": "place=village",
+      "name": "力行村",
+      "lat": 24.7188194,
+      "lon": 121.1644664,
+      "metersToCenter": 42599
+    },
+    {
+      "tag": "place=village",
+      "name": "新民里",
+      "lat": 24.8287639,
+      "lon": 121.0731492,
+      "metersToCenter": 42607
+    },
+    {
+      "tag": "place=village",
+      "name": "七賢",
+      "lat": 24.7137155,
+      "lon": 121.7316148,
+      "metersToCenter": 42619
+    },
+    {
+      "tag": "place=village",
+      "name": "田新里",
+      "lat": 24.8239204,
+      "lon": 121.0746237,
+      "metersToCenter": 42719
+    },
+    {
+      "tag": "place=town",
+      "name": "新埔鎮",
+      "lat": 24.8280421,
+      "lon": 121.0712198,
+      "metersToCenter": 42817
+    },
+    {
+      "tag": "place=village",
+      "name": "中坑村",
+      "lat": 24.7751289,
+      "lon": 121.1063784,
+      "metersToCenter": 42833
+    },
+    {
+      "tag": "place=village",
+      "name": "梗枋",
+      "lat": 24.9027116,
+      "lon": 121.8623974,
+      "metersToCenter": 42869
+    },
+    {
+      "tag": "place=village",
+      "name": "信勢村",
+      "lat": 24.9024569,
+      "lon": 121.0395295,
+      "metersToCenter": 42883
+    },
+    {
+      "tag": "place=village",
+      "name": "大福",
+      "lat": 24.8030228,
+      "lon": 121.8177655,
+      "metersToCenter": 43000
+    },
+    {
+      "tag": "place=village",
+      "name": "水坑村",
+      "lat": 24.7849428,
+      "lon": 121.0959217,
+      "metersToCenter": 43077
+    },
+    {
+      "tag": "place=village",
+      "name": "寶石里",
+      "lat": 24.8073103,
+      "lon": 121.0801842,
+      "metersToCenter": 43113
+    },
+    {
+      "tag": "place=village",
+      "name": "德盛村",
+      "lat": 24.9091856,
+      "lon": 121.0339996,
+      "metersToCenter": 43240
+    },
+    {
+      "tag": "place=village",
+      "name": "永興村",
+      "lat": 24.7539691,
+      "lon": 121.1185403,
+      "metersToCenter": 43295
+    },
+    {
+      "tag": "place=village",
+      "name": "古亭",
+      "lat": 24.770901,
+      "lon": 121.7985533,
+      "metersToCenter": 43349
+    },
+    {
+      "tag": "place=village",
+      "name": "梅花村",
+      "lat": 24.6794268,
+      "lon": 121.2051491,
+      "metersToCenter": 43447
+    },
+    {
+      "tag": "place=village",
+      "name": "行健村",
+      "lat": 24.6737457,
+      "lon": 121.6883269,
+      "metersToCenter": 43488
+    },
+    {
+      "tag": "place=village",
+      "name": "芃芃 Kubung",
+      "lat": 24.6136576,
+      "lon": 121.5257765,
+      "metersToCenter": 43639
+    },
+    {
+      "tag": "place=village",
+      "name": "波羅村",
+      "lat": 24.8845899,
+      "lon": 121.0366979,
+      "metersToCenter": 43705
+    },
+    {
+      "tag": "place=village",
+      "name": "水湳洞",
+      "lat": 25.1214458,
+      "lon": 121.8637963,
+      "metersToCenter": 43711
+    },
+    {
+      "tag": "place=village",
+      "name": "新鳳村",
+      "lat": 24.7656464,
+      "lon": 121.1020463,
+      "metersToCenter": 43809
+    },
+    {
+      "tag": "place=village",
+      "name": "信義村",
+      "lat": 24.8919459,
+      "lon": 121.0328412,
+      "metersToCenter": 43844
+    },
+    {
+      "tag": "place=village",
+      "name": "社頭",
+      "lat": 24.7806207,
+      "lon": 121.8131521,
+      "metersToCenter": 43938
+    },
+    {
+      "tag": "place=village",
+      "name": "義興村",
+      "lat": 24.6903697,
+      "lon": 121.1802354,
+      "metersToCenter": 43970
+    },
+    {
+      "tag": "place=village",
+      "name": "五龍村",
+      "lat": 24.7380937,
+      "lon": 121.1244445,
+      "metersToCenter": 43986
+    },
+    {
+      "tag": "place=village",
+      "name": "壯五",
+      "lat": 24.7461813,
+      "lon": 121.7853302,
+      "metersToCenter": 43993
+    },
+    {
+      "tag": "place=town",
+      "name": "壯圍鄉",
+      "lat": 24.7468237,
+      "lon": 121.7859715,
+      "metersToCenter": 43996
+    },
+    {
+      "tag": "place=village",
+      "name": "上寮里",
+      "lat": 24.8422941,
+      "lon": 121.0496727,
+      "metersToCenter": 44115
+    },
+    {
+      "tag": "place=village",
+      "name": "大洲",
+      "lat": 24.6928303,
+      "lon": 121.7292836,
+      "metersToCenter": 44233
+    },
+    {
+      "tag": "place=village",
+      "name": "九讚頭",
+      "lat": 24.7165469,
+      "lon": 121.1423229,
+      "metersToCenter": 44325
+    },
+    {
+      "tag": "place=village",
+      "name": "大肚村",
+      "lat": 24.7257454,
+      "lon": 121.1323534,
+      "metersToCenter": 44326
+    },
+    {
+      "tag": "place=town",
+      "name": "橫山鄉",
+      "lat": 24.7166619,
+      "lon": 121.141266,
+      "metersToCenter": 44391
+    },
+    {
+      "tag": "place=village",
+      "name": "阿里史",
+      "lat": 24.6588509,
+      "lon": 121.6792032,
+      "metersToCenter": 44396
+    },
+    {
+      "tag": "place=village",
+      "name": "尾塹",
+      "lat": 24.6961822,
+      "lon": 121.7365465,
+      "metersToCenter": 44418
+    },
+    {
+      "tag": "place=village",
+      "name": "後湖村",
+      "lat": 24.9305769,
+      "lon": 121.0170745,
+      "metersToCenter": 44422
+    },
+    {
+      "tag": "place=village",
+      "name": "新興村",
+      "lat": 24.7129849,
+      "lon": 121.1439099,
+      "metersToCenter": 44497
+    },
+    {
+      "tag": "place=village",
+      "name": "下山村",
+      "lat": 24.8031635,
+      "lon": 121.0669434,
+      "metersToCenter": 44502
+    },
+    {
+      "tag": "place=village",
+      "name": "青埔村",
+      "lat": 24.920952,
+      "lon": 121.0176223,
+      "metersToCenter": 44568
+    },
+    {
+      "tag": "place=village",
+      "name": "美福",
+      "lat": 24.7352355,
+      "lon": 121.7845173,
+      "metersToCenter": 44723
+    },
+    {
+      "tag": "place=village",
+      "name": "豐田村",
+      "lat": 24.69905,
+      "lon": 121.1569958,
+      "metersToCenter": 44736
+    },
+    {
+      "tag": "place=village",
+      "name": "石潭村",
+      "lat": 24.7539813,
+      "lon": 121.0999776,
+      "metersToCenter": 44760
+    },
+    {
+      "tag": "place=village",
+      "name": "上山村",
+      "lat": 24.7850842,
+      "lon": 121.0754263,
+      "metersToCenter": 44802
+    },
+    {
+      "tag": "place=village",
+      "name": "中興村",
+      "lat": 24.8685941,
+      "lon": 121.0307527,
+      "metersToCenter": 44830
+    },
+    {
+      "tag": "place=village",
+      "name": "文山里",
+      "lat": 24.8246571,
+      "lon": 121.0505485,
+      "metersToCenter": 44855
+    },
+    {
+      "tag": "place=village",
+      "name": "大溪",
+      "lat": 24.9410226,
+      "lon": 121.8928739,
+      "metersToCenter": 45025
+    },
+    {
+      "tag": "place=village",
+      "name": "芎林村",
+      "lat": 24.7759918,
+      "lon": 121.079127,
+      "metersToCenter": 45040
+    },
+    {
+      "tag": "place=town",
+      "name": "芎林鄉",
+      "lat": 24.774856,
+      "lon": 121.07914,
+      "metersToCenter": 45109
+    },
+    {
+      "tag": "place=village",
+      "name": "青埔子",
+      "lat": 24.9206316,
+      "lon": 121.0118919,
+      "metersToCenter": 45142
+    },
+    {
+      "tag": "place=village",
+      "name": "秀湖村",
+      "lat": 24.7324933,
+      "lon": 121.1145724,
+      "metersToCenter": 45145
+    },
+    {
+      "tag": "place=village",
+      "name": "過嶺",
+      "lat": 24.7632807,
+      "lon": 121.8151691,
+      "metersToCenter": 45205
+    },
+    {
+      "tag": "place=village",
+      "name": "文林村",
+      "lat": 24.7655119,
+      "lon": 121.0850363,
+      "metersToCenter": 45208
+    },
+    {
+      "tag": "place=village",
+      "name": "樂水",
+      "lat": 24.5997093,
+      "lon": 121.5294456,
+      "metersToCenter": 45231
+    },
+    {
+      "tag": "place=village",
+      "name": "大埔",
+      "lat": 24.667138,
+      "lon": 121.708889,
+      "metersToCenter": 45264
+    },
+    {
+      "tag": "place=village",
+      "name": "下寮里",
+      "lat": 24.8460888,
+      "lon": 121.0342528,
+      "metersToCenter": 45384
+    },
+    {
+      "tag": "place=village",
+      "name": "瑞興村",
+      "lat": 24.9074407,
+      "lon": 121.0121897,
+      "metersToCenter": 45425
+    },
+    {
+      "tag": "place=village",
+      "name": "勝利村",
+      "lat": 24.8644022,
+      "lon": 121.0260221,
+      "metersToCenter": 45434
+    },
+    {
+      "tag": "place=village",
+      "name": "東海里",
+      "lat": 24.8097277,
+      "lon": 121.0512571,
+      "metersToCenter": 45541
+    },
+    {
+      "tag": "place=village",
+      "name": "下壯五",
+      "lat": 24.7351599,
+      "lon": 121.7961461,
+      "metersToCenter": 45618
+    },
+    {
+      "tag": "place=village",
+      "name": "秀巒村",
+      "lat": 24.6169312,
+      "lon": 121.2891653,
+      "metersToCenter": 45641
+    },
+    {
+      "tag": "place=village",
+      "name": "二結",
+      "lat": 24.7071584,
+      "lon": 121.7689436,
+      "metersToCenter": 45726
+    },
+    {
+      "tag": "place=village",
+      "name": "龍崗",
+      "lat": 25.0127962,
+      "lon": 121.9046937,
+      "metersToCenter": 45741
+    },
+    {
+      "tag": "place=village",
+      "name": "陸豐里",
+      "lat": 24.7685805,
+      "lon": 121.0748412,
+      "metersToCenter": 45859
+    },
+    {
+      "tag": "place=village",
+      "name": "蚵間",
+      "lat": 24.945833,
+      "lon": 120.999444,
+      "metersToCenter": 45916
+    },
+    {
+      "tag": "place=village",
+      "name": "南雅",
+      "lat": 25.1200937,
+      "lon": 121.8882486,
+      "metersToCenter": 46016
+    },
+    {
+      "tag": "place=village",
+      "name": "鳳凰村",
+      "lat": 24.8725764,
+      "lon": 121.0162521,
+      "metersToCenter": 46075
+    },
+    {
+      "tag": "place=village",
+      "name": "横山村",
+      "lat": 24.711638,
+      "lon": 121.1230525,
+      "metersToCenter": 46091
+    },
+    {
+      "tag": "place=village",
+      "name": "溪底城",
+      "lat": 24.7093162,
+      "lon": 121.7766311,
+      "metersToCenter": 46104
+    },
+    {
+      "tag": "place=village",
+      "name": "槓子寮",
+      "lat": 25.0196142,
+      "lon": 121.9083224,
+      "metersToCenter": 46134
+    },
+    {
+      "tag": "place=village",
+      "name": "仁愛里",
+      "lat": 24.7396825,
+      "lon": 121.0944607,
+      "metersToCenter": 46183
+    },
+    {
+      "tag": "place=village",
+      "name": "中崙村",
+      "lat": 24.8938182,
+      "lon": 121.0074904,
+      "metersToCenter": 46253
+    },
+    {
+      "tag": "place=village",
+      "name": "雞林里",
+      "lat": 24.7330836,
+      "lon": 121.0980251,
+      "metersToCenter": 46371
+    },
+    {
+      "tag": "place=village",
+      "name": "榮華里",
+      "lat": 24.74529,
+      "lon": 121.0871169,
+      "metersToCenter": 46378
+    },
+    {
+      "tag": "place=village",
+      "name": "榮樂里",
+      "lat": 24.7399464,
+      "lon": 121.0910392,
+      "metersToCenter": 46434
+    },
+    {
+      "tag": "place=village",
+      "name": "隘口里",
+      "lat": 24.799753,
+      "lon": 121.0469463,
+      "metersToCenter": 46449
+    },
+    {
+      "tag": "place=village",
+      "name": "東興里",
+      "lat": 24.8202079,
+      "lon": 121.0342166,
+      "metersToCenter": 46554
+    },
+    {
+      "tag": "place=village",
+      "name": "北興里",
+      "lat": 24.8267134,
+      "lon": 121.029686,
+      "metersToCenter": 46663
+    },
+    {
+      "tag": "place=town",
+      "name": "竹東鎮",
+      "lat": 24.7362436,
+      "lon": 121.0910952,
+      "metersToCenter": 46688
+    },
+    {
+      "tag": "place=village",
+      "name": "中正里",
+      "lat": 24.729025,
+      "lon": 121.0973528,
+      "metersToCenter": 46714
+    },
+    {
+      "tag": "place=village",
+      "name": "豐鄉村",
+      "lat": 24.6866365,
+      "lon": 121.1424688,
+      "metersToCenter": 46743
+    },
+    {
+      "tag": "place=village",
+      "name": "竹東里",
+      "lat": 24.739477,
+      "lon": 121.086554,
+      "metersToCenter": 46822
+    },
+    {
+      "tag": "place=village",
+      "name": "東華里",
+      "lat": 24.7365757,
+      "lon": 121.0890996,
+      "metersToCenter": 46822
+    },
+    {
+      "tag": "place=village",
+      "name": "忠孝里",
+      "lat": 24.7427924,
+      "lon": 121.0836071,
+      "metersToCenter": 46829
+    },
+    {
+      "tag": "place=village",
+      "name": "新南",
+      "lat": 24.7231243,
+      "lon": 121.8012001,
+      "metersToCenter": 46878
+    },
+    {
+      "tag": "place=village",
+      "name": "北城",
+      "lat": 24.6790303,
+      "lon": 121.7525681,
+      "metersToCenter": 46919
+    },
+    {
+      "tag": "place=village",
+      "name": "雙玉里",
+      "lat": 25,
+      "lon": 121.916667,
+      "metersToCenter": 46928
+    },
+    {
+      "tag": "place=village",
+      "name": "東寧里",
+      "lat": 24.7241592,
+      "lon": 121.0988184,
+      "metersToCenter": 46953
+    },
+    {
+      "tag": "place=village",
+      "name": "南華里",
+      "lat": 24.7343304,
+      "lon": 121.0887382,
+      "metersToCenter": 47007
+    },
+    {
+      "tag": "place=village",
+      "name": "三結",
+      "lat": 24.70314,
+      "lon": 121.7829614,
+      "metersToCenter": 47042
+    },
+    {
+      "tag": "place=village",
+      "name": "中山里",
+      "lat": 24.7318018,
+      "lon": 121.0904575,
+      "metersToCenter": 47050
+    },
+    {
+      "tag": "place=village",
+      "name": "十興里",
+      "lat": 24.8227856,
+      "lon": 121.0272179,
+      "metersToCenter": 47071
+    },
+    {
+      "tag": "place=village",
+      "name": "竹北里",
+      "lat": 24.8382731,
+      "lon": 121.0191194,
+      "metersToCenter": 47127
+    },
+    {
+      "tag": "place=village",
+      "name": "公館",
+      "lat": 24.7352679,
+      "lon": 121.8165244,
+      "metersToCenter": 47198
+    },
+    {
+      "tag": "place=village",
+      "name": "埔和村",
+      "lat": 24.9261518,
+      "lon": 120.9896422,
+      "metersToCenter": 47231
+    },
+    {
+      "tag": "place=village",
+      "name": "員山村",
+      "lat": 24.8835239,
+      "lon": 121.0002765,
+      "metersToCenter": 47260
+    },
+    {
+      "tag": "place=village",
+      "name": "商華里",
+      "lat": 24.7359354,
+      "lon": 121.083955,
+      "metersToCenter": 47272
+    },
+    {
+      "tag": "place=village",
+      "name": "中興里",
+      "lat": 24.8137626,
+      "lon": 121.0291316,
+      "metersToCenter": 47328
+    },
+    {
+      "tag": "place=village",
+      "name": "五豐里",
+      "lat": 24.7423548,
+      "lon": 121.0775972,
+      "metersToCenter": 47340
+    },
+    {
+      "tag": "place=village",
+      "name": "泰和里",
+      "lat": 24.8476109,
+      "lon": 121.0124257,
+      "metersToCenter": 47368
+    },
+    {
+      "tag": "place=village",
+      "name": "鳳山村",
+      "lat": 24.8601654,
+      "lon": 121.0070052,
+      "metersToCenter": 47400
+    },
+    {
+      "tag": "place=village",
+      "name": "三重里",
+      "lat": 24.7557946,
+      "lon": 121.0659701,
+      "metersToCenter": 47404
+    },
+    {
+      "tag": "place=village",
+      "name": "廣興",
+      "lat": 24.6700499,
+      "lon": 121.7484267,
+      "metersToCenter": 47419
+    },
+    {
+      "tag": "place=village",
+      "name": "和美",
+      "lat": 25.0826,
+      "lon": 121.913381,
+      "metersToCenter": 47474
+    },
+    {
+      "tag": "place=village",
+      "name": "大里",
+      "lat": 24.964062,
+      "lon": 121.92117,
+      "metersToCenter": 47559
+    },
+    {
+      "tag": "place=village",
+      "name": "土場",
+      "lat": 24.5743652,
+      "lon": 121.4957189,
+      "metersToCenter": 47565
+    },
+    {
+      "tag": "place=village",
+      "name": "興安里",
+      "lat": 24.8289381,
+      "lon": 121.0184271,
+      "metersToCenter": 47599
+    },
+    {
+      "tag": "place=village",
+      "name": "二重里",
+      "lat": 24.7676426,
+      "lon": 121.0541388,
+      "metersToCenter": 47658
+    },
+    {
+      "tag": "place=village",
+      "name": "竹仁里",
+      "lat": 24.8347222,
+      "lon": 121.0149277,
+      "metersToCenter": 47670
+    },
+    {
+      "tag": "place=village",
+      "name": "忠孝村",
+      "lat": 24.8793554,
+      "lon": 120.9969414,
+      "metersToCenter": 47712
+    },
+    {
+      "tag": "place=village",
+      "name": "東平里",
+      "lat": 24.8077481,
+      "lon": 121.0278603,
+      "metersToCenter": 47741
+    },
+    {
+      "tag": "place=village",
+      "name": "鹿場里",
+      "lat": 24.8174613,
+      "lon": 121.0215546,
+      "metersToCenter": 47840
+    },
+    {
+      "tag": "place=village",
+      "name": "重興村",
+      "lat": 24.8998656,
+      "lon": 120.9894076,
+      "metersToCenter": 47855
+    },
+    {
+      "tag": "place=village",
+      "name": "文化里",
+      "lat": 24.8313776,
+      "lon": 121.0142177,
+      "metersToCenter": 47881
+    },
+    {
+      "tag": "place=village",
+      "name": "田寮村",
+      "lat": 24.6983777,
+      "lon": 121.1120125,
+      "metersToCenter": 47919
+    },
+    {
+      "tag": "place=village",
+      "name": "上館里",
+      "lat": 24.7195224,
+      "lon": 121.0904291,
+      "metersToCenter": 47932
+    },
+    {
+      "tag": "place=village",
+      "name": "山崎村",
+      "lat": 24.8729963,
+      "lon": 120.996719,
+      "metersToCenter": 47939
+    },
+    {
+      "tag": "place=village",
+      "name": "員山里",
+      "lat": 24.7891983,
+      "lon": 121.036349,
+      "metersToCenter": 47955
+    },
+    {
+      "tag": "place=village",
+      "name": "崎頂村",
+      "lat": 24.887986,
+      "lon": 120.9913872,
+      "metersToCenter": 47990
+    },
+    {
+      "tag": "place=town",
+      "name": "羅東鎮",
+      "lat": 24.6770334,
+      "lon": 121.766919,
+      "metersToCenter": 48037
+    },
+    {
+      "tag": "place=town",
+      "name": "新豐鄉",
+      "lat": 24.902334,
+      "lon": 120.9866279,
+      "metersToCenter": 48065
+    },
+    {
+      "tag": "place=village",
+      "name": "坡頭村",
+      "lat": 24.9267388,
+      "lon": 120.980732,
+      "metersToCenter": 48105
+    },
+    {
+      "tag": "place=village",
+      "name": "澳底",
+      "lat": 25.0559706,
+      "lon": 121.925186,
+      "metersToCenter": 48177
+    },
+    {
+      "tag": "place=village",
+      "name": "福德里",
+      "lat": 24.8351746,
+      "lon": 121.0090483,
+      "metersToCenter": 48198
+    },
+    {
+      "tag": "place=village",
+      "name": "員崠里",
+      "lat": 24.7082363,
+      "lon": 121.0979206,
+      "metersToCenter": 48198
+    },
+    {
+      "tag": "place=village",
+      "name": "斗崙里",
+      "lat": 24.8225706,
+      "lon": 121.0134831,
+      "metersToCenter": 48342
+    },
+    {
+      "tag": "place=village",
+      "name": "竹義里",
+      "lat": 24.8375144,
+      "lon": 121.0058496,
+      "metersToCenter": 48398
+    },
+    {
+      "tag": "place=village",
+      "name": "頭重里",
+      "lat": 24.7780373,
+      "lon": 121.0383405,
+      "metersToCenter": 48403
+    },
+    {
+      "tag": "place=town",
+      "name": "竹北市",
+      "lat": 24.839682,
+      "lon": 121.0040779,
+      "metersToCenter": 48474
+    },
+    {
+      "tag": "place=village",
+      "name": "大眉里",
+      "lat": 24.8551202,
+      "lon": 120.9975204,
+      "metersToCenter": 48489
+    },
+    {
+      "tag": "place=village",
+      "name": "北崙里",
+      "lat": 24.8294444,
+      "lon": 121.0083685,
+      "metersToCenter": 48508
+    },
+    {
+      "tag": "place=village",
+      "name": "松林村",
+      "lat": 24.8675725,
+      "lon": 120.9925964,
+      "metersToCenter": 48517
+    },
+    {
+      "tag": "place=village",
+      "name": "新豐村",
+      "lat": 24.9139128,
+      "lon": 120.9780916,
+      "metersToCenter": 48631
+    },
+    {
+      "tag": "place=village",
+      "name": "新社里",
+      "lat": 24.8429836,
+      "lon": 121.0009566,
+      "metersToCenter": 48633
+    },
+    {
+      "tag": "place=village",
+      "name": "大鄉里",
+      "lat": 24.7216239,
+      "lon": 121.07831,
+      "metersToCenter": 48717
+    },
+    {
+      "tag": "place=village",
+      "name": "龍洞",
+      "lat": 25.1109654,
+      "lon": 121.9190344,
+      "metersToCenter": 48728
+    },
+    {
+      "tag": "place=village",
+      "name": "中崙里",
+      "lat": 24.8270203,
+      "lon": 121.0070668,
+      "metersToCenter": 48735
+    },
+    {
+      "tag": "place=village",
+      "name": "松柏村",
+      "lat": 24.8722349,
+      "lon": 120.9883062,
+      "metersToCenter": 48775
+    },
+    {
+      "tag": "place=village",
+      "name": "鼻頭",
+      "lat": 25.1247742,
+      "lon": 121.9165585,
+      "metersToCenter": 48897
+    },
+    {
+      "tag": "place=village",
+      "name": "新國里",
+      "lat": 24.839312,
+      "lon": 120.9986494,
+      "metersToCenter": 48999
+    },
+    {
+      "tag": "place=village",
+      "name": "上坑村",
+      "lat": 24.8923533,
+      "lon": 120.979732,
+      "metersToCenter": 49004
+    },
+    {
+      "tag": "place=village",
+      "name": "十八埒",
+      "lat": 24.6746204,
+      "lon": 121.7789819,
+      "metersToCenter": 49051
+    },
+    {
+      "tag": "place=village",
+      "name": "南昌村",
+      "lat": 24.6722257,
+      "lon": 121.1251257,
+      "metersToCenter": 49106
+    },
+    {
+      "tag": "place=village",
+      "name": "明新村",
+      "lat": 24.8648591,
+      "lon": 120.9871678,
+      "metersToCenter": 49131
+    },
+    {
+      "tag": "place=village",
+      "name": "柯湖里",
+      "lat": 24.7648092,
+      "lon": 121.0380541,
+      "metersToCenter": 49196
+    },
+    {
+      "tag": "place=village",
+      "name": "千甲里",
+      "lat": 24.8043278,
+      "lon": 121.0130183,
+      "metersToCenter": 49251
+    },
+    {
+      "tag": "place=village",
+      "name": "錦草",
+      "lat": 24.706993,
+      "lon": 121.8172282,
+      "metersToCenter": 49278
+    },
+    {
+      "tag": "place=village",
+      "name": "軟橋里",
+      "lat": 24.6945459,
+      "lon": 121.0966197,
+      "metersToCenter": 49333
+    },
+    {
+      "tag": "place=village",
+      "name": "花園村",
+      "lat": 24.6504036,
+      "lon": 121.1493566,
+      "metersToCenter": 49392
+    },
+    {
+      "tag": "place=village",
+      "name": "新莊里",
+      "lat": 24.7891081,
+      "lon": 121.0187268,
+      "metersToCenter": 49517
+    },
+    {
+      "tag": "place=village",
+      "name": "孝威",
+      "lat": 24.6971706,
+      "lon": 121.8109366,
+      "metersToCenter": 49541
+    },
+    {
+      "tag": "place=village",
+      "name": "關東里",
+      "lat": 24.7829314,
+      "lon": 121.0219952,
+      "metersToCenter": 49559
+    },
+    {
+      "tag": "place=town",
+      "name": "五結鄉",
+      "lat": 24.6846396,
+      "lon": 121.7982972,
+      "metersToCenter": 49591
+    },
+    {
+      "tag": "place=village",
+      "name": "聯興里",
+      "lat": 24.8477778,
+      "lon": 120.9884008,
+      "metersToCenter": 49632
+    },
+    {
+      "tag": "place=village",
+      "name": "關新里",
+      "lat": 24.7860245,
+      "lon": 121.0185294,
+      "metersToCenter": 49698
+    },
+    {
+      "tag": "place=village",
+      "name": "金山里",
+      "lat": 24.777787,
+      "lon": 121.0235869,
+      "metersToCenter": 49702
+    },
+    {
+      "tag": "place=village",
+      "name": "順安",
+      "lat": 24.6548047,
+      "lon": 121.7637327,
+      "metersToCenter": 49710
+    },
+    {
+      "tag": "place=village",
+      "name": "鳳坑村",
+      "lat": 24.8968502,
+      "lon": 120.9712917,
+      "metersToCenter": 49710
+    },
+    {
+      "tag": "place=village",
+      "name": "新崙里",
+      "lat": 24.8298898,
+      "lon": 120.9950214,
+      "metersToCenter": 49731
+    },
+    {
+      "tag": "place=village",
+      "name": "福隆",
+      "lat": 25.0162973,
+      "lon": 121.9453687,
+      "metersToCenter": 49850
+    },
+    {
+      "tag": "place=village",
+      "name": "埔頂里",
+      "lat": 24.794008,
+      "lon": 121.011622,
+      "metersToCenter": 49896
+    },
+    {
+      "tag": "place=village",
+      "name": "水源里",
+      "lat": 24.8133194,
+      "lon": 121.0011032,
+      "metersToCenter": 49906
+    }
+  ]
+}

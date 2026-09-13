@@ -1,0 +1,1460 @@
+{
+  "categories": [
+    {
+      "categoryKey": "landUseRegulation",
+      "categoryRaw": "土地使用管制",
+      "items": [
+        {
+          "categoryKey": "landUseRegulation",
+          "categoryRaw": "土地使用管制",
+          "itemKey": "insideOutsideUrbanPlan",
+          "itemRaw": "都市計畫內外",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "landUseRegulation",
+          "categoryRaw": "土地使用管制",
+          "itemKey": "zoningDesignation",
+          "itemRaw": "使用分區﹝編定﹞",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "landUseRegulation",
+          "categoryRaw": "土地使用管制",
+          "itemKey": "buildingCoverageRatio",
+          "itemRaw": "建蔽率",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "landUseRegulation",
+          "categoryRaw": "土地使用管制",
+          "itemKey": "floorAreaRatio",
+          "itemRaw": "容積率",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "landUseRegulation",
+          "categoryRaw": "土地使用管制",
+          "itemKey": "buildingProhibition",
+          "itemRaw": "有無禁止建築",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "landUseRegulation",
+          "categoryRaw": "土地使用管制",
+          "itemKey": "buildingRestriction",
+          "itemRaw": "有無限制建築",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryKey": "trafficAndTransport",
+      "categoryRaw": "交通運輸",
+      "items": [
+        {
+          "categoryKey": "trafficAndTransport",
+          "categoryRaw": "交通運輸",
+          "itemKey": "mainRoadWidth",
+          "itemRaw": "主要道路寬度",
+          "base": {
+            "key": "average",
+            "raw": "普通",
+            "value": -7.5,
+            "rate": 3
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": -7.5
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": -7.5
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": -7.5
+            }
+          ]
+        },
+        {
+          "categoryKey": "trafficAndTransport",
+          "categoryRaw": "交通運輸",
+          "itemKey": "averageRoadWidthInSection",
+          "itemRaw": "區段內道路平均寬度",
+          "base": {
+            "key": "average",
+            "raw": "普通",
+            "value": -5,
+            "rate": 3
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "rate": 3
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "rate": 3
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -5,
+                "rate": 3
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "trafficAndTransport",
+          "categoryRaw": "交通運輸",
+          "itemKey": "proximityToMajorStation",
+          "itemRaw": "接近大型車站之程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "trafficAndTransport",
+          "categoryRaw": "交通運輸",
+          "itemKey": "proximityToBusStop",
+          "itemRaw": "站牌之接近程度或密集程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "trafficAndTransport",
+          "categoryRaw": "交通運輸",
+          "itemKey": "proximityToInterchange",
+          "itemRaw": "交流道之有無及接近交流道之程度",
+          "base": {
+            "key": "inferior",
+            "raw": "劣",
+            "value": -8,
+            "rate": 5
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "trafficAndTransport",
+          "categoryRaw": "交通運輸",
+          "itemKey": "roadPlanningAndConstructionLevel",
+          "itemRaw": "區段內道路規劃及闢建程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -20.5,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -13,
+          "delta": -7.5
+        },
+        {
+          "label": "2",
+          "total": -13,
+          "delta": -7.5
+        },
+        {
+          "label": "3",
+          "total": -13,
+          "delta": -7.5
+        }
+      ]
+    },
+    {
+      "categoryKey": "naturalConditions",
+      "categoryRaw": "自然條件",
+      "items": [
+        {
+          "categoryKey": "naturalConditions",
+          "categoryRaw": "自然條件",
+          "itemKey": "drainageQuality",
+          "itemRaw": "排水之良否",
+          "base": {
+            "key": "slightlySuperior",
+            "raw": "稍優",
+            "value": -2.5,
+            "rate": 2
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "rate": 2
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "rate": 2
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2.5,
+                "rate": 2
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "naturalConditions",
+          "categoryRaw": "自然條件",
+          "itemKey": "terrain",
+          "itemRaw": "地勢",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -2.5,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -2.5,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": -2.5,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": -2.5,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryKey": "publicInfrastructure",
+      "categoryRaw": "公共建設",
+      "items": [
+        {
+          "categoryKey": "publicInfrastructure",
+          "categoryRaw": "公共建設",
+          "itemKey": "proximityToMarket",
+          "itemRaw": "接近市場之程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "rate": 3
+              },
+              "delta": 3
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "rate": 3
+              },
+              "delta": 3
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -3,
+                "rate": 3
+              },
+              "delta": 3
+            }
+          ]
+        },
+        {
+          "categoryKey": "publicInfrastructure",
+          "categoryRaw": "公共建設",
+          "itemKey": "proximityToParkPlazaPedestrianZone",
+          "itemRaw": "接近公園、廣場、徒步區之程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "publicInfrastructure",
+          "categoryRaw": "公共建設",
+          "itemKey": "proximityToTouristRecreationFacility",
+          "itemRaw": "接近觀光遊憩設施之程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "publicInfrastructure",
+          "categoryRaw": "公共建設",
+          "itemKey": "parkingConvenience",
+          "itemRaw": "停車場地之便利程度",
+          "base": {
+            "key": "slightlySuperior",
+            "raw": "稍優",
+            "value": -1,
+            "rate": 2
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "rate": 2
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "rate": 2
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "rate": 2
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -1,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -4,
+          "delta": 3
+        },
+        {
+          "label": "2",
+          "total": -4,
+          "delta": 3
+        },
+        {
+          "label": "3",
+          "total": -4,
+          "delta": 3
+        }
+      ]
+    },
+    {
+      "categoryKey": "specialFacilities",
+      "categoryRaw": "特殊設施",
+      "items": [
+        {
+          "categoryKey": "specialFacilities",
+          "categoryRaw": "特殊設施",
+          "itemKey": "proximityToFuneralFacility",
+          "itemRaw": "殯葬設施之有無及接近程度",
+          "base": {
+            "key": "inferior",
+            "raw": "劣",
+            "value": -8,
+            "rate": 5
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "specialFacilities",
+          "categoryRaw": "特殊設施",
+          "itemKey": "proximityToUtilityGasFacility",
+          "itemRaw": "電業設施及公用氣體燃料設施之有無及接近程度",
+          "base": {
+            "key": "inferior",
+            "raw": "劣",
+            "value": -8,
+            "rate": 5
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -8,
+                "rate": 5
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "specialFacilities",
+          "categoryRaw": "特殊設施",
+          "itemKey": "proximityToWasteFacility",
+          "itemRaw": "廢棄物處理設施之有無及接近程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -16,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -16,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": -16,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": -16,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryKey": "environmentalPollution",
+      "categoryRaw": "環境汙染",
+      "items": [
+        {
+          "categoryKey": "environmentalPollution",
+          "categoryRaw": "環境汙染",
+          "itemKey": "proximityToPollutionSource",
+          "itemRaw": "環境污染之有無及接近程度",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryKey": "commercialActivity",
+      "categoryRaw": "工商活動",
+      "items": [
+        {
+          "categoryKey": "commercialActivity",
+          "categoryRaw": "工商活動",
+          "itemKey": "proximityToDepartmentStore",
+          "itemRaw": "百貨公司之有無、數量、接近程度",
+          "base": {
+            "key": "inferior",
+            "raw": "劣",
+            "value": -8,
+            "rate": 5
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "rate": 2
+              },
+              "delta": -6
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "rate": 2
+              },
+              "delta": -6
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -2,
+                "rate": 2
+              },
+              "delta": -6
+            }
+          ]
+        },
+        {
+          "categoryKey": "commercialActivity",
+          "categoryRaw": "工商活動",
+          "itemKey": "proximityToFinancialInstitution",
+          "itemRaw": "金融機構之有無、數量、接近程度",
+          "base": {
+            "key": "slightlySuperior",
+            "raw": "稍優",
+            "value": -1,
+            "rate": 2
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "rate": 2
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "rate": 2
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "slightlySuperior",
+                "raw": "稍優",
+                "value": -1,
+                "rate": 2
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "commercialActivity",
+          "categoryRaw": "工商活動",
+          "itemKey": "proximityToEntertainmentFacility",
+          "itemRaw": "娛樂設施之有無、數量、接近程度",
+          "base": {
+            "key": "inferior",
+            "raw": "劣",
+            "value": -4,
+            "rate": 5
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "rate": 5
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "inferior",
+                "raw": "劣",
+                "value": -4,
+                "rate": 5
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "commercialActivity",
+          "categoryRaw": "工商活動",
+          "itemKey": "proximityToExhibitionCenterOrHotel",
+          "itemRaw": "大型展示中心或觀光飯店之有無、數量、接近程度",
+          "base": {
+            "key": "average",
+            "raw": "普通",
+            "value": -4,
+            "rate": 3
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "rate": 3
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "rate": 3
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "average",
+                "raw": "普通",
+                "value": -4,
+                "rate": 3
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "commercialActivity",
+          "categoryRaw": "工商活動",
+          "itemKey": "customerTrafficVolume",
+          "itemRaw": "顧客通行量之多寡",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryKey": "commercialActivity",
+          "categoryRaw": "工商活動",
+          "itemKey": "shopContiguityRatio",
+          "itemRaw": "店舖之毗連狀態",
+          "base": {
+            "key": "superior",
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "key": "superior",
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": -17,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": -11,
+          "delta": -6
+        },
+        {
+          "label": "2",
+          "total": -11,
+          "delta": -6
+        },
+        {
+          "label": "3",
+          "total": -11,
+          "delta": -6
+        }
+      ]
+    },
+    {
+      "categoryKey": "otherFactors",
+      "categoryRaw": "其他影響因素",
+      "items": [],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    }
+  ],
+  "sectionIdBase": "P002-00",
+  "comparableSectionIds": [
+    {
+      "label": "1",
+      "sectionId": "P002-00"
+    },
+    {
+      "label": "2",
+      "sectionId": "P002-00"
+    },
+    {
+      "label": "3",
+      "sectionId": "P002-00"
+    }
+  ],
+  "totalScoreBase": -57,
+  "comparableTotalScores": [
+    {
+      "label": "1",
+      "total": -46.5,
+      "delta": -10.5
+    },
+    {
+      "label": "2",
+      "total": -46.5,
+      "delta": -10.5
+    },
+    {
+      "label": "3",
+      "total": -46.5,
+      "delta": -10.5
+    }
+  ]
+}

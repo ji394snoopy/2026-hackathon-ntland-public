@@ -1,0 +1,57 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.0002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "leisure=playgound",
+    "leisure=amusement_arcade",
+    "leisure=indoor_play"
+  ],
+  "failedTags": [],
+  "matches": [
+    {
+      "tag": "leisure=amusement_arcade",
+      "name": "湯姆熊歡樂世界",
+      "lat": 24.9790019,
+      "lon": 121.4437033,
+      "metersToCenter": 2469
+    },
+    {
+      "tag": "leisure=amusement_arcade",
+      "name": "夾趣Play",
+      "lat": 25.0165263,
+      "lon": 121.4790716,
+      "metersToCenter": 3361
+    },
+    {
+      "tag": "leisure=amusement_arcade",
+      "name": "諾亞方舟",
+      "lat": 25.0186004,
+      "lon": 121.4788646,
+      "metersToCenter": 3474
+    },
+    {
+      "tag": "leisure=indoor_play",
+      "name": "貝兒絲樂園",
+      "lat": 25.0228527,
+      "lon": 121.4249523,
+      "metersToCenter": 3638
+    },
+    {
+      "tag": "leisure=amusement_arcade",
+      "name": "小時候彈珠堂",
+      "lat": 25.0244914,
+      "lon": 121.4246439,
+      "metersToCenter": 3788
+    },
+    {
+      "tag": "leisure=amusement_arcade",
+      "name": "愛啾娃娃屋",
+      "lat": 25.0276448,
+      "lon": 121.4789926,
+      "metersToCenter": 4156
+    }
+  ]
+}

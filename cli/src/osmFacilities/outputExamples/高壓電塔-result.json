@@ -1,0 +1,1762 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "power=tower"
+  ],
+  "matches": [
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0062719,
+      "lon": 121.4415816,
+      "metersToCenter": 1061
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0083704,
+      "lon": 121.4413989,
+      "metersToCenter": 1199
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0064464,
+      "lon": 121.4396251,
+      "metersToCenter": 1248
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0100659,
+      "lon": 121.4412516,
+      "metersToCenter": 1330
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0122864,
+      "lon": 121.4425559,
+      "metersToCenter": 1426
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0066337,
+      "lon": 121.4376594,
+      "metersToCenter": 1440
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0147222,
+      "lon": 121.4442516,
+      "metersToCenter": 1570
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0051508,
+      "lon": 121.4357935,
+      "metersToCenter": 1572
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0164734,
+      "lon": 121.4454563,
+      "metersToCenter": 1704
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0187369,
+      "lon": 121.4470832,
+      "metersToCenter": 1902
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0203947,
+      "lon": 121.4484006,
+      "metersToCenter": 2062
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0051162,
+      "lon": 121.430434,
+      "metersToCenter": 2101
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0064831,
+      "lon": 121.4298034,
+      "metersToCenter": 2193
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0217718,
+      "lon": 121.4493889,
+      "metersToCenter": 2205
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0080483,
+      "lon": 121.4291217,
+      "metersToCenter": 2305
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0235158,
+      "lon": 121.4499836,
+      "metersToCenter": 2395
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0085049,
+      "lon": 121.4271518,
+      "metersToCenter": 2510
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0256378,
+      "lon": 121.4507625,
+      "metersToCenter": 2629
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0111752,
+      "lon": 121.4266039,
+      "metersToCenter": 2662
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.980468,
+      "lon": 121.4394291,
+      "metersToCenter": 2663
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.980468,
+      "lon": 121.4387237,
+      "metersToCenter": 2695
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0263948,
+      "lon": 121.4491301,
+      "metersToCenter": 2719
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9803647,
+      "lon": 121.4368267,
+      "metersToCenter": 2798
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9853503,
+      "lon": 121.471835,
+      "metersToCenter": 2799
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9870802,
+      "lon": 121.4734849,
+      "metersToCenter": 2808
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9890956,
+      "lon": 121.474963,
+      "metersToCenter": 2809
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.02729,
+      "lon": 121.4523198,
+      "metersToCenter": 2815
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0122967,
+      "lon": 121.4254496,
+      "metersToCenter": 2818
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0272365,
+      "lon": 121.446598,
+      "metersToCenter": 2841
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9868113,
+      "lon": 121.4737682,
+      "metersToCenter": 2849
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9870266,
+      "lon": 121.4740786,
+      "metersToCenter": 2860
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9851046,
+      "lon": 121.4726653,
+      "metersToCenter": 2880
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9852416,
+      "lon": 121.4728323,
+      "metersToCenter": 2883
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.986303,
+      "lon": 121.4737752,
+      "metersToCenter": 2884
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9860939,
+      "lon": 121.4736542,
+      "metersToCenter": 2888
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9857693,
+      "lon": 121.473423,
+      "metersToCenter": 2892
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9886701,
+      "lon": 121.4756423,
+      "metersToCenter": 2892
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.985584,
+      "lon": 121.4732823,
+      "metersToCenter": 2894
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.986702,
+      "lon": 121.4742937,
+      "metersToCenter": 2899
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9901059,
+      "lon": 121.4769244,
+      "metersToCenter": 2928
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0131989,
+      "lon": 121.424527,
+      "metersToCenter": 2944
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9859926,
+      "lon": 121.4742759,
+      "metersToCenter": 2945
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9854897,
+      "lon": 121.4739035,
+      "metersToCenter": 2949
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9857897,
+      "lon": 121.4741584,
+      "metersToCenter": 2949
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9802383,
+      "lon": 121.4342679,
+      "metersToCenter": 2949
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9852959,
+      "lon": 121.4737649,
+      "metersToCenter": 2952
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9849948,
+      "lon": 121.4736259,
+      "metersToCenter": 2962
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9888072,
+      "lon": 121.4766526,
+      "metersToCenter": 2972
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9889024,
+      "lon": 121.4767184,
+      "metersToCenter": 2973
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9908277,
+      "lon": 121.477843,
+      "metersToCenter": 2977
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9886812,
+      "lon": 121.4766884,
+      "metersToCenter": 2983
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9851231,
+      "lon": 121.474165,
+      "metersToCenter": 2995
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9855416,
+      "lon": 121.4745556,
+      "metersToCenter": 2998
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9988069,
+      "lon": 121.4213255,
+      "metersToCenter": 3011
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0118723,
+      "lon": 121.4793253,
+      "metersToCenter": 3058
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9978579,
+      "lon": 121.4209686,
+      "metersToCenter": 3061
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9992456,
+      "lon": 121.4207782,
+      "metersToCenter": 3061
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0121411,
+      "lon": 121.479273,
+      "metersToCenter": 3064
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9889703,
+      "lon": 121.4779777,
+      "metersToCenter": 3081
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0126426,
+      "lon": 121.4227746,
+      "metersToCenter": 3081
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0115401,
+      "lon": 121.4797889,
+      "metersToCenter": 3089
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9902947,
+      "lon": 121.4788698,
+      "metersToCenter": 3096
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9746018,
+      "lon": 121.4565772,
+      "metersToCenter": 3098
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9909943,
+      "lon": 121.4792491,
+      "metersToCenter": 3099
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9816701,
+      "lon": 121.4720407,
+      "metersToCenter": 3100
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9838418,
+      "lon": 121.4744306,
+      "metersToCenter": 3107
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9748433,
+      "lon": 121.4584812,
+      "metersToCenter": 3112
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9887764,
+      "lon": 121.4782547,
+      "metersToCenter": 3116
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0298794,
+      "lon": 121.4541476,
+      "metersToCenter": 3116
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9848738,
+      "lon": 121.475698,
+      "metersToCenter": 3134
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9809151,
+      "lon": 121.4716543,
+      "metersToCenter": 3135
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0296325,
+      "lon": 121.4573547,
+      "metersToCenter": 3139
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9828625,
+      "lon": 121.4739204,
+      "metersToCenter": 3141
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0111913,
+      "lon": 121.4804928,
+      "metersToCenter": 3143
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9840639,
+      "lon": 121.4751271,
+      "metersToCenter": 3145
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9753418,
+      "lon": 121.4615596,
+      "metersToCenter": 3150
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0110866,
+      "lon": 121.4807112,
+      "metersToCenter": 3160
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9887858,
+      "lon": 121.4787953,
+      "metersToCenter": 3163
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9736061,
+      "lon": 121.4550619,
+      "metersToCenter": 3184
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9765455,
+      "lon": 121.4656868,
+      "metersToCenter": 3194
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0108039,
+      "lon": 121.481204,
+      "metersToCenter": 3197
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9890402,
+      "lon": 121.4793283,
+      "metersToCenter": 3198
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0119228,
+      "lon": 121.4210903,
+      "metersToCenter": 3210
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0304998,
+      "lon": 121.4565365,
+      "metersToCenter": 3218
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9902976,
+      "lon": 121.4802229,
+      "metersToCenter": 3220
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.979089,
+      "lon": 121.4707143,
+      "metersToCenter": 3231
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9962896,
+      "lon": 121.4192991,
+      "metersToCenter": 3257
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0103873,
+      "lon": 121.4819787,
+      "metersToCenter": 3258
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9770415,
+      "lon": 121.4679855,
+      "metersToCenter": 3261
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9891549,
+      "lon": 121.4801141,
+      "metersToCenter": 3263
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9778803,
+      "lon": 121.470105,
+      "metersToCenter": 3302
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0089668,
+      "lon": 121.482943,
+      "metersToCenter": 3311
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9782896,
+      "lon": 121.4311069,
+      "metersToCenter": 3312
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0097957,
+      "lon": 121.4830037,
+      "metersToCenter": 3340
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9796996,
+      "lon": 121.4732856,
+      "metersToCenter": 3346
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9916514,
+      "lon": 121.4822484,
+      "metersToCenter": 3353
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9717686,
+      "lon": 121.4522904,
+      "metersToCenter": 3364
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.01109,
+      "lon": 121.4191079,
+      "metersToCenter": 3369
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9809577,
+      "lon": 121.4750484,
+      "metersToCenter": 3369
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.98035,
+      "lon": 121.4749371,
+      "metersToCenter": 3408
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.98955,
+      "lon": 121.4819549,
+      "metersToCenter": 3413
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0096038,
+      "lon": 121.4180562,
+      "metersToCenter": 3426
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9752137,
+      "lon": 121.4687322,
+      "metersToCenter": 3474
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9704114,
+      "lon": 121.4502027,
+      "metersToCenter": 3513
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9898545,
+      "lon": 121.4832732,
+      "metersToCenter": 3522
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0094043,
+      "lon": 121.4168696,
+      "metersToCenter": 3537
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9835225,
+      "lon": 121.4797227,
+      "metersToCenter": 3550
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.973841,
+      "lon": 121.4680388,
+      "metersToCenter": 3571
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9926281,
+      "lon": 121.4170682,
+      "metersToCenter": 3575
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9792539,
+      "lon": 121.4760879,
+      "metersToCenter": 3576
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9953032,
+      "lon": 121.4162917,
+      "metersToCenter": 3576
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9793525,
+      "lon": 121.476402,
+      "metersToCenter": 3591
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9794799,
+      "lon": 121.4767764,
+      "metersToCenter": 3608
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9901617,
+      "lon": 121.4846135,
+      "metersToCenter": 3634
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9905623,
+      "lon": 121.4849368,
+      "metersToCenter": 3649
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9691565,
+      "lon": 121.4482666,
+      "metersToCenter": 3662
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9724669,
+      "lon": 121.467335,
+      "metersToCenter": 3674
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0046533,
+      "lon": 121.4146548,
+      "metersToCenter": 3675
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9923294,
+      "lon": 121.4859045,
+      "metersToCenter": 3678
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.991398,
+      "lon": 121.4160544,
+      "metersToCenter": 3714
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9904305,
+      "lon": 121.4858568,
+      "metersToCenter": 3741
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9760099,
+      "lon": 121.4273738,
+      "metersToCenter": 3745
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9746888,
+      "lon": 121.4728659,
+      "metersToCenter": 3752
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9787491,
+      "lon": 121.4780734,
+      "metersToCenter": 3759
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0019888,
+      "lon": 121.4133261,
+      "metersToCenter": 3797
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9680432,
+      "lon": 121.4466016,
+      "metersToCenter": 3802
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9726199,
+      "lon": 121.4316636,
+      "metersToCenter": 3804
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9902323,
+      "lon": 121.4154133,
+      "metersToCenter": 3818
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9718215,
+      "lon": 121.4327975,
+      "metersToCenter": 3824
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9831071,
+      "lon": 121.4827487,
+      "metersToCenter": 3828
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9911033,
+      "lon": 121.4870267,
+      "metersToCenter": 3828
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9718694,
+      "lon": 121.4324816,
+      "metersToCenter": 3835
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9702957,
+      "lon": 121.4352442,
+      "metersToCenter": 3867
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9704863,
+      "lon": 121.4345589,
+      "metersToCenter": 3876
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9763247,
+      "lon": 121.4770926,
+      "metersToCenter": 3882
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.992758,
+      "lon": 121.4882796,
+      "metersToCenter": 3895
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9944054,
+      "lon": 121.4130123,
+      "metersToCenter": 3920
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9891383,
+      "lon": 121.4147729,
+      "metersToCenter": 3921
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.992095,
+      "lon": 121.4884413,
+      "metersToCenter": 3931
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9692164,
+      "lon": 121.465655,
+      "metersToCenter": 3933
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9762403,
+      "lon": 121.4777922,
+      "metersToCenter": 3936
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.028954,
+      "lon": 121.4255836,
+      "metersToCenter": 3942
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9670036,
+      "lon": 121.4444296,
+      "metersToCenter": 3947
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9992565,
+      "lon": 121.4118578,
+      "metersToCenter": 3956
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9696732,
+      "lon": 121.4345925,
+      "metersToCenter": 3957
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9684424,
+      "lon": 121.437388,
+      "metersToCenter": 3976
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9882971,
+      "lon": 121.4143015,
+      "metersToCenter": 4000
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9717791,
+      "lon": 121.4727758,
+      "metersToCenter": 4014
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9870257,
+      "lon": 121.4147503,
+      "metersToCenter": 4015
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9879713,
+      "lon": 121.41415,
+      "metersToCenter": 4028
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9690872,
+      "lon": 121.4340949,
+      "metersToCenter": 4037
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9742132,
+      "lon": 121.4251686,
+      "metersToCenter": 4040
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9676038,
+      "lon": 121.4380573,
+      "metersToCenter": 4041
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0306881,
+      "lon": 121.4263571,
+      "metersToCenter": 4042
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9703928,
+      "lon": 121.4708627,
+      "metersToCenter": 4045
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0123781,
+      "lon": 121.4123767,
+      "metersToCenter": 4060
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0125455,
+      "lon": 121.4123637,
+      "metersToCenter": 4066
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9934483,
+      "lon": 121.4904333,
+      "metersToCenter": 4086
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9662194,
+      "lon": 121.4610841,
+      "metersToCenter": 4106
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9667225,
+      "lon": 121.4389506,
+      "metersToCenter": 4106
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9972184,
+      "lon": 121.4105916,
+      "metersToCenter": 4107
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9839466,
+      "lon": 121.4865988,
+      "metersToCenter": 4111
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9686494,
+      "lon": 121.4687881,
+      "metersToCenter": 4119
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9658571,
+      "lon": 121.4419177,
+      "metersToCenter": 4122
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9768926,
+      "lon": 121.4813356,
+      "metersToCenter": 4140
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0326019,
+      "lon": 121.4272769,
+      "metersToCenter": 4158
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9937569,
+      "lon": 121.4107151,
+      "metersToCenter": 4162
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9678015,
+      "lon": 121.433185,
+      "metersToCenter": 4205
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9701889,
+      "lon": 121.4282398,
+      "metersToCenter": 4216
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0118576,
+      "lon": 121.4104524,
+      "metersToCenter": 4230
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9935735,
+      "lon": 121.4919401,
+      "metersToCenter": 4231
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9645513,
+      "lon": 121.4585649,
+      "metersToCenter": 4233
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9939113,
+      "lon": 121.4098953,
+      "metersToCenter": 4239
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9951581,
+      "lon": 121.409485,
+      "metersToCenter": 4252
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9649068,
+      "lon": 121.4400487,
+      "metersToCenter": 4270
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9672611,
+      "lon": 121.4325607,
+      "metersToCenter": 4287
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9960036,
+      "lon": 121.4086635,
+      "metersToCenter": 4318
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0350399,
+      "lon": 121.4283999,
+      "metersToCenter": 4322
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9941942,
+      "lon": 121.493068,
+      "metersToCenter": 4327
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9670473,
+      "lon": 121.4321112,
+      "metersToCenter": 4328
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9706687,
+      "lon": 121.4768302,
+      "metersToCenter": 4349
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.975733,
+      "lon": 121.4830178,
+      "metersToCenter": 4352
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.964216,
+      "lon": 121.4624645,
+      "metersToCenter": 4357
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9724578,
+      "lon": 121.4794753,
+      "metersToCenter": 4362
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9967175,
+      "lon": 121.4079575,
+      "metersToCenter": 4377
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9713675,
+      "lon": 121.4783529,
+      "metersToCenter": 4382
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9720937,
+      "lon": 121.4226596,
+      "metersToCenter": 4384
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9971477,
+      "lon": 121.4076302,
+      "metersToCenter": 4404
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0117811,
+      "lon": 121.4086028,
+      "metersToCenter": 4409
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9710045,
+      "lon": 121.4783107,
+      "metersToCenter": 4411
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9633751,
+      "lon": 121.461332,
+      "metersToCenter": 4419
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9713088,
+      "lon": 121.4790304,
+      "metersToCenter": 4430
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9848477,
+      "lon": 121.4906887,
+      "metersToCenter": 4431
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9664127,
+      "lon": 121.4308955,
+      "metersToCenter": 4446
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9718575,
+      "lon": 121.4804198,
+      "metersToCenter": 4475
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0070228,
+      "lon": 121.4951313,
+      "metersToCenter": 4482
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9660493,
+      "lon": 121.4304018,
+      "metersToCenter": 4504
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0375548,
+      "lon": 121.4295638,
+      "metersToCenter": 4505
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9614615,
+      "lon": 121.4538967,
+      "metersToCenter": 4517
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9989369,
+      "lon": 121.4061251,
+      "metersToCenter": 4535
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9747293,
+      "lon": 121.4844715,
+      "metersToCenter": 4536
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9683132,
+      "lon": 121.4252971,
+      "metersToCenter": 4554
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9616306,
+      "lon": 121.4588642,
+      "metersToCenter": 4558
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9846107,
+      "lon": 121.4100355,
+      "metersToCenter": 4559
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0081942,
+      "lon": 121.4958729,
+      "metersToCenter": 4574
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9789977,
+      "lon": 121.4133241,
+      "metersToCenter": 4578
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9777435,
+      "lon": 121.4142459,
+      "metersToCenter": 4582
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9870004,
+      "lon": 121.4085852,
+      "metersToCenter": 4588
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9607097,
+      "lon": 121.4505683,
+      "metersToCenter": 4591
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9760622,
+      "lon": 121.4154547,
+      "metersToCenter": 4599
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9808189,
+      "lon": 121.411683,
+      "metersToCenter": 4610
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0000917,
+      "lon": 121.4051692,
+      "metersToCenter": 4624
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.974135,
+      "lon": 121.485165,
+      "metersToCenter": 4632
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9890299,
+      "lon": 121.4072864,
+      "metersToCenter": 4636
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9822029,
+      "lon": 121.410437,
+      "metersToCenter": 4643
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9730395,
+      "lon": 121.4176628,
+      "metersToCenter": 4654
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9842876,
+      "lon": 121.4089652,
+      "metersToCenter": 4672
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9855118,
+      "lon": 121.4936486,
+      "metersToCenter": 4673
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0396945,
+      "lon": 121.430503,
+      "metersToCenter": 4673
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9728755,
+      "lon": 121.4174957,
+      "metersToCenter": 4679
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0119771,
+      "lon": 121.4961216,
+      "metersToCenter": 4680
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.000832,
+      "lon": 121.4045422,
+      "metersToCenter": 4684
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0106511,
+      "lon": 121.4965715,
+      "metersToCenter": 4692
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0267296,
+      "lon": 121.4889523,
+      "metersToCenter": 4710
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9700708,
+      "lon": 121.4202135,
+      "metersToCenter": 4715
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9674067,
+      "lon": 121.4783257,
+      "metersToCenter": 4731
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9595426,
+      "lon": 121.4541608,
+      "metersToCenter": 4732
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0326251,
+      "lon": 121.4182926,
+      "metersToCenter": 4739
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9596309,
+      "lon": 121.4457271,
+      "metersToCenter": 4741
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0290603,
+      "lon": 121.4874783,
+      "metersToCenter": 4750
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9668523,
+      "lon": 121.4233025,
+      "metersToCenter": 4803
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0089615,
+      "lon": 121.4039066,
+      "metersToCenter": 4808
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.030305,
+      "lon": 121.4871317,
+      "metersToCenter": 4813
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.968373,
+      "lon": 121.4813073,
+      "metersToCenter": 4828
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9584989,
+      "lon": 121.4517575,
+      "metersToCenter": 4838
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0078895,
+      "lon": 121.4985872,
+      "metersToCenter": 4840
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9700346,
+      "lon": 121.4837349,
+      "metersToCenter": 4850
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9589571,
+      "lon": 121.442675,
+      "metersToCenter": 4859
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0029276,
+      "lon": 121.4027798,
+      "metersToCenter": 4860
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9892138,
+      "lon": 121.497151,
+      "metersToCenter": 4864
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0091017,
+      "lon": 121.4986386,
+      "metersToCenter": 4865
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0292965,
+      "lon": 121.4888459,
+      "metersToCenter": 4874
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9833258,
+      "lon": 121.4071753,
+      "metersToCenter": 4881
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.988331,
+      "lon": 121.497268,
+      "metersToCenter": 4904
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.042508,
+      "lon": 121.4317371,
+      "metersToCenter": 4905
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9872692,
+      "lon": 121.4974351,
+      "metersToCenter": 4958
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9583772,
+      "lon": 121.440011,
+      "metersToCenter": 4975
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0326129,
+      "lon": 121.4871421,
+      "metersToCenter": 4985
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 24.9863209,
+      "lon": 121.4974614,
+      "metersToCenter": 4996
+    },
+    {
+      "tag": "power=tower",
+      "name": null,
+      "lat": 25.0338823,
+      "lon": 121.4159736,
+      "metersToCenter": 5002
+    }
+  ]
+}

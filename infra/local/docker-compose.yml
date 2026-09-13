@@ -1,0 +1,36 @@
+# Local PostGIS for development — mirrors the cloud Aurora PostgreSQL + PostGIS setup.
+#
+# The `postgis/postgis` image is stock Postgres with the PostGIS extension already
+# installed at the OS level; the init script below still runs `CREATE EXTENSION` so the
+# extension is actually enabled inside the `gis` database (installed != enabled).
+#
+# Bring up:   docker compose -f infra/local/docker-compose.yml up -d
+# Connect:    psql postgresql://postgres:postgres@localhost:5432/gis
+# Tear down:  docker compose -f infra/local/docker-compose.yml down          (keeps data)
+#             docker compose -f infra/local/docker-compose.yml down -v       (wipes data)
+
+services:
+  postgis:
+    # PostGIS 3.4 on PostgreSQL 16 — matches the Aurora PostgreSQL 16 engine in the CDK
+    # DatabaseStack so local and cloud behave the same.
+    image: postgis/postgis:16-3.4
+    container_name: ntland-postgis
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: gis
+    ports:
+      - "5433:5432"
+    volumes:
+      - ntland_pgdata:/var/lib/postgresql/data
+      # Scripts in /docker-entrypoint-initdb.d run once, only when the data volume is
+      # first created (i.e. on a fresh volume). Re-run after `down -v` to re-init.
+      - ./init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d gis"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ntland_pgdata:

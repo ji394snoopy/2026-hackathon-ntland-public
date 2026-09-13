@@ -1,0 +1,7 @@
+{
+  "_note": "radius 模式：板橋車站 500m。GET 時把這些欄位當 query string；POST 時當 JSON body。",
+  "_curl": "curl 'http://localhost:PORT/?lon=121.4627&lat=25.0111&radius=500'",
+  "lon": 121.4627,
+  "lat": 25.0111,
+  "radius": 500
+}

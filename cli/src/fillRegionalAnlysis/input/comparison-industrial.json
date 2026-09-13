@@ -1,0 +1,934 @@
+{
+  "categories": [
+    {
+      "categoryRaw": "土地使用管制",
+      "items": [
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "都市計畫（內、外）",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "使用分區(使用地類別)",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "建蔽率",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "容積率",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "有無禁止建築",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "土地使用管制",
+          "itemRaw": "有無限制建築（整體開發、面積限制、高度限制",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "交通運輸",
+      "items": [
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "主要道路寬度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "區段內道路平均寬度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "接近大型車站之程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "站牌之接近程度或密集程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "交流道之有無及接近交流道之程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "交通運輸",
+          "itemRaw": "區段內道路規劃及闢建程度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "自然條件",
+      "items": [
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "傾斜度",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "排水之良否",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "自然條件",
+          "itemRaw": "地勢",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "公共建設",
+      "items": [
+        {
+          "categoryRaw": "公共建設",
+          "itemRaw": "電力資源",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "公共建設",
+          "itemRaw": "產業用水及設施",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "公共建設",
+          "itemRaw": "污廢水及廢棄物處理設施之有無",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        },
+        {
+          "categoryRaw": "公共建設",
+          "itemRaw": "接近服務性設施的程度（郵局、銀行、醫院、機關等設施）",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "土地改良",
+      "items": [
+        {
+          "categoryRaw": "土地改良",
+          "itemRaw": "建築基地改良（整平或填挖基地、開挖水溝、水土保持、鋪築道路、埋設管道、修築駁嵌等）或其他改良",
+          "base": {
+            "raw": "優",
+            "value": 0,
+            "rate": 1
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "2",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            },
+            {
+              "label": "3",
+              "grade": {
+                "raw": "優",
+                "value": 0,
+                "rate": 1
+              },
+              "delta": 0
+            }
+          ]
+        }
+      ],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "categoryRaw": "其他影響因素",
+      "items": [],
+      "totalBase": 0,
+      "comparableTotals": [
+        {
+          "label": "1",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "2",
+          "total": 0,
+          "delta": 0
+        },
+        {
+          "label": "3",
+          "total": 0,
+          "delta": 0
+        }
+      ]
+    }
+  ],
+  "sectionIdBase": "TEST-INDUSTRIAL",
+  "comparableSectionIds": [
+    {
+      "label": "1",
+      "sectionId": "TEST-INDUSTRIAL"
+    },
+    {
+      "label": "2",
+      "sectionId": "TEST-INDUSTRIAL"
+    },
+    {
+      "label": "3",
+      "sectionId": "TEST-INDUSTRIAL"
+    }
+  ],
+  "totalScoreBase": 0,
+  "comparableTotalScores": [
+    {
+      "label": "1",
+      "total": 0,
+      "delta": 0
+    },
+    {
+      "label": "2",
+      "total": 0,
+      "delta": 0
+    },
+    {
+      "label": "3",
+      "total": 0,
+      "delta": 0
+    }
+  ]
+}

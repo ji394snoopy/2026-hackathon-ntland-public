@@ -1,0 +1,7 @@
+{
+  "_note": "radius 模式：金山 demo 座標 200m（方圓 200 公尺，小鎮案例）。回傳已去重（公車站等同站位多路線會合併成一筆）。",
+  "_curl": "curl 'http://localhost:PORT/?lon=121.636&lat=25.221&radius=200'",
+  "lon": 121.636,
+  "lat": 25.221,
+  "radius": 200
+}

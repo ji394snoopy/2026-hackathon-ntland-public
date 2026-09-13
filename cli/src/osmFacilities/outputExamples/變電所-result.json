@@ -1,0 +1,180 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "power=substation"
+  ],
+  "matches": [
+    {
+      "tag": "power=substation",
+      "name": "遠信變電所暨多目標新建工程",
+      "lat": 24.9972269,
+      "lon": 121.4548693,
+      "metersToCenter": 659
+    },
+    {
+      "tag": "power=substation",
+      "name": "景星變電所",
+      "lat": 25.0013641,
+      "lon": 121.45941,
+      "metersToCenter": 850
+    },
+    {
+      "tag": "power=substation",
+      "name": "中華電信變電所",
+      "lat": 24.995074,
+      "lon": 121.4579693,
+      "metersToCenter": 1042
+    },
+    {
+      "tag": "power=substation",
+      "name": "新民變電所",
+      "lat": 25.0120296,
+      "lon": 121.4616881,
+      "metersToCenter": 1550
+    },
+    {
+      "tag": "power=substation",
+      "name": "西盛變電所",
+      "lat": 25.0055294,
+      "lon": 121.4327542,
+      "metersToCenter": 1880
+    },
+    {
+      "tag": "power=substation",
+      "name": "樹高變電所",
+      "lat": 25.004395,
+      "lon": 121.4324809,
+      "metersToCenter": 1885
+    },
+    {
+      "tag": "power=substation",
+      "name": "板捷變電所",
+      "lat": 25.0154398,
+      "lon": 121.4647757,
+      "metersToCenter": 2040
+    },
+    {
+      "tag": "power=substation",
+      "name": "華新變電所",
+      "lat": 25.0105479,
+      "lon": 121.4322123,
+      "metersToCenter": 2118
+    },
+    {
+      "tag": "power=substation",
+      "name": "鐵林變電所",
+      "lat": 24.9995239,
+      "lon": 121.4289991,
+      "metersToCenter": 2234
+    },
+    {
+      "tag": "power=substation",
+      "name": "板城變電所",
+      "lat": 24.9821339,
+      "lon": 121.4442628,
+      "metersToCenter": 2311
+    },
+    {
+      "tag": "power=substation",
+      "name": "社后變電所",
+      "lat": 25.0233331,
+      "lon": 121.4600267,
+      "metersToCenter": 2541
+    },
+    {
+      "tag": "power=substation",
+      "name": "板橋一次變電所",
+      "lat": 24.9877558,
+      "lon": 121.4710331,
+      "metersToCenter": 2566
+    },
+    {
+      "tag": "power=substation",
+      "name": "板橋超高壓變電所",
+      "lat": 24.9860748,
+      "lon": 121.4730316,
+      "metersToCenter": 2840
+    },
+    {
+      "tag": "power=substation",
+      "name": "樹安變電所",
+      "lat": 24.998312,
+      "lon": 121.4221347,
+      "metersToCenter": 2938
+    },
+    {
+      "tag": "power=substation",
+      "name": "豐林變電所",
+      "lat": 24.9996024,
+      "lon": 121.4212098,
+      "metersToCenter": 3014
+    },
+    {
+      "tag": "power=substation",
+      "name": "埔墘加壓站（埔水）變電所",
+      "lat": 25.0120413,
+      "lon": 121.4792646,
+      "metersToCenter": 3059
+    },
+    {
+      "tag": "power=substation",
+      "name": "埔墘變電所",
+      "lat": 25.0123029,
+      "lon": 121.4791999,
+      "metersToCenter": 3064
+    },
+    {
+      "tag": "power=substation",
+      "name": "樹德一次變電所",
+      "lat": 25.0094547,
+      "lon": 121.4169698,
+      "metersToCenter": 3528
+    },
+    {
+      "tag": "power=substation",
+      "name": "江翠變電所",
+      "lat": 25.0309111,
+      "lon": 121.4705727,
+      "metersToCenter": 3772
+    },
+    {
+      "tag": "power=substation",
+      "name": "福營變電所",
+      "lat": 25.029078,
+      "lon": 121.4257851,
+      "metersToCenter": 3940
+    },
+    {
+      "tag": "power=substation",
+      "name": "光復加壓站（水光）變電所",
+      "lat": 25.0177791,
+      "lon": 121.4863481,
+      "metersToCenter": 3971
+    },
+    {
+      "tag": "power=substation",
+      "name": "樹林變電所",
+      "lat": 24.9867766,
+      "lon": 121.4149143,
+      "metersToCenter": 4011
+    },
+    {
+      "tag": "power=substation",
+      "name": "主變電站",
+      "lat": 25.0230127,
+      "lon": 121.4124184,
+      "metersToCenter": 4536
+    },
+    {
+      "tag": "power=substation",
+      "name": "土城變電所",
+      "lat": 24.9644301,
+      "lon": 121.4303304,
+      "metersToCenter": 4668
+    }
+  ]
+}

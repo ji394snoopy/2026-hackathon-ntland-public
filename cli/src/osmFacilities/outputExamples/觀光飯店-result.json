@@ -1,0 +1,334 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "tourism=hotel"
+  ],
+  "matches": [
+    {
+      "tag": "tourism=hotel",
+      "name": "甜蜜蜜旅館",
+      "lat": 25.0031331,
+      "lon": 121.4541727,
+      "metersToCenter": 344
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "新都旅店",
+      "lat": 25.0050864,
+      "lon": 121.4554721,
+      "metersToCenter": 566
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "欣芳旅店",
+      "lat": 25.0070427,
+      "lon": 121.4566789,
+      "metersToCenter": 801
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "宮賓旅舍",
+      "lat": 25.0067481,
+      "lon": 121.4572294,
+      "metersToCenter": 820
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "馥都飯店",
+      "lat": 25.0074987,
+      "lon": 121.458139,
+      "metersToCenter": 944
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "馥麗商旅",
+      "lat": 25.0078272,
+      "lon": 121.4580632,
+      "metersToCenter": 963
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "百麗旅店",
+      "lat": 25.008535,
+      "lon": 121.457583,
+      "metersToCenter": 984
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "悅喜商務飯店",
+      "lat": 25.0084998,
+      "lon": 121.4579798,
+      "metersToCenter": 1009
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "Yen Inn",
+      "lat": 25.0067724,
+      "lon": 121.4598709,
+      "metersToCenter": 1040
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "馥俐旅店",
+      "lat": 25.0090105,
+      "lon": 121.4578901,
+      "metersToCenter": 1044
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "馥麗商旅二館",
+      "lat": 25.0091873,
+      "lon": 121.4578253,
+      "metersToCenter": 1054
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "藝宿商旅",
+      "lat": 25.0092746,
+      "lon": 121.458057,
+      "metersToCenter": 1077
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "台北輕旅複合式旅店",
+      "lat": 25.0072788,
+      "lon": 121.4600284,
+      "metersToCenter": 1083
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "清翼居旅店",
+      "lat": 25.0070355,
+      "lon": 121.4604043,
+      "metersToCenter": 1101
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "金色年代旅店",
+      "lat": 25.0064171,
+      "lon": 121.46158,
+      "metersToCenter": 1174
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "冠君大飯店",
+      "lat": 25.0059058,
+      "lon": 121.4620824,
+      "metersToCenter": 1198
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "府中棧精品旅館",
+      "lat": 25.0095292,
+      "lon": 121.459768,
+      "metersToCenter": 1217
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "品川商旅",
+      "lat": 25.0077324,
+      "lon": 121.4614344,
+      "metersToCenter": 1230
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "Single INN單人房-台北館",
+      "lat": 25.0105088,
+      "lon": 121.4590543,
+      "metersToCenter": 1247
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "首府大旅社",
+      "lat": 25.0073754,
+      "lon": 121.4622736,
+      "metersToCenter": 1284
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "君利商務旅館",
+      "lat": 25.0091131,
+      "lon": 121.4628229,
+      "metersToCenter": 1430
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "台北新板希爾頓酒店",
+      "lat": 25.0113872,
+      "lon": 121.4625357,
+      "metersToCenter": 1562
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "板橋凱撒大飯店",
+      "lat": 25.0115519,
+      "lon": 121.4626751,
+      "metersToCenter": 1585
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "趣淘漫旅-台北",
+      "lat": 25.0112044,
+      "lon": 121.4633744,
+      "metersToCenter": 1613
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "Chengdian Hotel",
+      "lat": 25.0136267,
+      "lon": 121.4606997,
+      "metersToCenter": 1621
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "香亭賓館",
+      "lat": 24.9924209,
+      "lon": 121.4311345,
+      "metersToCenter": 2268
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "台北板橋馥華艾美酒店",
+      "lat": 25.0137825,
+      "lon": 121.4705595,
+      "metersToCenter": 2367
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "傑仕堡商旅板橋館",
+      "lat": 25.0176899,
+      "lon": 121.4693525,
+      "metersToCenter": 2542
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "帝苑時尚旅店",
+      "lat": 25.0203477,
+      "lon": 121.4666484,
+      "metersToCenter": 2579
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "佳賓旅社",
+      "lat": 24.9927315,
+      "lon": 121.4266439,
+      "metersToCenter": 2662
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "昇園賓館",
+      "lat": 24.9928698,
+      "lon": 121.426237,
+      "metersToCenter": 2694
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "馥華旅店",
+      "lat": 25.0220405,
+      "lon": 121.4680944,
+      "metersToCenter": 2817
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "富康精采旅店",
+      "lat": 25.0274784,
+      "lon": 121.4703252,
+      "metersToCenter": 3438
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "喬太商務旅館",
+      "lat": 25.0191062,
+      "lon": 121.4795853,
+      "metersToCenter": 3452
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "The Loft - 沐舍時尚酒店",
+      "lat": 25.0002835,
+      "lon": 121.4853601,
+      "metersToCenter": 3468
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "驛德世紀酒店",
+      "lat": 25.0284478,
+      "lon": 121.4322694,
+      "metersToCenter": 3494
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "君迪商旅",
+      "lat": 24.9940868,
+      "lon": 121.4850123,
+      "metersToCenter": 3539
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "瓏山林台北中和飯店",
+      "lat": 24.9948641,
+      "lon": 121.485236,
+      "metersToCenter": 3540
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "悅客商務飯店",
+      "lat": 25.0213197,
+      "lon": 121.4795966,
+      "metersToCenter": 3594
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "祥興樓水漾會館",
+      "lat": 25.0044264,
+      "lon": 121.488263,
+      "metersToCenter": 3765
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "學人旅舍",
+      "lat": 25.0359498,
+      "lon": 121.4352074,
+      "metersToCenter": 4097
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "丹鳳大旅館",
+      "lat": 25.0229055,
+      "lon": 121.4133465,
+      "metersToCenter": 4450
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "麗京棧酒店",
+      "lat": 25.0324765,
+      "lon": 121.4196033,
+      "metersToCenter": 4636
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "新莊客旅",
+      "lat": 25.0438519,
+      "lon": 121.4525371,
+      "metersToCenter": 4656
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "Grace Hotel 葛瑞絲商旅",
+      "lat": 25.0028782,
+      "lon": 121.4988595,
+      "metersToCenter": 4824
+    },
+    {
+      "tag": "tourism=hotel",
+      "name": "全家Hotel",
+      "lat": 25.0013454,
+      "lon": 121.5005525,
+      "metersToCenter": 4994
+    }
+  ]
+}

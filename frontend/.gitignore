@@ -1,0 +1,26 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+
+# Lambda 部署包用的複本不進 git（跟 public/data/zoning/ntpc-zoning.geojson 是同一份資料，
+# 那份要進 git——Amplify build 是全新 git clone，ignore 掉前端會 fetch 不到 fallback 檔案 404）；
+# 用 aws/zoning-filter/prepare-data.sh 重新產生
+/aws/zoning-filter/zoning-data.geojson
+/aws/zoning-filter/function.zip
+
+# Platform-managed agentplat state, not project source. In the
+# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
+# repo root IS the workspace root, so these land inside this repo rather than
+# beside it.
+/.plugins/
+/.opencode-skills/

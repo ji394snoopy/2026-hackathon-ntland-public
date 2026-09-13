@@ -1,0 +1,22 @@
+{
+  "regional": {
+    "土地使用管制": "landUseRegulation",
+    "交通運輸": "trafficAndTransport",
+    "自然條件": "naturalConditions",
+    "公共建設": "publicInfrastructure",
+    "特殊設施": "specialFacilities",
+    "環境汙染": "environmentalPollution",
+    "環境污染": "environmentalPollution",
+    "工商活動": "commercialActivity",
+    "其他影響因素": "commercialActivity",
+    "土地改良": "landImprovement"
+  },
+  "individual": {
+    "宗地條件": "lotCondition",
+    "道路條件": "roadCondition",
+    "接近條件": "proximityCondition",
+    "周邊環境條件": "surroundingEnvironment",
+    "行政條件": "administrativeCondition",
+    "其他": "otherFactors"
+  }
+}

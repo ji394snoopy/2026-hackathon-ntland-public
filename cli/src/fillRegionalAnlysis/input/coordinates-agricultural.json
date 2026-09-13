@@ -1,0 +1,992 @@
+{
+  "sectionIdBase": {
+    "x": 206.535,
+    "y": 759.94
+  },
+  "comparableInstanceIds": [
+    {
+      "label": "1",
+      "x": 280.73,
+      "y": 759.94
+    },
+    {
+      "label": "2",
+      "x": 389.23,
+      "y": 759.94
+    },
+    {
+      "label": "3",
+      "x": 497.74,
+      "y": 759.94
+    }
+  ],
+  "comparableSequenceNumbers": [
+    {
+      "label": "1",
+      "x": 327.19,
+      "y": 777.94
+    },
+    {
+      "label": "2",
+      "x": 435.7,
+      "y": 777.94
+    },
+    {
+      "label": "3",
+      "x": 544.2,
+      "y": 777.94
+    }
+  ],
+  "categories": [
+    {
+      "categoryRaw": "土地使用管制",
+      "items": [
+        {
+          "itemRaw": "都市計畫（內、外）",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 719.86,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 719.86
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 719.86,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 719.86,
+              "percentX": 327.19,
+              "percentY": 719.86
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 719.86,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 719.86,
+              "percentX": 435.7,
+              "percentY": 719.86
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 719.86,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 719.86,
+              "percentX": 544.2,
+              "percentY": 719.86
+            }
+          ]
+        },
+        {
+          "itemRaw": "使用分區(使用地類別)",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 706.66,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 706.66
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 706.66,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 706.66,
+              "percentX": 327.19,
+              "percentY": 706.66
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 706.66,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 706.66,
+              "percentX": 435.7,
+              "percentY": 706.66
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 706.66,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 706.66,
+              "percentX": 544.2,
+              "percentY": 706.66
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 693.58
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 693.58
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 693.58
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 693.58
+        }
+      ]
+    },
+    {
+      "categoryRaw": "交通運輸",
+      "items": [
+        {
+          "itemRaw": "接近聚落之程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 679.54,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 679.54
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 679.54,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 679.54,
+              "percentX": 327.19,
+              "percentY": 679.54
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 679.54,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 679.54,
+              "percentX": 435.7,
+              "percentY": 679.54
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 679.54,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 679.54,
+              "percentX": 544.2,
+              "percentY": 679.54
+            }
+          ]
+        },
+        {
+          "itemRaw": "接近運銷中心程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 666.31,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 666.31
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 666.31,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 666.31,
+              "percentX": 327.19,
+              "percentY": 666.31
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 666.31,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 666.31,
+              "percentX": 435.7,
+              "percentY": 666.31
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 666.31,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 666.31,
+              "percentX": 544.2,
+              "percentY": 666.31
+            }
+          ]
+        },
+        {
+          "itemRaw": "接近消費市場程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 653.11,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 653.11
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 653.11,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 653.11,
+              "percentX": 327.19,
+              "percentY": 653.11
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 653.11,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 653.11,
+              "percentX": 435.7,
+              "percentY": 653.11
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 653.11,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 653.11,
+              "percentX": 544.2,
+              "percentY": 653.11
+            }
+          ]
+        },
+        {
+          "itemRaw": "區段內道路規劃及闢建程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 639.91,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 639.91
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 639.91,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 639.91,
+              "percentX": 327.19,
+              "percentY": 639.91
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 639.91,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 639.91,
+              "percentX": 435.7,
+              "percentY": 639.91
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 639.91,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 639.91,
+              "percentX": 544.2,
+              "percentY": 639.91
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 626.83
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 626.83
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 626.83
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 626.83
+        }
+      ]
+    },
+    {
+      "categoryRaw": "自然條件",
+      "items": [
+        {
+          "itemRaw": "日",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 612.79,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 612.79
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 612.79,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 612.79,
+              "percentX": 327.19,
+              "percentY": 612.79
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 612.79,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 612.79,
+              "percentX": 435.7,
+              "percentY": 612.79
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 612.79,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 612.79,
+              "percentX": 544.2,
+              "percentY": 612.79
+            }
+          ]
+        },
+        {
+          "itemRaw": "風",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 599.59,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 599.59
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 599.59,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 599.59,
+              "percentX": 327.19,
+              "percentY": 599.59
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 599.59,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 599.59,
+              "percentX": 435.7,
+              "percentY": 599.59
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 599.59,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 599.59,
+              "percentX": 544.2,
+              "percentY": 599.59
+            }
+          ]
+        },
+        {
+          "itemRaw": "地",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 586.39,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 586.39
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 586.39,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 586.39,
+              "percentX": 327.19,
+              "percentY": 586.39
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 586.39,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 586.39,
+              "percentX": 435.7,
+              "percentY": 586.39
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 586.39,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 586.39,
+              "percentX": 544.2,
+              "percentY": 586.39
+            }
+          ]
+        },
+        {
+          "itemRaw": "傾斜度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 573.19,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 573.19
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 573.19,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 573.19,
+              "percentX": 327.19,
+              "percentY": 573.19
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 573.19,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 573.19,
+              "percentX": 435.7,
+              "percentY": 573.19
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 573.19,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 573.19,
+              "percentX": 544.2,
+              "percentY": 573.19
+            }
+          ]
+        },
+        {
+          "itemRaw": "保（排）水之良否",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 559.99,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 559.99
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 559.99,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 559.99,
+              "percentX": 327.19,
+              "percentY": 559.99
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 559.99,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 559.99,
+              "percentX": 435.7,
+              "percentY": 559.99
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 559.99,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 559.99,
+              "percentX": 544.2,
+              "percentY": 559.99
+            }
+          ]
+        },
+        {
+          "itemRaw": "土",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 546.79,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 546.79
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 546.79,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 546.79,
+              "percentX": 327.19,
+              "percentY": 546.79
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 546.79,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 546.79,
+              "percentX": 435.7,
+              "percentY": 546.79
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 546.79,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 546.79,
+              "percentX": 544.2,
+              "percentY": 546.79
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 533.71
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 533.71
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 533.71
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 533.71
+        }
+      ]
+    },
+    {
+      "categoryRaw": "土地改良",
+      "items": [
+        {
+          "itemRaw": "農地改良（耕地整理、水土保持、土壤改良、修築農路、灌溉、排水、防風、防砂、堤防）或其他改良",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 517.87,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 517.87
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 517.87,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 517.87,
+              "percentX": 327.19,
+              "percentY": 517.87
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 517.87,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 517.87,
+              "percentX": 435.7,
+              "percentY": 517.87
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 517.87,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 517.87,
+              "percentX": 544.2,
+              "percentY": 517.87
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 468.05
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 468.05
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 468.05
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 468.05
+        }
+      ]
+    },
+    {
+      "categoryRaw": "公共建設",
+      "items": [
+        {
+          "itemRaw": "電力資源",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 454.01,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 454.01
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 454.01,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 454.01,
+              "percentX": 327.19,
+              "percentY": 454.01
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 454.01,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 454.01,
+              "percentX": 435.7,
+              "percentY": 454.01
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 454.01,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 454.01,
+              "percentX": 544.2,
+              "percentY": 454.01
+            }
+          ]
+        },
+        {
+          "itemRaw": "產業用水及設施",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 440.81,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 440.81
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 440.81,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 440.81,
+              "percentX": 327.19,
+              "percentY": 440.81
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 440.81,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 440.81,
+              "percentX": 435.7,
+              "percentY": 440.81
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 440.81,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 440.81,
+              "percentX": 544.2,
+              "percentY": 440.81
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 427.73
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 427.73
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 427.73
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 427.73
+        }
+      ]
+    },
+    {
+      "categoryRaw": "特殊設施",
+      "items": [
+        {
+          "itemRaw": "電業設施及公用氣體燃料設施之有無及接近程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 411.89,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 411.89
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 411.89,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 411.89,
+              "percentX": 327.19,
+              "percentY": 411.89
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 411.89,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 411.89,
+              "percentX": 435.7,
+              "percentY": 411.89
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 411.89,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 411.89,
+              "percentX": 544.2,
+              "percentY": 411.89
+            }
+          ]
+        },
+        {
+          "itemRaw": "殯葬設施之有無及接近程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 379.25,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 379.25
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 379.25,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 379.25,
+              "percentX": 327.19,
+              "percentY": 379.25
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 379.25,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 379.25,
+              "percentX": 435.7,
+              "percentY": 379.25
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 379.25,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 379.25,
+              "percentX": 544.2,
+              "percentY": 379.25
+            }
+          ]
+        },
+        {
+          "itemRaw": "廢棄物處理設施之有無及接近程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 359.21,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 359.21
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 359.21,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 359.21,
+              "percentX": 327.19,
+              "percentY": 359.21
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 359.21,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 359.21,
+              "percentX": 435.7,
+              "percentY": 359.21
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 359.21,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 359.21,
+              "percentX": 544.2,
+              "percentY": 359.21
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 333.65
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 333.65
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 333.65
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 333.65
+        }
+      ]
+    },
+    {
+      "categoryRaw": "環境污染",
+      "items": [
+        {
+          "itemRaw": "水污染、噪音污染、廢氣污染、廢棄物污染等之有無及接近程度",
+          "base": {
+            "rateX": 199.34,
+            "rateY": 314.06,
+            "gradeCenterX": 227.18,
+            "gradeCenterY": 314.06
+          },
+          "comparables": [
+            {
+              "label": "1",
+              "rateX": 263.45,
+              "rateY": 314.06,
+              "gradeCenterX": 293.93,
+              "gradeCenterY": 314.06,
+              "percentX": 327.19,
+              "percentY": 314.06
+            },
+            {
+              "label": "2",
+              "rateX": 371.95,
+              "rateY": 314.06,
+              "gradeCenterX": 402.43,
+              "gradeCenterY": 314.06,
+              "percentX": 435.7,
+              "percentY": 314.06
+            },
+            {
+              "label": "3",
+              "rateX": 480.46,
+              "rateY": 314.06,
+              "gradeCenterX": 510.94,
+              "gradeCenterY": 314.06,
+              "percentX": 544.2,
+              "percentY": 314.06
+            }
+          ]
+        }
+      ],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 283.34
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 283.34
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 283.34
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 283.34
+        }
+      ]
+    },
+    {
+      "categoryRaw": "其他影響因素",
+      "items": [],
+      "totalBase": {
+        "percentX": 290.81,
+        "percentY": 256.7
+      },
+      "comparableTotals": [
+        {
+          "label": "1",
+          "percentX": 280.73,
+          "percentY": 256.7
+        },
+        {
+          "label": "2",
+          "percentX": 389.23,
+          "percentY": 256.7
+        },
+        {
+          "label": "3",
+          "percentX": 497.74,
+          "percentY": 256.7
+        }
+      ]
+    }
+  ],
+  "totalScoreBase": {
+    "percentX": 290.81,
+    "percentY": 232.22
+  },
+  "comparableTotalScores": [
+    {
+      "label": "1",
+      "percentX": 280.73,
+      "percentY": 232.22
+    },
+    {
+      "label": "2",
+      "percentX": 389.23,
+      "percentY": 232.22
+    },
+    {
+      "label": "3",
+      "percentX": 497.74,
+      "percentY": 232.22
+    }
+  ]
+}

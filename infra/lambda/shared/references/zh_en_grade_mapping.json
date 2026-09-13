@@ -1,0 +1,9 @@
+{
+  "極優": "extremelySuperior",
+  "優": "superior",
+  "稍優": "slightlySuperior",
+  "普通": "average",
+  "稍劣": "slightlyInferior",
+  "劣": "inferior",
+  "極劣": "extremelyInferior"
+}

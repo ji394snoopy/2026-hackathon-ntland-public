@@ -1,0 +1,2248 @@
+{
+  "sectionIdBase": {
+    "x": 240.41000000000003,
+    "y": 475.18
+  },
+  "locationBase": {
+    "x": 252.53,
+    "y": 519.96
+  },
+  "comparableIdentities": [
+    {
+      "label": "1",
+      "sectionId": {
+        "x": 367.63,
+        "y": 475.18
+      },
+      "location": {
+        "x": 393.48,
+        "y": 519.96
+      }
+    },
+    {
+      "label": "2",
+      "sectionId": {
+        "x": 521.86,
+        "y": 475.18
+      },
+      "location": {
+        "x": 547.7099999999999,
+        "y": 519.96
+      }
+    },
+    {
+      "label": "3",
+      "sectionId": {
+        "x": 676.08,
+        "y": 475.18
+      },
+      "location": {
+        "x": 701.93,
+        "y": 519.96
+      }
+    }
+  ],
+  "items": [
+    {
+      "categoryKey": "lotCondition",
+      "itemKey": "area",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 463.66
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 463.66
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 463.66
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 463.66
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 463.66
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 463.66
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 463.66
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 463.66
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 463.66,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 463.66
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 463.66
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 463.66
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 463.66
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 463.66,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 463.66
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 463.66
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 463.66
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 463.66
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 463.66,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "lotCondition",
+      "itemKey": "width",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 452.5
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 452.5
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 452.5
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 452.5
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 452.5
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 452.5
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 452.5
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 452.5
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 452.5,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 452.5
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 452.5
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 452.5
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 452.5
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 452.5,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 452.5
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 452.5
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 452.5
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 452.5
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 452.5,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "lotCondition",
+      "itemKey": "depth",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 440.38
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 440.38
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 440.38
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 440.38
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 440.38
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 440.38
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 440.38
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 440.38
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 440.38,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 440.38
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 440.38
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 440.38
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 440.38
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 440.38,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 440.38
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 440.38
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 440.38
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 440.38
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 440.38,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "lotCondition",
+      "itemKey": "shape",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 428.26
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 428.26
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 428.26
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 428.26
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 428.26
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 428.26
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 428.26
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 428.26
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 428.26,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 428.26
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 428.26
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 428.26
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 428.26
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 428.26,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 428.26
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 428.26
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 428.26
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 428.26
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 428.26,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "lotCondition",
+      "itemKey": "roadFrontageCondition",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 416.14
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 416.14
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 416.14
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 416.14
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 416.14
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 416.14
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 416.14
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 416.14
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 416.14,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 416.14
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 416.14
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 416.14
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 416.14
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 416.14,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 416.14
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 416.14
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 416.14
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 416.14
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 416.14,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "lotCondition",
+      "itemKey": "terrain",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 404.02
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 404.02
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 404.02
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 404.02
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 404.02
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 404.02
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 404.02
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 404.02
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 404.02,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 404.02
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 404.02
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 404.02
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 404.02
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 404.02,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 404.02
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 404.02
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 404.02
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 404.02
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 404.02,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "roadCondition",
+      "itemKey": "roadType",
+      "base": {
+        "condition": {
+          "x": 244.53,
+          "y": 391.87
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 391.87
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 391.87
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 391.87
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 371.75,
+            "y": 391.87
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 391.87
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 391.87
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 391.87
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 391.87,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 525.98,
+            "y": 391.87
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 391.87
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 391.87
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 391.87
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 391.87,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 680.2,
+            "y": 391.87
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 391.87
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 391.87
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 391.87
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 391.87,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "roadCondition",
+      "itemKey": "frontageRoadWidth",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 378.79
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 378.79,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 378.79
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 378.79
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 378.79
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 378.79,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 378.79
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 378.79
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 378.79,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 378.79
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 378.79,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 378.79
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 378.79
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 378.79,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 378.79
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 378.79,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 378.79
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 378.79
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 378.79,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "proximityCondition",
+      "itemKey": "proximityToSchool",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 365.71
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 365.71,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 365.71
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 365.71
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 365.71
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 365.71,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 365.71
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 365.71
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 365.71,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 365.71
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 365.71,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 365.71
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 365.71
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 365.71,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 365.71
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 365.71,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 365.71
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 365.71
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 365.71,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "proximityCondition",
+      "itemKey": "proximityToMarket",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 352.63
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 352.63,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 352.63
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 352.63
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 352.63
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 352.63,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 352.63
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 352.63
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 352.63,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 352.63
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 352.63,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 352.63
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 352.63
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 352.63,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 352.63
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 352.63,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 352.63
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 352.63
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 352.63,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "proximityCondition",
+      "itemKey": "proximityToParkPlaza",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 339.55
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 339.55,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 339.55
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 339.55
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 339.55
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 339.55,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 339.55
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 339.55
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 339.55,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 339.55
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 339.55,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 339.55
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 339.55
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 339.55,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 339.55
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 339.55,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 339.55
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 339.55
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 339.55,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "proximityCondition",
+      "itemKey": "proximityToStation",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 326.47
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 326.47,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 326.47
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 326.47
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 326.47
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 326.47,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 326.47
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 326.47
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 326.47,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 326.47
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 326.47,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 326.47
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 326.47
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 326.47,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 326.47
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 326.47,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 326.47
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 326.47
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 326.47,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "proximityCondition",
+      "itemKey": "proximityToCommercialDistrict",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 313.39
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 313.39,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 313.39
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 313.39
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 313.39
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 313.39,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 313.39
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 313.39
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 313.39,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 313.39
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 313.39,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 313.39
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 313.39
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 313.39,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 313.39
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 313.39,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 313.39
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 313.39
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 313.39,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "surroundingEnvironment",
+      "itemKey": "presenceOfNoxiousFacility",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 300.31
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 254,
+            "y": 300.31,
+            "leftBound": 188.28
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 300.31
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 300.31
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 300.31
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 384,
+              "y": 300.31,
+              "leftBound": 316.44
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 300.31
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 300.31
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 300.31,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 300.31
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 534,
+              "y": 300.31,
+              "leftBound": 470.64
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 300.31
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 300.31
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 300.31,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 300.31
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 691,
+              "y": 300.31,
+              "leftBound": 624.84
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 300.31
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 300.31
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 300.31,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "surroundingEnvironment",
+      "itemKey": "parkingConvenience",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 287.23
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 287.23
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 287.23
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 287.23
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 287.23
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 287.23
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 287.23
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 287.23
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 287.23,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 287.23
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 287.23
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 287.23
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 287.23
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 287.23,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 287.23
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 287.23
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 287.23
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 287.23
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 287.23,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "administrativeCondition",
+      "itemKey": "zoningDesignation",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 273.41
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 273.41
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 273.41
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 273.41
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 273.41
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 273.41
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 273.41
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 273.41
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 273.41,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 273.41
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 273.41
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 273.41
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 273.41
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 273.41,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 273.41
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 273.41
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 273.41
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 273.41
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 273.41,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "administrativeCondition",
+      "itemKey": "buildingCoverageRatio",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 261.89
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 261.89
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 261.89
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 261.89
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 261.89
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 261.89
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 261.89
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 261.89
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 261.89,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 261.89
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 261.89
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 261.89
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 261.89
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 261.89,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 261.89
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 261.89
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 261.89
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 261.89
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 261.89,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "administrativeCondition",
+      "itemKey": "floorAreaRatio",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 250.37
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 250.37
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 250.37
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 250.37
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 250.37
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 250.37
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 250.37
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 250.37
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 250.37,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 250.37
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 250.37
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 250.37
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 250.37
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 250.37,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 250.37
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 250.37
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 250.37
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 250.37
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 250.37,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    },
+    {
+      "categoryKey": "administrativeCondition",
+      "itemKey": "buildingProhibitionOrRestriction",
+      "base": {
+        "condition": {
+          "x": 252.53,
+          "y": 238.85
+        },
+        "nameDistanceUnit": {
+          "name": {
+            "x": 258.53000000000003,
+            "y": 238.85
+          },
+          "distance": {
+            "x": 275.73,
+            "y": 238.85
+          },
+          "unit": {
+            "x": 300.59000000000003,
+            "y": 238.85
+          }
+        },
+        "maxX": 372.55
+      },
+      "comparables": [
+        {
+          "label": "1",
+          "condition": {
+            "x": 379.75,
+            "y": 238.85
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 385.75,
+              "y": 238.85
+            },
+            "distance": {
+              "x": 402.95,
+              "y": 238.85
+            },
+            "unit": {
+              "x": 427.81,
+              "y": 238.85
+            }
+          },
+          "maxX": 445.99,
+          "percent": {
+            "x": 451.03000000000003,
+            "y": 238.85,
+            "rightX": 469,
+            "leftBound": 444.17
+          }
+        },
+        {
+          "label": "2",
+          "condition": {
+            "x": 533.98,
+            "y": 238.85
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 539.98,
+              "y": 238.85
+            },
+            "distance": {
+              "x": 557.18,
+              "y": 238.85
+            },
+            "unit": {
+              "x": 582.04,
+              "y": 238.85
+            }
+          },
+          "maxX": 600.22,
+          "percent": {
+            "x": 605.26,
+            "y": 238.85,
+            "rightX": 623.15,
+            "leftBound": 598.21
+          }
+        },
+        {
+          "label": "3",
+          "condition": {
+            "x": 688.2,
+            "y": 238.85
+          },
+          "nameDistanceUnit": {
+            "name": {
+              "x": 694.2,
+              "y": 238.85
+            },
+            "distance": {
+              "x": 711.4,
+              "y": 238.85
+            },
+            "unit": {
+              "x": 736.26,
+              "y": 238.85
+            }
+          },
+          "maxX": 754.44,
+          "percent": {
+            "x": 759.48,
+            "y": 238.85,
+            "rightX": 777.44,
+            "leftBound": 752.49
+          }
+        }
+      ]
+    }
+  ],
+  "otherFactors": {
+    "base": {
+      "x": 252.53,
+      "y": 228.41
+    },
+    "comparables": [
+      {
+        "label": "1",
+        "condition": {
+          "x": 379.75,
+          "y": 228.41
+        },
+        "percent": {
+          "x": 451.03000000000003,
+          "y": 228.41
+        }
+      },
+      {
+        "label": "2",
+        "condition": {
+          "x": 533.98,
+          "y": 228.41
+        },
+        "percent": {
+          "x": 605.26,
+          "y": 228.41
+        }
+      },
+      {
+        "label": "3",
+        "condition": {
+          "x": 688.2,
+          "y": 228.41
+        },
+        "percent": {
+          "x": 759.48,
+          "y": 228.41
+        }
+      }
+    ]
+  },
+  "comparableTotalScores": [
+    {
+      "label": "1",
+      "coord": {
+        "x": 393.48,
+        "y": 216.53
+      }
+    },
+    {
+      "label": "2",
+      "coord": {
+        "x": 547.7099999999999,
+        "y": 216.53
+      }
+    },
+    {
+      "label": "3",
+      "coord": {
+        "x": 701.93,
+        "y": 216.53
+      }
+    }
+  ]
+}

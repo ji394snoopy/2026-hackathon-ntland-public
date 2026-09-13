@@ -1,0 +1,2112 @@
+{
+  "center": {
+    "lon": 121.451,
+    "lat": 25.002
+  },
+  "radiusMeters": 5000,
+  "tags": [
+    "leisure=park"
+  ],
+  "matches": [
+    {
+      "tag": "leisure=park",
+      "name": "華陽公園",
+      "lat": 25.0030133,
+      "lon": 121.4528873,
+      "metersToCenter": 221
+    },
+    {
+      "tag": "leisure=park",
+      "name": "南雅公園",
+      "lat": 25.0035198,
+      "lon": 121.4548922,
+      "metersToCenter": 427
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9991427,
+      "lon": 121.4545575,
+      "metersToCenter": 479
+    },
+    {
+      "tag": "leisure=park",
+      "name": "台北紙廠簡易公園",
+      "lat": 25.0022616,
+      "lon": 121.4459887,
+      "metersToCenter": 506
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0043577,
+      "lon": 121.4464181,
+      "metersToCenter": 531
+    },
+    {
+      "tag": "leisure=park",
+      "name": "遠東通訊園區北公園",
+      "lat": 25.0004006,
+      "lon": 121.4561085,
+      "metersToCenter": 545
+    },
+    {
+      "tag": "leisure=park",
+      "name": "津渡橋(公園)",
+      "lat": 25.0072357,
+      "lon": 121.4517425,
+      "metersToCenter": 587
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0014032,
+      "lon": 121.4448924,
+      "metersToCenter": 619
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9984271,
+      "lon": 121.4560948,
+      "metersToCenter": 649
+    },
+    {
+      "tag": "leisure=park",
+      "name": "華東公園",
+      "lat": 24.9959868,
+      "lon": 121.4489238,
+      "metersToCenter": 701
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.996577,
+      "lon": 121.45499,
+      "metersToCenter": 725
+    },
+    {
+      "tag": "leisure=park",
+      "name": "浮洲親民公園",
+      "lat": 24.9985197,
+      "lon": 121.4448656,
+      "metersToCenter": 729
+    },
+    {
+      "tag": "leisure=park",
+      "name": "馥華森林公園",
+      "lat": 25.0061673,
+      "lon": 121.4451874,
+      "metersToCenter": 747
+    },
+    {
+      "tag": "leisure=park",
+      "name": "接雲寺柏壽公園",
+      "lat": 25.0088857,
+      "lon": 121.4537728,
+      "metersToCenter": 815
+    },
+    {
+      "tag": "leisure=park",
+      "name": "信義公園",
+      "lat": 24.9951386,
+      "lon": 121.4562962,
+      "metersToCenter": 931
+    },
+    {
+      "tag": "leisure=park",
+      "name": "忠孝公園",
+      "lat": 24.9972268,
+      "lon": 121.4598282,
+      "metersToCenter": 1036
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新大觀簡易公園",
+      "lat": 25.0106299,
+      "lon": 121.446535,
+      "metersToCenter": 1060
+    },
+    {
+      "tag": "leisure=park",
+      "name": "土城線形公園",
+      "lat": 24.9924794,
+      "lon": 121.4482597,
+      "metersToCenter": 1094
+    },
+    {
+      "tag": "leisure=park",
+      "name": "華德公園",
+      "lat": 24.9922755,
+      "lon": 121.4533548,
+      "metersToCenter": 1107
+    },
+    {
+      "tag": "leisure=park",
+      "name": "兒童公園",
+      "lat": 24.9962234,
+      "lon": 121.4599836,
+      "metersToCenter": 1110
+    },
+    {
+      "tag": "leisure=park",
+      "name": "浮洲藝術河濱公園",
+      "lat": 24.9998627,
+      "lon": 121.4402037,
+      "metersToCenter": 1114
+    },
+    {
+      "tag": "leisure=park",
+      "name": "浮洲人工濕地",
+      "lat": 24.9998325,
+      "lon": 121.4388706,
+      "metersToCenter": 1246
+    },
+    {
+      "tag": "leisure=park",
+      "name": "板信公園",
+      "lat": 25.0124475,
+      "lon": 121.4565343,
+      "metersToCenter": 1289
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0137054,
+      "lon": 121.450603,
+      "metersToCenter": 1302
+    },
+    {
+      "tag": "leisure=park",
+      "name": "信義公園",
+      "lat": 24.9917445,
+      "lon": 121.4575164,
+      "metersToCenter": 1316
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9910459,
+      "lon": 121.457015,
+      "metersToCenter": 1361
+    },
+    {
+      "tag": "leisure=park",
+      "name": "介壽公園",
+      "lat": 25.0083793,
+      "lon": 121.4627069,
+      "metersToCenter": 1377
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0124622,
+      "lon": 121.4432814,
+      "metersToCenter": 1399
+    },
+    {
+      "tag": "leisure=park",
+      "name": "重慶公園",
+      "lat": 24.9999598,
+      "lon": 121.4648425,
+      "metersToCenter": 1413
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0111848,
+      "lon": 121.4411713,
+      "metersToCenter": 1423
+    },
+    {
+      "tag": "leisure=park",
+      "name": "扶輪公園",
+      "lat": 25.0124321,
+      "lon": 121.4598376,
+      "metersToCenter": 1462
+    },
+    {
+      "tag": "leisure=park",
+      "name": "和平公園",
+      "lat": 24.9976309,
+      "lon": 121.4647267,
+      "metersToCenter": 1466
+    },
+    {
+      "tag": "leisure=park",
+      "name": "浮洲運動公園",
+      "lat": 25.0150924,
+      "lon": 121.4487132,
+      "metersToCenter": 1474
+    },
+    {
+      "tag": "leisure=park",
+      "name": "華福公園",
+      "lat": 24.9975759,
+      "lon": 121.4650185,
+      "metersToCenter": 1496
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0137591,
+      "lon": 121.4587436,
+      "metersToCenter": 1523
+    },
+    {
+      "tag": "leisure=park",
+      "name": "學成社區公園",
+      "lat": 24.9879965,
+      "lon": 121.4510201,
+      "metersToCenter": 1557
+    },
+    {
+      "tag": "leisure=park",
+      "name": "板橋區環河公園",
+      "lat": 25.0159996,
+      "lon": 121.4510466,
+      "metersToCenter": 1557
+    },
+    {
+      "tag": "leisure=park",
+      "name": "板橋放送所",
+      "lat": 25.0069664,
+      "lon": 121.4654806,
+      "metersToCenter": 1560
+    },
+    {
+      "tag": "leisure=park",
+      "name": "清華社區公園",
+      "lat": 24.9905072,
+      "lon": 121.4601007,
+      "metersToCenter": 1573
+    },
+    {
+      "tag": "leisure=park",
+      "name": "公兒二公園",
+      "lat": 25.0110505,
+      "lon": 121.4630582,
+      "metersToCenter": 1578
+    },
+    {
+      "tag": "leisure=park",
+      "name": "萬坪都會公園",
+      "lat": 25.0130548,
+      "lon": 121.4612833,
+      "metersToCenter": 1608
+    },
+    {
+      "tag": "leisure=park",
+      "name": "清穗公園",
+      "lat": 24.9996076,
+      "lon": 121.4670124,
+      "metersToCenter": 1635
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0170655,
+      "lon": 121.4492702,
+      "metersToCenter": 1684
+    },
+    {
+      "tag": "leisure=park",
+      "name": "廣福公園",
+      "lat": 24.9917064,
+      "lon": 121.4634038,
+      "metersToCenter": 1695
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9972521,
+      "lon": 121.4346197,
+      "metersToCenter": 1733
+    },
+    {
+      "tag": "leisure=park",
+      "name": "五權公園",
+      "lat": 24.9926732,
+      "lon": 121.4651847,
+      "metersToCenter": 1766
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0041432,
+      "lon": 121.4334512,
+      "metersToCenter": 1784
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新樹公園",
+      "lat": 25.0036106,
+      "lon": 121.4332323,
+      "metersToCenter": 1799
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0031412,
+      "lon": 121.4330987,
+      "metersToCenter": 1808
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0109357,
+      "lon": 121.466065,
+      "metersToCenter": 1814
+    },
+    {
+      "tag": "leisure=park",
+      "name": "明德公園",
+      "lat": 24.9975234,
+      "lon": 121.4684262,
+      "metersToCenter": 1825
+    },
+    {
+      "tag": "leisure=park",
+      "name": "壽德公園",
+      "lat": 24.9937714,
+      "lon": 121.4667119,
+      "metersToCenter": 1829
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.995719,
+      "lon": 121.4678047,
+      "metersToCenter": 1832
+    },
+    {
+      "tag": "leisure=park",
+      "name": "清穗公園",
+      "lat": 24.9988947,
+      "lon": 121.4690448,
+      "metersToCenter": 1851
+    },
+    {
+      "tag": "leisure=park",
+      "name": "裕民廣場",
+      "lat": 24.9854619,
+      "lon": 121.4535881,
+      "metersToCenter": 1857
+    },
+    {
+      "tag": "leisure=park",
+      "name": "大豐公園",
+      "lat": 24.9993392,
+      "lon": 121.4327685,
+      "metersToCenter": 1861
+    },
+    {
+      "tag": "leisure=park",
+      "name": "板橋車站站前廣場",
+      "lat": 25.0149397,
+      "lon": 121.4627331,
+      "metersToCenter": 1862
+    },
+    {
+      "tag": "leisure=park",
+      "name": "籃球場",
+      "lat": 25.0101535,
+      "lon": 121.4672943,
+      "metersToCenter": 1876
+    },
+    {
+      "tag": "leisure=park",
+      "name": "籃球場",
+      "lat": 25.0099463,
+      "lon": 121.4674182,
+      "metersToCenter": 1876
+    },
+    {
+      "tag": "leisure=park",
+      "name": "籃球場",
+      "lat": 25.0098179,
+      "lon": 121.4675023,
+      "metersToCenter": 1876
+    },
+    {
+      "tag": "leisure=park",
+      "name": "籃球場",
+      "lat": 25.0100405,
+      "lon": 121.4673699,
+      "metersToCenter": 1876
+    },
+    {
+      "tag": "leisure=park",
+      "name": "籃球場",
+      "lat": 25.0098869,
+      "lon": 121.4674634,
+      "metersToCenter": 1877
+    },
+    {
+      "tag": "leisure=park",
+      "name": "籃球場",
+      "lat": 25.0097341,
+      "lon": 121.4675573,
+      "metersToCenter": 1877
+    },
+    {
+      "tag": "leisure=park",
+      "name": "市民廣場",
+      "lat": 25.0132834,
+      "lon": 121.4649697,
+      "metersToCenter": 1886
+    },
+    {
+      "tag": "leisure=park",
+      "name": "西盛廣場",
+      "lat": 25.0005276,
+      "lon": 121.4318118,
+      "metersToCenter": 1941
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0191273,
+      "lon": 121.4465015,
+      "metersToCenter": 1958
+    },
+    {
+      "tag": "leisure=park",
+      "name": "裕生廣場",
+      "lat": 24.9845061,
+      "lon": 121.4465178,
+      "metersToCenter": 1997
+    },
+    {
+      "tag": "leisure=park",
+      "name": "板橋福德公園",
+      "lat": 25.0116029,
+      "lon": 121.4679173,
+      "metersToCenter": 2012
+    },
+    {
+      "tag": "leisure=park",
+      "name": "自強公園",
+      "lat": 24.9997655,
+      "lon": 121.4708093,
+      "metersToCenter": 2012
+    },
+    {
+      "tag": "leisure=park",
+      "name": "溪洲河濱運動公園",
+      "lat": 24.9884565,
+      "lon": 121.437738,
+      "metersToCenter": 2014
+    },
+    {
+      "tag": "leisure=park",
+      "name": "雙社公園",
+      "lat": 25.0202776,
+      "lon": 121.4499103,
+      "metersToCenter": 2035
+    },
+    {
+      "tag": "leisure=park",
+      "name": "國光公園",
+      "lat": 25.0203113,
+      "lon": 121.4530701,
+      "metersToCenter": 2047
+    },
+    {
+      "tag": "leisure=park",
+      "name": "崑崙活力廣場",
+      "lat": 24.9937478,
+      "lon": 121.4328445,
+      "metersToCenter": 2047
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.987446,
+      "lon": 121.464228,
+      "metersToCenter": 2097
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0030096,
+      "lon": 121.4718563,
+      "metersToCenter": 2105
+    },
+    {
+      "tag": "leisure=park",
+      "name": "樹林高鐵橋下綠廊",
+      "lat": 25.0040692,
+      "lon": 121.4302141,
+      "metersToCenter": 2107
+    },
+    {
+      "tag": "leisure=park",
+      "name": "尋夢園地",
+      "lat": 25.0169363,
+      "lon": 121.4640886,
+      "metersToCenter": 2121
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9973271,
+      "lon": 121.4305703,
+      "metersToCenter": 2123
+    },
+    {
+      "tag": "leisure=park",
+      "name": "延壽親子公園",
+      "lat": 24.9917353,
+      "lon": 121.4689114,
+      "metersToCenter": 2136
+    },
+    {
+      "tag": "leisure=park",
+      "name": "仁愛公園",
+      "lat": 25.0113409,
+      "lon": 121.4695665,
+      "metersToCenter": 2140
+    },
+    {
+      "tag": "leisure=park",
+      "name": "十三公公園",
+      "lat": 24.9987562,
+      "lon": 121.4300595,
+      "metersToCenter": 2141
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0188488,
+      "lon": 121.4618921,
+      "metersToCenter": 2171
+    },
+    {
+      "tag": "leisure=park",
+      "name": "藝香公園",
+      "lat": 25.0216677,
+      "lon": 121.4504893,
+      "metersToCenter": 2188
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0215924,
+      "lon": 121.4485291,
+      "metersToCenter": 2193
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中央公園",
+      "lat": 24.9829833,
+      "lon": 121.44439,
+      "metersToCenter": 2217
+    },
+    {
+      "tag": "leisure=park",
+      "name": "金鷄報喜花園",
+      "lat": 24.9821724,
+      "lon": 121.4536092,
+      "metersToCenter": 2220
+    },
+    {
+      "tag": "leisure=park",
+      "name": "保安休閒公園",
+      "lat": 24.9954622,
+      "lon": 121.4300976,
+      "metersToCenter": 2228
+    },
+    {
+      "tag": "leisure=park",
+      "name": "西盛環保公園",
+      "lat": 25.0204855,
+      "lon": 121.442415,
+      "metersToCenter": 2230
+    },
+    {
+      "tag": "leisure=park",
+      "name": "延和社區公園",
+      "lat": 24.9898055,
+      "lon": 121.4687995,
+      "metersToCenter": 2249
+    },
+    {
+      "tag": "leisure=park",
+      "name": "日和公園",
+      "lat": 24.9831573,
+      "lon": 121.4420291,
+      "metersToCenter": 2282
+    },
+    {
+      "tag": "leisure=park",
+      "name": "樹林高鐵橋下綠廊",
+      "lat": 25.0038037,
+      "lon": 121.4284086,
+      "metersToCenter": 2285
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9960555,
+      "lon": 121.4291681,
+      "metersToCenter": 2297
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9820168,
+      "lon": 121.4450924,
+      "metersToCenter": 2300
+    },
+    {
+      "tag": "leisure=park",
+      "name": "清水公園",
+      "lat": 24.9845327,
+      "lon": 121.4632641,
+      "metersToCenter": 2302
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9947463,
+      "lon": 121.4727517,
+      "metersToCenter": 2336
+    },
+    {
+      "tag": "leisure=park",
+      "name": "文丘公園",
+      "lat": 25.0232718,
+      "lon": 121.4500352,
+      "metersToCenter": 2367
+    },
+    {
+      "tag": "leisure=park",
+      "name": "崑崙公園",
+      "lat": 24.9933194,
+      "lon": 121.4289211,
+      "metersToCenter": 2425
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.980113,
+      "lon": 121.4499313,
+      "metersToCenter": 2436
+    },
+    {
+      "tag": "leisure=park",
+      "name": "溪北公園",
+      "lat": 24.989227,
+      "lon": 121.4312383,
+      "metersToCenter": 2446
+    },
+    {
+      "tag": "leisure=park",
+      "name": "紫藤花廊道",
+      "lat": 24.9800236,
+      "lon": 121.4484508,
+      "metersToCenter": 2457
+    },
+    {
+      "tag": "leisure=park",
+      "name": "民有公園",
+      "lat": 25.0084431,
+      "lon": 121.4743946,
+      "metersToCenter": 2464
+    },
+    {
+      "tag": "leisure=park",
+      "name": "民享藝文特區",
+      "lat": 25.0036504,
+      "lon": 121.4755583,
+      "metersToCenter": 2482
+    },
+    {
+      "tag": "leisure=park",
+      "name": "公園",
+      "lat": 25.0002598,
+      "lon": 121.4755971,
+      "metersToCenter": 2486
+    },
+    {
+      "tag": "leisure=park",
+      "name": "永豐社區公園",
+      "lat": 24.9822587,
+      "lon": 121.4625896,
+      "metersToCenter": 2487
+    },
+    {
+      "tag": "leisure=park",
+      "name": "合謙上謙城中庭",
+      "lat": 24.9805122,
+      "lon": 121.4581737,
+      "metersToCenter": 2496
+    },
+    {
+      "tag": "leisure=park",
+      "name": "嘉新公園",
+      "lat": 25.0003029,
+      "lon": 121.4759334,
+      "metersToCenter": 2520
+    },
+    {
+      "tag": "leisure=park",
+      "name": "玫瑰公園",
+      "lat": 25.0246961,
+      "lon": 121.4557526,
+      "metersToCenter": 2569
+    },
+    {
+      "tag": "leisure=park",
+      "name": "仁愛公園",
+      "lat": 24.980451,
+      "lon": 121.4603607,
+      "metersToCenter": 2575
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0252998,
+      "lon": 121.4514075,
+      "metersToCenter": 2591
+    },
+    {
+      "tag": "leisure=park",
+      "name": "樹林高鐵橋下綠廊",
+      "lat": 25.0036981,
+      "lon": 121.4252597,
+      "metersToCenter": 2601
+    },
+    {
+      "tag": "leisure=park",
+      "name": "紫藤花廊道",
+      "lat": 24.9786206,
+      "lon": 121.4482156,
+      "metersToCenter": 2615
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0005592,
+      "lon": 121.477229,
+      "metersToCenter": 2648
+    },
+    {
+      "tag": "leisure=park",
+      "name": "百喬廣場",
+      "lat": 24.9811693,
+      "lon": 121.4637862,
+      "metersToCenter": 2651
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新海三期人工溼地",
+      "lat": 25.0259329,
+      "lon": 121.4510742,
+      "metersToCenter": 2661
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0258115,
+      "lon": 121.4536349,
+      "metersToCenter": 2661
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9790824,
+      "lon": 121.4429788,
+      "metersToCenter": 2673
+    },
+    {
+      "tag": "leisure=park",
+      "name": "斬龍山遺址文化公園",
+      "lat": 24.9779862,
+      "lon": 121.4493548,
+      "metersToCenter": 2675
+    },
+    {
+      "tag": "leisure=park",
+      "name": "員福社區公園",
+      "lat": 24.9804416,
+      "lon": 121.4388912,
+      "metersToCenter": 2690
+    },
+    {
+      "tag": "leisure=park",
+      "name": "員山公園",
+      "lat": 25.0021761,
+      "lon": 121.4780291,
+      "metersToCenter": 2724
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9773154,
+      "lon": 121.4482627,
+      "metersToCenter": 2759
+    },
+    {
+      "tag": "leisure=park",
+      "name": "員林社區公園",
+      "lat": 24.9780699,
+      "lon": 121.4432626,
+      "metersToCenter": 2773
+    },
+    {
+      "tag": "leisure=park",
+      "name": "員山公園",
+      "lat": 25.0035533,
+      "lon": 121.4788033,
+      "metersToCenter": 2807
+    },
+    {
+      "tag": "leisure=park",
+      "name": "莊敬公園",
+      "lat": 25.0202007,
+      "lon": 121.4707064,
+      "metersToCenter": 2835
+    },
+    {
+      "tag": "leisure=park",
+      "name": "民生公園",
+      "lat": 25.0136609,
+      "lon": 121.4761336,
+      "metersToCenter": 2845
+    },
+    {
+      "tag": "leisure=park",
+      "name": "四維公園",
+      "lat": 25.0254703,
+      "lon": 121.4626703,
+      "metersToCenter": 2862
+    },
+    {
+      "tag": "leisure=park",
+      "name": "嘉穗公園",
+      "lat": 24.9972199,
+      "lon": 121.4790212,
+      "metersToCenter": 2873
+    },
+    {
+      "tag": "leisure=park",
+      "name": "華江公園",
+      "lat": 25.0194806,
+      "lon": 121.4720194,
+      "metersToCenter": 2875
+    },
+    {
+      "tag": "leisure=park",
+      "name": "一棵樹與很多羊咩咩公園",
+      "lat": 24.976964,
+      "lon": 121.4438362,
+      "metersToCenter": 2876
+    },
+    {
+      "tag": "leisure=park",
+      "name": "四維公園",
+      "lat": 25.0252963,
+      "lon": 121.4634391,
+      "metersToCenter": 2878
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9763124,
+      "lon": 121.4471929,
+      "metersToCenter": 2882
+    },
+    {
+      "tag": "leisure=park",
+      "name": "大清水運動公園",
+      "lat": 24.9801148,
+      "lon": 121.4663847,
+      "metersToCenter": 2886
+    },
+    {
+      "tag": "leisure=park",
+      "name": "正隆公園",
+      "lat": 25.0123703,
+      "lon": 121.4773461,
+      "metersToCenter": 2895
+    },
+    {
+      "tag": "leisure=park",
+      "name": "溪洲公園",
+      "lat": 24.9877252,
+      "lon": 121.4267612,
+      "metersToCenter": 2913
+    },
+    {
+      "tag": "leisure=park",
+      "name": "西盛公園",
+      "lat": 25.0173069,
+      "lon": 121.4275104,
+      "metersToCenter": 2915
+    },
+    {
+      "tag": "leisure=park",
+      "name": "員勝公園",
+      "lat": 25.0107257,
+      "lon": 121.4784704,
+      "metersToCenter": 2933
+    },
+    {
+      "tag": "leisure=park",
+      "name": "公(兒)十六",
+      "lat": 25.0263786,
+      "lon": 121.4397759,
+      "metersToCenter": 2937
+    },
+    {
+      "tag": "leisure=park",
+      "name": "打鳥埤人工濕地",
+      "lat": 24.9797891,
+      "lon": 121.4347432,
+      "metersToCenter": 2964
+    },
+    {
+      "tag": "leisure=park",
+      "name": "六海園",
+      "lat": 25.0238639,
+      "lon": 121.4679846,
+      "metersToCenter": 2973
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0213834,
+      "lon": 121.4715021,
+      "metersToCenter": 2986
+    },
+    {
+      "tag": "leisure=park",
+      "name": "清和社區公園",
+      "lat": 24.97685,
+      "lon": 121.4617569,
+      "metersToCenter": 2999
+    },
+    {
+      "tag": "leisure=park",
+      "name": "青山公園",
+      "lat": 24.9778578,
+      "lon": 121.464422,
+      "metersToCenter": 3006
+    },
+    {
+      "tag": "leisure=park",
+      "name": "萬板公園",
+      "lat": 25.0215991,
+      "lon": 121.4717301,
+      "metersToCenter": 3019
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0126063,
+      "lon": 121.4231708,
+      "metersToCenter": 3042
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0290923,
+      "lon": 121.4566092,
+      "metersToCenter": 3065
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.98905,
+      "lon": 121.4237031,
+      "metersToCenter": 3105
+    },
+    {
+      "tag": "leisure=park",
+      "name": "長壽親子公園",
+      "lat": 24.9922705,
+      "lon": 121.4218589,
+      "metersToCenter": 3130
+    },
+    {
+      "tag": "leisure=park",
+      "name": "停車場",
+      "lat": 25.0185843,
+      "lon": 121.4761843,
+      "metersToCenter": 3137
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中山公園",
+      "lat": 25.0230892,
+      "lon": 121.4716931,
+      "metersToCenter": 3138
+    },
+    {
+      "tag": "leisure=park",
+      "name": "公3公園",
+      "lat": 25.0295606,
+      "lon": 121.4578122,
+      "metersToCenter": 3141
+    },
+    {
+      "tag": "leisure=park",
+      "name": "瓊泰河濱公園",
+      "lat": 25.0297698,
+      "lon": 121.4440699,
+      "metersToCenter": 3166
+    },
+    {
+      "tag": "leisure=park",
+      "name": "民樂人行廣場",
+      "lat": 25.0015111,
+      "lon": 121.482441,
+      "metersToCenter": 3169
+    },
+    {
+      "tag": "leisure=park",
+      "name": "快樂公園",
+      "lat": 25.0300745,
+      "lon": 121.4441595,
+      "metersToCenter": 3197
+    },
+    {
+      "tag": "leisure=park",
+      "name": "金城公園",
+      "lat": 24.9737858,
+      "lon": 121.4439499,
+      "metersToCenter": 3217
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0271647,
+      "lon": 121.4347215,
+      "metersToCenter": 3244
+    },
+    {
+      "tag": "leisure=park",
+      "name": "埤墘公園",
+      "lat": 25.0232503,
+      "lon": 121.4732763,
+      "metersToCenter": 3259
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9884317,
+      "lon": 121.4218991,
+      "metersToCenter": 3298
+    },
+    {
+      "tag": "leisure=park",
+      "name": "永豐公園",
+      "lat": 25.018932,
+      "lon": 121.478123,
+      "metersToCenter": 3319
+    },
+    {
+      "tag": "leisure=park",
+      "name": "建安公園",
+      "lat": 25.0253735,
+      "lon": 121.430414,
+      "metersToCenter": 3325
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新北市樹林體育園區",
+      "lat": 24.9810931,
+      "lon": 121.4273963,
+      "metersToCenter": 3326
+    },
+    {
+      "tag": "leisure=park",
+      "name": "永豐公園",
+      "lat": 25.0207109,
+      "lon": 121.4769703,
+      "metersToCenter": 3343
+    },
+    {
+      "tag": "leisure=park",
+      "name": "埤墘公園",
+      "lat": 25.0232868,
+      "lon": 121.4745842,
+      "metersToCenter": 3354
+    },
+    {
+      "tag": "leisure=park",
+      "name": "碧江公園",
+      "lat": 25.0322323,
+      "lon": 121.4499888,
+      "metersToCenter": 3363
+    },
+    {
+      "tag": "leisure=park",
+      "name": "潭底公園",
+      "lat": 24.9954945,
+      "lon": 121.418171,
+      "metersToCenter": 3387
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0316393,
+      "lon": 121.4590439,
+      "metersToCenter": 3394
+    },
+    {
+      "tag": "leisure=park",
+      "name": "員仁休閒公園",
+      "lat": 24.9733515,
+      "lon": 121.4392629,
+      "metersToCenter": 3398
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0233477,
+      "lon": 121.4751485,
+      "metersToCenter": 3399
+    },
+    {
+      "tag": "leisure=park",
+      "name": "埔墘公園",
+      "lat": 25.0153339,
+      "lon": 121.4816685,
+      "metersToCenter": 3428
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0159313,
+      "lon": 121.4816317,
+      "metersToCenter": 3454
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0235999,
+      "lon": 121.4757245,
+      "metersToCenter": 3461
+    },
+    {
+      "tag": "leisure=park",
+      "name": "後港公園",
+      "lat": 25.0256234,
+      "lon": 121.4284922,
+      "metersToCenter": 3470
+    },
+    {
+      "tag": "leisure=park",
+      "name": "和平親子公園",
+      "lat": 24.9852973,
+      "lon": 121.4218236,
+      "metersToCenter": 3478
+    },
+    {
+      "tag": "leisure=park",
+      "name": "元隆公園",
+      "lat": 25.0072889,
+      "lon": 121.4850689,
+      "metersToCenter": 3483
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.027044,
+      "lon": 121.4721173,
+      "metersToCenter": 3505
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0326799,
+      "lon": 121.4590363,
+      "metersToCenter": 3506
+    },
+    {
+      "tag": "leisure=park",
+      "name": "建安里香草花園",
+      "lat": 25.0272052,
+      "lon": 121.4300525,
+      "metersToCenter": 3509
+    },
+    {
+      "tag": "leisure=park",
+      "name": "八德公園",
+      "lat": 25.0246087,
+      "lon": 121.4759108,
+      "metersToCenter": 3553
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0275346,
+      "lon": 121.4724729,
+      "metersToCenter": 3570
+    },
+    {
+      "tag": "leisure=park",
+      "name": "雙福公園",
+      "lat": 25.0278745,
+      "lon": 121.4299471,
+      "metersToCenter": 3575
+    },
+    {
+      "tag": "leisure=park",
+      "name": "左岸水公園",
+      "lat": 25.0132267,
+      "lon": 121.4843839,
+      "metersToCenter": 3588
+    },
+    {
+      "tag": "leisure=park",
+      "name": "石雕公園",
+      "lat": 25.0293985,
+      "lon": 121.4699376,
+      "metersToCenter": 3595
+    },
+    {
+      "tag": "leisure=park",
+      "name": "城林人工濕地",
+      "lat": 24.974983,
+      "lon": 121.4311684,
+      "metersToCenter": 3608
+    },
+    {
+      "tag": "leisure=park",
+      "name": "永安公園",
+      "lat": 25.0243235,
+      "lon": 121.477016,
+      "metersToCenter": 3610
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0111651,
+      "lon": 121.4853911,
+      "metersToCenter": 3612
+    },
+    {
+      "tag": "leisure=park",
+      "name": "富貴綠地公園",
+      "lat": 25.0176422,
+      "lon": 121.4824759,
+      "metersToCenter": 3617
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9867473,
+      "lon": 121.4192081,
+      "metersToCenter": 3625
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0280374,
+      "lon": 121.4728319,
+      "metersToCenter": 3636
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9974522,
+      "lon": 121.4867261,
+      "metersToCenter": 3636
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0346746,
+      "lon": 121.4525398,
+      "metersToCenter": 3637
+    },
+    {
+      "tag": "leisure=park",
+      "name": "四維公園",
+      "lat": 25.0214675,
+      "lon": 121.4219171,
+      "metersToCenter": 3643
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9866283,
+      "lon": 121.4190629,
+      "metersToCenter": 3644
+    },
+    {
+      "tag": "leisure=park",
+      "name": "漳和濕地",
+      "lat": 24.9899018,
+      "lon": 121.4846669,
+      "metersToCenter": 3650
+    },
+    {
+      "tag": "leisure=park",
+      "name": "萬安公園",
+      "lat": 25.0194678,
+      "lon": 121.419944,
+      "metersToCenter": 3683
+    },
+    {
+      "tag": "leisure=park",
+      "name": "忠孝公園",
+      "lat": 25.0346299,
+      "lon": 121.4447158,
+      "metersToCenter": 3683
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9901593,
+      "lon": 121.4167806,
+      "metersToCenter": 3691
+    },
+    {
+      "tag": "leisure=park",
+      "name": "農村公園",
+      "lat": 25.0299682,
+      "lon": 121.4710778,
+      "metersToCenter": 3710
+    },
+    {
+      "tag": "leisure=park",
+      "name": "雙十廣場",
+      "lat": 25.02863,
+      "lon": 121.4732657,
+      "metersToCenter": 3715
+    },
+    {
+      "tag": "leisure=park",
+      "name": "文德社區公園",
+      "lat": 25.0351124,
+      "lon": 121.4559948,
+      "metersToCenter": 3716
+    },
+    {
+      "tag": "leisure=park",
+      "name": "左岸綠公園",
+      "lat": 25.0130171,
+      "lon": 121.48585,
+      "metersToCenter": 3719
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0100257,
+      "lon": 121.4869451,
+      "metersToCenter": 3731
+    },
+    {
+      "tag": "leisure=park",
+      "name": "大墓公公園",
+      "lat": 24.9697523,
+      "lon": 121.44067,
+      "metersToCenter": 3734
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0095578,
+      "lon": 121.4871034,
+      "metersToCenter": 3734
+    },
+    {
+      "tag": "leisure=park",
+      "name": "光華公園",
+      "lat": 25.0050813,
+      "lon": 121.41403,
+      "metersToCenter": 3741
+    },
+    {
+      "tag": "leisure=park",
+      "name": "大同公園",
+      "lat": 24.9833937,
+      "lon": 121.4199777,
+      "metersToCenter": 3749
+    },
+    {
+      "tag": "leisure=park",
+      "name": "建福公園",
+      "lat": 25.027778,
+      "lon": 121.4269906,
+      "metersToCenter": 3751
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中和中坑公園",
+      "lat": 24.9851625,
+      "lon": 121.4834504,
+      "metersToCenter": 3768
+    },
+    {
+      "tag": "leisure=park",
+      "name": "後港新公園",
+      "lat": 25.0260317,
+      "lon": 121.4243541,
+      "metersToCenter": 3788
+    },
+    {
+      "tag": "leisure=park",
+      "name": "光之公園",
+      "lat": 25.0119547,
+      "lon": 121.4869854,
+      "metersToCenter": 3791
+    },
+    {
+      "tag": "leisure=park",
+      "name": "褔營綠廊",
+      "lat": 25.032248,
+      "lon": 121.4336406,
+      "metersToCenter": 3791
+    },
+    {
+      "tag": "leisure=park",
+      "name": "獇寮公園",
+      "lat": 25.0069576,
+      "lon": 121.4137379,
+      "metersToCenter": 3795
+    },
+    {
+      "tag": "leisure=park",
+      "name": "彭福親子公園",
+      "lat": 24.9800617,
+      "lon": 121.4218705,
+      "metersToCenter": 3817
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.025842,
+      "lon": 121.4784928,
+      "metersToCenter": 3834
+    },
+    {
+      "tag": "leisure=park",
+      "name": "風之公園",
+      "lat": 25.0099007,
+      "lon": 121.4882343,
+      "metersToCenter": 3854
+    },
+    {
+      "tag": "leisure=park",
+      "name": "溪頭河濱公園",
+      "lat": 25.0330809,
+      "lon": 121.4679738,
+      "metersToCenter": 3856
+    },
+    {
+      "tag": "leisure=park",
+      "name": "光復簡易公園",
+      "lat": 25.0182075,
+      "lon": 121.4848738,
+      "metersToCenter": 3860
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0238641,
+      "lon": 121.4207116,
+      "metersToCenter": 3902
+    },
+    {
+      "tag": "leisure=park",
+      "name": "錦和運動公園",
+      "lat": 24.9925026,
+      "lon": 121.488392,
+      "metersToCenter": 3914
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0020432,
+      "lon": 121.4900669,
+      "metersToCenter": 3937
+    },
+    {
+      "tag": "leisure=park",
+      "name": "三龍段新北綠家園",
+      "lat": 25.0166537,
+      "lon": 121.4150327,
+      "metersToCenter": 3974
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新泰公園",
+      "lat": 25.0375317,
+      "lon": 121.4452953,
+      "metersToCenter": 3993
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新莊公園",
+      "lat": 25.0374995,
+      "lon": 121.457309,
+      "metersToCenter": 3998
+    },
+    {
+      "tag": "leisure=park",
+      "name": "福營新公園",
+      "lat": 25.0280246,
+      "lon": 121.4235218,
+      "metersToCenter": 4005
+    },
+    {
+      "tag": "leisure=park",
+      "name": "樹人體健廣場",
+      "lat": 24.9868436,
+      "lon": 121.4145964,
+      "metersToCenter": 4037
+    },
+    {
+      "tag": "leisure=park",
+      "name": "小巴黎",
+      "lat": 25.0344396,
+      "lon": 121.4329745,
+      "metersToCenter": 4039
+    },
+    {
+      "tag": "leisure=park",
+      "name": "翠園",
+      "lat": 25.0316434,
+      "lon": 121.4742075,
+      "metersToCenter": 4041
+    },
+    {
+      "tag": "leisure=park",
+      "name": "河堤公園",
+      "lat": 25.0355949,
+      "lon": 121.4672782,
+      "metersToCenter": 4080
+    },
+    {
+      "tag": "leisure=park",
+      "name": "光復賞鳥河濱公園",
+      "lat": 25.0198804,
+      "lon": 121.4864439,
+      "metersToCenter": 4088
+    },
+    {
+      "tag": "leisure=park",
+      "name": "碧河里公園",
+      "lat": 25.0000035,
+      "lon": 121.4915043,
+      "metersToCenter": 4088
+    },
+    {
+      "tag": "leisure=park",
+      "name": "音樂公園",
+      "lat": 25.0274761,
+      "lon": 121.4802823,
+      "metersToCenter": 4090
+    },
+    {
+      "tag": "leisure=park",
+      "name": "富國公園",
+      "lat": 25.0262225,
+      "lon": 121.4204153,
+      "metersToCenter": 4093
+    },
+    {
+      "tag": "leisure=park",
+      "name": "龍鳳公園",
+      "lat": 25.0217759,
+      "lon": 121.4167035,
+      "metersToCenter": 4096
+    },
+    {
+      "tag": "leisure=park",
+      "name": "振義里公園",
+      "lat": 25.0238389,
+      "lon": 121.4840367,
+      "metersToCenter": 4121
+    },
+    {
+      "tag": "leisure=park",
+      "name": "東昇公園",
+      "lat": 24.9847266,
+      "lon": 121.4148154,
+      "metersToCenter": 4122
+    },
+    {
+      "tag": "leisure=park",
+      "name": "維也納森林",
+      "lat": 25.0353791,
+      "lon": 121.4324018,
+      "metersToCenter": 4158
+    },
+    {
+      "tag": "leisure=park",
+      "name": "太元公園",
+      "lat": 24.9811194,
+      "lon": 121.416372,
+      "metersToCenter": 4192
+    },
+    {
+      "tag": "leisure=park",
+      "name": "承安公園",
+      "lat": 24.9658948,
+      "lon": 121.4389963,
+      "metersToCenter": 4193
+    },
+    {
+      "tag": "leisure=park",
+      "name": "江子翠河口景觀河濱公園",
+      "lat": 25.0339909,
+      "lon": 121.4736629,
+      "metersToCenter": 4227
+    },
+    {
+      "tag": "leisure=park",
+      "name": "鹿角溪溼地",
+      "lat": 24.973493,
+      "lon": 121.4231745,
+      "metersToCenter": 4232
+    },
+    {
+      "tag": "leisure=park",
+      "name": "稚匯公園",
+      "lat": 25.0351801,
+      "lon": 121.4723985,
+      "metersToCenter": 4273
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新莊運動公園",
+      "lat": 25.0412087,
+      "lon": 121.4493175,
+      "metersToCenter": 4363
+    },
+    {
+      "tag": "leisure=park",
+      "name": "龍昇公園",
+      "lat": 25.0185522,
+      "lon": 121.4117347,
+      "metersToCenter": 4364
+    },
+    {
+      "tag": "leisure=park",
+      "name": "鎮福宮親子公園",
+      "lat": 25.0043875,
+      "lon": 121.4075894,
+      "metersToCenter": 4383
+    },
+    {
+      "tag": "leisure=park",
+      "name": "江翠礫間水岸公園",
+      "lat": 25.0260998,
+      "lon": 121.4854299,
+      "metersToCenter": 4384
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0035917,
+      "lon": 121.4945074,
+      "metersToCenter": 4388
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新北市忠靈祠",
+      "lat": 25.0130453,
+      "lon": 121.4090935,
+      "metersToCenter": 4398
+    },
+    {
+      "tag": "leisure=park",
+      "name": "泰山貴和廣場",
+      "lat": 25.0302391,
+      "lon": 121.4202856,
+      "metersToCenter": 4409
+    },
+    {
+      "tag": "leisure=park",
+      "name": "懷石公園",
+      "lat": 25.0307927,
+      "lon": 121.4812216,
+      "metersToCenter": 4419
+    },
+    {
+      "tag": "leisure=park",
+      "name": "資訊公園",
+      "lat": 25.0346494,
+      "lon": 121.4762642,
+      "metersToCenter": 4434
+    },
+    {
+      "tag": "leisure=park",
+      "name": "三龍公園",
+      "lat": 25.0171494,
+      "lon": 121.4102368,
+      "metersToCenter": 4440
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0066637,
+      "lon": 121.494769,
+      "metersToCenter": 4441
+    },
+    {
+      "tag": "leisure=park",
+      "name": "武器公園",
+      "lat": 25.0132602,
+      "lon": 121.4085938,
+      "metersToCenter": 4453
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9917281,
+      "lon": 121.4937594,
+      "metersToCenter": 4458
+    },
+    {
+      "tag": "leisure=park",
+      "name": "承和公園",
+      "lat": 24.9644756,
+      "lon": 121.4354173,
+      "metersToCenter": 4458
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0015059,
+      "lon": 121.4955193,
+      "metersToCenter": 4487
+    },
+    {
+      "tag": "leisure=park",
+      "name": "鎮前親子公園",
+      "lat": 24.9820076,
+      "lon": 121.4123102,
+      "metersToCenter": 4488
+    },
+    {
+      "tag": "leisure=park",
+      "name": "龍福公園",
+      "lat": 25.0199032,
+      "lon": 121.4109322,
+      "metersToCenter": 4502
+    },
+    {
+      "tag": "leisure=park",
+      "name": "華江123木頭公園",
+      "lat": 25.0360528,
+      "lon": 121.4754797,
+      "metersToCenter": 4519
+    },
+    {
+      "tag": "leisure=park",
+      "name": "宏慶公園",
+      "lat": 25.019824,
+      "lon": 121.410692,
+      "metersToCenter": 4520
+    },
+    {
+      "tag": "leisure=park",
+      "name": "彭興親子公園",
+      "lat": 24.9734461,
+      "lon": 121.4190476,
+      "metersToCenter": 4522
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.042429,
+      "lon": 121.4564733,
+      "metersToCenter": 4529
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中和恐龍園區",
+      "lat": 25.0085318,
+      "lon": 121.4954585,
+      "metersToCenter": 4539
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新泰三角公園",
+      "lat": 25.0426456,
+      "lon": 121.4445639,
+      "metersToCenter": 4566
+    },
+    {
+      "tag": "leisure=park",
+      "name": "德安公園",
+      "lat": 25.031275,
+      "lon": 121.4190958,
+      "metersToCenter": 4575
+    },
+    {
+      "tag": "leisure=park",
+      "name": "江翠礫間水岸公園",
+      "lat": 25.0318073,
+      "lon": 121.4825877,
+      "metersToCenter": 4595
+    },
+    {
+      "tag": "leisure=park",
+      "name": "安邦公園",
+      "lat": 24.9966008,
+      "lon": 121.4963976,
+      "metersToCenter": 4614
+    },
+    {
+      "tag": "leisure=park",
+      "name": "貴和兒童公園",
+      "lat": 25.0345513,
+      "lon": 121.4221302,
+      "metersToCenter": 4644
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中港三角公園",
+      "lat": 25.0439111,
+      "lon": 121.4530022,
+      "metersToCenter": 4665
+    },
+    {
+      "tag": "leisure=park",
+      "name": "雙鳳公園",
+      "lat": 25.0270471,
+      "lon": 121.4135733,
+      "metersToCenter": 4688
+    },
+    {
+      "tag": "leisure=park",
+      "name": "璋和社區兒童遊戲場",
+      "lat": 24.9958721,
+      "lon": 121.4970859,
+      "metersToCenter": 4694
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.994662,
+      "lon": 121.4968933,
+      "metersToCenter": 4696
+    },
+    {
+      "tag": "leisure=park",
+      "name": "生命紀念公園",
+      "lat": 25.0309089,
+      "lon": 121.4164278,
+      "metersToCenter": 4740
+    },
+    {
+      "tag": "leisure=park",
+      "name": "時光公園",
+      "lat": 25.0370979,
+      "lon": 121.4784473,
+      "metersToCenter": 4783
+    },
+    {
+      "tag": "leisure=park",
+      "name": "信華公園",
+      "lat": 25.043932,
+      "lon": 121.4398384,
+      "metersToCenter": 4796
+    },
+    {
+      "tag": "leisure=park",
+      "name": "錦德公園",
+      "lat": 25.023336,
+      "lon": 121.4923881,
+      "metersToCenter": 4798
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中港公園",
+      "lat": 25.0451368,
+      "lon": 121.4455036,
+      "metersToCenter": 4828
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9934687,
+      "lon": 121.4981636,
+      "metersToCenter": 4847
+    },
+    {
+      "tag": "leisure=park",
+      "name": "時光公園",
+      "lat": 25.0367514,
+      "lon": 121.4800858,
+      "metersToCenter": 4850
+    },
+    {
+      "tag": "leisure=park",
+      "name": "永寧廣場",
+      "lat": 24.9622173,
+      "lon": 121.4304335,
+      "metersToCenter": 4885
+    },
+    {
+      "tag": "leisure=park",
+      "name": "新泰綠地",
+      "lat": 25.045408,
+      "lon": 121.4425978,
+      "metersToCenter": 4900
+    },
+    {
+      "tag": "leisure=park",
+      "name": "迴龍兒二公園",
+      "lat": 25.0173463,
+      "lon": 121.4053538,
+      "metersToCenter": 4906
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中港厝休閒廣場",
+      "lat": 25.0462092,
+      "lon": 121.4524732,
+      "metersToCenter": 4918
+    },
+    {
+      "tag": "leisure=park",
+      "name": "明德綠地",
+      "lat": 25.0221925,
+      "lon": 121.494449,
+      "metersToCenter": 4920
+    },
+    {
+      "tag": "leisure=park",
+      "name": "福祥公園",
+      "lat": 25.005506,
+      "lon": 121.4996777,
+      "metersToCenter": 4921
+    },
+    {
+      "tag": "leisure=park",
+      "name": "華中河濱公園",
+      "lat": 25.0195124,
+      "lon": 121.4959391,
+      "metersToCenter": 4929
+    },
+    {
+      "tag": "leisure=park",
+      "name": "東園公園",
+      "lat": 25.0209736,
+      "lon": 121.4952249,
+      "metersToCenter": 4931
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 25.0053273,
+      "lon": 121.50009,
+      "metersToCenter": 4961
+    },
+    {
+      "tag": "leisure=park",
+      "name": null,
+      "lat": 24.9984946,
+      "lon": 121.5001256,
+      "metersToCenter": 4966
+    },
+    {
+      "tag": "leisure=park",
+      "name": "桐花公園",
+      "lat": 24.9577283,
+      "lon": 121.4436338,
+      "metersToCenter": 4978
+    },
+    {
+      "tag": "leisure=park",
+      "name": "泰山區中山段578-2地號簡易綠美化",
+      "lat": 25.0382122,
+      "lon": 121.4218527,
+      "metersToCenter": 4984
+    },
+    {
+      "tag": "leisure=park",
+      "name": "孝德公園",
+      "lat": 25.024048,
+      "lon": 121.4941291,
+      "metersToCenter": 4990
+    },
+    {
+      "tag": "leisure=park",
+      "name": "保順里公園",
+      "lat": 25.0082362,
+      "lon": 121.5003864,
+      "metersToCenter": 5025
+    },
+    {
+      "tag": "leisure=park",
+      "name": "山北公園",
+      "lat": 25.0064388,
+      "lon": 121.5006854,
+      "metersToCenter": 5031
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中平公園",
+      "lat": 25.0468815,
+      "lon": 121.4430217,
+      "metersToCenter": 5055
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中山公園",
+      "lat": 25.013923,
+      "lon": 121.4025009,
+      "metersToCenter": 5064
+    },
+    {
+      "tag": "leisure=park",
+      "name": "廟美綠林小徑",
+      "lat": 25.00194,
+      "lon": 121.5013824,
+      "metersToCenter": 5077
+    },
+    {
+      "tag": "leisure=park",
+      "name": "雙園河濱公園",
+      "lat": 25.0330884,
+      "lon": 121.4881121,
+      "metersToCenter": 5093
+    },
+    {
+      "tag": "leisure=park",
+      "name": "原住民主題公園",
+      "lat": 24.9706434,
+      "lon": 121.4140532,
+      "metersToCenter": 5101
+    },
+    {
+      "tag": "leisure=park",
+      "name": "三重環保河濱公園",
+      "lat": 25.043561,
+      "lon": 121.4746215,
+      "metersToCenter": 5198
+    },
+    {
+      "tag": "leisure=park",
+      "name": "土城媽祖田運動公園",
+      "lat": 24.965659,
+      "lon": 121.4178432,
+      "metersToCenter": 5244
+    },
+    {
+      "tag": "leisure=park",
+      "name": "中港綠堤",
+      "lat": 25.0496857,
+      "lon": 121.4530994,
+      "metersToCenter": 5307
+    },
+    {
+      "tag": "leisure=park",
+      "name": "永和綠寶石河濱公園",
+      "lat": 25.0148468,
+      "lon": 121.5071909,
+      "metersToCenter": 5840
+    }
+  ]
+}

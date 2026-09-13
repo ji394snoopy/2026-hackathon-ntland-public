@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+html {
+  font-size: 22px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d9dce0 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9dce0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b0b8c4;
+}
+
+/* Leaflet 為可互動的 SVG path（分區色塊）加了 tabindex，瀏覽器預設對它畫的
+   focus outline 是元素外接矩形（四邊形），跟分區實際形狀無關；改用圖層自己
+   的 click 樣式（見 ZoningMap.tsx）沿真實邊界描邊，這裡關掉預設矩形外框 */
+.leaflet-interactive:focus {
+  outline: none;
+}

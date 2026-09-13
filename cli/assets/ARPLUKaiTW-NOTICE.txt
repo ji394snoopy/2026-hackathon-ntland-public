@@ -1,0 +1,19 @@
+ARPLUKaiTW-Book.ttf provenance
+================================
+
+Source: Debian package fonts-arphic-ukai 0.2.20080216.2-5
+  https://deb.debian.org/debian/pool/main/f/fonts-arphic-ukai/fonts-arphic-ukai_0.2.20080216.2-5_all.deb
+Upstream font: "AR PL UKai TW" (Traditional Chinese / Big5 face), one of four
+  faces (CN/HK/TW/TW MBE) bundled in that package's ukai.ttc TrueType
+  Collection. Licensed under the Arphic Public License (see ARPHICPL.TXT in
+  this directory) — an open, free-to-redistribute Kaiti (楷體) font, used
+  here as a substitute for the proprietary, non-redistributable 標楷體
+  (DFKai-SB) font.
+
+Modification: the "AR PL UKai TW" face was extracted out of the ukai.ttc
+  collection into a standalone .ttf using fontTools
+  (TTCollection(...).fonts[2].save(...)), 2026-09-02. No glyph, metric, or
+  naming changes were made beyond what that extraction requires.
+
+Per Arphic Public License section 1, ARPHICPL.TXT must accompany all copies
+of this font, including this modified/extracted one.

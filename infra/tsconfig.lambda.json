@@ -1,0 +1,23 @@
+{
+  "$comment": "Type-check-only config for the lambda/ handlers, which the main tsconfig.json excludes (they're esbuild-bundled, not tsc-compiled). Uses bundler resolution so extensionless imports and the drizzle-orm/aws-data-api/pg subpath resolve the same way esbuild sees them. No emit — this is purely `tsc --noEmit -p tsconfig.lambda.json` for verification.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["lambda/**/*.ts"]
+}

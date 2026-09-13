@@ -1,0 +1,18 @@
+
+
+
+# Platform-managed agentplat state, not project source. In the
+# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
+# repo root IS the workspace root, so these land inside this repo rather than
+# beside it.
+/.plugins/
+/.opencode-skills/
+
+# Per-developer Claude Code overrides (permission allowlist etc.)
+/.claude/settings.local.json
+
+/*e2e-out*/
+E2E_MANUAL*
+
+tmp
+issue*

@@ -1,0 +1,272 @@
+{
+  "$comment": "infra 部署的所有 Lambda 的單一清單來源(single source of truth)。人看這份檔就能一次列出 infra 有哪些 lambda;scripts/build-lambdas.mjs 也讀這份檔決定要 esbuild 打包哪些 handler,清單不會跟實際部署脫節。路徑一律相對於 infra/。所有 handler 原始碼皆住 infra/lambda/<name>/(已由 cli 合併進來);共用核心在 lambda/shared/(claude/tool/retry/constants + grading/ + assets/ + references/)。真正打包在部署前由 build:lambdas 從 source 讀取。",
+  "lambdas": [
+    {
+      "name": "zoning-filter",
+      "functionName": "ntpc-zoning-filter",
+      "bundled": false,
+      "source": "lambda/zoning-filter/index.mjs",
+      "output": "lambda/zoning-filter",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "依 lat/lng 從 AssetStack 的 S3 讀 zoning geojson 並篩附近分區。原始碼就住在 infra(infra 專屬、無對應 CLI),不需 esbuild 打包。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "wind-condition",
+      "functionName": "ntpc-wind-condition",
+      "bundled": true,
+      "source": "lambda/wind-condition/lambda.ts",
+      "output": "build/lambda/wind-condition/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli B 類 CLI:呼叫 Open-Meteo Archive API,回近一年平均風速 + 主風向。邏輯以 cli 為準。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "maptiles-base",
+      "functionName": "ntpc-maptiles-base",
+      "bundled": true,
+      "source": "lambda/maptiles-base/lambda.ts",
+      "output": "build/lambda/maptiles-base/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli B 類 CLI:NLSC B5000 1/5000 全國基本地形圖,pngjs 拼接圖磚回 PNG。邏輯以 cli 為準。",
+      "output_type": "PNG"
+    },
+    {
+      "name": "maptiles-detail",
+      "functionName": "ntpc-maptiles-detail",
+      "bundled": true,
+      "source": "lambda/maptiles-detail/lambda.ts",
+      "output": "build/lambda/maptiles-detail/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli B 類 CLI:NLSC TOPO01K 1/1000 新北市都市計畫地形圖,先抓 GetCapabilities 篩新北市 sheet(module-scope 快取)。邏輯以 cli 為準。",
+      "output_type": "PNG"
+    },
+    {
+      "name": "facilities",
+      "functionName": "ntpc-facilities",
+      "bundled": true,
+      "source": "lambda/facilities/lambda.ts",
+      "output": "build/lambda/facilities/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "給一個範圍(polygon 或 center+radius),查 PostGIS 回傳範圍內的設施(捷運/高鐵/公車站 + OSM POI)+ 到中心距離,及門牌數量與最近幾筆,並即時 merge NLSC 環域 API。連線走可切換的 repo(FACILITIES_DB_DRIVER):本機 pg 直連 Docker PostGIS(PGHOST/PGPORT/...),雲端走 RDS Data API(DB_CLUSTER_ARN/DB_SECRET_ARN/DB_NAME)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 LambdaStack 以公開 Function URL 對外(FacilitiesFunctionUrl)。",
+      "output_type": "JSON",
+      "deployed": true
+    },
+    {
+      "name": "fill-district-survey",
+      "functionName": "ntpc-fill-district-survey",
+      "bundled": true,
+      "source": "lambda/fill-district-survey/lambda.ts",
+      "output": "build/lambda/fill-district-survey/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli fillDistrictSurvey(= /api/export):收編輯後的 content JSON(POST body),用純 pdf-lib 填 表1 地價區段勘查表,回 base64 PDF。範本 PDF / 中文字型 / coordinates 由 esbuild 於打包時 inline。無 Bedrock、無 AWS、無 DB。放在隔離的 NtlandBedrockStack(FillDistrictSurveyFunctionUrl)。邏輯以 cli 為準。",
+      "output_type": "PDF"
+    },
+    {
+      "name": "fill-regional-analysis",
+      "functionName": "ntpc-fill-regional-analysis",
+      "bundled": true,
+      "source": "lambda/fill-regional-analysis/lambda.ts",
+      "output": "build/lambda/fill-regional-analysis/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli fillRegionalAnlysis(表5 影響地價區域因素分析明細表 PDF,匯出用):收 { purpose, ...content }(POST body;purpose 為 agricultural/commercial/industrial/other/residential 之一,選對應用地範本),用純 pdf-lib 填該用地類別的表5,回 base64 PDF。5 份範本 PDF + 5 份 coordinates + 中文字型由 esbuild 於打包時 inline(比照 fill-district-survey;font ~16MB,bundle 仍遠低於 250MB 上限)。無 Bedrock、無 AWS、無 DB。lambda.ts 只包 handler,復用 cli fillEngine/PURPOSES,不改 CLI(main.ts/fillEngine.ts)邏輯。放在 NtlandBedrockStack(FillRegionalAnalysisFunctionUrl)。斷點3 路 B:表5 PDF 的雲端來源,產出丟 fill-report 合併。邏輯以 cli 為準。",
+      "output_type": "PDF"
+    },
+    {
+      "name": "fill-individual-analysis",
+      "functionName": "ntpc-fill-individual-analysis",
+      "bundled": true,
+      "source": "lambda/fill-individual-analysis/lambda.ts",
+      "output": "build/lambda/fill-individual-analysis/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli fillindividualAnlysis(表4 比較法調查估價表 個別因素 PDF,匯出用):收 content JSON(POST body,同 CLI comparison.json 形狀),用純 pdf-lib 填表4,回 base64 PDF。範本 PDF / 中文字型 / coordinates 由 esbuild 於打包時 inline(比照 fill-district-survey)。無 Bedrock、無 AWS、無 DB。lambda.ts 只包 handler,復用 cli fillEngine,不改 CLI(main.ts/fillEngine.ts)邏輯。放在 NtlandBedrockStack(FillIndividualAnalysisFunctionUrl)。斷點3 路 B:表4 PDF 的雲端來源,產出丟 fill-report 合併。邏輯以 cli 為準。",
+      "output_type": "PDF"
+    },
+    {
+      "name": "factor-standard-extract",
+      "functionName": "ntpc-factor-standard-extract",
+      "bundled": true,
+      "source": "lambda/factor-standard-extract/lambda.ts",
+      "output": "build/lambda/factor-standard-extract/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli factorStandard(Bedrock,帶 PDF):收評價基準明細表 PDF 的 base64(POST body 或 { pdfBase64 }),用 Claude on Bedrock 抽成結構化級距/修正率 JSON。vocabulary 4 個對照 JSON 由 esbuild inline。憑證走 AWS 預設 chain(執行角色的 bedrock:InvokeModel)。放在 NtlandBedrockStack(FactorStandardFunctionUrl)。邏輯以 cli 為準。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "regional-factor-grading",
+      "functionName": "ntpc-regional-factor-grading",
+      "bundled": true,
+      "source": "lambda/regional-factor-grading/lambda.ts",
+      "output": "build/lambda/regional-factor-grading/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli regionalFactorGrading(表五 區域因素評分,Bedrock,純文字):收 { meta, benchmark }(勘查資料,同 CLI sample-data.json 形狀),用 Claude on Bedrock 抽證據 → 依 inline 的 factor-standard 級距在 code 內判等級,回 graded JSON({ meta, benchmark, regionalFactors, totalScore },同 CLI graded.json)。factor-standard.json 由 esbuild inline(references/factor-standard.json,含兩棵樹)。單筆 graded 由 orchestrator(produce-regional-factors)先 buildFillReport 合成含比較欄的 comparison.json,再由 infra 端 mapper(shared/db/mappers.mapRegionalComparisonToRows)攤平成 RegionalFactorRow[],不在本 handler 內。憑證走 AWS 預設 chain(執行角色的 bedrock:InvokeModel)。放在 NtlandBedrockStack(RegionalFactorGradingFunctionUrl)。邏輯以 cli 為準。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "individual-factor-grading",
+      "functionName": "ntpc-individual-factor-grading",
+      "bundled": true,
+      "source": "lambda/individual-factor-grading/lambda.ts",
+      "output": "build/lambda/individual-factor-grading/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli individualFactorGrading(表四 個別因素評分,Bedrock,純文字,吃 benchmark):收 { meta, benchmark }(勘查/宗地條件,同 CLI sample-data.json 形狀),用 Claude on Bedrock 抽證據 → 依 inline 的 factor-standard 級距在 code 內判等級(resolveGrades 以 benchmark 為第三引數,補每項 display value),回 graded JSON({ meta, benchmark, individualFactors, totalScore },同 CLI graded.json)。factor-standard.json 由 esbuild inline。graded → 評分列(Option B)的 schema mapper 由 infra 端呼叫者(shared/db/mappers.mapIndividualGraded)套用,不在 handler 內。憑證走 AWS 預設 chain(執行角色的 bedrock:InvokeModel)。放在 NtlandBedrockStack(IndividualFactorGradingFunctionUrl)。邏輯以 cli 為準。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "district-survey-draft",
+      "functionName": "ntpc-district-survey-draft",
+      "bundled": true,
+      "source": "lambda/district-survey-draft/lambda.ts",
+      "output": "build/lambda/district-survey-draft/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "cli districtSurvey 產草稿(Bedrock,純文字):收 { category }(POST body 或 ?category=),用 Claude on Bedrock 產該類可編輯的 content JSON 草稿(建議一次一類避免逾時)。8 類的 tool+prompt 走各自 sample/;不寫檔。憑證走 AWS 預設 chain(執行角色的 bedrock:InvokeModel)。放在 NtlandBedrockStack(DistrictSurveyDraftFunctionUrl)。邏輯以 cli 為準。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "factor-standard-store",
+      "functionName": "ntpc-factor-standard-store",
+      "bundled": true,
+      "source": "lambda/factor-standard-store/lambda.ts",
+      "output": "build/lambda/factor-standard-store/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "缺口①:基準表數位化結果的儲存與重用。存/列表/取回 factor-standard-extract 抽出的數位化結果,讓使用者重用之前抽好的版本,不用每次重打 Bedrock。POST { fileName, extracted, label?, pdfBase64?, s3Key? } 存一筆(版本依 file_name 累加);GET ?id= 或 ?fileName=(&version=) 取單筆(含 extracted);GET ?label= / ?fileName=&list=1 / 無參數 列表(輕量 metadata,不含 extracted)。DB 走 RDS Data API 存 gis 的 factor_standard 表(DB_CLUSTER_ARN/DB_SECRET_ARN/DB_NAME),原始 PDF 存 AssetStack dataBucket(ASSET_BUCKET,factor-standard/ 前綴)。只用 @aws-sdk/*(runtime 內建、external),不 bundle anthropic/pdf-lib。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(FactorStandardStoreFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "case-store",
+      "functionName": "ntpc-case-store",
+      "bundled": true,
+      "source": "lambda/case-store/lambda.ts",
+      "output": "build/lambda/case-store/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "案件狀態儲存 CRUD(流程 B/D/F 的存定稿/讀回):建立案件 + 表3/表4/表5 各自 upsert + 讀回。共用 DB 存取層 infra/lambda/shared/db(Drizzle over RDS Data API)的第一個使用者。POST 建立案件({ sectionId, meta? } -> caseId);PUT|POST ?form=survey|regional-factors|comparison 存各表定稿(單句 INSERT ... ON CONFLICT upsert,不開 transaction);GET ?caseId= 取單案(組合各已存的表);GET ?sectionId= 列該區段案件(輕量 metadata)。主鍵 caseId(自建),副鍵 sectionId。DB 走 Data API 存 gis 的 appraisal_case / case_survey / case_regional_factors / case_comparison(DB_CLUSTER_ARN/DB_SECRET_ARN/DB_NAME),不碰 S3。不是 produce/*,只存取定稿、不做計算。drizzle-orm 一起 bundle,@aws-sdk/* 維持 external(runtime 內建)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(CaseStoreFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "land-value",
+      "functionName": "ntpc-land-value",
+      "bundled": true,
+      "source": "lambda/land-value/lambda.ts",
+      "output": "build/lambda/land-value/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "土地公告地價/公告土地現值查詢 + 年度比較(= GET /api/land/value)。給 段小段 + 地號(?district=&segment=&lid=),回最近有資料年份的公告土地現值/公告地價、往前逐年找到的前一年、及兩者漲幅%(找不到前一年才回 null)。作為比較法調查估價表(表4)的「土地正常單價」來源。資料存 gis 的 land_official_value 表(99~115 年逐年一列,每年百萬列走 aws_s3 匯入,見 README「土地公告地價匯入」),查詢走共用 DB 層(shared/db,Drizzle over RDS Data API),drizzle-orm 一起 bundle、@aws-sdk/* external。純讀取,無 S3。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(LandValueFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "land-transaction",
+      "functionName": "ntpc-land-transaction",
+      "bundled": true,
+      "source": "lambda/land-transaction/lambda.ts",
+      "output": "build/lambda/land-transaction/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "實價登錄土地/房地交易歷史查詢(= GET /api/land/transaction)。給 行政區 + 段小段(?district=&segment=,選 kind=land|landhouse|all、from/to 日期區間、limit),回該段歷史交易案例,供比較法求「土地正常單價」挑參考案例。土地案例排序優先、房地在後,同類內依交易日期新到舊。kind 預設 landhouse(土地 + 房地(土地+建物)、房地+車位,排除純車位):估價實務求土地單價時土地與房地都要看——土地可直接比較,房地需下游用「房地分配法」拆分(房地總價 − 建物現值回推土地價值),故案例一併回傳拆分所需建物欄位(rps11 型態/rps13 建材/rps10 樓層/rps14 建築完成日→屋齡/rps15 建物面積)+ 房地總價 + 土地移轉面積 + isLandOnly 旗標。本支只撈案例與拆分所需欄位,房地→土地的拆分/折舊計算交給下游(預計走 LLM)。作為比較法調查估價表(表4)的「交易日期」與「歷史交易案例」來源。資料存 gis 的 land_transaction 表(全市 ~5.7 萬列,走 seed-cloud.mjs 的 Data API batch insert、匯入時解析 rps02 段/地號、rps07/rps14 民國轉西元 date,見 README「實價登錄匯入」),查詢走共用 DB 層(shared/db,Drizzle over RDS Data API),drizzle-orm 一起 bundle、@aws-sdk/* external。純讀取,無 S3。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(LandTransactionFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "land-locate",
+      "functionName": "ntpc-land-locate",
+      "deprecated": true,
+      "deprecatedBy": "land-easymap",
+      "bundled": true,
+      "source": "lambda/land-locate/lambda.ts",
+      "output": "build/lambda/land-locate/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "⚠️ DEPRECATED — 新功能改接 land-easymap。停用原因是覆蓋率:幾何只有公有土地,私有地地號查不到、只能退段中心點,而估價實務上的比較標的大多是私有地。端點暫時留著沒拆(唯一還贏的是真實宗地 polygon 邊界,easymap 只有定位點),但表一的定位流程一律走 land-easymap。⚠️ lambda/land-locate/ 資料夾不要刪:parcelId.ts / freeText.ts 是純字串工具,land-easymap 直接 import 它們。--- 以下為原始說明 --- 地籍定位:(縣市, 區, 段名 或 段代碼, 地號) → 經緯度 + 宗地邊界(= GET /api/land/locate)。三種路由:?district=&section=&lid=(段名查,段名跨區重複故 district 必填)、?sectno=&lid=(段代碼查,代碼歧義時 district 補刀)、?q=樹林區大同段31-1地號(自由字串)。lid 省略則只回段中心點。回應含 center/bbox/boundary(GeoJSON)/areaM2/radiusHint,一支同時餵 produce-survey 的 benchmarkLocation 與前端地籍圖層。**三層 fallback,保證永遠有答案**:地號命中宗地 → 200 precision:'parcel';段有幾何但地號不在集合內 → 200 precision:'section' + note(退段中心點);段存在於對照表但無幾何 → 404 sectionExists:true;段不存在 → 404 sectionExists:false。⚠️ 資料來源是 assets/新北市公有土地資料供應/ 的 1,318 個 KML(**公有土地子集,不是完整地籍圖**):段層覆蓋 1,318/1,869 ≈ 70%、宗地層只含公有地,**私有地地號查不到是預期行為**會退段中心點。資料存 gis 的 land_section(1,874 列)/ land_parcel(22.8 萬列),由 infra/scripts/kml-to-csv.mjs 轉 CSV 後走 aws_s3 匯入(見 README 步驟 2e);地號以 (master_no, sub_no) 兩個整數比對以吸收各表補零/不補零的格式分歧。查詢走共用 DB 層(shared/db,Drizzle over RDS Data API),幾何一律在 DB 端投影成 ST_AsGeoJSON/ST_X/ST_Y(Data API 直接讀 geometry 只會回 WKB hex),drizzle-orm 一起 bundle、@aws-sdk/* external。純讀取,無 S3。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(LandLocateFunctionUrl)。設計與實測數字見 infra/docs/land-locate-plan.md。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "land-easymap",
+      "functionName": "ntpc-land-easymap",
+      "bundled": true,
+      "source": "lambda/land-easymap/lambda.ts",
+      "output": "build/lambda/land-easymap/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "地籍圖資便民系統即時查詢(= GET /api/land/easymap)。給 (縣市, 行政區, 段名, 地號),即時打 easymap.moi.gov.tw 回宗地定位點(WGS84,定位點非界址點)+ 面積(㎡/坪)+ 公告現值/公告地價(當年度)+ 兩者 × 面積的總價 + 地政事務所/地段代碼 + 該宗地上的建號清單。與另外三支 land-* 互補而不重疊:land-locate 是我們匯入的 KML 幾何(只有公有地,私有地退段中心點)、land-value 是我們匯入的逐年公告值(可比年度、離線),本支則是**任何地號(含私有地)都查得到**的即時官方值,代價是依賴上游可用性與 HTML 版面。查詢流程照搬 crawl-easymap/easymap.ts(GET 首頁拿 cookie → setToken.jsp 取一次性 struts token → Land_json_locate → 再取 token → LandDesc_ajax_detail 解析 HTML);段名→(office, sectNo) 走 NLSC 免申請 API(ListCounty/ListTown/ListLandSection),對照表快取在 module scope 供 warm 容器重用。地號一律先送上游原生的補零 8 碼(母號4+子號4,'31-1'→'00310001'),查無資料再退回短寫法試一次;地號/段名正規化與 ?q= 自由字串解析重用 lambda/land-locate 的 parcelId/freeText(純字串,不碰 DB)。POST { parcels: [...] } 可批次,但上游 token 是 session 級一次性資源,務必序列送(EASYMAP_MAX_BATCH 預設 5)。cheerio 走 cheerio/slim 進入點(不含 undici)一起 bundle,@aws-sdk/* external。**無 DB、無 S3、無 Bedrock、無 IAM —— 純對外 HTTP,所以住 NtlandLambdaStack(同 wind-condition),不在 NtlandBedrockStack**,以公開 Function URL 對外(LandEasymapFunctionUrl)。原始碼住 infra;探索用的 CLI 版仍在專案根目錄 crawl-easymap/。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "image-upload",
+      "functionName": "ntpc-image-upload",
+      "bundled": true,
+      "source": "lambda/image-upload/lambda.ts",
+      "output": "build/lambda/image-upload/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "流程 G:案件圖片上傳/列表(已實作)。POST { caseId, fileName, contentType, dataBase64 } 上傳圖片到 S3(ASSET_BUCKET/S3_PREFIX,case-images 前綴,回 { ok, s3Key })、GET ?caseId= 列該案圖片(回 { caseId, images })。IAM props.dataBucket.grantReadWrite,只用 @aws-sdk/client-s3(runtime 內建、external)。契約 API_INTEGRATION.md 未定義流程 G,以檔頭為準。匯出時把圖片併入報告 PDF 由 fill-report 匯出串接負責(斷點3 路 B)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(ImageUploadFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "produce-survey",
+      "functionName": "ntpc-produce-survey",
+      "bundled": true,
+      "source": "lambda/produce-survey/lambda.ts",
+      "output": "build/lambda/produce-survey/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "表3 勘查表產製對外端點(= POST /api/produce/survey,流程 ①)。收 ProduceSurveyRequest(sectionId + benchmarkLocation),orchestrate facilities(周邊設施查詢,env FACILITIES_URL)+ district-survey-draft(8 類草稿並行,env DISTRICT_SURVEY_DRAFT_URL),映射組 ProduceSurveyResponse(meta + survey: SurveyField[] + benchmark)回前端(契約見 API_INTEGRATION.md §1;型別重用 lambda/shared/db)。上游失敗 graceful 降級(欄位標需人工,不整支 502)。env:DB_CLUSTER_ARN/DB_SECRET_ARN/DB_NAME(預留,尚未用 DB)+ FACILITIES_URL/DISTRICT_SURVEY_DRAFT_URL(HTTP 呼叫上游 Function URL,由 NtlandBedrockStack 注入:facilities 跨 stack 自 NtlandLambdaStack,draft 為本 stack)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(ProduceSurveyFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "produce-regional-factors",
+      "functionName": "ntpc-produce-regional-factors",
+      "bundled": true,
+      "source": "lambda/produce-regional-factors/lambda.ts",
+      "output": "build/lambda/produce-regional-factors/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "表5 區域因素分析明細表產製對外端點(= POST /api/produce/regional-factors,流程 ②;v2 合併鏈)。收「比準地 + N 個比較標的」各自的表1(survey + benchmark),對每份打 regional-factor-grading(env REGIONAL_FACTOR_GRADING_URL)取 graded.json,再用 cli gradingComparison 的 buildFillReport(純 code,import 自 ../cli)合成含比較標的的區域比較,mapRegionalComparisonToRows 攤平成 RegionalFactorRow[](含 compare[])回前端。cli CLI 邏輯不改,只 import 其純合成函式;graded 各 parcel 由本支 HTTP orchestrate。env:REGIONAL_FACTOR_GRADING_URL(同 stack 注入)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(ProduceRegionalFactorsFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "produce-comparison",
+      "functionName": "ntpc-produce-comparison",
+      "bundled": true,
+      "source": "lambda/produce-comparison/lambda.ts",
+      "output": "build/lambda/produce-comparison/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "表4 比較法調查估價表產製(= POST /api/produce/comparison,流程 ③,E;v2 合併鏈,以 cli 個別因素鏈為主體)。收「比準地 + N 個比較標的」各自的表1(survey + benchmark)+ 已確認表5(regionalFactors/regionalTotal),對每份打 individual-factor-grading(env INDIVIDUAL_FACTOR_GRADING_URL)取 graded.json,用 cli individualComparison 的 buildFillReport(純 code,import 自 ../cli)合成 comparison(每項 delta = 修正率%),打 land-transaction(env LAND_TRANSACTION_URL)取最近一筆土地案例 unitPrice 當正常單價,依 compute 價格鏈(日期調整預設 0% + 區域因素修正 + Σdelta)算試算價,mergeComparison 組 ProduceComparisonResponse(契約見 API_INTEGRATION.md §4)。cli CLI 邏輯不改,只 import 其純合成函式。佔位版 rules.ts 已退役。env:INDIVIDUAL_FACTOR_GRADING_URL + LAND_TRANSACTION_URL(同 stack 注入)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(ProduceComparisonFunctionUrl)。",
+      "output_type": "JSON"
+    },
+    {
+      "name": "fill-report",
+      "functionName": "ntpc-fill-report",
+      "bundled": true,
+      "source": "lambda/fill-report/lambda.ts",
+      "output": "build/lambda/fill-report/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "流程 H:匯出用 PDF 合併器(純 pdf-lib)。收各段已各自產好的 PDF(表1 勘查表/表5 區域因素分析明細表/表4 比較法調查估價表 + 三張地圖 + 使用者上傳圖片頁),依傳入順序用 PDFDocument.copyPages 合併成同一份 PDF 回傳(base64,isBase64Encoded)。不重畫版式,只負責合併:斷點3 走路 B —— 表1 由 fill-district-survey、表5 由 fill-regional-analysis、表4 由 fill-individual-analysis 於後端產(皆已上雲);三張地圖仍為 Leaflet 只能瀏覽器產、圖片由 image-upload 取回轉頁,由匯出串接(export-report)彙整後丟本支合併。契約對齊 API_INTEGRATION.md §5 /api/export(輸出單一合併 PDF);入 { files: [{ name?, pdfBase64 }] }(相容裸陣列/單筆)。純運算,無額外 IAM/env;bundle pdf-lib(copyPages 不需字型/範本/座標)。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(FillReportFunctionUrl)。",
+      "output_type": "PDF"
+    },
+    {
+      "name": "export-report",
+      "functionName": "ntpc-export-report",
+      "bundled": true,
+      "source": "lambda/export-report/lambda.ts",
+      "output": "build/lambda/export-report/index.mjs",
+      "handler": "index.handler",
+      "runtime": "nodejs22.x",
+      "description": "流程 H 匯出報告 orchestrator(= POST /api/export,斷點3 路 B 的串接者)。收 { s3Keys?, caseId?, surveys?, survey?, regional?{purpose,content}, comparison?, maps? },對表1/表2/表3 各打對應填表 lambda(env FILL_DISTRICT_SURVEY_URL / FILL_REGIONAL_ANALYSIS_URL / FILL_INDIVIDUAL_ANALYSIS_URL)取 PDF、併入前端附的三張地圖 PDF、圖片轉單頁 PDF(s3Keys 直接從 dataBucket 讀,env ASSET_BUCKET,IAM 只開 case-images/* 讀取;沒帶 s3Keys 才依 caseId 經 image-upload,env IMAGE_UPLOAD_URL),在本支用 pdf-lib 依報告順序合併,回單一 base64 PDF。不再經 fill-report 合併(所有段落塞同一請求會超過 Function URL 6 MB)。缺段跳過、圖片單張失敗只略過、完全無內容回 400、填表上游失敗回 502、合併後超過回應上限回 413。無 DB。填表 lambda 與 cli CLI 邏輯都不改,本支只串接。原始碼住 infra(infra 自有 Lambda,非 cli CLI),由 NtlandBedrockStack 以公開 Function URL 對外(ExportReportFunctionUrl)。",
+      "output_type": "PDF"
+    }
+  ]
+}

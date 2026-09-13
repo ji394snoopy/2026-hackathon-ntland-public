@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "yearPeriod": "1140901",
+    "sectionId": "P002-00",
+    "district": "新北市金山區",
+    "landUseType": "商業用地",
+    "benchmarkParcel": "金美段489地號",
+    "surveyDate": "114年09月18日",
+    "range": "北側至金包里街以北臨路第一筆宗地，南側至中山路以南第一筆宗地，西側至中正路，東側至福德街之第二種商業區土地劃為P002-00區段。",
+    "location": {
+      "lat": 25.2219,
+      "lng": 121.63575
+    }
+  },
+  "benchmark": {
+    "location": "新北市金山區金美段489地號",
+    "area": "113.21",
+    "width": "5",
+    "depth": "23",
+    "shape": "方形",
+    "frontage": "單面臨街",
+    "terrain": "平坦",
+    "roadType": "主要道路",
+    "roadName": "中山路",
+    "roadWidth": "18",
+    "schoolName": "金山國小",
+    "schoolDistance": "150",
+    "marketName": "金山區第一零售傳統市場",
+    "marketDistance": "0",
+    "parkName": "中山溫泉里郡公園",
+    "parkDistance": "0",
+    "stationName": "金山區公所站",
+    "stationDistance": "0",
+    "districtName": "老街商圈",
+    "districtDistance": "0",
+    "disamenityName": "金山第1公墓",
+    "disamenityDistance": "80",
+    "parking": "可路邊停車",
+    "zoning": "第二種商業區",
+    "coverageRatio": "70%",
+    "plotRatio": "240%",
+    "buildRestriction": "無",
+    "sectionId": "P002-00"
+  },
+  "regionalFactors": {
+    "raw": "區域因素",
+    "categories": [
+      {
+        "key": "landUseRegulation",
+        "raw": "土地使用管制",
+        "items": [
+          {
+            "key": "insideOutsideUrbanPlan",
+            "raw": "都市計畫內外",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "zoningDesignation",
+            "raw": "使用分區﹝編定﹞",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "buildingCoverageRatio",
+            "raw": "建蔽率",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "floorAreaRatio",
+            "raw": "容積率",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "buildingProhibition",
+            "raw": "有無禁止建築",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "buildingRestriction",
+            "raw": "有無限制建築",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "trafficAndTransport",
+        "raw": "交通運輸",
+        "items": [
+          {
+            "key": "mainRoadWidth",
+            "raw": "主要道路寬度",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -7.5,
+              "rate": 3
+            }
+          },
+          {
+            "key": "averageRoadWidthInSection",
+            "raw": "區段內道路平均寬度",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -5,
+              "rate": 3
+            }
+          },
+          {
+            "key": "proximityToMajorStation",
+            "raw": "接近大型車站之程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToBusStop",
+            "raw": "站牌之接近程度或密集程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToInterchange",
+            "raw": "交流道之有無及接近交流道之程度",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -8,
+              "rate": 5
+            }
+          },
+          {
+            "key": "roadPlanningAndConstructionLevel",
+            "raw": "區段內道路規劃及闢建程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "naturalConditions",
+        "raw": "自然條件",
+        "items": [
+          {
+            "key": "drainageQuality",
+            "raw": "排水之良否",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -2.5,
+              "rate": 2
+            }
+          },
+          {
+            "key": "terrain",
+            "raw": "地勢",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "publicInfrastructure",
+        "raw": "公共建設",
+        "items": [
+          {
+            "key": "proximityToMarket",
+            "raw": "接近市場之程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToParkPlazaPedestrianZone",
+            "raw": "接近公園、廣場、徒步區之程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "proximityToTouristRecreationFacility",
+            "raw": "接近觀光遊憩設施之程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "parkingConvenience",
+            "raw": "停車場地之便利程度",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -1,
+              "rate": 2
+            }
+          }
+        ]
+      },
+      {
+        "key": "specialFacilities",
+        "raw": "特殊設施",
+        "items": [
+          {
+            "key": "proximityToFuneralFacility",
+            "raw": "殯葬設施之有無及接近程度",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -8,
+              "rate": 5
+            }
+          },
+          {
+            "key": "proximityToUtilityGasFacility",
+            "raw": "電業設施及公用氣體燃料設施之有無及接近程度",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -8,
+              "rate": 5
+            }
+          },
+          {
+            "key": "proximityToWasteFacility",
+            "raw": "廢棄物處理設施之有無及接近程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "environmentalPollution",
+        "raw": "環境汙染",
+        "items": [
+          {
+            "key": "proximityToPollutionSource",
+            "raw": "環境污染之有無及接近程度",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": "commercialActivity",
+        "raw": "工商活動",
+        "items": [
+          {
+            "key": "proximityToDepartmentStore",
+            "raw": "百貨公司之有無、數量、接近程度",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -8,
+              "rate": 5
+            }
+          },
+          {
+            "key": "proximityToFinancialInstitution",
+            "raw": "金融機構之有無、數量、接近程度",
+            "selectedGrade": {
+              "key": "slightlySuperior",
+              "raw": "稍優",
+              "value": -1,
+              "rate": 2
+            }
+          },
+          {
+            "key": "proximityToEntertainmentFacility",
+            "raw": "娛樂設施之有無、數量、接近程度",
+            "selectedGrade": {
+              "key": "inferior",
+              "raw": "劣",
+              "value": -4,
+              "rate": 5
+            }
+          },
+          {
+            "key": "proximityToExhibitionCenterOrHotel",
+            "raw": "大型展示中心或觀光飯店之有無、數量、接近程度",
+            "selectedGrade": {
+              "key": "average",
+              "raw": "普通",
+              "value": -4,
+              "rate": 3
+            }
+          },
+          {
+            "key": "customerTrafficVolume",
+            "raw": "顧客通行量之多寡",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          },
+          {
+            "key": "shopContiguityRatio",
+            "raw": "店舖之毗連狀態",
+            "selectedGrade": {
+              "key": "superior",
+              "raw": "優",
+              "value": 0,
+              "rate": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "totalScore": -57
+}
