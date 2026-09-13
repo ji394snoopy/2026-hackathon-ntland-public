@@ -1,9 +1,5 @@
-import {
-  mockExportFormsResponse,
-  mockSurveyFixtures,
-  getPrefillDataByRole,
-  getConditionPrefillByRole,
-} from "../mock";
+import { applySurveyLinkage, SURVEY_LINKAGE } from "../lib/formLinkage";
+import { prepareImageForUpload } from "../lib/imageFile";
 import {
   buildFacilitiesApiUrl,
   FACILITIES_LAMBDA_URL,
@@ -12,10 +8,13 @@ import {
   resolveSectionBoundary,
   type LatLng,
 } from "../lib/officialMap";
-import { fetchWalkingDistance, type Coordinate } from "./distance";
-import { applySurveyLinkage, SURVEY_LINKAGE } from "../lib/formLinkage";
-import { prepareImageForUpload } from "../lib/imageFile";
 import { recomputeChain } from "../lib/pricing";
+import {
+  getConditionPrefillByRole,
+  getPrefillDataByRole,
+  mockExportFormsResponse,
+  mockSurveyFixtures,
+} from "../mock";
 import type {
   ComparisonCase,
   ComparisonCondition,
@@ -25,6 +24,7 @@ import type {
   FieldReference,
   SurveyField,
 } from "../types";
+import { fetchWalkingDistance, type Coordinate } from "./distance";
 import type {
   CaseBundle,
   CaseSummary,
@@ -438,6 +438,12 @@ export async function produceSurvey(
       // 見 prefillData.ts 的 *_CONDITION_PREFILL.sectionId），改用已依 locationRole 取出的
       // prefillCondition.sectionId，讓兩邊（meta 與宗地條件）對同一筆地回報一致的區段編號。
       sectionId: prefillCondition.sectionId ?? base.meta.sectionId,
+      // 同理，base.meta.range 也是模板共用的佔位文字（金山老街街名，非本案樹林區資料），四筆
+      // 地的區段範圍敘述各不相同，改用 survey 裡已依 locationRole merge 過 prefillData.ts
+      // 的 section_range 欄位值（P001~P004 各自的真實區段範圍敘述，見 *_PREFILL.section_range）。
+      range:
+        survey.find((field) => field.key === "section_range")?.value ??
+        base.meta.range,
       location: req.location
         ? { lat: req.location.lat, lng: req.location.lng }
         : base.meta.location,
@@ -751,7 +757,9 @@ const EXPORT_REPORT_LAMBDA_URL: string | undefined = import.meta.env
   .VITE_EXPORT_REPORT_LAMBDA_URL as string | undefined;
 const EXPORT_REPORT_TIMEOUT_MS = 120000;
 
-export async function exportReport(req: ExportReportRequest): Promise<Blob> {
+export async function exportReport(
+  req: ExportReportRequest,
+): Promise<ExportReportResponse> {
   const url = EXPORT_REPORT_API_BASE_URL ?? EXPORT_REPORT_LAMBDA_URL;
   if (!url) {
     throw new Error(
@@ -770,20 +778,7 @@ export async function exportReport(req: ExportReportRequest): Promise<Blob> {
       `export-report 失敗（HTTP ${res.status}）：${bodyText.slice(0, 500)}`,
     );
   }
-  // 新版後端把 PDF 寫進 S3、回 JSON { url }（避開 Function URL 6 MB 回應上限），再從 url 下載；
-  // 舊版後端直接回 application/pdf。兩種都收，前後端部署先後順序不影響。
-  const contentType = res.headers.get("content-type") ?? "";
-  if (!contentType.includes("application/json")) {
-    return await res.blob();
-  }
-  const { url: pdfUrl } = (await res.json()) as ExportReportResponse;
-  const pdfRes = await fetch(pdfUrl, {
-    signal: AbortSignal.timeout(EXPORT_REPORT_TIMEOUT_MS),
-  });
-  if (!pdfRes.ok) {
-    throw new Error(`下載匯出報告失敗（HTTP ${pdfRes.status}）：${pdfUrl}`);
-  }
-  return await pdfRes.blob();
+  return (await res.json()) as ExportReportResponse;
 }
 
 // 這三大類的距離改用「步行距離」（OSRM routed-foot）覆蓋 FACILITIES_API 回傳的直線距離，

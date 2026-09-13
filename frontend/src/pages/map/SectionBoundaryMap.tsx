@@ -12,6 +12,7 @@ import {
   getComparableCaseMarker,
   getSectionBoundary,
   resolveSectionBoundary,
+  unifiedSectionBounds,
 } from "../../lib/officialMap";
 
 type SectionFeature = GeoJSON.Feature<GeoJSON.Geometry, { ZONE?: string }>;
@@ -58,8 +59,8 @@ export default function SectionBoundaryMap({
     if (!mapNodeRef.current || mapRef.current) return;
 
     const map = L.map(mapNodeRef.current, { zoomControl: true }).setView(
-      [center.lat, center.lng],
-      17,
+      [24.991484, 121.418345],
+      15,
     );
     mapRef.current = map;
 
@@ -75,19 +76,12 @@ export default function SectionBoundaryMap({
     }).addTo(map);
 
     // 邊界加載完成後添加到地圖：優先用真實/近似邊界，都拿不到才退回人工示意矩形
-    let sectionCorners: [number, number][] | null = null;
     if (sectionFeature) {
-      const layer = L.geoJSON(sectionFeature, {
+      L.geoJSON(sectionFeature, {
         style: { color: "#E4292F", weight: 2.5, fill: false },
       }).addTo(map);
-      const b = layer.getBounds();
-      sectionCorners = [
-        [b.getSouth(), b.getWest()],
-        [b.getNorth(), b.getEast()],
-      ];
     } else if (!isLoading) {
-      sectionCorners = getSectionBoundary(center);
-      L.polygon(sectionCorners, {
+      L.polygon(getSectionBoundary(center), {
         color: "#E4292F",
         weight: 2.5,
         fill: false,
@@ -167,27 +161,18 @@ export default function SectionBoundaryMap({
     }
 
     // 只在邊界數據可用時才計算邊界視圖
-    if (sectionCorners) {
-      const allBounds: [number, number][] = [
-        ...sectionCorners,
-        [comparableCase1.lat, comparableCase1.lng],
-      ];
-      if (result.comparisonForm.cases[1]?.latLng) {
-        allBounds.push([
-          result.comparisonForm.cases[1].latLng.lat,
-          result.comparisonForm.cases[1].latLng.lng,
-        ]);
-      }
-      if (result.comparisonForm.cases[2]?.latLng) {
-        allBounds.push([
-          result.comparisonForm.cases[2].latLng.lat,
-          result.comparisonForm.cases[2].latLng.lng,
-        ]);
-      }
-      map.fitBounds(allBounds, {
-        paddingTopLeft: [90, 70],
-        paddingBottomRight: [30, 30],
-      });
+    if (!isLoading) {
+      map.fitBounds(
+        unifiedSectionBounds(center, sectionFeature, [
+          comparableCase1,
+          result.comparisonForm.cases[1]?.latLng,
+          result.comparisonForm.cases[2]?.latLng,
+        ]),
+        {
+          paddingTopLeft: [120, 100],
+          paddingBottomRight: [60, 60],
+        },
+      );
     }
 
     return () => {

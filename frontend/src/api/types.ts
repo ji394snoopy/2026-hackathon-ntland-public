@@ -206,15 +206,21 @@ export type ListCaseImagesResponse = {
 // POST {EXPORT_REPORT_URL} —— Hx · export-report：正式匯出入口，內部串三支填表 lambda +
 // 地圖 + 案件圖片，合併成單一 PDF（見 API_REFERENCE.md §Hx）。
 // survey/regional.content/comparison 都接受前端定稿形狀，後端自動轉換，不需先轉成 content tree。
+// survey 給陣列＝比準地 + 比較標的1~3，依序各自出一頁表1（給單一物件則只出比準地那張）。
 export type ExportReportRequest = {
   // image-upload 回的 s3Key，後端直接從 S3 讀、依序併入；有帶就不看 caseId。單張讀不到只略過那張。
   s3Keys?: string[];
   // 沒帶 s3Keys 時，後端改列出 caseId 資料夾裡的全部圖片併入
   caseId?: string;
-  survey?: unknown;
+  surveys?: unknown | unknown[];
   regional?: { purpose: string; content?: unknown };
   comparison?: unknown;
   maps?: { name?: string; pdfBase64: string }[];
+};
+// 後端回傳合併好的正式報告 PDF 已改存 S3，回應只帶連結，不再直接吐檔案內容。
+export type ExportReportResponse = {
+  ok?: boolean;
+  url: string;
 };
 
 // export-report 回應：合併好的 PDF 已寫進 S3，這裡只給下載網址（CloudFront）。

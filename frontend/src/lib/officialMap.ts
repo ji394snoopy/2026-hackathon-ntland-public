@@ -426,6 +426,24 @@ export async function resolveSectionBoundary(center: LatLng): Promise<{
   return { feature: null, source: "synthetic" };
 }
 
+// 三張圖籍（區段略圖／地價區段圖／使用分區圖）統一以「使用分區」解析出的區段面為準算 fitBounds：
+// 三者都呼叫這個共用公式（同一份 feature/fallback 矩形 + 同一組比較標的座標），
+// 避免各自手兜 bounds 導致 zoom/center 些微不一致。feature 為 null（尚未解析出或解析失敗）時
+// 退回人工旋轉矩形（getSectionBoundary），與 resolveSectionBoundary() 的備援邏輯一致。
+export function unifiedSectionBounds(
+  center: LatLng,
+  feature: GeoJSON.Feature<GeoJSON.Geometry, { ZONE?: string }> | null,
+  points: (LatLng | null | undefined)[],
+): L.LatLngBounds {
+  const bounds = feature
+    ? L.geoJSON(feature).getBounds()
+    : L.latLngBounds(getSectionBoundary(center));
+  for (const p of points) {
+    if (p) bounds.extend([p.lat, p.lng]);
+  }
+  return bounds;
+}
+
 // 判斷一個點（如周邊設施座標）是否落在 resolveSectionBoundary() 解析出的區段邊界內；
 // 用 pointInPolygon.ts 的射線法（單一外框，區段不挖洞，符合該工具的設計範圍）。
 // feature 為 null（邊界未能解析，見 resolveSectionBoundary 的兩層備援）時回傳 null——

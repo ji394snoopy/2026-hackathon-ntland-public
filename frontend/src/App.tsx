@@ -118,7 +118,7 @@ export default function App() {
   const [locations, setLocations] = useState<PickedLocations>({});
   const [stageLoading, setStageLoading] = useState(false);
   const [images, setImages] = useState<SupplementaryImage[]>([]);
-  const [reportPdf, setReportPdf] = useState<Blob | null>(null);
+  const [reportPdfUrl, setReportPdfUrl] = useState<string | null>(null);
 
   const addImages = (added: SupplementaryImage[]) => {
     setImages((prev) => [...prev, ...added]);
@@ -938,8 +938,13 @@ export default function App() {
         {activePage === 4 && result && result.comparisonForm && (
           <MapProductionPage
             result={toProduceResult(result)}
+            comparisonSurveys={result.comparisonSurveys.map((survey, i) => ({
+              meta: result.comparisonMeta[i],
+              survey,
+              benchmark: result.comparisonConditions[i],
+            }))}
             caseId={CASE_ID}
-            onExported={setReportPdf}
+            onExported={setReportPdfUrl}
             onNext={() => setActivePage(6)}
           />
         )}
@@ -947,7 +952,7 @@ export default function App() {
           <ExportPage
             result={toProduceResult(result)}
             images={images}
-            reportPdf={reportPdf}
+            reportPdfUrl={reportPdfUrl}
           />
         )}
       </main>

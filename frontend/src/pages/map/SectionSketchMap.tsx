@@ -9,6 +9,7 @@ import {
   getComparableCaseMarker,
   getSectionBoundary,
   resolveSectionBoundary,
+  unifiedSectionBounds,
 } from "../../lib/officialMap";
 
 type BoundarySource = "zoning" | "synthetic";
@@ -34,8 +35,8 @@ export default function SectionSketchMap({
     if (!mapNodeRef.current || mapRef.current) return;
 
     const map = L.map(mapNodeRef.current, { zoomControl: true }).setView(
-      [center.lat, center.lng],
-      17,
+      [24.991484, 121.418345],
+      15,
     );
     mapRef.current = map;
 
@@ -143,28 +144,14 @@ export default function SectionSketchMap({
         }).addTo(map);
 
         map.fitBounds(
-          (() => {
-            const bounds: [number, number][] = [
-              ...sectionCorners,
-              [comparableCase1.lat, comparableCase1.lng],
-            ];
-            if (result.comparisonForm.cases[1]?.latLng) {
-              bounds.push([
-                result.comparisonForm.cases[1].latLng.lat,
-                result.comparisonForm.cases[1].latLng.lng,
-              ]);
-            }
-            if (result.comparisonForm.cases[2]?.latLng) {
-              bounds.push([
-                result.comparisonForm.cases[2].latLng.lat,
-                result.comparisonForm.cases[2].latLng.lng,
-              ]);
-            }
-            return bounds;
-          })(),
+          unifiedSectionBounds(center, feature, [
+            comparableCase1,
+            result.comparisonForm.cases[1]?.latLng,
+            result.comparisonForm.cases[2]?.latLng,
+          ]),
           {
-            paddingTopLeft: [90, 70],
-            paddingBottomRight: [30, 30],
+            paddingTopLeft: [120, 100],
+            paddingBottomRight: [60, 60],
           },
         );
       })

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import PageHeader from "../components/PageHeader";
 import Dot from "../components/Dot";
 import SurveyFormGrid from "../components/SurveyFormGrid";
@@ -32,16 +32,15 @@ function downloadJson(filename: string, data: unknown) {
 export default function ExportPage({
   result,
   images = [],
-  reportPdf = null,
+  reportPdfUrl = null,
 }: {
   result: ProduceResult;
   images?: SupplementaryImage[];
-  reportPdf?: Blob | null;
+  reportPdfUrl?: string | null;
 }) {
   const [exported, setExported] = useState(false);
   const [exporting, setExporting] = useState(false);
   const [pdfExportingKey, setPdfExportingKey] = useState<string | null>(null);
-  const [reportPdfUrl, setReportPdfUrl] = useState<string | null>(null);
   const printRef = useRef<HTMLDivElement>(null);
   const regionalPrintRef = useRef<HTMLDivElement>(null);
   const comparisonPrintRef = useRef<HTMLDivElement>(null);
@@ -90,23 +89,16 @@ export default function ExportPage({
   };
 
   // 正式合併報告 PDF 由④產製圖籍頁的「下一步：輸出」觸發（打 G·image-upload 上傳三張圖籍 +
-  // Hx·export-report 取回三表+圖籍已合併好的正式 PDF，見 MapProductionPage.tsx），這裡只負責
-  // 顯示／下載那份已經產生好的 Blob，不再由前端自己用 html2canvas+jsPDF 重新組一次。
-  useEffect(() => {
-    if (!reportPdf) {
-      setReportPdfUrl(null);
-      return;
-    }
-    const url = URL.createObjectURL(reportPdf);
-    setReportPdfUrl(url);
-    return () => URL.revokeObjectURL(url);
-  }, [reportPdf]);
-
+  // Hx·export-report 取回三表+圖籍已合併好的正式報告 S3 連結，見 MapProductionPage.tsx——
+  // 該頁收到連結當下就已經自動觸發一次下載了）。這裡只負責顯示那個連結、供使用者需要時重新下載，
+  // 不再由前端自己用 html2canvas+jsPDF 重新組一次，也不用再把回應轉成 Blob object URL。
   const handleDownloadReportPdf = () => {
     if (!reportPdfUrl) return;
     const a = document.createElement("a");
     a.href = reportPdfUrl;
     a.download = `${result.meta.sectionId}_正式報告.pdf`;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
     document.body.appendChild(a);
     a.click();
     a.remove();

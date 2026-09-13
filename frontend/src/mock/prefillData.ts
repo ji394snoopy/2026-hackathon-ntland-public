@@ -89,7 +89,12 @@ const FARMLAND_IMPROVEMENT_OPTIONS = [
 export const BENCHMARK_PREFILL: Record<string, SurveyField> = {
   year_period: prefilled("year_period", "年期", "基本資訊", "1140901"),
   section_id: prefilled("section_id", "區段編號", "基本資訊", "P001-00"),
-  section_range: empty("section_range", "區段範圍", "基本資訊"),
+  section_range: prefilled(
+    "section_range",
+    "區段範圍",
+    "基本資訊",
+    "沿八德街以西、啟智街及未開闢計畫道路以南、啟智街187巷以東、啟智街187巷24弄以北之捷運開發區(變更前為第一種住宅區)",
+  ),
   urban_plan: prefilled(
     "urban_plan",
     "都市計畫(內外)",
@@ -679,7 +684,7 @@ export const COMPARISON3_PREFILL: Record<string, SurveyField> = {
     "section_range",
     "區段範圍",
     "基本資訊",
-    "沿八德街以西、啟智街及未開闢計畫道路以南、啟智街187巷以東、啟智街187巷24弄以北之捷運開發區(變更前為第一種住宅區)",
+    "沿潭興街以西、潭興街107巷21弄以東及以北、潭興街91巷以南之第一種住宅區",
   ),
   urban_plan: prefilled(
     "urban_plan",
@@ -884,7 +889,7 @@ export function getPrefillDataByRole(
  */
 export const BENCHMARK_CONDITION_PREFILL: ComparisonCondition = {
   location: "新北市樹林區樹德段1415地號", // 根據截圖（表4：宗地流水號0003）
-  area: "約500",
+  area: "25", // 地籍登記面積 25㎡（7.56坪）
   width: "約20",
   depth: "約25",
   shape: "矩形",
@@ -921,7 +926,7 @@ export const COMPARISON1_CONDITION_PREFILL: ComparisonCondition = {
   normalPrice: 130167, // 根據截圖
   tradeDate: "110年9月14日", // 根據截圖
   dateAdjRate: 5.96, // 根據截圖
-  area: "約450",
+  area: "120", // 地籍登記面積 120㎡（36.3坪）
   width: "約19",
   depth: "約24",
   shape: "矩形",
@@ -958,7 +963,7 @@ export const COMPARISON2_CONDITION_PREFILL: ComparisonCondition = {
   normalPrice: 135275, // 根據截圖
   tradeDate: "111年1月11日", // 根據截圖
   dateAdjRate: 4.09, // 根據截圖
-  area: "約480",
+  area: "114.11", // 地籍登記面積 114.11㎡（34.52坪）
   width: "約20",
   depth: "約24",
   shape: "矩形",
@@ -995,7 +1000,7 @@ export const COMPARISON3_CONDITION_PREFILL: ComparisonCondition = {
   normalPrice: 170909, // 根據截圖
   tradeDate: "110年10月29日", // 根據截圖
   dateAdjRate: 5.49, // 根據截圖
-  area: "約500",
+  area: "668.72", // 地籍登記面積 668.72㎡（202.29坪）
   width: "約21",
   depth: "約24",
   shape: "矩形",

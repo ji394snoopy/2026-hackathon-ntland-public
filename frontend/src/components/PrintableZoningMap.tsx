@@ -75,7 +75,7 @@ export default function PrintableZoningMap({
     const map = L.map(mapNodeRef.current, {
       zoomControl: false,
       attributionControl: false,
-    }).setView([center.lat, center.lng], 18);
+    }).setView([center.lat, center.lng], 16);
     mapRef.current = map;
 
     L.tileLayer(NLSC_EMAP_URL, {
@@ -119,25 +119,20 @@ export default function PrintableZoningMap({
           sectionLayer = L.geoJSON(sectionFeature, {
             style: { color: "#1E4FD8", weight: 2.5, fill: false },
           }).addTo(map);
-          map.fitBounds(
-            sectionLayer
-              .getBounds()
-              .extend([
-                (
-                  result.comparisonForm.cases[0]?.latLng ??
-                  getComparableCaseMarker(center)
-                ).lat,
-                (
-                  result.comparisonForm.cases[0]?.latLng ??
-                  getComparableCaseMarker(center)
-                ).lng,
-              ]),
-            {
-              paddingTopLeft: [50, 50],
-              paddingBottomRight: [50, 50],
-              animate: false,
-            },
-          );
+          const zoningBounds = sectionLayer.getBounds();
+          [
+            result.comparisonForm.cases[0]?.latLng ??
+              getComparableCaseMarker(center),
+            result.comparisonForm.cases[1]?.latLng,
+            result.comparisonForm.cases[2]?.latLng,
+          ].forEach((pt) => {
+            if (pt) zoningBounds.extend([pt.lat, pt.lng]);
+          });
+          map.fitBounds(zoningBounds, {
+            paddingTopLeft: [50, 50],
+            paddingBottomRight: [50, 50],
+            animate: false,
+          });
         }
         setIsDataLoaded(true);
         onReady?.();

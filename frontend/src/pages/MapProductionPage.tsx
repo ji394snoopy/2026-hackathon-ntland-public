@@ -1,16 +1,17 @@
 import { useRef, useState } from "react";
+import { exportReport, uploadCaseImage } from "../api";
+import type { Table1Final } from "../api/types";
 import PageHeader from "../components/PageHeader";
-import FacilityDistanceMap from "./map/FacilityDistanceMap";
-import SectionBoundaryMap from "./map/SectionBoundaryMap";
-import SectionSketchMap from "./map/SectionSketchMap";
-import ZoningMap from "./map/ZoningMap";
 import PrintableSectionBoundaryMap from "../components/PrintableSectionBoundaryMap";
 import PrintableSectionSketchMap from "../components/PrintableSectionSketchMap";
 import PrintableZoningMap from "../components/PrintableZoningMap";
 import { captureElementAsJpegBase64 } from "../lib/exportPdf";
-import { uploadCaseImage, exportReport } from "../api";
 import { landUseTypeToPurpose } from "../lib/zoneTypeMapping";
 import type { ProduceResult } from "../types";
+import FacilityDistanceMap from "./map/FacilityDistanceMap";
+import SectionBoundaryMap from "./map/SectionBoundaryMap";
+import SectionSketchMap from "./map/SectionSketchMap";
+import ZoningMap from "./map/ZoningMap";
 
 const TABS = [
   { key: "distance", label: "設施距離示意圖" },
@@ -33,13 +34,17 @@ const MAP_CAPTURES = [
 
 export default function MapProductionPage({
   result,
+  comparisonSurveys,
   caseId,
   onExported,
   onNext,
 }: {
   result: ProduceResult;
+  // 比較標的1~3各自的表1定稿（meta+survey+benchmark），供匯出報告逐份出表1用；
+  // ProduceResult 本身只留比準地那一份 survey（見 App.tsx toProduceResult 註解）。
+  comparisonSurveys: Table1Final[];
   caseId: string;
-  onExported: (pdf: Blob) => void;
+  onExported: (url: string) => void;
   onNext: () => void;
 }) {
   const [tab, setTab] = useState<TabKey>("distance");
@@ -76,13 +81,17 @@ export default function MapProductionPage({
         s3Keys.push(s3Key);
       }
 
-      const pdf = await exportReport({
-        s3Keys,
-        survey: {
-          meta: result.meta,
-          survey: result.survey,
-          benchmark: result.comparisonForm.benchmark,
-        },
+      const { url } = await exportReport({
+        caseId,
+        // 比準地 + 比較標的1~3，依序送給後端逐份出表1（見 export-report 契約：survey 給陣列）。
+        surveys: [
+          {
+            meta: result.meta,
+            survey: result.survey,
+            benchmark: result.comparisonForm.benchmark,
+          },
+          ...comparisonSurveys,
+        ],
         regional: {
           purpose: landUseTypeToPurpose(result.meta.landUseType),
           content: {
@@ -92,7 +101,18 @@ export default function MapProductionPage({
         },
         comparison: result.comparisonForm,
       });
-      onExported(pdf);
+
+      // 回應已改成 S3 連結，收到後直接觸發瀏覽器下載，不用等使用者跳到「⑥輸出」頁再手動點。
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${result.meta.sectionId}_正式報告.pdf`;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      onExported(url);
       onNext();
     } catch (err) {
       setExportError(err instanceof Error ? err.message : String(err));

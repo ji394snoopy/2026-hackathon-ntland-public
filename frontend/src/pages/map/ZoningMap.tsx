@@ -12,6 +12,7 @@ import {
   getComparableCaseMarker,
   getSectionBoundary,
   loadZoningGeoJson,
+  unifiedSectionBounds,
   zoneColor,
 } from "../../lib/officialMap";
 
@@ -24,15 +25,27 @@ export default function ZoningMap({ result }: { result: ProduceResult }) {
   const [zoningSource, setZoningSource] = useState<"api" | "fallback" | null>(
     null,
   );
+  const [mapCenter, setMapCenter] = useState<{ lat: number; lng: number }>(center);
+  const [mapZoom, setMapZoom] = useState(15);
 
   useEffect(() => {
     if (!mapNodeRef.current || mapRef.current) return;
 
     const map = L.map(mapNodeRef.current, { zoomControl: true }).setView(
-      [center.lat, center.lng],
-      18,
+      [24.991484, 121.418345],
+      15,
     );
     mapRef.current = map;
+
+    // 監聽地圖移動和縮放事件，實時更新中心點和縮放級別
+    const updateMapState = () => {
+      const currentCenter = map.getCenter();
+      setMapCenter({ lat: currentCenter.lat, lng: currentCenter.lng });
+      setMapZoom(map.getZoom());
+    };
+    map.on('move', updateMapState);
+    map.on('zoom', updateMapState);
+    updateMapState();
 
     L.tileLayer(NLSC_EMAP_URL, {
       attribution: `${NLSC_ATTRIBUTION}｜${ZONING_ATTRIBUTION}`,
@@ -92,10 +105,14 @@ export default function ZoningMap({ result }: { result: ProduceResult }) {
             style: { color: "#1E4FD8", weight: 2.5, fill: false },
           }).addTo(map);
           map.fitBounds(
-            sectionLayer.getBounds().extend([comparable.lat, comparable.lng]),
+            unifiedSectionBounds(center, sectionFeature, [
+              comparable,
+              result.comparisonForm.cases[1]?.latLng,
+              result.comparisonForm.cases[2]?.latLng,
+            ]),
             {
-              paddingTopLeft: [90, 70],
-              paddingBottomRight: [30, 30],
+              paddingTopLeft: [120, 100],
+              paddingBottomRight: [60, 60],
             },
           );
         }
@@ -168,28 +185,21 @@ export default function ZoningMap({ result }: { result: ProduceResult }) {
       }).addTo(map);
     }
 
-    const allBounds: [number, number][] = [
-      ...sectionBoundary,
-      [comparable.lat, comparable.lng],
-    ];
-    if (result.comparisonForm.cases[1]?.latLng) {
-      allBounds.push([
-        result.comparisonForm.cases[1].latLng.lat,
-        result.comparisonForm.cases[1].latLng.lng,
-      ]);
-    }
-    if (result.comparisonForm.cases[2]?.latLng) {
-      allBounds.push([
-        result.comparisonForm.cases[2].latLng.lat,
-        result.comparisonForm.cases[2].latLng.lng,
-      ]);
-    }
-    map.fitBounds(allBounds, {
-      paddingTopLeft: [90, 70],
-      paddingBottomRight: [30, 30],
-    });
+    map.fitBounds(
+      unifiedSectionBounds(center, null, [
+        comparable,
+        result.comparisonForm.cases[1]?.latLng,
+        result.comparisonForm.cases[2]?.latLng,
+      ]),
+      {
+        paddingTopLeft: [120, 100],
+        paddingBottomRight: [60, 60],
+      },
+    );
 
     return () => {
+      map.off('move', updateMapState);
+      map.off('zoom', updateMapState);
       map.remove();
       mapRef.current = null;
     };
@@ -218,6 +228,23 @@ export default function ZoningMap({ result }: { result: ProduceResult }) {
       </div>
 
       <div className="w-56 h-full overflow-y-auto space-y-3 shrink-0">
+        <div className="bg-white border border-[#D9DCE0] rounded-[4px] p-3">
+          <div className="text-[12px] font-semibold text-[#6B7280] mb-2 pb-1.5 border-b border-[#D9DCE0]">
+            地圖座標
+          </div>
+          <div className="text-[11px] text-[#374151] space-y-1.5 font-mono">
+            <div>
+              <div className="text-[10px] text-[#6B7280]">中心點</div>
+              <div>{mapCenter.lat.toFixed(6)}</div>
+              <div>{mapCenter.lng.toFixed(6)}</div>
+            </div>
+            <div>
+              <div className="text-[10px] text-[#6B7280]">縮放級別</div>
+              <div>{mapZoom}</div>
+            </div>
+          </div>
+        </div>
+
         <div className="bg-white border border-[#D9DCE0] rounded-[4px] p-3">
           <div className="text-[12px] font-semibold text-[#6B7280] mb-2 pb-1.5 border-b border-[#D9DCE0]">
             圖例
