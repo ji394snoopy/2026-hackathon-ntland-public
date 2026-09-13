@@ -159,20 +159,45 @@ function planItemRow(
   }
 }
 
+// Some coordinate-template items (e.g. residential's 接近服務性設施的程度) have no
+// equivalent key in produce-regional-factors's crosswalk, so content never carries them —
+// draw "-" placeholders in every cell of the row instead of leaving it blank, matching the
+// convention fill-individual-analysis's planOtherFactors already uses for its own no-data
+// placeholder row.
+function planMissingItemRow(out: DrawInstruction[], itemCoords: any, measureText: MeasureText) {
+  if (itemCoords.base) {
+    pushCentered(out, itemCoords.base.gradeCenterX, itemCoords.base.gradeCenterY, "-", measureText);
+  }
+  for (const comparable of itemCoords.comparables ?? []) {
+    pushCentered(out, comparable.gradeCenterX, comparable.gradeCenterY, "-", measureText);
+  }
+}
+
 function planCategory(
   out: DrawInstruction[],
   category: any,
   categoryCoords: any,
   measureText: MeasureText,
 ) {
-  const itemCoordsByRaw = indexByNormalizedLabel<any>(categoryCoords.items ?? [], (row) => row.itemRaw);
-  for (const item of category.items ?? []) {
-    const itemCoords = lookupByNormalizedLabel(itemCoordsByRaw, item.itemRaw);
-    if (itemCoords === undefined) {
-      console.warn(`fillRegionalAnlysis: no coordinates for item "${item.itemRaw}" in category "${category.categoryRaw}", skipping`);
+  // Drive off the coordinate template's item list (not content's) so a template item with
+  // no matching content data still gets its row drawn, as a "-" placeholder.
+  const contentItemsByRaw = indexByNormalizedLabel<any>(category.items ?? [], (row) => row.itemRaw);
+  const matchedContentItems = new Set<any>();
+
+  for (const itemCoords of categoryCoords.items ?? []) {
+    const item = lookupByNormalizedLabel(contentItemsByRaw, itemCoords.itemRaw);
+    if (item === undefined) {
+      planMissingItemRow(out, itemCoords, measureText);
       continue;
     }
+    matchedContentItems.add(item);
     planItemRow(out, item, itemCoords, measureText);
+  }
+
+  for (const item of category.items ?? []) {
+    if (!matchedContentItems.has(item)) {
+      console.warn(`fillRegionalAnlysis: no coordinates for item "${item.itemRaw}" in category "${category.categoryRaw}", skipping`);
+    }
   }
 
   // category.totalBase (the 比準地 column's own category subtotal) is intentionally

@@ -192,10 +192,13 @@ function drawConditionValue(
     // leftward, shrinking only if it would cross name.leftBound (that sub-cell's real
     // left border) — or, for wrapName items (see WRAPPABLE_NAME_ITEM_KEYS), wrapping
     // across multiple left-aligned lines before shrinking.
+    // An empty name (e.g. a comparable with no market/school/park/... nearby recorded) has
+    // no facility to print — draw "-" instead of leaving the cell blank.
+    const displayName = value.name === "" ? "-" : value.name;
     if (wrapName) {
-      pushWrappedLeftAlignedFit(out, name.x, name.leftBound, name.y, value.name, measureText);
+      pushWrappedLeftAlignedFit(out, name.x, name.leftBound, name.y, displayName, measureText);
     } else {
-      pushRightAlignedFit(out, name.x, name.leftBound, name.y, value.name, measureText);
+      pushRightAlignedFit(out, name.x, name.leftBound, name.y, displayName, measureText);
     }
     pushCentered(out, distance.x, distance.y, value.distance, measureText);
     pushLeftAligned(out, unit.x, unit.y, value.unit);
